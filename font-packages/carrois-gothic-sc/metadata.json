@@ -2,12 +2,12 @@
   "family": "Carrois Gothic SC",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v15",
-  "lastModified": "2024-09-04",
+  "version": "v16",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/carroisgothicsc/v15/ZgNJjOVHM6jfUZCmyUqT2A2HVKjc-28nNHabY4dN.ttf"
+    "regular": "https://fonts.gstatic.com/s/carroisgothicsc/v16/ZgNJjOVHM6jfUZCmyUqT2A2HVKjc-28nNHabY4dN.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/carroisgothicsc/v15/ZgNJjOVHM6jfUZCmyUqT2A2HVKjc-18mPnI.ttf"
+  "menu": "https://fonts.gstatic.com/s/carroisgothicsc/v16/ZgNJjOVHM6jfUZCmyUqT2A2HVKjc-18mPnI.ttf"
 }

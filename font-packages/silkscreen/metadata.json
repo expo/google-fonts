@@ -2,13 +2,13 @@
   "family": "Silkscreen",
   "variants": ["regular", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v5",
-  "lastModified": "2025-06-02",
+  "version": "v6",
+  "lastModified": "2025-09-08",
   "files": {
-    "700": "https://fonts.gstatic.com/s/silkscreen/v5/m8JUjfVPf62XiF7kO-i9aAhATmuo2dudFvc.ttf",
-    "regular": "https://fonts.gstatic.com/s/silkscreen/v5/m8JXjfVPf62XiF7kO-i9ULRvamODxdI.ttf"
+    "700": "https://fonts.gstatic.com/s/silkscreen/v6/m8JUjfVPf62XiF7kO-i9aAhATmuo2dudFvc.ttf",
+    "regular": "https://fonts.gstatic.com/s/silkscreen/v6/m8JXjfVPf62XiF7kO-i9ULRvamODxdI.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/silkscreen/v5/m8JXjfVPf62XiF7kO-i9YLVlbg.ttf"
+  "menu": "https://fonts.gstatic.com/s/silkscreen/v6/m8JXjfVPf62XiF7kO-i9YLVlbg.ttf"
 }

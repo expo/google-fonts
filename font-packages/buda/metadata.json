@@ -2,10 +2,10 @@
   "family": "Buda",
   "variants": ["300"],
   "subsets": ["latin"],
-  "version": "v29",
-  "lastModified": "2024-09-04",
-  "files": { "300": "https://fonts.gstatic.com/s/buda/v29/GFDqWAN8mnyIJSSrG7UBr7pZKA0.ttf" },
+  "version": "v31",
+  "lastModified": "2025-09-08",
+  "files": { "300": "https://fonts.gstatic.com/s/buda/v31/GFDqWAN8mnyIJSSrG7UBr7pZKA0.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/buda/v29/GFDqWAN8mnyIJSSrK7QLqw.ttf"
+  "menu": "https://fonts.gstatic.com/s/buda/v31/GFDqWAN8mnyIJSSrK7QLqw.ttf"
 }

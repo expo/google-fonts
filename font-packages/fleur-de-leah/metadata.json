@@ -2,12 +2,12 @@
   "family": "Fleur De Leah",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v10",
-  "lastModified": "2025-06-02",
+  "version": "v11",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/fleurdeleah/v10/AYCNpXX7ftYZWLhv9UmPJTMC5vat4I_Gdq0.ttf"
+    "regular": "https://fonts.gstatic.com/s/fleurdeleah/v11/AYCNpXX7ftYZWLhv9UmPJTMC5vat4I_Gdq0.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/fleurdeleah/v10/AYCNpXX7ftYZWLhv9UmPJTMC1ven5A.ttf"
+  "menu": "https://fonts.gstatic.com/s/fleurdeleah/v11/AYCNpXX7ftYZWLhv9UmPJTMC1ven5A.ttf"
 }

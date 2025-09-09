@@ -2,10 +2,10 @@
   "family": "Montez",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v23",
-  "lastModified": "2024-11-20",
-  "files": { "regular": "https://fonts.gstatic.com/s/montez/v23/845ZNMk5GoGIX8lm1LDeSd-R_g.ttf" },
+  "version": "v25",
+  "lastModified": "2025-09-08",
+  "files": { "regular": "https://fonts.gstatic.com/s/montez/v25/845ZNMk5GoGIX8lm1LDeSd-R_g.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/montez/v23/845ZNMk5GoGIX8lW1bra.ttf"
+  "menu": "https://fonts.gstatic.com/s/montez/v25/845ZNMk5GoGIX8lW1bra.ttf"
 }

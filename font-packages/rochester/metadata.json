@@ -2,12 +2,12 @@
   "family": "Rochester",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v22",
-  "lastModified": "2024-09-04",
+  "version": "v24",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/rochester/v22/6ae-4KCqVa4Zy6Fif-Uy31vWNTMwoQ.ttf"
+    "regular": "https://fonts.gstatic.com/s/rochester/v24/6ae-4KCqVa4Zy6Fif-Uy31vWNTMwoQ.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/rochester/v22/6ae-4KCqVa4Zy6Fif-UC3lHS.ttf"
+  "menu": "https://fonts.gstatic.com/s/rochester/v24/6ae-4KCqVa4Zy6Fif-UC3lHS.ttf"
 }

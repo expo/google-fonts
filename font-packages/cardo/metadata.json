@@ -11,14 +11,14 @@
     "old-italic",
     "runic"
   ],
-  "version": "v20",
-  "lastModified": "2025-04-23",
+  "version": "v21",
+  "lastModified": "2025-09-08",
   "files": {
-    "700": "https://fonts.gstatic.com/s/cardo/v20/wlpygwjKBV1pqhND-aQR82JHaTBX.ttf",
-    "regular": "https://fonts.gstatic.com/s/cardo/v20/wlp_gwjKBV1pqiv_1oAZ2H5O.ttf",
-    "italic": "https://fonts.gstatic.com/s/cardo/v20/wlpxgwjKBV1pqhv93IQ73W5OcCk.ttf"
+    "700": "https://fonts.gstatic.com/s/cardo/v21/wlpygwjKBV1pqhND-aQR82JHaTBX.ttf",
+    "regular": "https://fonts.gstatic.com/s/cardo/v21/wlp_gwjKBV1pqiv_1oAZ2H5O.ttf",
+    "italic": "https://fonts.gstatic.com/s/cardo/v21/wlpxgwjKBV1pqhv93IQ73W5OcCk.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/cardo/v20/wlp_gwjKBV1pqhv-3IQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/cardo/v21/wlp_gwjKBV1pqhv-3IQ.ttf"
 }

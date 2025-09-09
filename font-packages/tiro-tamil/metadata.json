@@ -2,13 +2,13 @@
   "family": "Tiro Tamil",
   "variants": ["regular", "italic"],
   "subsets": ["latin", "latin-ext", "tamil"],
-  "version": "v10",
-  "lastModified": "2024-09-04",
+  "version": "v11",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/tirotamil/v10/m8JXjfVIf7OT22n3M-S_ULRvamODxdI.ttf",
-    "italic": "https://fonts.gstatic.com/s/tirotamil/v10/m8JVjfVIf7OT22n3M-S_YLZlbkGG1dKEDw.ttf"
+    "regular": "https://fonts.gstatic.com/s/tirotamil/v11/m8JXjfVIf7OT22n3M-S_ULRvamODxdI.ttf",
+    "italic": "https://fonts.gstatic.com/s/tirotamil/v11/m8JVjfVIf7OT22n3M-S_YLZlbkGG1dKEDw.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/tirotamil/v10/m8JXjfVIf7OT22n3M-S_YLVlbg.ttf"
+  "menu": "https://fonts.gstatic.com/s/tirotamil/v11/m8JXjfVIf7OT22n3M-S_YLVlbg.ttf"
 }

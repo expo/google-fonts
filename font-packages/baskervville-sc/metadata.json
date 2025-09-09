@@ -2,15 +2,15 @@
   "family": "Baskervville SC",
   "variants": ["regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v3",
-  "lastModified": "2025-06-09",
+  "version": "v4",
+  "lastModified": "2025-09-08",
   "files": {
-    "500": "https://fonts.gstatic.com/s/baskervvillesc/v3/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHg7iXM3kPWntDsg.ttf",
-    "600": "https://fonts.gstatic.com/s/baskervvillesc/v3/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHuLlXM3kPWntDsg.ttf",
-    "700": "https://fonts.gstatic.com/s/baskervvillesc/v3/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHtvlXM3kPWntDsg.ttf",
-    "regular": "https://fonts.gstatic.com/s/baskervvillesc/v3/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHjziXM3kPWntDsg.ttf"
+    "500": "https://fonts.gstatic.com/s/baskervvillesc/v4/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHg7iXM3kPWntDsg.ttf",
+    "600": "https://fonts.gstatic.com/s/baskervvillesc/v4/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHuLlXM3kPWntDsg.ttf",
+    "700": "https://fonts.gstatic.com/s/baskervvillesc/v4/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHtvlXM3kPWntDsg.ttf",
+    "regular": "https://fonts.gstatic.com/s/baskervvillesc/v4/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHjziXM3kPWntDsg.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/baskervvillesc/v3/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHjzibMzuOQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/baskervvillesc/v4/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHjzibMzuOQ.ttf"
 }

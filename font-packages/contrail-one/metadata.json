@@ -2,12 +2,12 @@
   "family": "Contrail One",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v19",
-  "lastModified": "2024-09-04",
+  "version": "v21",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/contrailone/v19/eLGbP-j_JA-kG0_Zo51noafdZUvt_c092w.ttf"
+    "regular": "https://fonts.gstatic.com/s/contrailone/v21/eLGbP-j_JA-kG0_Zo51noafdZUvt_c092w.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/contrailone/v19/eLGbP-j_JA-kG0_Zo51noaftZEHp.ttf"
+  "menu": "https://fonts.gstatic.com/s/contrailone/v21/eLGbP-j_JA-kG0_Zo51noaftZEHp.ttf"
 }

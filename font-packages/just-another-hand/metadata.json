@@ -2,12 +2,12 @@
   "family": "Just Another Hand",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v20",
-  "lastModified": "2024-11-20",
+  "version": "v21",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/justanotherhand/v20/845CNN4-AJyIGvIou-6yJKyptyOpOcr_BmmlS5aw.ttf"
+    "regular": "https://fonts.gstatic.com/s/justanotherhand/v21/845CNN4-AJyIGvIou-6yJKyptyOpOcr_BmmlS5aw.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/justanotherhand/v20/845CNN4-AJyIGvIou-6yJKyptyOpOfr-DG0.ttf"
+  "menu": "https://fonts.gstatic.com/s/justanotherhand/v21/845CNN4-AJyIGvIou-6yJKyptyOpOfr-DG0.ttf"
 }

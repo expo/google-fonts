@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/rock-salt",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Use the Rock Salt font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

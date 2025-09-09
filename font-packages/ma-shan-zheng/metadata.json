@@ -2,12 +2,12 @@
   "family": "Ma Shan Zheng",
   "variants": ["regular"],
   "subsets": ["chinese-simplified", "latin"],
-  "version": "v13",
-  "lastModified": "2025-01-06",
+  "version": "v14",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/mashanzheng/v13/NaPecZTRCLxvwo41b4gvzkXaRMTsDIRSfr0.ttf"
+    "regular": "https://fonts.gstatic.com/s/mashanzheng/v14/NaPecZTRCLxvwo41b4gvzkXaRMTsDIRSfr0.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/mashanzheng/v13/NaPecZTRCLxvwo41b4gvzkXadMXmCA.ttf"
+  "menu": "https://fonts.gstatic.com/s/mashanzheng/v14/NaPecZTRCLxvwo41b4gvzkXadMXmCA.ttf"
 }

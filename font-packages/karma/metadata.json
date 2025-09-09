@@ -2,16 +2,16 @@
   "family": "Karma",
   "variants": ["300", "regular", "500", "600", "700"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v17",
-  "lastModified": "2024-10-29",
+  "version": "v18",
+  "lastModified": "2025-09-08",
   "files": {
-    "300": "https://fonts.gstatic.com/s/karma/v17/va9F4kzAzMZRGLjDY8Z_uqzGQC_-.ttf",
-    "500": "https://fonts.gstatic.com/s/karma/v17/va9F4kzAzMZRGLibYsZ_uqzGQC_-.ttf",
-    "600": "https://fonts.gstatic.com/s/karma/v17/va9F4kzAzMZRGLi3ZcZ_uqzGQC_-.ttf",
-    "700": "https://fonts.gstatic.com/s/karma/v17/va9F4kzAzMZRGLjTZMZ_uqzGQC_-.ttf",
-    "regular": "https://fonts.gstatic.com/s/karma/v17/va9I4kzAzMZRGIBvS-J3kbDP.ttf"
+    "300": "https://fonts.gstatic.com/s/karma/v18/va9F4kzAzMZRGLjDY8Z_uqzGQC_-.ttf",
+    "500": "https://fonts.gstatic.com/s/karma/v18/va9F4kzAzMZRGLibYsZ_uqzGQC_-.ttf",
+    "600": "https://fonts.gstatic.com/s/karma/v18/va9F4kzAzMZRGLi3ZcZ_uqzGQC_-.ttf",
+    "700": "https://fonts.gstatic.com/s/karma/v18/va9F4kzAzMZRGLjTZMZ_uqzGQC_-.ttf",
+    "regular": "https://fonts.gstatic.com/s/karma/v18/va9I4kzAzMZRGIBvS-J3kbDP.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/karma/v17/va9I4kzAzMZRGLBuQeY.ttf"
+  "menu": "https://fonts.gstatic.com/s/karma/v18/va9I4kzAzMZRGLBuQeY.ttf"
 }

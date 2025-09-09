@@ -2,15 +2,15 @@
   "family": "Alkatra",
   "variants": ["regular", "500", "600", "700"],
   "subsets": ["bengali", "devanagari", "latin", "latin-ext", "oriya"],
-  "version": "v4",
-  "lastModified": "2025-06-02",
+  "version": "v5",
+  "lastModified": "2025-09-08",
   "files": {
-    "500": "https://fonts.gstatic.com/s/alkatra/v4/r05EGLZA5qhCYsyJbuChFuK48MedzngUu7cPrNDVemxE.ttf",
-    "600": "https://fonts.gstatic.com/s/alkatra/v4/r05EGLZA5qhCYsyJbuChFuK48Medznj4vLcPrNDVemxE.ttf",
-    "700": "https://fonts.gstatic.com/s/alkatra/v4/r05EGLZA5qhCYsyJbuChFuK48MedznjBvLcPrNDVemxE.ttf",
-    "regular": "https://fonts.gstatic.com/s/alkatra/v4/r05EGLZA5qhCYsyJbuChFuK48Medzngmu7cPrNDVemxE.ttf"
+    "500": "https://fonts.gstatic.com/s/alkatra/v5/r05EGLZA5qhCYsyJbuChFuK48MedzngUu7cPrNDVemxE.ttf",
+    "600": "https://fonts.gstatic.com/s/alkatra/v5/r05EGLZA5qhCYsyJbuChFuK48Medznj4vLcPrNDVemxE.ttf",
+    "700": "https://fonts.gstatic.com/s/alkatra/v5/r05EGLZA5qhCYsyJbuChFuK48MedznjBvLcPrNDVemxE.ttf",
+    "regular": "https://fonts.gstatic.com/s/alkatra/v5/r05EGLZA5qhCYsyJbuChFuK48Medzngmu7cPrNDVemxE.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/alkatra/v4/r05EGLZA5qhCYsyJbuChFuK48Medzngmu4cOptQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/alkatra/v5/r05EGLZA5qhCYsyJbuChFuK48Medzngmu4cOptQ.ttf"
 }

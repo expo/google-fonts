@@ -2,12 +2,12 @@
   "family": "Chokokutai",
   "variants": ["regular"],
   "subsets": ["japanese", "latin", "latin-ext", "vietnamese"],
-  "version": "v11",
-  "lastModified": "2025-06-11",
+  "version": "v12",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/chokokutai/v11/kmK4Zqw4HwvCeHGM8Fws9y7ypu1Kr7I.ttf"
+    "regular": "https://fonts.gstatic.com/s/chokokutai/v12/kmK4Zqw4HwvCeHGM8Fws9y7ypu1Kr7I.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/chokokutai/v11/kmK4Zqw4HwvCeHGM8Fwsxy_4og.ttf"
+  "menu": "https://fonts.gstatic.com/s/chokokutai/v12/kmK4Zqw4HwvCeHGM8Fwsxy_4og.ttf"
 }

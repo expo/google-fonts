@@ -2,12 +2,12 @@
   "family": "Shalimar",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v8",
-  "lastModified": "2025-06-02",
+  "version": "v9",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/shalimar/v8/uU9MCBoE6I6iNWFUvTPx8PCOg0uX.ttf"
+    "regular": "https://fonts.gstatic.com/s/shalimar/v9/uU9MCBoE6I6iNWFUvTPx8PCOg0uX.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/shalimar/v8/uU9MCBoE6I6iNWFUvQPw-vQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/shalimar/v9/uU9MCBoE6I6iNWFUvQPw-vQ.ttf"
 }

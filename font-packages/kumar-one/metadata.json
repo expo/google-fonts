@@ -2,12 +2,12 @@
   "family": "Kumar One",
   "variants": ["regular"],
   "subsets": ["gujarati", "latin", "latin-ext"],
-  "version": "v24",
-  "lastModified": "2024-11-20",
+  "version": "v25",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/kumarone/v24/bMr1mS-P958wYi6YaGeGNO6WU3oT0g.ttf"
+    "regular": "https://fonts.gstatic.com/s/kumarone/v25/bMr1mS-P958wYi6YaGeGNO6WU3oT0g.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/kumarone/v24/bMr1mS-P958wYi6YaGe2NeSS.ttf"
+  "menu": "https://fonts.gstatic.com/s/kumarone/v25/bMr1mS-P958wYi6YaGe2NeSS.ttf"
 }

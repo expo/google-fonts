@@ -2,10 +2,10 @@
   "family": "Revalia",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v22",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/revalia/v22/WwkexPimBE2-4ZPEeVruNIgJSNM.ttf" },
+  "version": "v24",
+  "lastModified": "2025-09-08",
+  "files": { "regular": "https://fonts.gstatic.com/s/revalia/v24/WwkexPimBE2-4ZPEeVruNIgJSNM.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/revalia/v22/WwkexPimBE2-4ZPESVvkMA.ttf"
+  "menu": "https://fonts.gstatic.com/s/revalia/v24/WwkexPimBE2-4ZPESVvkMA.ttf"
 }

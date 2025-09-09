@@ -2,10 +2,10 @@
   "family": "Gidugu",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "telugu"],
-  "version": "v27",
-  "lastModified": "2025-06-12",
-  "files": { "regular": "https://fonts.gstatic.com/s/gidugu/v27/L0x8DFMkk1Uf6w3RvPCmRSlUig.ttf" },
+  "version": "v28",
+  "lastModified": "2025-09-08",
+  "files": { "regular": "https://fonts.gstatic.com/s/gidugu/v28/L0x8DFMkk1Uf6w3RvPCmRSlUig.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/gidugu/v27/L0x8DFMkk1Uf6w3hvfqi.ttf"
+  "menu": "https://fonts.gstatic.com/s/gidugu/v28/L0x8DFMkk1Uf6w3hvfqi.ttf"
 }

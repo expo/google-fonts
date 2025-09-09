@@ -2,12 +2,12 @@
   "family": "Nanum Brush Script",
   "variants": ["regular"],
   "subsets": ["korean", "latin"],
-  "version": "v25",
-  "lastModified": "2024-11-20",
+  "version": "v26",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/nanumbrushscript/v25/wXK2E2wfpokopxzthSqPbcR5_gVaxazyjqBr1lO97Q.ttf"
+    "regular": "https://fonts.gstatic.com/s/nanumbrushscript/v26/wXK2E2wfpokopxzthSqPbcR5_gVaxazyjqBr1lO97Q.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/nanumbrushscript/v25/wXK2E2wfpokopxzthSqPbcR5_gVaxazCj6pv.ttf"
+  "menu": "https://fonts.gstatic.com/s/nanumbrushscript/v26/wXK2E2wfpokopxzthSqPbcR5_gVaxazCj6pv.ttf"
 }

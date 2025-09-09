@@ -17,25 +17,25 @@
     "700italic"
   ],
   "subsets": ["cyrillic", "cyrillic-ext", "greek", "latin", "latin-ext", "vietnamese"],
-  "version": "v21",
-  "lastModified": "2025-02-05",
+  "version": "v23",
+  "lastModified": "2025-09-08",
   "files": {
-    "100": "https://fonts.gstatic.com/s/ibmplexsans/v21/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSD6lhzAKI5loa26g.ttf",
-    "200": "https://fonts.gstatic.com/s/ibmplexsans/v21/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSDallzAKI5loa26g.ttf",
-    "300": "https://fonts.gstatic.com/s/ibmplexsans/v21/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSDtFlzAKI5loa26g.ttf",
-    "500": "https://fonts.gstatic.com/s/ibmplexsans/v21/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSD2FlzAKI5loa26g.ttf",
-    "600": "https://fonts.gstatic.com/s/ibmplexsans/v21/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSDNF5zAKI5loa26g.ttf",
-    "700": "https://fonts.gstatic.com/s/ibmplexsans/v21/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSDDV5zAKI5loa26g.ttf",
-    "regular": "https://fonts.gstatic.com/s/ibmplexsans/v21/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSD6llzAKI5loa26g.ttf",
-    "100italic": "https://fonts.gstatic.com/s/ibmplexsans/v21/zYXEKVElMYYaJe8bpLHnCwDKhdTEG46kmUZQCX598fQbM4jw8V78x9OWIhqbQqg9tIOm6vje.ttf",
-    "200italic": "https://fonts.gstatic.com/s/ibmplexsans/v21/zYXEKVElMYYaJe8bpLHnCwDKhdTEG46kmUZQCX598fQbM4jw8V78x9OWIhobQ6g9tIOm6vje.ttf",
-    "300italic": "https://fonts.gstatic.com/s/ibmplexsans/v21/zYXEKVElMYYaJe8bpLHnCwDKhdTEG46kmUZQCX598fQbM4jw8V78x9OWIhrFQ6g9tIOm6vje.ttf",
-    "italic": "https://fonts.gstatic.com/s/ibmplexsans/v21/zYXEKVElMYYaJe8bpLHnCwDKhdTEG46kmUZQCX598fQbM4jw8V78x9OWIhqbQ6g9tIOm6vje.ttf",
-    "500italic": "https://fonts.gstatic.com/s/ibmplexsans/v21/zYXEKVElMYYaJe8bpLHnCwDKhdTEG46kmUZQCX598fQbM4jw8V78x9OWIhqpQ6g9tIOm6vje.ttf",
-    "600italic": "https://fonts.gstatic.com/s/ibmplexsans/v21/zYXEKVElMYYaJe8bpLHnCwDKhdTEG46kmUZQCX598fQbM4jw8V78x9OWIhpFRKg9tIOm6vje.ttf",
-    "700italic": "https://fonts.gstatic.com/s/ibmplexsans/v21/zYXEKVElMYYaJe8bpLHnCwDKhdTEG46kmUZQCX598fQbM4jw8V78x9OWIhp8RKg9tIOm6vje.ttf"
+    "100": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSD6lhzAKI5loa26g.ttf",
+    "200": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSDallzAKI5loa26g.ttf",
+    "300": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSDtFlzAKI5loa26g.ttf",
+    "500": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSD2FlzAKI5loa26g.ttf",
+    "600": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSDNF5zAKI5loa26g.ttf",
+    "700": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSDDV5zAKI5loa26g.ttf",
+    "regular": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSD6llzAKI5loa26g.ttf",
+    "100italic": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXEKVElMYYaJe8bpLHnCwDKhdTEG46kmUZQCX598fQbM4jw8V78x9OWIhqbQqg9tIOm6vje.ttf",
+    "200italic": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXEKVElMYYaJe8bpLHnCwDKhdTEG46kmUZQCX598fQbM4jw8V78x9OWIhobQ6g9tIOm6vje.ttf",
+    "300italic": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXEKVElMYYaJe8bpLHnCwDKhdTEG46kmUZQCX598fQbM4jw8V78x9OWIhrFQ6g9tIOm6vje.ttf",
+    "italic": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXEKVElMYYaJe8bpLHnCwDKhdTEG46kmUZQCX598fQbM4jw8V78x9OWIhqbQ6g9tIOm6vje.ttf",
+    "500italic": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXEKVElMYYaJe8bpLHnCwDKhdTEG46kmUZQCX598fQbM4jw8V78x9OWIhqpQ6g9tIOm6vje.ttf",
+    "600italic": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXEKVElMYYaJe8bpLHnCwDKhdTEG46kmUZQCX598fQbM4jw8V78x9OWIhpFRKg9tIOm6vje.ttf",
+    "700italic": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXEKVElMYYaJe8bpLHnCwDKhdTEG46kmUZQCX598fQbM4jw8V78x9OWIhp8RKg9tIOm6vje.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/ibmplexsans/v21/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSD6llDAag9.ttf"
+  "menu": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSD6llDAag9.ttf"
 }

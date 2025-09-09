@@ -2,12 +2,12 @@
   "family": "Londrina Sketch",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v25",
-  "lastModified": "2024-09-04",
+  "version": "v27",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/londrinasketch/v25/c4m41npxGMTnomOHtRU68eIJn8qfWWn5Pos6CA.ttf"
+    "regular": "https://fonts.gstatic.com/s/londrinasketch/v27/c4m41npxGMTnomOHtRU68eIJn8qfWWn5Pos6CA.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/londrinasketch/v25/c4m41npxGMTnomOHtRU68eIJn8qvWGP9.ttf"
+  "menu": "https://fonts.gstatic.com/s/londrinasketch/v27/c4m41npxGMTnomOHtRU68eIJn8qvWGP9.ttf"
 }

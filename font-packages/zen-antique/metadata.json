@@ -2,12 +2,12 @@
   "family": "Zen Antique",
   "variants": ["regular"],
   "subsets": ["cyrillic", "greek", "japanese", "latin", "latin-ext"],
-  "version": "v13",
-  "lastModified": "2024-08-07",
+  "version": "v14",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/zenantique/v13/AYCPpXPnd91Ma_Zf-Ri2JXJq7PKP5Z_G.ttf"
+    "regular": "https://fonts.gstatic.com/s/zenantique/v14/AYCPpXPnd91Ma_Zf-Ri2JXJq7PKP5Z_G.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/zenantique/v13/AYCPpXPnd91Ma_Zf-Ri2JUJr5vY.ttf"
+  "menu": "https://fonts.gstatic.com/s/zenantique/v14/AYCPpXPnd91Ma_Zf-Ri2JUJr5vY.ttf"
 }

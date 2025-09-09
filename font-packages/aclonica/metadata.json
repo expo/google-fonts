@@ -2,12 +2,12 @@
   "family": "Aclonica",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v23",
-  "lastModified": "2024-11-20",
+  "version": "v25",
+  "lastModified": "2025-09-08",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/aclonica/v23/K2FyfZJVlfNNSEBXGb7TCI6oBjLz.ttf"
+    "regular": "https://fonts.gstatic.com/s/aclonica/v25/K2FyfZJVlfNNSEBXGb7TCI6oBjLz.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/aclonica/v23/K2FyfZJVlfNNSEBXGY7SAoo.ttf"
+  "menu": "https://fonts.gstatic.com/s/aclonica/v25/K2FyfZJVlfNNSEBXGY7SAoo.ttf"
 }
