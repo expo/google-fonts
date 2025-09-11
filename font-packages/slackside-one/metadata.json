@@ -2,12 +2,12 @@
   "family": "Slackside One",
   "variants": ["regular"],
   "subsets": ["japanese", "latin", "latin-ext"],
-  "version": "v13",
-  "lastModified": "2025-06-11",
+  "version": "v14",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/slacksideone/v13/EJRQQgMrXdcGsiBuvnRxodTwVy7VocNB6Iw.ttf"
+    "regular": "https://fonts.gstatic.com/s/slacksideone/v14/EJRQQgMrXdcGsiBuvnRxodTwVy7VocNB6Iw.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/slacksideone/v13/EJRQQgMrXdcGsiBuvnRxodTwZy_fpQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/slacksideone/v14/EJRQQgMrXdcGsiBuvnRxodTwZy_fpQ.ttf"
 }

@@ -2,10 +2,10 @@
   "family": "Niconne",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v15",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/niconne/v15/w8gaH2QvRug1_rTfrQut2F4OuOo.ttf" },
+  "version": "v16",
+  "lastModified": "2025-09-10",
+  "files": { "regular": "https://fonts.gstatic.com/s/niconne/v16/w8gaH2QvRug1_rTfrQut2F4OuOo.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/niconne/v15/w8gaH2QvRug1_rTfnQqn3A.ttf"
+  "menu": "https://fonts.gstatic.com/s/niconne/v16/w8gaH2QvRug1_rTfnQqn3A.ttf"
 }

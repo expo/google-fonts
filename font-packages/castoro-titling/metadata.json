@@ -2,12 +2,12 @@
   "family": "Castoro Titling",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2024-09-04",
+  "version": "v10",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/castorotitling/v8/buEupouwccj03leTfjUAhEZWlrNqYgckeo9RMw.ttf"
+    "regular": "https://fonts.gstatic.com/s/castorotitling/v10/buEupouwccj03leTfjUAhEZWlrNqYgckeo9RMw.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/castorotitling/v8/buEupouwccj03leTfjUAhEZWlrNaYw0g.ttf"
+  "menu": "https://fonts.gstatic.com/s/castorotitling/v10/buEupouwccj03leTfjUAhEZWlrNaYw0g.ttf"
 }

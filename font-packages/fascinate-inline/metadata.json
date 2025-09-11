@@ -2,12 +2,12 @@
   "family": "Fascinate Inline",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v23",
-  "lastModified": "2024-11-20",
+  "version": "v24",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/fascinateinline/v23/jVyR7mzzB3zc-jp6QCAu60poNqIy1g3CfRXxWZQ.ttf"
+    "regular": "https://fonts.gstatic.com/s/fascinateinline/v24/jVyR7mzzB3zc-jp6QCAu60poNqIy1g3CfRXxWZQ.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/fascinateinline/v23/jVyR7mzzB3zc-jp6QCAu60poNqIy5gzIeQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/fascinateinline/v24/jVyR7mzzB3zc-jp6QCAu60poNqIy5gzIeQ.ttf"
 }

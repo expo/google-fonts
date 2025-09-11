@@ -2,12 +2,12 @@
   "family": "Covered By Your Grace",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v16",
-  "lastModified": "2024-11-20",
+  "version": "v17",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/coveredbyyourgrace/v16/QGYwz-AZahWOJJI9kykWW9mD6opopoqXSOS0FgItq6bFIg.ttf"
+    "regular": "https://fonts.gstatic.com/s/coveredbyyourgrace/v17/QGYwz-AZahWOJJI9kykWW9mD6opopoqXSOS0FgItq6bFIg.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/coveredbyyourgrace/v16/QGYwz-AZahWOJJI9kykWW9mD6opopoqXSOSEFwgp.ttf"
+  "menu": "https://fonts.gstatic.com/s/coveredbyyourgrace/v17/QGYwz-AZahWOJJI9kykWW9mD6opopoqXSOSEFwgp.ttf"
 }

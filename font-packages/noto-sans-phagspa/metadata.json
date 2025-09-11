@@ -2,12 +2,12 @@
   "family": "Noto Sans PhagsPa",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "math", "phags-pa", "symbols"],
-  "version": "v23",
-  "lastModified": "2024-12-10",
+  "version": "v24",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosansphagspa/v23/XLY8IYr5bJNDGYxPGjyYbaEjwQR-LFlsYMYHGGeT.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansphagspa/v24/XLY8IYr5bJNDGYxPGjyYbaEjwQR-LFlsYMYHGGeT.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosansphagspa/v23/XLY8IYr5bJNDGYxPGjyYbaEjwQR-LGltasI.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosansphagspa/v24/XLY8IYr5bJNDGYxPGjyYbaEjwQR-LGltasI.ttf"
 }

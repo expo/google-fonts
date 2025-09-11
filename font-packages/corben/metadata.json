@@ -2,13 +2,13 @@
   "family": "Corben",
   "variants": ["regular", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v21",
-  "lastModified": "2024-09-04",
+  "version": "v23",
+  "lastModified": "2025-09-10",
   "files": {
-    "700": "https://fonts.gstatic.com/s/corben/v21/LYjAdGzzklQtCMpFHCZgrXArXN7HWQ.ttf",
-    "regular": "https://fonts.gstatic.com/s/corben/v21/LYjDdGzzklQtCMp9oAlEpVs3VQ.ttf"
+    "700": "https://fonts.gstatic.com/s/corben/v23/LYjAdGzzklQtCMpFHCZgrXArXN7HWQ.ttf",
+    "regular": "https://fonts.gstatic.com/s/corben/v23/LYjDdGzzklQtCMp9oAlEpVs3VQ.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/corben/v21/LYjDdGzzklQtCMpNoQNA.ttf"
+  "menu": "https://fonts.gstatic.com/s/corben/v23/LYjDdGzzklQtCMpNoQNA.ttf"
 }

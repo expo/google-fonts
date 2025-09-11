@@ -2,12 +2,12 @@
   "family": "Lakki Reddy",
   "variants": ["regular"],
   "subsets": ["latin", "telugu"],
-  "version": "v24",
-  "lastModified": "2024-11-20",
+  "version": "v25",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/lakkireddy/v24/S6u5w49MUSzD9jlCPmvLZQfox9k97-xZ.ttf"
+    "regular": "https://fonts.gstatic.com/s/lakkireddy/v25/S6u5w49MUSzD9jlCPmvLZQfox9k97-xZ.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/lakkireddy/v24/S6u5w49MUSzD9jlCPmvLZTfpzd0.ttf"
+  "menu": "https://fonts.gstatic.com/s/lakkireddy/v25/S6u5w49MUSzD9jlCPmvLZTfpzd0.ttf"
 }

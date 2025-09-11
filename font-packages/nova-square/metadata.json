@@ -2,12 +2,12 @@
   "family": "Nova Square",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v25",
-  "lastModified": "2024-11-20",
+  "version": "v27",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/novasquare/v25/RrQUbo9-9DV7b06QHgSWsZhARYMgGtWA.ttf"
+    "regular": "https://fonts.gstatic.com/s/novasquare/v27/RrQUbo9-9DV7b06QHgSWsZhARYMgGtWA.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/novasquare/v25/RrQUbo9-9DV7b06QHgSWsahBT4c.ttf"
+  "menu": "https://fonts.gstatic.com/s/novasquare/v27/RrQUbo9-9DV7b06QHgSWsahBT4c.ttf"
 }

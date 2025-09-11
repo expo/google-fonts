@@ -2,12 +2,12 @@
   "family": "Vast Shadow",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v19",
-  "lastModified": "2024-09-04",
+  "version": "v21",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/vastshadow/v19/pe0qMImKOZ1V62ZwbVY9dfe6Kdpickwp.ttf"
+    "regular": "https://fonts.gstatic.com/s/vastshadow/v21/pe0qMImKOZ1V62ZwbVY9dfe6Kdpickwp.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/vastshadow/v19/pe0qMImKOZ1V62ZwbVY9dce7I94.ttf"
+  "menu": "https://fonts.gstatic.com/s/vastshadow/v21/pe0qMImKOZ1V62ZwbVY9dce7I94.ttf"
 }

@@ -2,12 +2,12 @@
   "family": "Miltonian Tattoo",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v32",
-  "lastModified": "2024-09-04",
+  "version": "v34",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/miltoniantattoo/v32/EvOUzBRL0o0kCxF-lcMCQxlpVsA_FwP8MDBku-s.ttf"
+    "regular": "https://fonts.gstatic.com/s/miltoniantattoo/v34/EvOUzBRL0o0kCxF-lcMCQxlpVsA_FwP8MDBku-s.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/miltoniantattoo/v32/EvOUzBRL0o0kCxF-lcMCQxlpVsA_JwL2NA.ttf"
+  "menu": "https://fonts.gstatic.com/s/miltoniantattoo/v34/EvOUzBRL0o0kCxF-lcMCQxlpVsA_JwL2NA.ttf"
 }

@@ -2,12 +2,12 @@
   "family": "Noto Sans Samaritan",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "samaritan"],
-  "version": "v16",
-  "lastModified": "2023-06-22",
+  "version": "v17",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosanssamaritan/v16/buEqppe9f8_vkXadMBJJo0tSmaYjFkxOUo5jNlOVMzQ.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosanssamaritan/v17/buEqppe9f8_vkXadMBJJo0tSmaYjFkxOUo5jNlOVMzQ.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosanssamaritan/v16/buEqppe9f8_vkXadMBJJo0tSmaYjFkxOYo9pMg.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosanssamaritan/v17/buEqppe9f8_vkXadMBJJo0tSmaYjFkxOYo9pMg.ttf"
 }

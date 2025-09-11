@@ -2,10 +2,10 @@
   "family": "Whisper",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v6",
-  "lastModified": "2025-06-02",
-  "files": { "regular": "https://fonts.gstatic.com/s/whisper/v6/q5uHsoqtKftx74K9milCBxxdmYU.ttf" },
+  "version": "v7",
+  "lastModified": "2025-09-10",
+  "files": { "regular": "https://fonts.gstatic.com/s/whisper/v7/q5uHsoqtKftx74K9milCBxxdmYU.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/whisper/v6/q5uHsoqtKftx74K9qihIAw.ttf"
+  "menu": "https://fonts.gstatic.com/s/whisper/v7/q5uHsoqtKftx74K9qihIAw.ttf"
 }

@@ -2,12 +2,12 @@
   "family": "Supermercado One",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v27",
-  "lastModified": "2024-11-20",
+  "version": "v29",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/supermercadoone/v27/OpNXnpQWg8jc_xps_Gi14kVVEXOn60b3MClBRTs.ttf"
+    "regular": "https://fonts.gstatic.com/s/supermercadoone/v29/OpNXnpQWg8jc_xps_Gi14kVVEXOn60b3MClBRTs.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/supermercadoone/v27/OpNXnpQWg8jc_xps_Gi14kVVEXOn20f9NA.ttf"
+  "menu": "https://fonts.gstatic.com/s/supermercadoone/v29/OpNXnpQWg8jc_xps_Gi14kVVEXOn20f9NA.ttf"
 }

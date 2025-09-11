@@ -2,12 +2,12 @@
   "family": "Libre Barcode EAN13 Text",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v23",
-  "lastModified": "2025-06-23",
+  "version": "v24",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/librebarcodeean13text/v23/wlpigxXFDU1_oCu9nfZytgIqSG0XRcJm_OQiB96PAGEki52WfA.ttf"
+    "regular": "https://fonts.gstatic.com/s/librebarcodeean13text/v24/wlpigxXFDU1_oCu9nfZytgIqSG0XRcJm_OQiB96PAGEki52WfA.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/librebarcodeean13text/v23/wlpigxXFDU1_oCu9nfZytgIqSG0XRcJm_OQiB96_AWsg.ttf"
+  "menu": "https://fonts.gstatic.com/s/librebarcodeean13text/v24/wlpigxXFDU1_oCu9nfZytgIqSG0XRcJm_OQiB96_AWsg.ttf"
 }

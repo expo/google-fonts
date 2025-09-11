@@ -2,12 +2,12 @@
   "family": "Noto Sans Psalter Pahlavi",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "psalter-pahlavi"],
-  "version": "v17",
-  "lastModified": "2024-07-30",
+  "version": "v18",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosanspsalterpahlavi/v17/rP2Vp3K65FkAtHfwd-eISGznYihzggmsicPfud3w1G3KsUQBct4.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosanspsalterpahlavi/v18/rP2Vp3K65FkAtHfwd-eISGznYihzggmsicPfud3w1G3KsUQBct4.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosanspsalterpahlavi/v17/rP2Vp3K65FkAtHfwd-eISGznYihzggmsicPfud3w5GzAtQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosanspsalterpahlavi/v18/rP2Vp3K65FkAtHfwd-eISGznYihzggmsicPfud3w5GzAtQ.ttf"
 }

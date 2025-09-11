@@ -2,12 +2,12 @@
   "family": "Abyssinica SIL",
   "variants": ["regular"],
   "subsets": ["ethiopic", "latin", "latin-ext"],
-  "version": "v8",
-  "lastModified": "2024-11-20",
+  "version": "v9",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/abyssinicasil/v8/oY1H8ezOqK7iI3rK_45WKoc8J6UZBFOVAXuI.ttf"
+    "regular": "https://fonts.gstatic.com/s/abyssinicasil/v9/oY1H8ezOqK7iI3rK_45WKoc8J6UZBFOVAXuI.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/abyssinicasil/v8/oY1H8ezOqK7iI3rK_45WKoc8J5UYDlc.ttf"
+  "menu": "https://fonts.gstatic.com/s/abyssinicasil/v9/oY1H8ezOqK7iI3rK_45WKoc8J5UYDlc.ttf"
 }

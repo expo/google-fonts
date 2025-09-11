@@ -2,12 +2,12 @@
   "family": "Mallanna",
   "variants": ["regular"],
   "subsets": ["latin", "telugu"],
-  "version": "v14",
-  "lastModified": "2024-08-12",
+  "version": "v15",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/mallanna/v14/hv-Vlzx-KEQb84YaDGwzEzRwVvJ-.ttf"
+    "regular": "https://fonts.gstatic.com/s/mallanna/v15/hv-Vlzx-KEQb84YaDGwzEzRwVvJ-.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/mallanna/v14/hv-Vlzx-KEQb84YaDFwyGTA.ttf"
+  "menu": "https://fonts.gstatic.com/s/mallanna/v15/hv-Vlzx-KEQb84YaDFwyGTA.ttf"
 }

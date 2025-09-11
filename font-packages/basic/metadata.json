@@ -2,10 +2,10 @@
   "family": "Basic",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v17",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/basic/v17/xfu_0WLxV2_XKQN34lDVyR7D.ttf" },
+  "version": "v18",
+  "lastModified": "2025-09-10",
+  "files": { "regular": "https://fonts.gstatic.com/s/basic/v18/xfu_0WLxV2_XKQN34lDVyR7D.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/basic/v17/xfu_0WLxV2_XKTN26FQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/basic/v18/xfu_0WLxV2_XKTN26FQ.ttf"
 }

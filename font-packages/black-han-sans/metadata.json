@@ -2,12 +2,12 @@
   "family": "Black Han Sans",
   "variants": ["regular"],
   "subsets": ["korean", "latin"],
-  "version": "v23",
-  "lastModified": "2024-12-04",
+  "version": "v24",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/blackhansans/v23/ea8Aad44WunzF9a-dL6toA8r8nqVIXSkH-Hc.ttf"
+    "regular": "https://fonts.gstatic.com/s/blackhansans/v24/ea8Aad44WunzF9a-dL6toA8r8nqVIXSkH-Hc.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/blackhansans/v23/ea8Aad44WunzF9a-dL6toA8r8kqUK3A.ttf"
+  "menu": "https://fonts.gstatic.com/s/blackhansans/v24/ea8Aad44WunzF9a-dL6toA8r8kqUK3A.ttf"
 }

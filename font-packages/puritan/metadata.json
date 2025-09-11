@@ -2,15 +2,15 @@
   "family": "Puritan",
   "variants": ["regular", "italic", "700", "700italic"],
   "subsets": ["latin"],
-  "version": "v24",
-  "lastModified": "2024-09-04",
+  "version": "v25",
+  "lastModified": "2025-09-10",
   "files": {
-    "700": "https://fonts.gstatic.com/s/puritan/v24/845dNMgkAJ2VTtIozCbfYd6j-0rGRes.ttf",
-    "regular": "https://fonts.gstatic.com/s/puritan/v24/845YNMgkAJ2VTtIo9JrwRdaI50M.ttf",
-    "italic": "https://fonts.gstatic.com/s/puritan/v24/845aNMgkAJ2VTtIoxJj6QfSN90PfXA.ttf",
-    "700italic": "https://fonts.gstatic.com/s/puritan/v24/845fNMgkAJ2VTtIoxJjC_dup_2jDVevnLQ.ttf"
+    "700": "https://fonts.gstatic.com/s/puritan/v25/845dNMgkAJ2VTtIozCbfYd6j-0rGRes.ttf",
+    "regular": "https://fonts.gstatic.com/s/puritan/v25/845YNMgkAJ2VTtIo9JrwRdaI50M.ttf",
+    "italic": "https://fonts.gstatic.com/s/puritan/v25/845aNMgkAJ2VTtIoxJj6QfSN90PfXA.ttf",
+    "700italic": "https://fonts.gstatic.com/s/puritan/v25/845fNMgkAJ2VTtIoxJjC_dup_2jDVevnLQ.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/puritan/v24/845YNMgkAJ2VTtIoxJv6QQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/puritan/v25/845YNMgkAJ2VTtIoxJv6QQ.ttf"
 }

@@ -2,10 +2,10 @@
   "family": "Spirax",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v21",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/spirax/v21/buE3poKgYNLy0F3cXktt-Csn-Q.ttf" },
+  "version": "v22",
+  "lastModified": "2025-09-10",
+  "files": { "regular": "https://fonts.gstatic.com/s/spirax/v22/buE3poKgYNLy0F3cXktt-Csn-Q.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/spirax/v21/buE3poKgYNLy0F3sX0Fp.ttf"
+  "menu": "https://fonts.gstatic.com/s/spirax/v22/buE3poKgYNLy0F3sX0Fp.ttf"
 }

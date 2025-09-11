@@ -2,12 +2,12 @@
   "family": "Devonshire",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v27",
-  "lastModified": "2024-09-04",
+  "version": "v29",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/devonshire/v27/46kqlbDwWirWr4gtBD2BX0Vq01lYAZM.ttf"
+    "regular": "https://fonts.gstatic.com/s/devonshire/v29/46kqlbDwWirWr4gtBD2BX0Vq01lYAZM.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/devonshire/v27/46kqlbDwWirWr4gtBD2Bb0Rg1w.ttf"
+  "menu": "https://fonts.gstatic.com/s/devonshire/v29/46kqlbDwWirWr4gtBD2Bb0Rg1w.ttf"
 }

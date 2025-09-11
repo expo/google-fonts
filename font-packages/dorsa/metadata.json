@@ -2,10 +2,10 @@
   "family": "Dorsa",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v27",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/dorsa/v27/yYLn0hjd0OGwqo493XCFxAnQ.ttf" },
+  "version": "v29",
+  "lastModified": "2025-09-10",
+  "files": { "regular": "https://fonts.gstatic.com/s/dorsa/v29/yYLn0hjd0OGwqo493XCFxAnQ.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/dorsa/v27/yYLn0hjd0OGwqr4813Q.ttf"
+  "menu": "https://fonts.gstatic.com/s/dorsa/v29/yYLn0hjd0OGwqr4813Q.ttf"
 }

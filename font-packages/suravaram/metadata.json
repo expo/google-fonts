@@ -2,12 +2,12 @@
   "family": "Suravaram",
   "variants": ["regular"],
   "subsets": ["latin", "telugu"],
-  "version": "v22",
-  "lastModified": "2025-04-23",
+  "version": "v23",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/suravaram/v22/_gP61R_usiY7SCym4xIAi261Qv9roQ.ttf"
+    "regular": "https://fonts.gstatic.com/s/suravaram/v23/_gP61R_usiY7SCym4xIAi261Qv9roQ.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/suravaram/v22/_gP61R_usiY7SCym4xIwimSx.ttf"
+  "menu": "https://fonts.gstatic.com/s/suravaram/v23/_gP61R_usiY7SCym4xIwimSx.ttf"
 }

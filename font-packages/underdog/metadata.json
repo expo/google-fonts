@@ -2,12 +2,12 @@
   "family": "Underdog",
   "variants": ["regular"],
   "subsets": ["cyrillic", "latin", "latin-ext"],
-  "version": "v23",
-  "lastModified": "2024-09-04",
+  "version": "v24",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/underdog/v23/CHygV-jCElj7diMroVSiU14GN2Il.ttf"
+    "regular": "https://fonts.gstatic.com/s/underdog/v24/CHygV-jCElj7diMroVSiU14GN2Il.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/underdog/v23/CHygV-jCElj7diMroWSjWVo.ttf"
+  "menu": "https://fonts.gstatic.com/s/underdog/v24/CHygV-jCElj7diMroWSjWVo.ttf"
 }

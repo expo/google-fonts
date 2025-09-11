@@ -2,10 +2,10 @@
   "family": "Ewert",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v25",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/ewert/v25/va9I4kzO2tFODYBvS-J3kbDP.ttf" },
+  "version": "v27",
+  "lastModified": "2025-09-10",
+  "files": { "regular": "https://fonts.gstatic.com/s/ewert/v27/va9I4kzO2tFODYBvS-J3kbDP.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/ewert/v25/va9I4kzO2tFODbBuQeY.ttf"
+  "menu": "https://fonts.gstatic.com/s/ewert/v27/va9I4kzO2tFODbBuQeY.ttf"
 }

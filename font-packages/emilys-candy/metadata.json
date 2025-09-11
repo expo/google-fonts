@@ -2,12 +2,12 @@
   "family": "Emilys Candy",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v19",
-  "lastModified": "2024-09-04",
+  "version": "v21",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/emilyscandy/v19/2EbgL-1mD1Rnb0OGKudbk0y5r9xrX84JjA.ttf"
+    "regular": "https://fonts.gstatic.com/s/emilyscandy/v21/2EbgL-1mD1Rnb0OGKudbk0y5r9xrX84JjA.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/emilyscandy/v19/2EbgL-1mD1Rnb0OGKudbk0yJrtZv.ttf"
+  "menu": "https://fonts.gstatic.com/s/emilyscandy/v21/2EbgL-1mD1Rnb0OGKudbk0yJrtZv.ttf"
 }

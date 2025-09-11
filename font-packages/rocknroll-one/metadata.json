@@ -2,12 +2,12 @@
   "family": "RocknRoll One",
   "variants": ["regular"],
   "subsets": ["japanese", "latin", "latin-ext"],
-  "version": "v15",
-  "lastModified": "2025-04-23",
+  "version": "v16",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/rocknrollone/v15/kmK7ZqspGAfCeUiW6FFlmEC9guVhs7tfUxc.ttf"
+    "regular": "https://fonts.gstatic.com/s/rocknrollone/v16/kmK7ZqspGAfCeUiW6FFlmEC9guVhs7tfUxc.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/rocknrollone/v15/kmK7ZqspGAfCeUiW6FFlmEC9suRrtw.ttf"
+  "menu": "https://fonts.gstatic.com/s/rocknrollone/v16/kmK7ZqspGAfCeUiW6FFlmEC9suRrtw.ttf"
 }

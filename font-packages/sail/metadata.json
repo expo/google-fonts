@@ -2,10 +2,10 @@
   "family": "Sail",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v16",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/sail/v16/DPEjYwiBxwYJFBTDADYAbvw.ttf" },
+  "version": "v17",
+  "lastModified": "2025-09-10",
+  "files": { "regular": "https://fonts.gstatic.com/s/sail/v17/DPEjYwiBxwYJFBTDADYAbvw.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/sail/v16/DPEjYwiBxwYJJBXJBA.ttf"
+  "menu": "https://fonts.gstatic.com/s/sail/v17/DPEjYwiBxwYJJBXJBA.ttf"
 }
