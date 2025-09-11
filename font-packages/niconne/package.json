@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/niconne",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Use the Niconne font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

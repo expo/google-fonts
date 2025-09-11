@@ -2,10 +2,10 @@
   "family": "Rakkas",
   "variants": ["regular"],
   "subsets": ["arabic", "latin", "latin-ext"],
-  "version": "v20",
-  "lastModified": "2024-12-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/rakkas/v20/Qw3cZQlNHiblL3j_lttPOeMcCw.ttf" },
+  "version": "v22",
+  "lastModified": "2025-09-10",
+  "files": { "regular": "https://fonts.gstatic.com/s/rakkas/v22/Qw3cZQlNHiblL3j_lttPOeMcCw.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/rakkas/v20/Qw3cZQlNHiblL3jPl9FL.ttf"
+  "menu": "https://fonts.gstatic.com/s/rakkas/v22/Qw3cZQlNHiblL3jPl9FL.ttf"
 }

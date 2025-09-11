@@ -2,10 +2,10 @@
   "family": "Varela",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v16",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/varela/v16/DPEtYwqExx0AWHXJBBQFfvzDsQ.ttf" },
+  "version": "v17",
+  "lastModified": "2025-09-10",
+  "files": { "regular": "https://fonts.gstatic.com/s/varela/v17/DPEtYwqExx0AWHXJBBQFfvzDsQ.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/varela/v16/DPEtYwqExx0AWHX5BR4B.ttf"
+  "menu": "https://fonts.gstatic.com/s/varela/v17/DPEtYwqExx0AWHX5BR4B.ttf"
 }

@@ -2,12 +2,12 @@
   "family": "Zen Kurenaido",
   "variants": ["regular"],
   "subsets": ["cyrillic", "greek", "japanese", "latin", "latin-ext"],
-  "version": "v17",
-  "lastModified": "2024-08-07",
+  "version": "v19",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/zenkurenaido/v17/3XFsEr0515BK2u6UUptu_gWJZfz22PRLd0U.ttf"
+    "regular": "https://fonts.gstatic.com/s/zenkurenaido/v19/3XFsEr0515BK2u6UUptu_gWJZfz22PRLd0U.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/zenkurenaido/v17/3XFsEr0515BK2u6UUptu_gWJVf383A.ttf"
+  "menu": "https://fonts.gstatic.com/s/zenkurenaido/v19/3XFsEr0515BK2u6UUptu_gWJVf383A.ttf"
 }

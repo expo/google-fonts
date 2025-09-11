@@ -2,13 +2,13 @@
   "family": "BIZ UDPGothic",
   "variants": ["regular", "700"],
   "subsets": ["cyrillic", "greek-ext", "japanese", "latin", "latin-ext"],
-  "version": "v14",
-  "lastModified": "2024-09-04",
+  "version": "v15",
+  "lastModified": "2025-09-10",
   "files": {
-    "700": "https://fonts.gstatic.com/s/bizudpgothic/v14/hESq6X5pHAIBjmS84VL0Bue85skjZWEnTABCSQo.ttf",
-    "regular": "https://fonts.gstatic.com/s/bizudpgothic/v14/hES36X5pHAIBjmS84VL0Bue83nUMQWkMUAk.ttf"
+    "700": "https://fonts.gstatic.com/s/bizudpgothic/v15/hESq6X5pHAIBjmS84VL0Bue85skjZWEnTABCSQo.ttf",
+    "regular": "https://fonts.gstatic.com/s/bizudpgothic/v15/hES36X5pHAIBjmS84VL0Bue83nUMQWkMUAk.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/bizudpgothic/v14/hES36X5pHAIBjmS84VL0Bue87nQGRQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/bizudpgothic/v15/hES36X5pHAIBjmS84VL0Bue87nQGRQ.ttf"
 }

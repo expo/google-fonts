@@ -2,13 +2,13 @@
   "family": "Linden Hill",
   "variants": ["regular", "italic"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v25",
-  "lastModified": "2024-11-20",
+  "version": "v27",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/lindenhill/v25/-F61fjxoKSg9Yc3hZgO8ygFI7CwC009k.ttf",
-    "italic": "https://fonts.gstatic.com/s/lindenhill/v25/-F63fjxoKSg9Yc3hZgO8yjFK5igg1l9kn-s.ttf"
+    "regular": "https://fonts.gstatic.com/s/lindenhill/v27/-F61fjxoKSg9Yc3hZgO8ygFI7CwC009k.ttf",
+    "italic": "https://fonts.gstatic.com/s/lindenhill/v27/-F63fjxoKSg9Yc3hZgO8yjFK5igg1l9kn-s.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/lindenhill/v25/-F61fjxoKSg9Yc3hZgO8yjFJ5ig.ttf"
+  "menu": "https://fonts.gstatic.com/s/lindenhill/v27/-F61fjxoKSg9Yc3hZgO8yjFJ5ig.ttf"
 }

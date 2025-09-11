@@ -2,13 +2,13 @@
   "family": "Changa One",
   "variants": ["regular", "italic"],
   "subsets": ["latin"],
-  "version": "v20",
-  "lastModified": "2024-09-04",
+  "version": "v22",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/changaone/v20/xfu00W3wXn3QLUJXhzq46AbouLfbK64.ttf",
-    "italic": "https://fonts.gstatic.com/s/changaone/v20/xfu20W3wXn3QLUJXhzq42ATivJXeO67ISw.ttf"
+    "regular": "https://fonts.gstatic.com/s/changaone/v22/xfu00W3wXn3QLUJXhzq46AbouLfbK64.ttf",
+    "italic": "https://fonts.gstatic.com/s/changaone/v22/xfu20W3wXn3QLUJXhzq42ATivJXeO67ISw.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/changaone/v20/xfu00W3wXn3QLUJXhzq42AfivA.ttf"
+  "menu": "https://fonts.gstatic.com/s/changaone/v22/xfu00W3wXn3QLUJXhzq42AfivA.ttf"
 }

@@ -2,12 +2,12 @@
   "family": "Dhurjati",
   "variants": ["regular"],
   "subsets": ["latin", "telugu"],
-  "version": "v25",
-  "lastModified": "2024-12-04",
+  "version": "v27",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/dhurjati/v25/_6_8ED3gSeatXfFiFX3ySKQtuTA2.ttf"
+    "regular": "https://fonts.gstatic.com/s/dhurjati/v27/_6_8ED3gSeatXfFiFX3ySKQtuTA2.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/dhurjati/v25/_6_8ED3gSeatXfFiFU3zQqA.ttf"
+  "menu": "https://fonts.gstatic.com/s/dhurjati/v27/_6_8ED3gSeatXfFiFU3zQqA.ttf"
 }

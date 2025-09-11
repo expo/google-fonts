@@ -2,10 +2,10 @@
   "family": "McLaren",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v17",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/mclaren/v17/2EbnL-ZuAXFqZFXISYYf8z2Yt_c.ttf" },
+  "version": "v19",
+  "lastModified": "2025-09-10",
+  "files": { "regular": "https://fonts.gstatic.com/s/mclaren/v19/2EbnL-ZuAXFqZFXISYYf8z2Yt_c.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/mclaren/v17/2EbnL-ZuAXFqZFXIeYcV9w.ttf"
+  "menu": "https://fonts.gstatic.com/s/mclaren/v19/2EbnL-ZuAXFqZFXIeYcV9w.ttf"
 }

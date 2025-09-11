@@ -2,14 +2,14 @@
   "family": "Trochut",
   "variants": ["regular", "italic", "700"],
   "subsets": ["latin"],
-  "version": "v22",
-  "lastModified": "2024-09-04",
+  "version": "v24",
+  "lastModified": "2025-09-10",
   "files": {
-    "700": "https://fonts.gstatic.com/s/trochut/v22/CHymV-fDDlP9bDIw3sinWVokMnIllmA.ttf",
-    "regular": "https://fonts.gstatic.com/s/trochut/v22/CHyjV-fDDlP9bDIw5nSIfVIPLns.ttf",
-    "italic": "https://fonts.gstatic.com/s/trochut/v22/CHyhV-fDDlP9bDIw1naCeXAKPns8jw.ttf"
+    "700": "https://fonts.gstatic.com/s/trochut/v24/CHymV-fDDlP9bDIw3sinWVokMnIllmA.ttf",
+    "regular": "https://fonts.gstatic.com/s/trochut/v24/CHyjV-fDDlP9bDIw5nSIfVIPLns.ttf",
+    "italic": "https://fonts.gstatic.com/s/trochut/v24/CHyhV-fDDlP9bDIw1naCeXAKPns8jw.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/trochut/v22/CHyjV-fDDlP9bDIw1nWCeQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/trochut/v24/CHyjV-fDDlP9bDIw1nWCeQ.ttf"
 }

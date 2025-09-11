@@ -2,12 +2,12 @@
   "family": "Short Stack",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v15",
-  "lastModified": "2024-09-04",
+  "version": "v16",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/shortstack/v15/bMrzmS2X6p0jZC6EcmPFX-SScX8D0nq6.ttf"
+    "regular": "https://fonts.gstatic.com/s/shortstack/v16/bMrzmS2X6p0jZC6EcmPFX-SScX8D0nq6.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/shortstack/v15/bMrzmS2X6p0jZC6EcmPFX9STe3s.ttf"
+  "menu": "https://fonts.gstatic.com/s/shortstack/v16/bMrzmS2X6p0jZC6EcmPFX9STe3s.ttf"
 }

@@ -2,12 +2,12 @@
   "family": "Bahianita",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v21",
-  "lastModified": "2024-09-04",
+  "version": "v23",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/bahianita/v21/yYLr0hTb3vuqqsBUgxWtxTvV2NJPcA.ttf"
+    "regular": "https://fonts.gstatic.com/s/bahianita/v23/yYLr0hTb3vuqqsBUgxWtxTvV2NJPcA.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/bahianita/v21/yYLr0hTb3vuqqsBUgxWdxDHR.ttf"
+  "menu": "https://fonts.gstatic.com/s/bahianita/v23/yYLr0hTb3vuqqsBUgxWdxDHR.ttf"
 }

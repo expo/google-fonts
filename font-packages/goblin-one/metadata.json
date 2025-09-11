@@ -2,12 +2,12 @@
   "family": "Goblin One",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v26",
-  "lastModified": "2024-09-04",
+  "version": "v28",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/goblinone/v26/CSR64z1ZnOqZRjRCBVY_TOcATNt_pOU.ttf"
+    "regular": "https://fonts.gstatic.com/s/goblinone/v28/CSR64z1ZnOqZRjRCBVY_TOcATNt_pOU.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/goblinone/v26/CSR64z1ZnOqZRjRCBVY_fOYKSA.ttf"
+  "menu": "https://fonts.gstatic.com/s/goblinone/v28/CSR64z1ZnOqZRjRCBVY_fOYKSA.ttf"
 }

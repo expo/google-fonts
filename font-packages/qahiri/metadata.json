@@ -2,10 +2,10 @@
   "family": "Qahiri",
   "variants": ["regular"],
   "subsets": ["arabic", "latin"],
-  "version": "v10",
-  "lastModified": "2025-06-12",
-  "files": { "regular": "https://fonts.gstatic.com/s/qahiri/v10/tsssAp1RZy0C_hGuU3Chrnmupw.ttf" },
+  "version": "v11",
+  "lastModified": "2025-09-10",
+  "files": { "regular": "https://fonts.gstatic.com/s/qahiri/v11/tsssAp1RZy0C_hGuU3Chrnmupw.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/qahiri/v10/tsssAp1RZy0C_hGeUnql.ttf"
+  "menu": "https://fonts.gstatic.com/s/qahiri/v11/tsssAp1RZy0C_hGeUnql.ttf"
 }

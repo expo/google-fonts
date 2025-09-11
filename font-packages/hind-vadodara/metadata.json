@@ -2,16 +2,16 @@
   "family": "Hind Vadodara",
   "variants": ["300", "regular", "500", "600", "700"],
   "subsets": ["gujarati", "latin", "latin-ext"],
-  "version": "v15",
-  "lastModified": "2024-12-04",
+  "version": "v16",
+  "lastModified": "2025-09-10",
   "files": {
-    "300": "https://fonts.gstatic.com/s/hindvadodara/v15/neIQzCKvrIcn5pbuuuriV9tTSDn3iXM0oSOL2Yw.ttf",
-    "500": "https://fonts.gstatic.com/s/hindvadodara/v15/neIQzCKvrIcn5pbuuuriV9tTSGH2iXM0oSOL2Yw.ttf",
-    "600": "https://fonts.gstatic.com/s/hindvadodara/v15/neIQzCKvrIcn5pbuuuriV9tTSE3xiXM0oSOL2Yw.ttf",
-    "700": "https://fonts.gstatic.com/s/hindvadodara/v15/neIQzCKvrIcn5pbuuuriV9tTSCnwiXM0oSOL2Yw.ttf",
-    "regular": "https://fonts.gstatic.com/s/hindvadodara/v15/neINzCKvrIcn5pbuuuriV9tTcJXfrXsfvSo.ttf"
+    "300": "https://fonts.gstatic.com/s/hindvadodara/v16/neIQzCKvrIcn5pbuuuriV9tTSDn3iXM0oSOL2Yw.ttf",
+    "500": "https://fonts.gstatic.com/s/hindvadodara/v16/neIQzCKvrIcn5pbuuuriV9tTSGH2iXM0oSOL2Yw.ttf",
+    "600": "https://fonts.gstatic.com/s/hindvadodara/v16/neIQzCKvrIcn5pbuuuriV9tTSE3xiXM0oSOL2Yw.ttf",
+    "700": "https://fonts.gstatic.com/s/hindvadodara/v16/neIQzCKvrIcn5pbuuuriV9tTSCnwiXM0oSOL2Yw.ttf",
+    "regular": "https://fonts.gstatic.com/s/hindvadodara/v16/neINzCKvrIcn5pbuuuriV9tTcJXfrXsfvSo.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/hindvadodara/v15/neINzCKvrIcn5pbuuuriV9tTQJTVqQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/hindvadodara/v16/neINzCKvrIcn5pbuuuriV9tTQJTVqQ.ttf"
 }

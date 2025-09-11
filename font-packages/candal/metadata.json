@@ -2,10 +2,10 @@
   "family": "Candal",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v15",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/candal/v15/XoHn2YH6T7-t_8cNAR4Jt9Yxlw.ttf" },
+  "version": "v16",
+  "lastModified": "2025-09-10",
+  "files": { "regular": "https://fonts.gstatic.com/s/candal/v16/XoHn2YH6T7-t_8cNAR4Jt9Yxlw.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/candal/v15/XoHn2YH6T7-t_8c9ABQN.ttf"
+  "menu": "https://fonts.gstatic.com/s/candal/v16/XoHn2YH6T7-t_8c9ABQN.ttf"
 }

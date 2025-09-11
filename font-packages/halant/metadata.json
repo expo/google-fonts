@@ -2,16 +2,16 @@
   "family": "Halant",
   "variants": ["300", "regular", "500", "600", "700"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v16",
-  "lastModified": "2024-12-04",
+  "version": "v17",
+  "lastModified": "2025-09-10",
   "files": {
-    "300": "https://fonts.gstatic.com/s/halant/v16/u-490qaujRI2Pbsvc_pCmwZqcwdRXg.ttf",
-    "500": "https://fonts.gstatic.com/s/halant/v16/u-490qaujRI2PbsvK_tCmwZqcwdRXg.ttf",
-    "600": "https://fonts.gstatic.com/s/halant/v16/u-490qaujRI2PbsvB_xCmwZqcwdRXg.ttf",
-    "700": "https://fonts.gstatic.com/s/halant/v16/u-490qaujRI2PbsvY_1CmwZqcwdRXg.ttf",
-    "regular": "https://fonts.gstatic.com/s/halant/v16/u-4-0qaujRI2PbsX39Jmky12eg.ttf"
+    "300": "https://fonts.gstatic.com/s/halant/v17/u-490qaujRI2Pbsvc_pCmwZqcwdRXg.ttf",
+    "500": "https://fonts.gstatic.com/s/halant/v17/u-490qaujRI2PbsvK_tCmwZqcwdRXg.ttf",
+    "600": "https://fonts.gstatic.com/s/halant/v17/u-490qaujRI2PbsvB_xCmwZqcwdRXg.ttf",
+    "700": "https://fonts.gstatic.com/s/halant/v17/u-490qaujRI2PbsvY_1CmwZqcwdRXg.ttf",
+    "regular": "https://fonts.gstatic.com/s/halant/v17/u-4-0qaujRI2PbsX39Jmky12eg.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/halant/v16/u-4-0qaujRI2Pbsn3thi.ttf"
+  "menu": "https://fonts.gstatic.com/s/halant/v17/u-4-0qaujRI2Pbsn3thi.ttf"
 }

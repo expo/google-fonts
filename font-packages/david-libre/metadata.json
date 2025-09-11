@@ -2,14 +2,14 @@
   "family": "David Libre",
   "variants": ["regular", "500", "700"],
   "subsets": ["hebrew", "latin", "latin-ext", "math", "symbols", "vietnamese"],
-  "version": "v16",
-  "lastModified": "2024-09-04",
+  "version": "v17",
+  "lastModified": "2025-09-10",
   "files": {
-    "500": "https://fonts.gstatic.com/s/davidlibre/v16/snfzs0W_99N64iuYSvp4W8GIw7qbSjORSo9W.ttf",
-    "700": "https://fonts.gstatic.com/s/davidlibre/v16/snfzs0W_99N64iuYSvp4W8HAxbqbSjORSo9W.ttf",
-    "regular": "https://fonts.gstatic.com/s/davidlibre/v16/snfus0W_99N64iuYSvp4W_l86p6TYS-Y.ttf"
+    "500": "https://fonts.gstatic.com/s/davidlibre/v17/snfzs0W_99N64iuYSvp4W8GIw7qbSjORSo9W.ttf",
+    "700": "https://fonts.gstatic.com/s/davidlibre/v17/snfzs0W_99N64iuYSvp4W8HAxbqbSjORSo9W.ttf",
+    "regular": "https://fonts.gstatic.com/s/davidlibre/v17/snfus0W_99N64iuYSvp4W_l86p6TYS-Y.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/davidlibre/v16/snfus0W_99N64iuYSvp4W8l94Jo.ttf"
+  "menu": "https://fonts.gstatic.com/s/davidlibre/v17/snfus0W_99N64iuYSvp4W8l94Jo.ttf"
 }

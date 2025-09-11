@@ -2,12 +2,12 @@
   "family": "Voltaire",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v21",
-  "lastModified": "2024-09-04",
+  "version": "v23",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/voltaire/v21/1Pttg8PcRfSblAvGvQooYKVnBOif.ttf"
+    "regular": "https://fonts.gstatic.com/s/voltaire/v23/1Pttg8PcRfSblAvGvQooYKVnBOif.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/voltaire/v21/1Pttg8PcRfSblAvGvTopaqE.ttf"
+  "menu": "https://fonts.gstatic.com/s/voltaire/v23/1Pttg8PcRfSblAvGvTopaqE.ttf"
 }

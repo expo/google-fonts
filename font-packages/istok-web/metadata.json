@@ -2,15 +2,15 @@
   "family": "Istok Web",
   "variants": ["regular", "italic", "700", "700italic"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
-  "version": "v24",
-  "lastModified": "2024-09-04",
+  "version": "v26",
+  "lastModified": "2025-09-10",
   "files": {
-    "700": "https://fonts.gstatic.com/s/istokweb/v24/3qTqojGmgSyUukBzKslhvU5a_mkUYBfcMw.ttf",
-    "regular": "https://fonts.gstatic.com/s/istokweb/v24/3qTvojGmgSyUukBzKslZAWF-9kIIaQ.ttf",
-    "italic": "https://fonts.gstatic.com/s/istokweb/v24/3qTpojGmgSyUukBzKslpA2t61EcYaQ7F.ttf",
-    "700italic": "https://fonts.gstatic.com/s/istokweb/v24/3qT0ojGmgSyUukBzKslpA1PG-2MQQhLMMygN.ttf"
+    "700": "https://fonts.gstatic.com/s/istokweb/v26/3qTqojGmgSyUukBzKslhvU5a_mkUYBfcMw.ttf",
+    "regular": "https://fonts.gstatic.com/s/istokweb/v26/3qTvojGmgSyUukBzKslZAWF-9kIIaQ.ttf",
+    "italic": "https://fonts.gstatic.com/s/istokweb/v26/3qTpojGmgSyUukBzKslpA2t61EcYaQ7F.ttf",
+    "700italic": "https://fonts.gstatic.com/s/istokweb/v26/3qT0ojGmgSyUukBzKslpA1PG-2MQQhLMMygN.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/istokweb/v24/3qTvojGmgSyUukBzKslpAGt6.ttf"
+  "menu": "https://fonts.gstatic.com/s/istokweb/v26/3qTvojGmgSyUukBzKslpAGt6.ttf"
 }

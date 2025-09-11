@@ -2,12 +2,12 @@
   "family": "Cantora One",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v19",
-  "lastModified": "2024-09-04",
+  "version": "v20",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/cantoraone/v19/gyB4hws1JdgnKy56GB_JX6zdZ4vZVbgZ.ttf"
+    "regular": "https://fonts.gstatic.com/s/cantoraone/v20/gyB4hws1JdgnKy56GB_JX6zdZ4vZVbgZ.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/cantoraone/v19/gyB4hws1JdgnKy56GB_JX5zcbY8.ttf"
+  "menu": "https://fonts.gstatic.com/s/cantoraone/v20/gyB4hws1JdgnKy56GB_JX5zcbY8.ttf"
 }

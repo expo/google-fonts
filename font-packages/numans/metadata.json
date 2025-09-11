@@ -2,10 +2,10 @@
   "family": "Numans",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v15",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/numans/v15/SlGRmQmGupYAfH8IYRggiHVqaQ.ttf" },
+  "version": "v16",
+  "lastModified": "2025-09-10",
+  "files": { "regular": "https://fonts.gstatic.com/s/numans/v16/SlGRmQmGupYAfH8IYRggiHVqaQ.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/numans/v15/SlGRmQmGupYAfH84YBIk.ttf"
+  "menu": "https://fonts.gstatic.com/s/numans/v16/SlGRmQmGupYAfH84YBIk.ttf"
 }

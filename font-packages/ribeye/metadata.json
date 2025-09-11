@@ -2,10 +2,10 @@
   "family": "Ribeye",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v25",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/ribeye/v25/L0x8DFMxk1MP9R3RvPCmRSlUig.ttf" },
+  "version": "v27",
+  "lastModified": "2025-09-10",
+  "files": { "regular": "https://fonts.gstatic.com/s/ribeye/v27/L0x8DFMxk1MP9R3RvPCmRSlUig.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/ribeye/v25/L0x8DFMxk1MP9R3hvfqi.ttf"
+  "menu": "https://fonts.gstatic.com/s/ribeye/v27/L0x8DFMxk1MP9R3hvfqi.ttf"
 }

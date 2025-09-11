@@ -2,12 +2,12 @@
   "family": "Jomolhari",
   "variants": ["regular"],
   "subsets": ["latin", "tibetan"],
-  "version": "v19",
-  "lastModified": "2024-12-04",
+  "version": "v21",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/jomolhari/v19/EvONzA1M1Iw_CBd2hsQCF1IZKq5INg.ttf"
+    "regular": "https://fonts.gstatic.com/s/jomolhari/v21/EvONzA1M1Iw_CBd2hsQCF1IZKq5INg.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/jomolhari/v19/EvONzA1M1Iw_CBd2hsQyFlgd.ttf"
+  "menu": "https://fonts.gstatic.com/s/jomolhari/v21/EvONzA1M1Iw_CBd2hsQyFlgd.ttf"
 }

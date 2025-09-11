@@ -2,10 +2,10 @@
   "family": "Mandali",
   "variants": ["regular"],
   "subsets": ["latin", "telugu"],
-  "version": "v15",
-  "lastModified": "2024-08-12",
-  "files": { "regular": "https://fonts.gstatic.com/s/mandali/v15/LhWlMVbYOfASNfNUVFk1ZPdcKtA.ttf" },
+  "version": "v16",
+  "lastModified": "2025-09-10",
+  "files": { "regular": "https://fonts.gstatic.com/s/mandali/v16/LhWlMVbYOfASNfNUVFk1ZPdcKtA.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/mandali/v15/LhWlMVbYOfASNfNUZFg_YA.ttf"
+  "menu": "https://fonts.gstatic.com/s/mandali/v16/LhWlMVbYOfASNfNUZFg_YA.ttf"
 }

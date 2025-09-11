@@ -2,10 +2,10 @@
   "family": "Ephesis",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v10",
-  "lastModified": "2025-06-02",
-  "files": { "regular": "https://fonts.gstatic.com/s/ephesis/v10/uU9PCBUS8IerL2VG7xPb3vyHmlI.ttf" },
+  "version": "v11",
+  "lastModified": "2025-09-10",
+  "files": { "regular": "https://fonts.gstatic.com/s/ephesis/v11/uU9PCBUS8IerL2VG7xPb3vyHmlI.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/ephesis/v10/uU9PCBUS8IerL2VG3xLR2g.ttf"
+  "menu": "https://fonts.gstatic.com/s/ephesis/v11/uU9PCBUS8IerL2VG3xLR2g.ttf"
 }

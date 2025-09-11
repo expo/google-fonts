@@ -2,13 +2,13 @@
   "family": "Fanwood Text",
   "variants": ["regular", "italic"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v16",
-  "lastModified": "2024-11-20",
+  "version": "v17",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/fanwoodtext/v16/3XFtErwl05Ad_vSCF6Fq7xXGRdbY1P1Sbg.ttf",
-    "italic": "https://fonts.gstatic.com/s/fanwoodtext/v16/3XFzErwl05Ad_vSCF6Fq7xX2R9zc9vhCblye.ttf"
+    "regular": "https://fonts.gstatic.com/s/fanwoodtext/v17/3XFtErwl05Ad_vSCF6Fq7xXGRdbY1P1Sbg.ttf",
+    "italic": "https://fonts.gstatic.com/s/fanwoodtext/v17/3XFzErwl05Ad_vSCF6Fq7xX2R9zc9vhCblye.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/fanwoodtext/v16/3XFtErwl05Ad_vSCF6Fq7xX2RNzc.ttf"
+  "menu": "https://fonts.gstatic.com/s/fanwoodtext/v17/3XFtErwl05Ad_vSCF6Fq7xX2RNzc.ttf"
 }

@@ -2,10 +2,10 @@
   "family": "Orienta",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v15",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/orienta/v15/PlI9FlK4Jrl5Y9zNeyeo9HRFhcU.ttf" },
+  "version": "v16",
+  "lastModified": "2025-09-10",
+  "files": { "regular": "https://fonts.gstatic.com/s/orienta/v16/PlI9FlK4Jrl5Y9zNeyeo9HRFhcU.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/orienta/v15/PlI9FlK4Jrl5Y9zNSyai8A.ttf"
+  "menu": "https://fonts.gstatic.com/s/orienta/v16/PlI9FlK4Jrl5Y9zNSyai8A.ttf"
 }

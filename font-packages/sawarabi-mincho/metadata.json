@@ -2,12 +2,12 @@
   "family": "Sawarabi Mincho",
   "variants": ["regular"],
   "subsets": ["braille", "japanese", "latin", "latin-ext"],
-  "version": "v19",
-  "lastModified": "2025-04-23",
+  "version": "v20",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/sawarabimincho/v19/8QIRdiDaitzr7brc8ahpxt6GcIJTLahP46UDUw.ttf"
+    "regular": "https://fonts.gstatic.com/s/sawarabimincho/v20/8QIRdiDaitzr7brc8ahpxt6GcIJTLahP46UDUw.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/sawarabimincho/v19/8QIRdiDaitzr7brc8ahpxt6GcIJjLKJL.ttf"
+  "menu": "https://fonts.gstatic.com/s/sawarabimincho/v20/8QIRdiDaitzr7brc8ahpxt6GcIJjLKJL.ttf"
 }

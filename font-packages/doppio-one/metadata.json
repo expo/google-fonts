@@ -2,12 +2,12 @@
   "family": "Doppio One",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v13",
-  "lastModified": "2024-09-04",
+  "version": "v14",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/doppioone/v13/Gg8wN5gSaBfyBw2MqCh-lgshKGpe5Fg.ttf"
+    "regular": "https://fonts.gstatic.com/s/doppioone/v14/Gg8wN5gSaBfyBw2MqCh-lgshKGpe5Fg.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/doppioone/v13/Gg8wN5gSaBfyBw2MqCh-pgorLA.ttf"
+  "menu": "https://fonts.gstatic.com/s/doppioone/v14/Gg8wN5gSaBfyBw2MqCh-pgorLA.ttf"
 }

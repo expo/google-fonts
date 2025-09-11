@@ -2,12 +2,12 @@
   "family": "GFS Didot",
   "variants": ["regular"],
   "subsets": ["greek", "greek-ext", "latin", "vietnamese"],
-  "version": "v17",
-  "lastModified": "2025-04-23",
+  "version": "v18",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/gfsdidot/v17/Jqzh5TybZ9vZMWFssvwiF-fGFSCGAA.ttf"
+    "regular": "https://fonts.gstatic.com/s/gfsdidot/v18/Jqzh5TybZ9vZMWFssvwiF-fGFSCGAA.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/gfsdidot/v17/Jqzh5TybZ9vZMWFssvwSFu3C.ttf"
+  "menu": "https://fonts.gstatic.com/s/gfsdidot/v18/Jqzh5TybZ9vZMWFssvwSFu3C.ttf"
 }

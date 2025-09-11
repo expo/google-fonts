@@ -2,12 +2,12 @@
   "family": "Kirang Haerang",
   "variants": ["regular"],
   "subsets": ["korean", "latin"],
-  "version": "v21",
-  "lastModified": "2024-08-12",
+  "version": "v22",
+  "lastModified": "2025-09-10",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/kiranghaerang/v21/E21-_dn_gvvIjhYON1lpIU4-bcqvWPaJq4no.ttf"
+    "regular": "https://fonts.gstatic.com/s/kiranghaerang/v22/E21-_dn_gvvIjhYON1lpIU4-bcqvWPaJq4no.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/kiranghaerang/v21/E21-_dn_gvvIjhYON1lpIU4-bfquUvI.ttf"
+  "menu": "https://fonts.gstatic.com/s/kiranghaerang/v22/E21-_dn_gvvIjhYON1lpIU4-bfquUvI.ttf"
 }

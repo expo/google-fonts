@@ -2,10 +2,10 @@
   "family": "Carme",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v16",
-  "lastModified": "2024-08-12",
-  "files": { "regular": "https://fonts.gstatic.com/s/carme/v16/ptRHTiWdbvZIDOjGxLNrxfbZ.ttf" },
+  "version": "v17",
+  "lastModified": "2025-09-10",
+  "files": { "regular": "https://fonts.gstatic.com/s/carme/v17/ptRHTiWdbvZIDOjGxLNrxfbZ.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/carme/v16/ptRHTiWdbvZIDNjHzrc.ttf"
+  "menu": "https://fonts.gstatic.com/s/carme/v17/ptRHTiWdbvZIDNjHzrc.ttf"
 }

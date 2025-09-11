@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/im-fell-french-canon-sc",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Use the IM Fell French Canon SC font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

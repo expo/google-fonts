@@ -2,15 +2,15 @@
   "family": "Playwrite TZ",
   "variants": ["100", "200", "300", "regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2025-02-12",
+  "version": "v11",
+  "lastModified": "2025-09-10",
   "files": {
-    "100": "https://fonts.gstatic.com/s/playwritetz/v10/RLptK5rs6au7bzABmVQAOwnUbvHMbzSUU27JDWwSue1COwjVROo.ttf",
-    "200": "https://fonts.gstatic.com/s/playwritetz/v10/RLptK5rs6au7bzABmVQAOwnUbvHMbzSUU27JDewTue1COwjVROo.ttf",
-    "300": "https://fonts.gstatic.com/s/playwritetz/v10/RLptK5rs6au7bzABmVQAOwnUbvHMbzSUU27JDTITue1COwjVROo.ttf",
-    "regular": "https://fonts.gstatic.com/s/playwritetz/v10/RLptK5rs6au7bzABmVQAOwnUbvHMbzSUU27JDWwTue1COwjVROo.ttf"
+    "100": "https://fonts.gstatic.com/s/playwritetz/v11/RLptK5rs6au7bzABmVQAOwnUbvHMbzSUU27JDWwSue1COwjVROo.ttf",
+    "200": "https://fonts.gstatic.com/s/playwritetz/v11/RLptK5rs6au7bzABmVQAOwnUbvHMbzSUU27JDewTue1COwjVROo.ttf",
+    "300": "https://fonts.gstatic.com/s/playwritetz/v11/RLptK5rs6au7bzABmVQAOwnUbvHMbzSUU27JDTITue1COwjVROo.ttf",
+    "regular": "https://fonts.gstatic.com/s/playwritetz/v11/RLptK5rs6au7bzABmVQAOwnUbvHMbzSUU27JDWwTue1COwjVROo.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/playwritetz/v10/RLptK5rs6au7bzABmVQAOwnUbvHMbzSUU27JDWwTiexIPw.ttf"
+  "menu": "https://fonts.gstatic.com/s/playwritetz/v11/RLptK5rs6au7bzABmVQAOwnUbvHMbzSUU27JDWwTiexIPw.ttf"
 }

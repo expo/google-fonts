@@ -2,14 +2,14 @@
   "family": "Gaegu",
   "variants": ["300", "regular", "700"],
   "subsets": ["korean", "latin"],
-  "version": "v22",
-  "lastModified": "2024-12-04",
+  "version": "v23",
+  "lastModified": "2025-09-10",
   "files": {
-    "300": "https://fonts.gstatic.com/s/gaegu/v22/TuGSUVB6Up9NU57nifw74sdtBk0x.ttf",
-    "700": "https://fonts.gstatic.com/s/gaegu/v22/TuGSUVB6Up9NU573jvw74sdtBk0x.ttf",
-    "regular": "https://fonts.gstatic.com/s/gaegu/v22/TuGfUVB6Up9NU6ZLodgzydtk.ttf"
+    "300": "https://fonts.gstatic.com/s/gaegu/v23/TuGSUVB6Up9NU57nifw74sdtBk0x.ttf",
+    "700": "https://fonts.gstatic.com/s/gaegu/v23/TuGSUVB6Up9NU573jvw74sdtBk0x.ttf",
+    "regular": "https://fonts.gstatic.com/s/gaegu/v23/TuGfUVB6Up9NU6ZLodgzydtk.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/gaegu/v22/TuGfUVB6Up9NU5ZKq9w.ttf"
+  "menu": "https://fonts.gstatic.com/s/gaegu/v23/TuGfUVB6Up9NU5ZKq9w.ttf"
 }
