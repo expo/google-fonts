@@ -2,12 +2,12 @@
   "family": "Meow Script",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v5",
-  "lastModified": "2024-09-04",
+  "version": "v6",
+  "lastModified": "2025-09-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/meowscript/v5/0FlQVPqanlaJrtr8AnJ0ESch0_0CfDf1.ttf"
+    "regular": "https://fonts.gstatic.com/s/meowscript/v6/0FlQVPqanlaJrtr8AnJ0ESch0_0CfDf1.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/meowscript/v5/0FlQVPqanlaJrtr8AnJ0ERcg2fk.ttf"
+  "menu": "https://fonts.gstatic.com/s/meowscript/v6/0FlQVPqanlaJrtr8AnJ0ERcg2fk.ttf"
 }

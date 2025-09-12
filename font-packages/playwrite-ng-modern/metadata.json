@@ -2,15 +2,15 @@
   "family": "Playwrite NG Modern",
   "variants": ["100", "200", "300", "regular"],
   "subsets": ["latin"],
-  "version": "v10",
-  "lastModified": "2025-02-12",
+  "version": "v11",
+  "lastModified": "2025-09-11",
   "files": {
-    "100": "https://fonts.gstatic.com/s/playwritengmodern/v10/ijw-s4b2R9Qve5V5lNJb_yRhEfSep5NbFCKmKgoEeCA4V17tPQbi5GswWJNE.ttf",
-    "200": "https://fonts.gstatic.com/s/playwritengmodern/v10/ijw-s4b2R9Qve5V5lNJb_yRhEfSep5NbFCKmKgoEeCA4V15tPAbi5GswWJNE.ttf",
-    "300": "https://fonts.gstatic.com/s/playwritengmodern/v10/ijw-s4b2R9Qve5V5lNJb_yRhEfSep5NbFCKmKgoEeCA4V16zPAbi5GswWJNE.ttf",
-    "regular": "https://fonts.gstatic.com/s/playwritengmodern/v10/ijw-s4b2R9Qve5V5lNJb_yRhEfSep5NbFCKmKgoEeCA4V17tPAbi5GswWJNE.ttf"
+    "100": "https://fonts.gstatic.com/s/playwritengmodern/v11/ijw-s4b2R9Qve5V5lNJb_yRhEfSep5NbFCKmKgoEeCA4V17tPQbi5GswWJNE.ttf",
+    "200": "https://fonts.gstatic.com/s/playwritengmodern/v11/ijw-s4b2R9Qve5V5lNJb_yRhEfSep5NbFCKmKgoEeCA4V15tPAbi5GswWJNE.ttf",
+    "300": "https://fonts.gstatic.com/s/playwritengmodern/v11/ijw-s4b2R9Qve5V5lNJb_yRhEfSep5NbFCKmKgoEeCA4V16zPAbi5GswWJNE.ttf",
+    "regular": "https://fonts.gstatic.com/s/playwritengmodern/v11/ijw-s4b2R9Qve5V5lNJb_yRhEfSep5NbFCKmKgoEeCA4V17tPAbi5GswWJNE.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/playwritengmodern/v10/ijw-s4b2R9Qve5V5lNJb_yRhEfSep5NbFCKmKgoEeCA4V17tPDbj7m8.ttf"
+  "menu": "https://fonts.gstatic.com/s/playwritengmodern/v11/ijw-s4b2R9Qve5V5lNJb_yRhEfSep5NbFCKmKgoEeCA4V17tPDbj7m8.ttf"
 }

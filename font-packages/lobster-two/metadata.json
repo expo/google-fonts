@@ -2,15 +2,15 @@
   "family": "Lobster Two",
   "variants": ["regular", "italic", "700", "700italic"],
   "subsets": ["latin"],
-  "version": "v20",
-  "lastModified": "2024-09-04",
+  "version": "v22",
+  "lastModified": "2025-09-11",
   "files": {
-    "700": "https://fonts.gstatic.com/s/lobstertwo/v20/BngRUXZGTXPUvIoyV6yN5-92w4CByxyKeuDp.ttf",
-    "regular": "https://fonts.gstatic.com/s/lobstertwo/v20/BngMUXZGTXPUvIoyV6yN59fK7KSJ4ACD.ttf",
-    "italic": "https://fonts.gstatic.com/s/lobstertwo/v20/BngOUXZGTXPUvIoyV6yN5-fI5qCr5RCDY_k.ttf",
-    "700italic": "https://fonts.gstatic.com/s/lobstertwo/v20/BngTUXZGTXPUvIoyV6yN5-fI3hyEwRiof_DpXMY.ttf"
+    "700": "https://fonts.gstatic.com/s/lobstertwo/v22/BngRUXZGTXPUvIoyV6yN5-92w4CByxyKeuDp.ttf",
+    "regular": "https://fonts.gstatic.com/s/lobstertwo/v22/BngMUXZGTXPUvIoyV6yN59fK7KSJ4ACD.ttf",
+    "italic": "https://fonts.gstatic.com/s/lobstertwo/v22/BngOUXZGTXPUvIoyV6yN5-fI5qCr5RCDY_k.ttf",
+    "700italic": "https://fonts.gstatic.com/s/lobstertwo/v22/BngTUXZGTXPUvIoyV6yN5-fI3hyEwRiof_DpXMY.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/lobstertwo/v20/BngMUXZGTXPUvIoyV6yN5-fL5qA.ttf"
+  "menu": "https://fonts.gstatic.com/s/lobstertwo/v22/BngMUXZGTXPUvIoyV6yN5-fL5qA.ttf"
 }

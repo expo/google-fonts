@@ -2,17 +2,17 @@
   "family": "Playfair Display SC",
   "variants": ["regular", "italic", "700", "700italic", "900", "900italic"],
   "subsets": ["cyrillic", "latin", "latin-ext", "vietnamese"],
-  "version": "v17",
-  "lastModified": "2024-09-04",
+  "version": "v18",
+  "lastModified": "2025-09-11",
   "files": {
-    "700": "https://fonts.gstatic.com/s/playfairdisplaysc/v17/ke80OhoaMkR6-hSn7kbHVoFf7ZfgMPr_nQIpNcsdL4IUMyE.ttf",
-    "900": "https://fonts.gstatic.com/s/playfairdisplaysc/v17/ke80OhoaMkR6-hSn7kbHVoFf7ZfgMPr_nTorNcsdL4IUMyE.ttf",
-    "regular": "https://fonts.gstatic.com/s/playfairdisplaysc/v17/ke85OhoaMkR6-hSn7kbHVoFf7ZfgMPr_pb4GEcM2M4s.ttf",
-    "italic": "https://fonts.gstatic.com/s/playfairdisplaysc/v17/ke87OhoaMkR6-hSn7kbHVoFf7ZfgMPr_lbwMFeEzI4sNKg.ttf",
-    "700italic": "https://fonts.gstatic.com/s/playfairdisplaysc/v17/ke82OhoaMkR6-hSn7kbHVoFf7ZfgMPr_lbw0qc4XK6ARIyH5IA.ttf",
-    "900italic": "https://fonts.gstatic.com/s/playfairdisplaysc/v17/ke82OhoaMkR6-hSn7kbHVoFf7ZfgMPr_lbw0kcwXK6ARIyH5IA.ttf"
+    "700": "https://fonts.gstatic.com/s/playfairdisplaysc/v18/ke80OhoaMkR6-hSn7kbHVoFf7ZfgMPr_nQIpNcsdL4IUMyE.ttf",
+    "900": "https://fonts.gstatic.com/s/playfairdisplaysc/v18/ke80OhoaMkR6-hSn7kbHVoFf7ZfgMPr_nTorNcsdL4IUMyE.ttf",
+    "regular": "https://fonts.gstatic.com/s/playfairdisplaysc/v18/ke85OhoaMkR6-hSn7kbHVoFf7ZfgMPr_pb4GEcM2M4s.ttf",
+    "italic": "https://fonts.gstatic.com/s/playfairdisplaysc/v18/ke87OhoaMkR6-hSn7kbHVoFf7ZfgMPr_lbwMFeEzI4sNKg.ttf",
+    "700italic": "https://fonts.gstatic.com/s/playfairdisplaysc/v18/ke82OhoaMkR6-hSn7kbHVoFf7ZfgMPr_lbw0qc4XK6ARIyH5IA.ttf",
+    "900italic": "https://fonts.gstatic.com/s/playfairdisplaysc/v18/ke82OhoaMkR6-hSn7kbHVoFf7ZfgMPr_lbw0kcwXK6ARIyH5IA.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/playfairdisplaysc/v17/ke85OhoaMkR6-hSn7kbHVoFf7ZfgMPr_lb8MFQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/playfairdisplaysc/v18/ke85OhoaMkR6-hSn7kbHVoFf7ZfgMPr_lb8MFQ.ttf"
 }

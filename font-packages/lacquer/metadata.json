@@ -2,10 +2,10 @@
   "family": "Lacquer",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v15",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/lacquer/v15/EYqzma1QwqpG4_BBB7-AXhttQ5I.ttf" },
+  "version": "v16",
+  "lastModified": "2025-09-11",
+  "files": { "regular": "https://fonts.gstatic.com/s/lacquer/v16/EYqzma1QwqpG4_BBB7-AXhttQ5I.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/lacquer/v15/EYqzma1QwqpG4_BBN76KWg.ttf"
+  "menu": "https://fonts.gstatic.com/s/lacquer/v16/EYqzma1QwqpG4_BBN76KWg.ttf"
 }

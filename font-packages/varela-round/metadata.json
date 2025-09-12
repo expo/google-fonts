@@ -2,12 +2,12 @@
   "family": "Varela Round",
   "variants": ["regular"],
   "subsets": ["hebrew", "latin", "latin-ext", "vietnamese"],
-  "version": "v20",
-  "lastModified": "2024-09-04",
+  "version": "v21",
+  "lastModified": "2025-09-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/varelaround/v20/w8gdH283Tvk__Lua32TysjIvoMGOD9gxZw.ttf"
+    "regular": "https://fonts.gstatic.com/s/varelaround/v21/w8gdH283Tvk__Lua32TysjIvoMGOD9gxZw.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/varelaround/v20/w8gdH283Tvk__Lua32TysjIfocuK.ttf"
+  "menu": "https://fonts.gstatic.com/s/varelaround/v21/w8gdH283Tvk__Lua32TysjIfocuK.ttf"
 }

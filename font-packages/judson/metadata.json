@@ -2,14 +2,14 @@
   "family": "Judson",
   "variants": ["regular", "italic", "700"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v19",
-  "lastModified": "2024-09-04",
+  "version": "v20",
+  "lastModified": "2025-09-11",
   "files": {
-    "700": "https://fonts.gstatic.com/s/judson/v19/FeVSS0Fbvbc14Vxps5xQ3Z5nm29Gww.ttf",
-    "regular": "https://fonts.gstatic.com/s/judson/v19/FeVRS0Fbvbc14VxRD7N01bV7kg.ttf",
-    "italic": "https://fonts.gstatic.com/s/judson/v19/FeVTS0Fbvbc14VxhDblw97BrknZf.ttf"
+    "700": "https://fonts.gstatic.com/s/judson/v20/FeVSS0Fbvbc14Vxps5xQ3Z5nm29Gww.ttf",
+    "regular": "https://fonts.gstatic.com/s/judson/v20/FeVRS0Fbvbc14VxRD7N01bV7kg.ttf",
+    "italic": "https://fonts.gstatic.com/s/judson/v20/FeVTS0Fbvbc14VxhDblw97BrknZf.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/judson/v19/FeVRS0Fbvbc14VxhDrlw.ttf"
+  "menu": "https://fonts.gstatic.com/s/judson/v20/FeVRS0Fbvbc14VxhDrlw.ttf"
 }

@@ -2,12 +2,12 @@
   "family": "Cagliostro",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v21",
-  "lastModified": "2024-09-04",
+  "version": "v22",
+  "lastModified": "2025-09-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/cagliostro/v21/ZgNWjP5HM73BV5amnX-TjGXEM4COoE4.ttf"
+    "regular": "https://fonts.gstatic.com/s/cagliostro/v22/ZgNWjP5HM73BV5amnX-TjGXEM4COoE4.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/cagliostro/v21/ZgNWjP5HM73BV5amnX-TvGTONw.ttf"
+  "menu": "https://fonts.gstatic.com/s/cagliostro/v22/ZgNWjP5HM73BV5amnX-TvGTONw.ttf"
 }

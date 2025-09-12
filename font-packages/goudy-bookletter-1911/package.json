@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/goudy-bookletter-1911",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Use the Goudy Bookletter 1911 font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

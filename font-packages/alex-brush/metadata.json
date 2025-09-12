@@ -2,12 +2,12 @@
   "family": "Alex Brush",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v22",
-  "lastModified": "2024-09-04",
+  "version": "v23",
+  "lastModified": "2025-09-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/alexbrush/v22/SZc83FzrJKuqFbwMKk6EtUL57DtOmCc.ttf"
+    "regular": "https://fonts.gstatic.com/s/alexbrush/v23/SZc83FzrJKuqFbwMKk6EtUL57DtOmCc.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/alexbrush/v22/SZc83FzrJKuqFbwMKk6EhUPz6A.ttf"
+  "menu": "https://fonts.gstatic.com/s/alexbrush/v23/SZc83FzrJKuqFbwMKk6EhUPz6A.ttf"
 }

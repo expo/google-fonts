@@ -2,12 +2,12 @@
   "family": "Yuji Hentaigana Akari",
   "variants": ["regular"],
   "subsets": ["japanese", "latin", "latin-ext"],
-  "version": "v13",
-  "lastModified": "2025-06-11",
+  "version": "v14",
+  "lastModified": "2025-09-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/yujihentaiganaakari/v13/cY9bfiyVT0VB6QuhWKOrpr6z58lnb_zYFnLIRTzODYALaA.ttf"
+    "regular": "https://fonts.gstatic.com/s/yujihentaiganaakari/v14/cY9bfiyVT0VB6QuhWKOrpr6z58lnb_zYFnLIRTzODYALaA.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/yujihentaiganaakari/v13/cY9bfiyVT0VB6QuhWKOrpr6z58lnb_zYFnL4RDbK.ttf"
+  "menu": "https://fonts.gstatic.com/s/yujihentaiganaakari/v14/cY9bfiyVT0VB6QuhWKOrpr6z58lnb_zYFnL4RDbK.ttf"
 }

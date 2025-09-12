@@ -2,12 +2,12 @@
   "family": "Noto Sans Hatran",
   "variants": ["regular"],
   "subsets": ["hatran", "latin", "latin-ext"],
-  "version": "v16",
-  "lastModified": "2023-07-13",
+  "version": "v17",
+  "lastModified": "2025-09-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosanshatran/v16/A2BBn4Ne0RgnVF3Lnko-0sOBIfL_mM83r1nwzDs.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosanshatran/v17/A2BBn4Ne0RgnVF3Lnko-0sOBIfL_mM83r1nwzDs.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosanshatran/v16/A2BBn4Ne0RgnVF3Lnko-0sOBIfL_qM49qw.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosanshatran/v17/A2BBn4Ne0RgnVF3Lnko-0sOBIfL_qM49qw.ttf"
 }

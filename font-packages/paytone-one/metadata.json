@@ -2,12 +2,12 @@
   "family": "Paytone One",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v24",
-  "lastModified": "2025-06-02",
+  "version": "v25",
+  "lastModified": "2025-09-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/paytoneone/v24/0nksC9P7MfYHj2oFtYm2CiTqivr9iBq_.ttf"
+    "regular": "https://fonts.gstatic.com/s/paytoneone/v25/0nksC9P7MfYHj2oFtYm2CiTqivr9iBq_.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/paytoneone/v24/0nksC9P7MfYHj2oFtYm2ChTrgP4.ttf"
+  "menu": "https://fonts.gstatic.com/s/paytoneone/v25/0nksC9P7MfYHj2oFtYm2ChTrgP4.ttf"
 }

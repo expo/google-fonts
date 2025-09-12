@@ -2,12 +2,12 @@
   "family": "Noto Serif Balinese",
   "variants": ["regular"],
   "subsets": ["balinese", "latin", "latin-ext"],
-  "version": "v20",
-  "lastModified": "2024-07-30",
+  "version": "v21",
+  "lastModified": "2025-09-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notoserifbalinese/v20/QdVKSS0-JginysQSRvuCmUMB_wVeQAxXRbgJdhapcUU.ttf"
+    "regular": "https://fonts.gstatic.com/s/notoserifbalinese/v21/QdVKSS0-JginysQSRvuCmUMB_wVeQAxXRbgJdhapcUU.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notoserifbalinese/v20/QdVKSS0-JginysQSRvuCmUMB_wVeQAxXdbkDcg.ttf"
+  "menu": "https://fonts.gstatic.com/s/notoserifbalinese/v21/QdVKSS0-JginysQSRvuCmUMB_wVeQAxXdbkDcg.ttf"
 }

@@ -2,18 +2,18 @@
   "family": "Palanquin",
   "variants": ["100", "200", "300", "regular", "500", "600", "700"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v16",
-  "lastModified": "2024-11-20",
+  "version": "v17",
+  "lastModified": "2025-09-11",
   "files": {
-    "100": "https://fonts.gstatic.com/s/palanquin/v16/9XUhlJ90n1fBFg7ceXwUEltI7rWmZzTH.ttf",
-    "200": "https://fonts.gstatic.com/s/palanquin/v16/9XUilJ90n1fBFg7ceXwUvnpoxJuqbi3ezg.ttf",
-    "300": "https://fonts.gstatic.com/s/palanquin/v16/9XUilJ90n1fBFg7ceXwU2nloxJuqbi3ezg.ttf",
-    "500": "https://fonts.gstatic.com/s/palanquin/v16/9XUilJ90n1fBFg7ceXwUgnhoxJuqbi3ezg.ttf",
-    "600": "https://fonts.gstatic.com/s/palanquin/v16/9XUilJ90n1fBFg7ceXwUrn9oxJuqbi3ezg.ttf",
-    "700": "https://fonts.gstatic.com/s/palanquin/v16/9XUilJ90n1fBFg7ceXwUyn5oxJuqbi3ezg.ttf",
-    "regular": "https://fonts.gstatic.com/s/palanquin/v16/9XUnlJ90n1fBFg7ceXwsdlFMzLC2Zw.ttf"
+    "100": "https://fonts.gstatic.com/s/palanquin/v17/9XUhlJ90n1fBFg7ceXwUEltI7rWmZzTH.ttf",
+    "200": "https://fonts.gstatic.com/s/palanquin/v17/9XUilJ90n1fBFg7ceXwUvnpoxJuqbi3ezg.ttf",
+    "300": "https://fonts.gstatic.com/s/palanquin/v17/9XUilJ90n1fBFg7ceXwU2nloxJuqbi3ezg.ttf",
+    "500": "https://fonts.gstatic.com/s/palanquin/v17/9XUilJ90n1fBFg7ceXwUgnhoxJuqbi3ezg.ttf",
+    "600": "https://fonts.gstatic.com/s/palanquin/v17/9XUilJ90n1fBFg7ceXwUrn9oxJuqbi3ezg.ttf",
+    "700": "https://fonts.gstatic.com/s/palanquin/v17/9XUilJ90n1fBFg7ceXwUyn5oxJuqbi3ezg.ttf",
+    "regular": "https://fonts.gstatic.com/s/palanquin/v17/9XUnlJ90n1fBFg7ceXwsdlFMzLC2Zw.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/palanquin/v16/9XUnlJ90n1fBFg7ceXwcd1tI.ttf"
+  "menu": "https://fonts.gstatic.com/s/palanquin/v17/9XUnlJ90n1fBFg7ceXwcd1tI.ttf"
 }

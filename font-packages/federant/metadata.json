@@ -2,12 +2,12 @@
   "family": "Federant",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v29",
-  "lastModified": "2024-09-04",
+  "version": "v31",
+  "lastModified": "2025-09-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/federant/v29/2sDdZGNfip_eirT0_U0jRUG0AqUc.ttf"
+    "regular": "https://fonts.gstatic.com/s/federant/v31/2sDdZGNfip_eirT0_U0jRUG0AqUc.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/federant/v29/2sDdZGNfip_eirT0_X0iT0U.ttf"
+  "menu": "https://fonts.gstatic.com/s/federant/v31/2sDdZGNfip_eirT0_X0iT0U.ttf"
 }

@@ -2,10 +2,10 @@
   "family": "Neucha",
   "variants": ["regular"],
   "subsets": ["cyrillic", "latin"],
-  "version": "v17",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/neucha/v17/q5uGsou0JOdh94bvugNsCxVEgA.ttf" },
+  "version": "v18",
+  "lastModified": "2025-09-11",
+  "files": { "regular": "https://fonts.gstatic.com/s/neucha/v18/q5uGsou0JOdh94bvugNsCxVEgA.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/neucha/v17/q5uGsou0JOdh94bfuwlo.ttf"
+  "menu": "https://fonts.gstatic.com/s/neucha/v18/q5uGsou0JOdh94bfuwlo.ttf"
 }

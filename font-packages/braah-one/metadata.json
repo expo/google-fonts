@@ -2,12 +2,12 @@
   "family": "Braah One",
   "variants": ["regular"],
   "subsets": ["gurmukhi", "latin", "latin-ext", "vietnamese"],
-  "version": "v7",
-  "lastModified": "2025-06-02",
+  "version": "v8",
+  "lastModified": "2025-09-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/braahone/v7/KFOlCnWUpt6LsxxxiylvAx05IsDqlA.ttf"
+    "regular": "https://fonts.gstatic.com/s/braahone/v8/KFOlCnWUpt6LsxxxiylvAx05IsDqlA.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/braahone/v7/KFOlCnWUpt6LsxxxiylfAhc9.ttf"
+  "menu": "https://fonts.gstatic.com/s/braahone/v8/KFOlCnWUpt6LsxxxiylfAhc9.ttf"
 }

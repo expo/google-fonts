@@ -2,12 +2,12 @@
   "family": "Send Flowers",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v6",
-  "lastModified": "2025-06-02",
+  "version": "v7",
+  "lastModified": "2025-09-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/sendflowers/v6/If2PXTjtZS-0Xqy13uCQSULvxwjjouU1iw.ttf"
+    "regular": "https://fonts.gstatic.com/s/sendflowers/v7/If2PXTjtZS-0Xqy13uCQSULvxwjjouU1iw.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/sendflowers/v6/If2PXTjtZS-0Xqy13uCQSULfxgLn.ttf"
+  "menu": "https://fonts.gstatic.com/s/sendflowers/v7/If2PXTjtZS-0Xqy13uCQSULfxgLn.ttf"
 }

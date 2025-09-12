@@ -2,12 +2,12 @@
   "family": "Clicker Script",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v13",
-  "lastModified": "2024-09-04",
+  "version": "v14",
+  "lastModified": "2025-09-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/clickerscript/v13/raxkHiKPvt8CMH6ZWP8PdlEq72rY2zqUKafv.ttf"
+    "regular": "https://fonts.gstatic.com/s/clickerscript/v14/raxkHiKPvt8CMH6ZWP8PdlEq72rY2zqUKafv.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/clickerscript/v13/raxkHiKPvt8CMH6ZWP8PdlEq71rZ0T4.ttf"
+  "menu": "https://fonts.gstatic.com/s/clickerscript/v14/raxkHiKPvt8CMH6ZWP8PdlEq71rZ0T4.ttf"
 }

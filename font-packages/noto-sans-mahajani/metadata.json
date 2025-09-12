@@ -2,12 +2,12 @@
   "family": "Noto Sans Mahajani",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "mahajani"],
-  "version": "v19",
-  "lastModified": "2023-09-13",
+  "version": "v20",
+  "lastModified": "2025-09-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosansmahajani/v19/-F6sfiVqLzI2JPCgQBnw60Agp0JrvD5Fh8ARHNh4zg.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansmahajani/v20/-F6sfiVqLzI2JPCgQBnw60Agp0JrvD5Fh8ARHNh4zg.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosansmahajani/v19/-F6sfiVqLzI2JPCgQBnw60Agp0JrvD51hsoV.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosansmahajani/v20/-F6sfiVqLzI2JPCgQBnw60Agp0JrvD51hsoV.ttf"
 }

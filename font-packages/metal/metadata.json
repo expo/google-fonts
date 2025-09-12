@@ -2,10 +2,10 @@
   "family": "Metal",
   "variants": ["regular"],
   "subsets": ["khmer", "latin"],
-  "version": "v31",
-  "lastModified": "2025-01-23",
-  "files": { "regular": "https://fonts.gstatic.com/s/metal/v31/lW-wwjUJIXTo7i3nnoQAUdN2.ttf" },
+  "version": "v32",
+  "lastModified": "2025-09-11",
+  "files": { "regular": "https://fonts.gstatic.com/s/metal/v32/lW-wwjUJIXTo7i3nnoQAUdN2.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/metal/v31/lW-wwjUJIXTo7h3mlIA.ttf"
+  "menu": "https://fonts.gstatic.com/s/metal/v32/lW-wwjUJIXTo7h3mlIA.ttf"
 }

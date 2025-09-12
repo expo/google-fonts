@@ -2,12 +2,12 @@
   "family": "Leckerli One",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v20",
-  "lastModified": "2024-09-04",
+  "version": "v22",
+  "lastModified": "2025-09-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/leckerlione/v20/V8mCoQH8VCsNttEnxnGQ-1itLZxcBtItFw.ttf"
+    "regular": "https://fonts.gstatic.com/s/leckerlione/v22/V8mCoQH8VCsNttEnxnGQ-1itLZxcBtItFw.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/leckerlione/v20/V8mCoQH8VCsNttEnxnGQ-1idLJZY.ttf"
+  "menu": "https://fonts.gstatic.com/s/leckerlione/v22/V8mCoQH8VCsNttEnxnGQ-1idLJZY.ttf"
 }

@@ -2,12 +2,12 @@
   "family": "DotGothic16",
   "variants": ["regular"],
   "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
-  "version": "v19",
-  "lastModified": "2024-12-04",
+  "version": "v21",
+  "lastModified": "2025-09-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/dotgothic16/v19/v6-QGYjBJFKgyw5nSoDAGE7L435YPFrT.ttf"
+    "regular": "https://fonts.gstatic.com/s/dotgothic16/v21/v6-QGYjBJFKgyw5nSoDAGE7L435YPFrT.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/dotgothic16/v19/v6-QGYjBJFKgyw5nSoDAGH7K6Xo.ttf"
+  "menu": "https://fonts.gstatic.com/s/dotgothic16/v21/v6-QGYjBJFKgyw5nSoDAGH7K6Xo.ttf"
 }

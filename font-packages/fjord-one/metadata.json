@@ -2,12 +2,12 @@
   "family": "Fjord One",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v21",
-  "lastModified": "2024-09-04",
+  "version": "v22",
+  "lastModified": "2025-09-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/fjordone/v21/zOL-4pbEnKBY_9S1jNKr6e5As-FeiQ.ttf"
+    "regular": "https://fonts.gstatic.com/s/fjordone/v22/zOL-4pbEnKBY_9S1jNKr6e5As-FeiQ.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/fjordone/v21/zOL-4pbEnKBY_9S1jNKb6ORE.ttf"
+  "menu": "https://fonts.gstatic.com/s/fjordone/v22/zOL-4pbEnKBY_9S1jNKb6ORE.ttf"
 }

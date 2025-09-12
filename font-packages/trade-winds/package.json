@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/trade-winds",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Use the Trade Winds font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {
