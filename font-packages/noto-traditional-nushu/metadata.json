@@ -2,16 +2,16 @@
   "family": "Noto Traditional Nushu",
   "variants": ["300", "regular", "500", "600", "700"],
   "subsets": ["latin", "latin-ext", "nushu"],
-  "version": "v22",
-  "lastModified": "2024-12-04",
+  "version": "v23",
+  "lastModified": "2025-09-11",
   "files": {
-    "300": "https://fonts.gstatic.com/s/nototraditionalnushu/v22/SZcV3EDkJ7q9FaoMPlmF4Su8hlIjoGh5aj67PUZX6ADm6oa8IXvy1tnPa7QoqirI.ttf",
-    "500": "https://fonts.gstatic.com/s/nototraditionalnushu/v22/SZcV3EDkJ7q9FaoMPlmF4Su8hlIjoGh5aj67PUZX6ADm6oa8IXue1tnPa7QoqirI.ttf",
-    "600": "https://fonts.gstatic.com/s/nototraditionalnushu/v22/SZcV3EDkJ7q9FaoMPlmF4Su8hlIjoGh5aj67PUZX6ADm6oa8IXty0dnPa7QoqirI.ttf",
-    "700": "https://fonts.gstatic.com/s/nototraditionalnushu/v22/SZcV3EDkJ7q9FaoMPlmF4Su8hlIjoGh5aj67PUZX6ADm6oa8IXtL0dnPa7QoqirI.ttf",
-    "regular": "https://fonts.gstatic.com/s/nototraditionalnushu/v22/SZcV3EDkJ7q9FaoMPlmF4Su8hlIjoGh5aj67PUZX6ADm6oa8IXus1tnPa7QoqirI.ttf"
+    "300": "https://fonts.gstatic.com/s/nototraditionalnushu/v23/SZcV3EDkJ7q9FaoMPlmF4Su8hlIjoGh5aj67PUZX6ADm6oa8IXvy1tnPa7QoqirI.ttf",
+    "500": "https://fonts.gstatic.com/s/nototraditionalnushu/v23/SZcV3EDkJ7q9FaoMPlmF4Su8hlIjoGh5aj67PUZX6ADm6oa8IXue1tnPa7QoqirI.ttf",
+    "600": "https://fonts.gstatic.com/s/nototraditionalnushu/v23/SZcV3EDkJ7q9FaoMPlmF4Su8hlIjoGh5aj67PUZX6ADm6oa8IXty0dnPa7QoqirI.ttf",
+    "700": "https://fonts.gstatic.com/s/nototraditionalnushu/v23/SZcV3EDkJ7q9FaoMPlmF4Su8hlIjoGh5aj67PUZX6ADm6oa8IXtL0dnPa7QoqirI.ttf",
+    "regular": "https://fonts.gstatic.com/s/nototraditionalnushu/v23/SZcV3EDkJ7q9FaoMPlmF4Su8hlIjoGh5aj67PUZX6ADm6oa8IXus1tnPa7QoqirI.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/nototraditionalnushu/v22/SZcV3EDkJ7q9FaoMPlmF4Su8hlIjoGh5aj67PUZX6ADm6oa8IXus1unOYbA.ttf"
+  "menu": "https://fonts.gstatic.com/s/nototraditionalnushu/v23/SZcV3EDkJ7q9FaoMPlmF4Su8hlIjoGh5aj67PUZX6ADm6oa8IXus1unOYbA.ttf"
 }

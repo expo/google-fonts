@@ -2,12 +2,12 @@
   "family": "Bakbak One",
   "variants": ["regular"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2024-12-04",
+  "version": "v11",
+  "lastModified": "2025-09-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/bakbakone/v9/zOL54pXAl6RI-p_ardnuycRuv-hHkOs.ttf"
+    "regular": "https://fonts.gstatic.com/s/bakbakone/v11/zOL54pXAl6RI-p_ardnuycRuv-hHkOs.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/bakbakone/v9/zOL54pXAl6RI-p_ardnu-cVkuw.ttf"
+  "menu": "https://fonts.gstatic.com/s/bakbakone/v11/zOL54pXAl6RI-p_ardnu-cVkuw.ttf"
 }

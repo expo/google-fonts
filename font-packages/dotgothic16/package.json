@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/dotgothic16",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Use the DotGothic16 font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

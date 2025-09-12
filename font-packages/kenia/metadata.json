@@ -2,10 +2,10 @@
   "family": "Kenia",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v28",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/kenia/v28/jizURE5PuHQH9qCONUGswfGM.ttf" },
+  "version": "v30",
+  "lastModified": "2025-09-11",
+  "files": { "regular": "https://fonts.gstatic.com/s/kenia/v30/jizURE5PuHQH9qCONUGswfGM.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/kenia/v28/jizURE5PuHQH9pCPP0U.ttf"
+  "menu": "https://fonts.gstatic.com/s/kenia/v30/jizURE5PuHQH9pCPP0U.ttf"
 }

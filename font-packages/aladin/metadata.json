@@ -2,10 +2,10 @@
   "family": "Aladin",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v24",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/aladin/v24/ZgNSjPJFPrvJV5f16Sf4pGT2Ng.ttf" },
+  "version": "v26",
+  "lastModified": "2025-09-11",
+  "files": { "regular": "https://fonts.gstatic.com/s/aladin/v26/ZgNSjPJFPrvJV5f16Sf4pGT2Ng.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/aladin/v24/ZgNSjPJFPrvJV5fF6C38.ttf"
+  "menu": "https://fonts.gstatic.com/s/aladin/v26/ZgNSjPJFPrvJV5fF6C38.ttf"
 }

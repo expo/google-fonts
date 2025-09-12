@@ -2,13 +2,13 @@
   "family": "Tangerine",
   "variants": ["regular", "700"],
   "subsets": ["latin"],
-  "version": "v17",
-  "lastModified": "2024-09-04",
+  "version": "v18",
+  "lastModified": "2025-09-11",
   "files": {
-    "700": "https://fonts.gstatic.com/s/tangerine/v17/Iurd6Y5j_oScZZow4VO5srNpjJtM6G0t9w.ttf",
-    "regular": "https://fonts.gstatic.com/s/tangerine/v17/IurY6Y5j_oScZZow4VOBDpxNhLBQ4Q.ttf"
+    "700": "https://fonts.gstatic.com/s/tangerine/v18/Iurd6Y5j_oScZZow4VO5srNpjJtM6G0t9w.ttf",
+    "regular": "https://fonts.gstatic.com/s/tangerine/v18/IurY6Y5j_oScZZow4VOBDpxNhLBQ4Q.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/tangerine/v17/IurY6Y5j_oScZZow4VOxD5ZJ.ttf"
+  "menu": "https://fonts.gstatic.com/s/tangerine/v18/IurY6Y5j_oScZZow4VOxD5ZJ.ttf"
 }

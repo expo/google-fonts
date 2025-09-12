@@ -2,12 +2,12 @@
   "family": "Noto Sans Elbasan",
   "variants": ["regular"],
   "subsets": ["elbasan", "latin", "latin-ext"],
-  "version": "v16",
-  "lastModified": "2023-05-23",
+  "version": "v17",
+  "lastModified": "2025-09-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosanselbasan/v16/-F6rfiZqLzI2JPCgQBnw400qp1trvHdlre4dFcFh.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosanselbasan/v17/-F6rfiZqLzI2JPCgQBnw400qp1trvHdlre4dFcFh.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosanselbasan/v16/-F6rfiZqLzI2JPCgQBnw400qp1trvEdkp-o.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosanselbasan/v17/-F6rfiZqLzI2JPCgQBnw400qp1trvEdkp-o.ttf"
 }

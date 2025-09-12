@@ -2,12 +2,12 @@
   "family": "Condiment",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v24",
-  "lastModified": "2024-09-04",
+  "version": "v26",
+  "lastModified": "2025-09-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/condiment/v24/pONk1hggFNmwvXALyH6Sq4n4o1vyCQ.ttf"
+    "regular": "https://fonts.gstatic.com/s/condiment/v26/pONk1hggFNmwvXALyH6Sq4n4o1vyCQ.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/condiment/v24/pONk1hggFNmwvXALyH6iqoP8.ttf"
+  "menu": "https://fonts.gstatic.com/s/condiment/v26/pONk1hggFNmwvXALyH6iqoP8.ttf"
 }

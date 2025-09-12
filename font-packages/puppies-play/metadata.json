@@ -2,12 +2,12 @@
   "family": "Puppies Play",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v10",
-  "lastModified": "2025-06-02",
+  "version": "v11",
+  "lastModified": "2025-09-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/puppiesplay/v10/wlp2gwHZEV99rG6M3NR9uB9vaAJSA_JN3Q.ttf"
+    "regular": "https://fonts.gstatic.com/s/puppiesplay/v11/wlp2gwHZEV99rG6M3NR9uB9vaAJSA_JN3Q.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/puppiesplay/v10/wlp2gwHZEV99rG6M3NR9uB9faQhW.ttf"
+  "menu": "https://fonts.gstatic.com/s/puppiesplay/v11/wlp2gwHZEV99rG6M3NR9uB9faQhW.ttf"
 }

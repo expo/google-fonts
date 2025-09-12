@@ -2,12 +2,12 @@
   "family": "Noto Sans Phoenician",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "phoenician"],
-  "version": "v17",
-  "lastModified": "2023-07-24",
+  "version": "v18",
+  "lastModified": "2025-09-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosansphoenician/v17/jizFRF9Ksm4Bt9PvcTaEkIHiTVtxmFtS5X7Jot-p5561.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansphoenician/v18/jizFRF9Ksm4Bt9PvcTaEkIHiTVtxmFtS5X7Jot-p5561.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosansphoenician/v17/jizFRF9Ksm4Bt9PvcTaEkIHiTVtxmFtS5U7IqNs.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosansphoenician/v18/jizFRF9Ksm4Bt9PvcTaEkIHiTVtxmFtS5U7IqNs.ttf"
 }

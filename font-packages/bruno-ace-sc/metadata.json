@@ -2,12 +2,12 @@
   "family": "Bruno Ace SC",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v5",
-  "lastModified": "2024-09-04",
+  "version": "v7",
+  "lastModified": "2025-09-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/brunoacesc/v5/ptROTiycffFLBuiHjdJDl634LSFrpe8uZA.ttf"
+    "regular": "https://fonts.gstatic.com/s/brunoacesc/v7/ptROTiycffFLBuiHjdJDl634LSFrpe8uZA.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/brunoacesc/v5/ptROTiycffFLBuiHjdJDl63ILCtv.ttf"
+  "menu": "https://fonts.gstatic.com/s/brunoacesc/v7/ptROTiycffFLBuiHjdJDl63ILCtv.ttf"
 }

@@ -2,10 +2,10 @@
   "family": "Quando",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v16",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/quando/v16/xMQVuFNaVa6YuW0pC6WzKX_QmA.ttf" },
+  "version": "v18",
+  "lastModified": "2025-09-11",
+  "files": { "regular": "https://fonts.gstatic.com/s/quando/v18/xMQVuFNaVa6YuW0pC6WzKX_QmA.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/quando/v16/xMQVuFNaVa6YuW0ZCq-3.ttf"
+  "menu": "https://fonts.gstatic.com/s/quando/v18/xMQVuFNaVa6YuW0ZCq-3.ttf"
 }

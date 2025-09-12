@@ -2,12 +2,12 @@
   "family": "Neonderthaw",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v7",
-  "lastModified": "2025-06-02",
+  "version": "v8",
+  "lastModified": "2025-09-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/neonderthaw/v7/Iure6Yx5-oWVZI0r-17AeZZJprVA4XQ0.ttf"
+    "regular": "https://fonts.gstatic.com/s/neonderthaw/v8/Iure6Yx5-oWVZI0r-17AeZZJprVA4XQ0.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/neonderthaw/v7/Iure6Yx5-oWVZI0r-17AeaZIrLE.ttf"
+  "menu": "https://fonts.gstatic.com/s/neonderthaw/v8/Iure6Yx5-oWVZI0r-17AeaZIrLE.ttf"
 }

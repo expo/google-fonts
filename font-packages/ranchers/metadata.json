@@ -2,12 +2,12 @@
   "family": "Ranchers",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v17",
-  "lastModified": "2024-09-04",
+  "version": "v19",
+  "lastModified": "2025-09-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/ranchers/v17/zrfm0H3Lx-P2Xvs2AoDYDC79XTHv.ttf"
+    "regular": "https://fonts.gstatic.com/s/ranchers/v19/zrfm0H3Lx-P2Xvs2AoDYDC79XTHv.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/ranchers/v17/zrfm0H3Lx-P2Xvs2ArDZBio.ttf"
+  "menu": "https://fonts.gstatic.com/s/ranchers/v19/zrfm0H3Lx-P2Xvs2ArDZBio.ttf"
 }

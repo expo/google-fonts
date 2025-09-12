@@ -2,10 +2,10 @@
   "family": "Barrio",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v19",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/barrio/v19/wEO8EBXBk8hBIDiEdQYhWdsX1Q.ttf" },
+  "version": "v20",
+  "lastModified": "2025-09-11",
+  "files": { "regular": "https://fonts.gstatic.com/s/barrio/v20/wEO8EBXBk8hBIDiEdQYhWdsX1Q.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/barrio/v19/wEO8EBXBk8hBIDi0dAwl.ttf"
+  "menu": "https://fonts.gstatic.com/s/barrio/v20/wEO8EBXBk8hBIDi0dAwl.ttf"
 }

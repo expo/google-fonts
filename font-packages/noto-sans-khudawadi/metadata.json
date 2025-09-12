@@ -2,12 +2,12 @@
   "family": "Noto Sans Khudawadi",
   "variants": ["regular"],
   "subsets": ["khudawadi", "latin", "latin-ext"],
-  "version": "v22",
-  "lastModified": "2024-08-21",
+  "version": "v23",
+  "lastModified": "2025-09-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosanskhudawadi/v22/fdNi9t6ZsWBZ2k5ltHN73zZ5hc8HANlHIjRnVVXz9MY.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosanskhudawadi/v23/fdNi9t6ZsWBZ2k5ltHN73zZ5hc8HANlHIjRnVVXz9MY.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosanskhudawadi/v22/fdNi9t6ZsWBZ2k5ltHN73zZ5hc8HANlHEjVtUQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosanskhudawadi/v23/fdNi9t6ZsWBZ2k5ltHN73zZ5hc8HANlHEjVtUQ.ttf"
 }

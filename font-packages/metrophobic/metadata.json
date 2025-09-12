@@ -2,12 +2,12 @@
   "family": "Metrophobic",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v23",
-  "lastModified": "2024-09-04",
+  "version": "v24",
+  "lastModified": "2025-09-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/metrophobic/v23/sJoA3LZUhMSAPV_u0qwiAT-J737FPEEL.ttf"
+    "regular": "https://fonts.gstatic.com/s/metrophobic/v24/sJoA3LZUhMSAPV_u0qwiAT-J737FPEEL.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/metrophobic/v23/sJoA3LZUhMSAPV_u0qwiAQ-I5Xo.ttf"
+  "menu": "https://fonts.gstatic.com/s/metrophobic/v24/sJoA3LZUhMSAPV_u0qwiAQ-I5Xo.ttf"
 }

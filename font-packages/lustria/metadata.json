@@ -2,10 +2,10 @@
   "family": "Lustria",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v13",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/lustria/v13/9oRONYodvDEyjuhOrCg5MtPyAcg.ttf" },
+  "version": "v14",
+  "lastModified": "2025-09-11",
+  "files": { "regular": "https://fonts.gstatic.com/s/lustria/v14/9oRONYodvDEyjuhOrCg5MtPyAcg.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/lustria/v13/9oRONYodvDEyjuhOnCkzNg.ttf"
+  "menu": "https://fonts.gstatic.com/s/lustria/v14/9oRONYodvDEyjuhOnCkzNg.ttf"
 }

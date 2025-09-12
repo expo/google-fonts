@@ -2,12 +2,12 @@
   "family": "Electrolize",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v18",
-  "lastModified": "2024-09-04",
+  "version": "v20",
+  "lastModified": "2025-09-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/electrolize/v18/cIf5Ma1dtE0zSiGSiED7AUEGso5tQafB.ttf"
+    "regular": "https://fonts.gstatic.com/s/electrolize/v20/cIf5Ma1dtE0zSiGSiED7AUEGso5tQafB.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/electrolize/v18/cIf5Ma1dtE0zSiGSiED7AXEHuIo.ttf"
+  "menu": "https://fonts.gstatic.com/s/electrolize/v20/cIf5Ma1dtE0zSiGSiED7AXEHuIo.ttf"
 }

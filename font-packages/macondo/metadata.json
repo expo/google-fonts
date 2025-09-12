@@ -2,10 +2,10 @@
   "family": "Macondo",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v25",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/macondo/v25/RrQQboN9-iB1IXmOS2XO0LBBd4Y.ttf" },
+  "version": "v27",
+  "lastModified": "2025-09-11",
+  "files": { "regular": "https://fonts.gstatic.com/s/macondo/v27/RrQQboN9-iB1IXmOS2XO0LBBd4Y.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/macondo/v25/RrQQboN9-iB1IXmOe2TE1A.ttf"
+  "menu": "https://fonts.gstatic.com/s/macondo/v27/RrQQboN9-iB1IXmOe2TE1A.ttf"
 }

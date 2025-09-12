@@ -11,20 +11,20 @@
     "latin-ext",
     "vietnamese"
   ],
-  "version": "v17",
-  "lastModified": "2024-11-20",
+  "version": "v18",
+  "lastModified": "2025-09-11",
   "files": {
-    "100": "https://fonts.gstatic.com/s/gothica1/v17/CSR74z5ZnPydRjlCCwlCCMcqYtd2vfwk.ttf",
-    "200": "https://fonts.gstatic.com/s/gothica1/v17/CSR44z5ZnPydRjlCCwlCpOYKSPl6tOU9Eg.ttf",
-    "300": "https://fonts.gstatic.com/s/gothica1/v17/CSR44z5ZnPydRjlCCwlCwOUKSPl6tOU9Eg.ttf",
-    "500": "https://fonts.gstatic.com/s/gothica1/v17/CSR44z5ZnPydRjlCCwlCmOQKSPl6tOU9Eg.ttf",
-    "600": "https://fonts.gstatic.com/s/gothica1/v17/CSR44z5ZnPydRjlCCwlCtOMKSPl6tOU9Eg.ttf",
-    "700": "https://fonts.gstatic.com/s/gothica1/v17/CSR44z5ZnPydRjlCCwlC0OIKSPl6tOU9Eg.ttf",
-    "800": "https://fonts.gstatic.com/s/gothica1/v17/CSR44z5ZnPydRjlCCwlCzOEKSPl6tOU9Eg.ttf",
-    "900": "https://fonts.gstatic.com/s/gothica1/v17/CSR44z5ZnPydRjlCCwlC6OAKSPl6tOU9Eg.ttf",
-    "regular": "https://fonts.gstatic.com/s/gothica1/v17/CSR94z5ZnPydRjlCCwl6bM0uQNJmvQ.ttf"
+    "100": "https://fonts.gstatic.com/s/gothica1/v18/CSR74z5ZnPydRjlCCwlCCMcqYtd2vfwk.ttf",
+    "200": "https://fonts.gstatic.com/s/gothica1/v18/CSR44z5ZnPydRjlCCwlCpOYKSPl6tOU9Eg.ttf",
+    "300": "https://fonts.gstatic.com/s/gothica1/v18/CSR44z5ZnPydRjlCCwlCwOUKSPl6tOU9Eg.ttf",
+    "500": "https://fonts.gstatic.com/s/gothica1/v18/CSR44z5ZnPydRjlCCwlCmOQKSPl6tOU9Eg.ttf",
+    "600": "https://fonts.gstatic.com/s/gothica1/v18/CSR44z5ZnPydRjlCCwlCtOMKSPl6tOU9Eg.ttf",
+    "700": "https://fonts.gstatic.com/s/gothica1/v18/CSR44z5ZnPydRjlCCwlC0OIKSPl6tOU9Eg.ttf",
+    "800": "https://fonts.gstatic.com/s/gothica1/v18/CSR44z5ZnPydRjlCCwlCzOEKSPl6tOU9Eg.ttf",
+    "900": "https://fonts.gstatic.com/s/gothica1/v18/CSR44z5ZnPydRjlCCwlC6OAKSPl6tOU9Eg.ttf",
+    "regular": "https://fonts.gstatic.com/s/gothica1/v18/CSR94z5ZnPydRjlCCwl6bM0uQNJmvQ.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/gothica1/v17/CSR94z5ZnPydRjlCCwlKbccq.ttf"
+  "menu": "https://fonts.gstatic.com/s/gothica1/v18/CSR94z5ZnPydRjlCCwlKbccq.ttf"
 }

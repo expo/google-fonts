@@ -2,10 +2,10 @@
   "family": "Felipa",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v25",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/felipa/v25/FwZa7-owz1Eu4F_wSNSEwM2zpA.ttf" },
+  "version": "v27",
+  "lastModified": "2025-09-11",
+  "files": { "regular": "https://fonts.gstatic.com/s/felipa/v27/FwZa7-owz1Eu4F_wSNSEwM2zpA.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/felipa/v25/FwZa7-owz1Eu4F_ASd6A.ttf"
+  "menu": "https://fonts.gstatic.com/s/felipa/v27/FwZa7-owz1Eu4F_ASd6A.ttf"
 }

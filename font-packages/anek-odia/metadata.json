@@ -2,19 +2,19 @@
   "family": "Anek Odia",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
   "subsets": ["latin", "latin-ext", "oriya"],
-  "version": "v16",
-  "lastModified": "2024-12-04",
+  "version": "v17",
+  "lastModified": "2025-09-11",
   "files": {
-    "100": "https://fonts.gstatic.com/s/anekodia/v16/TK3PWkoJARApz5UCd345tuevwwQX0CwsoYkAWgWYevAauivBUnmZf63mXZAtm_es.ttf",
-    "200": "https://fonts.gstatic.com/s/anekodia/v16/TK3PWkoJARApz5UCd345tuevwwQX0CwsoYkAWgWYevAauivBUnkZfq3mXZAtm_es.ttf",
-    "300": "https://fonts.gstatic.com/s/anekodia/v16/TK3PWkoJARApz5UCd345tuevwwQX0CwsoYkAWgWYevAauivBUnnHfq3mXZAtm_es.ttf",
-    "500": "https://fonts.gstatic.com/s/anekodia/v16/TK3PWkoJARApz5UCd345tuevwwQX0CwsoYkAWgWYevAauivBUnmrfq3mXZAtm_es.ttf",
-    "600": "https://fonts.gstatic.com/s/anekodia/v16/TK3PWkoJARApz5UCd345tuevwwQX0CwsoYkAWgWYevAauivBUnlHea3mXZAtm_es.ttf",
-    "700": "https://fonts.gstatic.com/s/anekodia/v16/TK3PWkoJARApz5UCd345tuevwwQX0CwsoYkAWgWYevAauivBUnl-ea3mXZAtm_es.ttf",
-    "800": "https://fonts.gstatic.com/s/anekodia/v16/TK3PWkoJARApz5UCd345tuevwwQX0CwsoYkAWgWYevAauivBUnkZea3mXZAtm_es.ttf",
-    "regular": "https://fonts.gstatic.com/s/anekodia/v16/TK3PWkoJARApz5UCd345tuevwwQX0CwsoYkAWgWYevAauivBUnmZfq3mXZAtm_es.ttf"
+    "100": "https://fonts.gstatic.com/s/anekodia/v17/TK3PWkoJARApz5UCd345tuevwwQX0CwsoYkAWgWYevAauivBUnmZf63mXZAtm_es.ttf",
+    "200": "https://fonts.gstatic.com/s/anekodia/v17/TK3PWkoJARApz5UCd345tuevwwQX0CwsoYkAWgWYevAauivBUnkZfq3mXZAtm_es.ttf",
+    "300": "https://fonts.gstatic.com/s/anekodia/v17/TK3PWkoJARApz5UCd345tuevwwQX0CwsoYkAWgWYevAauivBUnnHfq3mXZAtm_es.ttf",
+    "500": "https://fonts.gstatic.com/s/anekodia/v17/TK3PWkoJARApz5UCd345tuevwwQX0CwsoYkAWgWYevAauivBUnmrfq3mXZAtm_es.ttf",
+    "600": "https://fonts.gstatic.com/s/anekodia/v17/TK3PWkoJARApz5UCd345tuevwwQX0CwsoYkAWgWYevAauivBUnlHea3mXZAtm_es.ttf",
+    "700": "https://fonts.gstatic.com/s/anekodia/v17/TK3PWkoJARApz5UCd345tuevwwQX0CwsoYkAWgWYevAauivBUnl-ea3mXZAtm_es.ttf",
+    "800": "https://fonts.gstatic.com/s/anekodia/v17/TK3PWkoJARApz5UCd345tuevwwQX0CwsoYkAWgWYevAauivBUnkZea3mXZAtm_es.ttf",
+    "regular": "https://fonts.gstatic.com/s/anekodia/v17/TK3PWkoJARApz5UCd345tuevwwQX0CwsoYkAWgWYevAauivBUnmZfq3mXZAtm_es.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/anekodia/v16/TK3PWkoJARApz5UCd345tuevwwQX0CwsoYkAWgWYevAauivBUnmZfp3nV5Q.ttf"
+  "menu": "https://fonts.gstatic.com/s/anekodia/v17/TK3PWkoJARApz5UCd345tuevwwQX0CwsoYkAWgWYevAauivBUnmZfp3nV5Q.ttf"
 }

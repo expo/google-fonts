@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/noto-traditional-nushu",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Use the Noto Traditional Nushu font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

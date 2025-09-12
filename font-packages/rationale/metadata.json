@@ -2,12 +2,12 @@
   "family": "Rationale",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v28",
-  "lastModified": "2024-09-04",
+  "version": "v30",
+  "lastModified": "2025-09-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/rationale/v28/9XUnlJ92n0_JFxHIfHcsdlFMzLC2Zw.ttf"
+    "regular": "https://fonts.gstatic.com/s/rationale/v30/9XUnlJ92n0_JFxHIfHcsdlFMzLC2Zw.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/rationale/v28/9XUnlJ92n0_JFxHIfHccd1tI.ttf"
+  "menu": "https://fonts.gstatic.com/s/rationale/v30/9XUnlJ92n0_JFxHIfHccd1tI.ttf"
 }

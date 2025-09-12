@@ -2,12 +2,12 @@
   "family": "Noto Sans Mayan Numerals",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "mayan-numerals"],
-  "version": "v16",
-  "lastModified": "2024-09-04",
+  "version": "v17",
+  "lastModified": "2025-09-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosansmayannumerals/v16/PlIuFk25O6RzLfvNNVSivR09_KqYMwvvDKYjfIiE68oo6eepYQ.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansmayannumerals/v17/PlIuFk25O6RzLfvNNVSivR09_KqYMwvvDKYjfIiE68oo6eepYQ.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosansmayannumerals/v16/PlIuFk25O6RzLfvNNVSivR09_KqYMwvvDKYjfIi06sAs.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosansmayannumerals/v17/PlIuFk25O6RzLfvNNVSivR09_KqYMwvvDKYjfIi06sAs.ttf"
 }

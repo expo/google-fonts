@@ -2,10 +2,10 @@
   "family": "Galada",
   "variants": ["regular"],
   "subsets": ["bengali", "latin"],
-  "version": "v19",
-  "lastModified": "2024-12-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/galada/v19/H4cmBXyGmcjXlUX-8iw-4Lqggw.ttf" },
+  "version": "v21",
+  "lastModified": "2025-09-11",
+  "files": { "regular": "https://fonts.gstatic.com/s/galada/v21/H4cmBXyGmcjXlUX-8iw-4Lqggw.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/galada/v19/H4cmBXyGmcjXlUXO8yY6.ttf"
+  "menu": "https://fonts.gstatic.com/s/galada/v21/H4cmBXyGmcjXlUXO8yY6.ttf"
 }

@@ -2,12 +2,12 @@
   "family": "Bigelow Rules",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v29",
-  "lastModified": "2024-09-04",
+  "version": "v31",
+  "lastModified": "2025-09-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/bigelowrules/v29/RrQWboly8iR_I3KWSzeRuN0zT4cCH8WAJVk.ttf"
+    "regular": "https://fonts.gstatic.com/s/bigelowrules/v31/RrQWboly8iR_I3KWSzeRuN0zT4cCH8WAJVk.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/bigelowrules/v29/RrQWboly8iR_I3KWSzeRuN0zf4YIGw.ttf"
+  "menu": "https://fonts.gstatic.com/s/bigelowrules/v31/RrQWboly8iR_I3KWSzeRuN0zf4YIGw.ttf"
 }
