@@ -2,20 +2,20 @@
   "family": "Nokora",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["khmer", "latin"],
-  "version": "v33",
-  "lastModified": "2025-06-09",
+  "version": "v34",
+  "lastModified": "2025-09-16",
   "files": {
-    "100": "https://fonts.gstatic.com/s/nokora/v33/hYkVPuwgTubzaWxKMBj_emrD9wtMuj1ecbKpdHdrk1k.ttf",
-    "200": "https://fonts.gstatic.com/s/nokora/v33/hYkVPuwgTubzaWxKMBj_emrD9wtMur1fcbKpdHdrk1k.ttf",
-    "300": "https://fonts.gstatic.com/s/nokora/v33/hYkVPuwgTubzaWxKMBj_emrD9wtMumNfcbKpdHdrk1k.ttf",
-    "500": "https://fonts.gstatic.com/s/nokora/v33/hYkVPuwgTubzaWxKMBj_emrD9wtMug9fcbKpdHdrk1k.ttf",
-    "600": "https://fonts.gstatic.com/s/nokora/v33/hYkVPuwgTubzaWxKMBj_emrD9wtMuuNYcbKpdHdrk1k.ttf",
-    "700": "https://fonts.gstatic.com/s/nokora/v33/hYkVPuwgTubzaWxKMBj_emrD9wtMutpYcbKpdHdrk1k.ttf",
-    "800": "https://fonts.gstatic.com/s/nokora/v33/hYkVPuwgTubzaWxKMBj_emrD9wtMur1YcbKpdHdrk1k.ttf",
-    "900": "https://fonts.gstatic.com/s/nokora/v33/hYkVPuwgTubzaWxKMBj_emrD9wtMupRYcbKpdHdrk1k.ttf",
-    "regular": "https://fonts.gstatic.com/s/nokora/v33/hYkVPuwgTubzaWxKMBj_emrD9wtMuj1fcbKpdHdrk1k.ttf"
+    "100": "https://fonts.gstatic.com/s/nokora/v34/hYkVPuwgTubzaWxKMBj_emrD9wtMuj1ecbKpdHdrk1k.ttf",
+    "200": "https://fonts.gstatic.com/s/nokora/v34/hYkVPuwgTubzaWxKMBj_emrD9wtMur1fcbKpdHdrk1k.ttf",
+    "300": "https://fonts.gstatic.com/s/nokora/v34/hYkVPuwgTubzaWxKMBj_emrD9wtMumNfcbKpdHdrk1k.ttf",
+    "500": "https://fonts.gstatic.com/s/nokora/v34/hYkVPuwgTubzaWxKMBj_emrD9wtMug9fcbKpdHdrk1k.ttf",
+    "600": "https://fonts.gstatic.com/s/nokora/v34/hYkVPuwgTubzaWxKMBj_emrD9wtMuuNYcbKpdHdrk1k.ttf",
+    "700": "https://fonts.gstatic.com/s/nokora/v34/hYkVPuwgTubzaWxKMBj_emrD9wtMutpYcbKpdHdrk1k.ttf",
+    "800": "https://fonts.gstatic.com/s/nokora/v34/hYkVPuwgTubzaWxKMBj_emrD9wtMur1YcbKpdHdrk1k.ttf",
+    "900": "https://fonts.gstatic.com/s/nokora/v34/hYkVPuwgTubzaWxKMBj_emrD9wtMupRYcbKpdHdrk1k.ttf",
+    "regular": "https://fonts.gstatic.com/s/nokora/v34/hYkVPuwgTubzaWxKMBj_emrD9wtMuj1fcbKpdHdrk1k.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/nokora/v33/hYkVPuwgTubzaWxKMBj_emrD9wtMuj1fQbOjcA.ttf"
+  "menu": "https://fonts.gstatic.com/s/nokora/v34/hYkVPuwgTubzaWxKMBj_emrD9wtMuj1fQbOjcA.ttf"
 }

@@ -2,16 +2,16 @@
   "family": "Eczar",
   "variants": ["regular", "500", "600", "700", "800"],
   "subsets": ["devanagari", "greek", "greek-ext", "latin", "latin-ext"],
-  "version": "v24",
-  "lastModified": "2025-05-23",
+  "version": "v27",
+  "lastModified": "2025-09-16",
   "files": {
-    "500": "https://fonts.gstatic.com/s/eczar/v24/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXL96WqTIVKWJKWg.ttf",
-    "600": "https://fonts.gstatic.com/s/eczar/v24/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXw9mWqTIVKWJKWg.ttf",
-    "700": "https://fonts.gstatic.com/s/eczar/v24/BXR2vF3Pi-DLmxcpJB-qbNTyTMDX-tmWqTIVKWJKWg.ttf",
-    "800": "https://fonts.gstatic.com/s/eczar/v24/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXndmWqTIVKWJKWg.ttf",
-    "regular": "https://fonts.gstatic.com/s/eczar/v24/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXHd6WqTIVKWJKWg.ttf"
+    "500": "https://fonts.gstatic.com/s/eczar/v27/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXL96WqTIVKWJKWg.ttf",
+    "600": "https://fonts.gstatic.com/s/eczar/v27/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXw9mWqTIVKWJKWg.ttf",
+    "700": "https://fonts.gstatic.com/s/eczar/v27/BXR2vF3Pi-DLmxcpJB-qbNTyTMDX-tmWqTIVKWJKWg.ttf",
+    "800": "https://fonts.gstatic.com/s/eczar/v27/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXndmWqTIVKWJKWg.ttf",
+    "regular": "https://fonts.gstatic.com/s/eczar/v27/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXHd6WqTIVKWJKWg.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/eczar/v24/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXHd6mqDgR.ttf"
+  "menu": "https://fonts.gstatic.com/s/eczar/v27/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXHd6mqDgR.ttf"
 }

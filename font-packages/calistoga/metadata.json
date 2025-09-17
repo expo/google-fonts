@@ -2,12 +2,12 @@
   "family": "Calistoga",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v16",
-  "lastModified": "2024-09-04",
+  "version": "v18",
+  "lastModified": "2025-09-16",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/calistoga/v16/6NUU8F2OJg6MeR7l4e0vtMYAwdRZfw.ttf"
+    "regular": "https://fonts.gstatic.com/s/calistoga/v18/6NUU8F2OJg6MeR7l4e0vtMYAwdRZfw.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/calistoga/v16/6NUU8F2OJg6MeR7l4e0ftcwE.ttf"
+  "menu": "https://fonts.gstatic.com/s/calistoga/v18/6NUU8F2OJg6MeR7l4e0ftcwE.ttf"
 }

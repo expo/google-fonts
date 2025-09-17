@@ -2,10 +2,10 @@
   "family": "Lalezar",
   "variants": ["regular"],
   "subsets": ["arabic", "latin", "latin-ext", "vietnamese"],
-  "version": "v15",
-  "lastModified": "2025-04-23",
-  "files": { "regular": "https://fonts.gstatic.com/s/lalezar/v15/zrfl0HLVx-HwTP82UaDyIiL0RCg.ttf" },
+  "version": "v16",
+  "lastModified": "2025-09-16",
+  "files": { "regular": "https://fonts.gstatic.com/s/lalezar/v16/zrfl0HLVx-HwTP82UaDyIiL0RCg.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/lalezar/v15/zrfl0HLVx-HwTP82YaH4Jg.ttf"
+  "menu": "https://fonts.gstatic.com/s/lalezar/v16/zrfl0HLVx-HwTP82YaH4Jg.ttf"
 }

@@ -2,20 +2,20 @@
   "family": "Bitcount Single",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v1",
-  "lastModified": "2025-07-16",
+  "version": "v3",
+  "lastModified": "2025-09-16",
   "files": {
-    "100": "https://fonts.gstatic.com/s/bitcountsingle/v1/or25Q6T72-iP2RY6OLSkb95a817cjULDyyhvb6tTxCxtAOObpH9NnfLjSWiXv_OGqtjRD0BNzrItMZWC-9SK8R6EpA2l9RAyOs8BbxT7gd3xw8jKC4tYzXjwevWm.ttf",
-    "200": "https://fonts.gstatic.com/s/bitcountsingle/v1/or25Q6T72-iP2RY6OLSkb95a817cjULDyyhvb6tTxCxtAOObpH9NnfLjSWiXv_OGqtjRD0BNzrItMZWC-9SK8R6EpA2l9RAyOs8BbxT7gd3xw8hKCotYzXjwevWm.ttf",
-    "300": "https://fonts.gstatic.com/s/bitcountsingle/v1/or25Q6T72-iP2RY6OLSkb95a817cjULDyyhvb6tTxCxtAOObpH9NnfLjSWiXv_OGqtjRD0BNzrItMZWC-9SK8R6EpA2l9RAyOs8BbxT7gd3xw8iUCotYzXjwevWm.ttf",
-    "500": "https://fonts.gstatic.com/s/bitcountsingle/v1/or25Q6T72-iP2RY6OLSkb95a817cjULDyyhvb6tTxCxtAOObpH9NnfLjSWiXv_OGqtjRD0BNzrItMZWC-9SK8R6EpA2l9RAyOs8BbxT7gd3xw8j4CotYzXjwevWm.ttf",
-    "600": "https://fonts.gstatic.com/s/bitcountsingle/v1/or25Q6T72-iP2RY6OLSkb95a817cjULDyyhvb6tTxCxtAOObpH9NnfLjSWiXv_OGqtjRD0BNzrItMZWC-9SK8R6EpA2l9RAyOs8BbxT7gd3xw8gUDYtYzXjwevWm.ttf",
-    "700": "https://fonts.gstatic.com/s/bitcountsingle/v1/or25Q6T72-iP2RY6OLSkb95a817cjULDyyhvb6tTxCxtAOObpH9NnfLjSWiXv_OGqtjRD0BNzrItMZWC-9SK8R6EpA2l9RAyOs8BbxT7gd3xw8gtDYtYzXjwevWm.ttf",
-    "800": "https://fonts.gstatic.com/s/bitcountsingle/v1/or25Q6T72-iP2RY6OLSkb95a817cjULDyyhvb6tTxCxtAOObpH9NnfLjSWiXv_OGqtjRD0BNzrItMZWC-9SK8R6EpA2l9RAyOs8BbxT7gd3xw8hKDYtYzXjwevWm.ttf",
-    "900": "https://fonts.gstatic.com/s/bitcountsingle/v1/or25Q6T72-iP2RY6OLSkb95a817cjULDyyhvb6tTxCxtAOObpH9NnfLjSWiXv_OGqtjRD0BNzrItMZWC-9SK8R6EpA2l9RAyOs8BbxT7gd3xw8hjDYtYzXjwevWm.ttf",
-    "regular": "https://fonts.gstatic.com/s/bitcountsingle/v1/or25Q6T72-iP2RY6OLSkb95a817cjULDyyhvb6tTxCxtAOObpH9NnfLjSWiXv_OGqtjRD0BNzrItMZWC-9SK8R6EpA2l9RAyOs8BbxT7gd3xw8jKCotYzXjwevWm.ttf"
+    "100": "https://fonts.gstatic.com/s/bitcountsingle/v3/or25Q6T72-iP2RY6OLSkb95a817cjULDyyhvb6tTxCxtAOObpH9NnfLjSWiXv_OGqtjRD0BNzrItMZWC-9SK8R6EpA2l9RAyOs8BbxT7gd3xw8jKC4tYzXjwevWm.ttf",
+    "200": "https://fonts.gstatic.com/s/bitcountsingle/v3/or25Q6T72-iP2RY6OLSkb95a817cjULDyyhvb6tTxCxtAOObpH9NnfLjSWiXv_OGqtjRD0BNzrItMZWC-9SK8R6EpA2l9RAyOs8BbxT7gd3xw8hKCotYzXjwevWm.ttf",
+    "300": "https://fonts.gstatic.com/s/bitcountsingle/v3/or25Q6T72-iP2RY6OLSkb95a817cjULDyyhvb6tTxCxtAOObpH9NnfLjSWiXv_OGqtjRD0BNzrItMZWC-9SK8R6EpA2l9RAyOs8BbxT7gd3xw8iUCotYzXjwevWm.ttf",
+    "500": "https://fonts.gstatic.com/s/bitcountsingle/v3/or25Q6T72-iP2RY6OLSkb95a817cjULDyyhvb6tTxCxtAOObpH9NnfLjSWiXv_OGqtjRD0BNzrItMZWC-9SK8R6EpA2l9RAyOs8BbxT7gd3xw8j4CotYzXjwevWm.ttf",
+    "600": "https://fonts.gstatic.com/s/bitcountsingle/v3/or25Q6T72-iP2RY6OLSkb95a817cjULDyyhvb6tTxCxtAOObpH9NnfLjSWiXv_OGqtjRD0BNzrItMZWC-9SK8R6EpA2l9RAyOs8BbxT7gd3xw8gUDYtYzXjwevWm.ttf",
+    "700": "https://fonts.gstatic.com/s/bitcountsingle/v3/or25Q6T72-iP2RY6OLSkb95a817cjULDyyhvb6tTxCxtAOObpH9NnfLjSWiXv_OGqtjRD0BNzrItMZWC-9SK8R6EpA2l9RAyOs8BbxT7gd3xw8gtDYtYzXjwevWm.ttf",
+    "800": "https://fonts.gstatic.com/s/bitcountsingle/v3/or25Q6T72-iP2RY6OLSkb95a817cjULDyyhvb6tTxCxtAOObpH9NnfLjSWiXv_OGqtjRD0BNzrItMZWC-9SK8R6EpA2l9RAyOs8BbxT7gd3xw8hKDYtYzXjwevWm.ttf",
+    "900": "https://fonts.gstatic.com/s/bitcountsingle/v3/or25Q6T72-iP2RY6OLSkb95a817cjULDyyhvb6tTxCxtAOObpH9NnfLjSWiXv_OGqtjRD0BNzrItMZWC-9SK8R6EpA2l9RAyOs8BbxT7gd3xw8hjDYtYzXjwevWm.ttf",
+    "regular": "https://fonts.gstatic.com/s/bitcountsingle/v3/or25Q6T72-iP2RY6OLSkb95a817cjULDyyhvb6tTxCxtAOObpH9NnfLjSWiXv_OGqtjRD0BNzrItMZWC-9SK8R6EpA2l9RAyOs8BbxT7gd3xw8jKCotYzXjwevWm.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/bitcountsingle/v1/or25Q6T72-iP2RY6OLSkb95a817cjULDyyhvb6tTxCxtAOObpH9NnfLjSWiXv_OGqtjRD0BNzrItMZWC-9SK8R6EpA2l9RAyOs8BbxT7gd3xw8jKCrtZx3w.ttf"
+  "menu": "https://fonts.gstatic.com/s/bitcountsingle/v3/or25Q6T72-iP2RY6OLSkb95a817cjULDyyhvb6tTxCxtAOObpH9NnfLjSWiXv_OGqtjRD0BNzrItMZWC-9SK8R6EpA2l9RAyOs8BbxT7gd3xw8jKCrtZx3w.ttf"
 }

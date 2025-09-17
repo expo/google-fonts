@@ -2,12 +2,12 @@
   "family": "Sassy Frass",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v8",
-  "lastModified": "2025-06-02",
+  "version": "v9",
+  "lastModified": "2025-09-16",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/sassyfrass/v8/LhWhMVrGOe0FLb97BjhsE99dGNWQg_am.ttf"
+    "regular": "https://fonts.gstatic.com/s/sassyfrass/v9/LhWhMVrGOe0FLb97BjhsE99dGNWQg_am.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/sassyfrass/v8/LhWhMVrGOe0FLb97BjhsE-9cEtE.ttf"
+  "menu": "https://fonts.gstatic.com/s/sassyfrass/v9/LhWhMVrGOe0FLb97BjhsE-9cEtE.ttf"
 }

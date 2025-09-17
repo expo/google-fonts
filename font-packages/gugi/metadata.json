@@ -2,10 +2,10 @@
   "family": "Gugi",
   "variants": ["regular"],
   "subsets": ["korean", "latin"],
-  "version": "v20",
-  "lastModified": "2024-12-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/gugi/v20/A2BVn5dXywshVA6A9DEfgqM.ttf" },
+  "version": "v21",
+  "lastModified": "2025-09-16",
+  "files": { "regular": "https://fonts.gstatic.com/s/gugi/v21/A2BVn5dXywshVA6A9DEfgqM.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/gugi/v20/A2BVn5dXywshZA-K8A.ttf"
+  "menu": "https://fonts.gstatic.com/s/gugi/v21/A2BVn5dXywshZA-K8A.ttf"
 }

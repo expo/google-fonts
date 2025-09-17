@@ -2,12 +2,12 @@
   "family": "Courgette",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v17",
-  "lastModified": "2024-09-04",
+  "version": "v19",
+  "lastModified": "2025-09-16",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/courgette/v17/wEO_EBrAnc9BLjLQAUkFUfAL3EsHiA.ttf"
+    "regular": "https://fonts.gstatic.com/s/courgette/v19/wEO_EBrAnc9BLjLQAUkFUfAL3EsHiA.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/courgette/v17/wEO_EBrAnc9BLjLQAUk1UPoP.ttf"
+  "menu": "https://fonts.gstatic.com/s/courgette/v19/wEO_EBrAnc9BLjLQAUk1UPoP.ttf"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/cherry-bomb-one",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Use the Cherry Bomb One font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

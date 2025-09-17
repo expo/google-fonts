@@ -2,12 +2,12 @@
   "family": "Yuji Hentaigana Akebono",
   "variants": ["regular"],
   "subsets": ["japanese", "latin", "latin-ext"],
-  "version": "v14",
-  "lastModified": "2025-06-11",
+  "version": "v15",
+  "lastModified": "2025-09-16",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/yujihentaiganaakebono/v14/EJRGQhkhRNwM-RtitGUwh930GU_f5KAlkuL0wQy9NKXRzrrF.ttf"
+    "regular": "https://fonts.gstatic.com/s/yujihentaiganaakebono/v15/EJRGQhkhRNwM-RtitGUwh930GU_f5KAlkuL0wQy9NKXRzrrF.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/yujihentaiganaakebono/v14/EJRGQhkhRNwM-RtitGUwh930GU_f5KAlkuL0wTy8PqE.ttf"
+  "menu": "https://fonts.gstatic.com/s/yujihentaiganaakebono/v15/EJRGQhkhRNwM-RtitGUwh930GU_f5KAlkuL0wTy8PqE.ttf"
 }

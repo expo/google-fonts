@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/new-tegomin",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Use the New Tegomin font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

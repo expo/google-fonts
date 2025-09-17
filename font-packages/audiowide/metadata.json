@@ -2,12 +2,12 @@
   "family": "Audiowide",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v20",
-  "lastModified": "2024-09-04",
+  "version": "v22",
+  "lastModified": "2025-09-16",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/audiowide/v20/l7gdbjpo0cum0ckerWCtkQXPExpQBw.ttf"
+    "regular": "https://fonts.gstatic.com/s/audiowide/v22/l7gdbjpo0cum0ckerWCtkQXPExpQBw.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/audiowide/v20/l7gdbjpo0cum0ckerWCdkA_L.ttf"
+  "menu": "https://fonts.gstatic.com/s/audiowide/v22/l7gdbjpo0cum0ckerWCdkA_L.ttf"
 }

@@ -2,12 +2,12 @@
   "family": "Russo One",
   "variants": ["regular"],
   "subsets": ["cyrillic", "latin", "latin-ext"],
-  "version": "v16",
-  "lastModified": "2024-09-04",
+  "version": "v18",
+  "lastModified": "2025-09-16",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/russoone/v16/Z9XUDmZRWg6M1LvRYsH-yMOInrib9Q.ttf"
+    "regular": "https://fonts.gstatic.com/s/russoone/v18/Z9XUDmZRWg6M1LvRYsH-yMOInrib9Q.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/russoone/v16/Z9XUDmZRWg6M1LvRYsHOycmM.ttf"
+  "menu": "https://fonts.gstatic.com/s/russoone/v18/Z9XUDmZRWg6M1LvRYsHOycmM.ttf"
 }

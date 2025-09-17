@@ -2,12 +2,12 @@
   "family": "Alkalami",
   "variants": ["regular"],
   "subsets": ["arabic", "latin", "latin-ext"],
-  "version": "v7",
-  "lastModified": "2024-09-04",
+  "version": "v8",
+  "lastModified": "2025-09-16",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/alkalami/v7/zOL_4pfDmqRL95WXi5eLw8BMuvhH.ttf"
+    "regular": "https://fonts.gstatic.com/s/alkalami/v8/zOL_4pfDmqRL95WXi5eLw8BMuvhH.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/alkalami/v7/zOL_4pfDmqRL95WXi6eKycQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/alkalami/v8/zOL_4pfDmqRL95WXi6eKycQ.ttf"
 }

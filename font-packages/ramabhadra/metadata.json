@@ -2,12 +2,12 @@
   "family": "Ramabhadra",
   "variants": ["regular"],
   "subsets": ["latin", "telugu"],
-  "version": "v16",
-  "lastModified": "2024-12-04",
+  "version": "v17",
+  "lastModified": "2025-09-16",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/ramabhadra/v16/EYq2maBOwqRW9P1SQ83LehNGX5uWw3o.ttf"
+    "regular": "https://fonts.gstatic.com/s/ramabhadra/v17/EYq2maBOwqRW9P1SQ83LehNGX5uWw3o.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/ramabhadra/v16/EYq2maBOwqRW9P1SQ83LShJMWw.ttf"
+  "menu": "https://fonts.gstatic.com/s/ramabhadra/v17/EYq2maBOwqRW9P1SQ83LShJMWw.ttf"
 }

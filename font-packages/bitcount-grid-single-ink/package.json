@@ -1,0 +1,17 @@
+{
+  "name": "@expo-google-fonts/bitcount-grid-single-ink",
+  "version": "0.4.0",
+  "description": "Use the Bitcount Grid Single Ink font family from Google Fonts in your Expo app",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/expo/google-fonts.git",
+    "directory": "font-packages/bitcount-grid-single-ink"
+  },
+  "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/bitcount-grid-single-ink#readme",
+  "author": "Expo Team <team@expo.io>",
+  "license": "MIT AND OFL-1.1",
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -2,12 +2,12 @@
   "family": "Noto Sans Mandaic",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "mandaic"],
-  "version": "v17",
-  "lastModified": "2024-07-30",
+  "version": "v18",
+  "lastModified": "2025-09-16",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosansmandaic/v17/cIfnMbdWt1w_HgCcilqhKQBo_OsMI5_A_gMk0izH.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansmandaic/v18/cIfnMbdWt1w_HgCcilqhKQBo_OsMI5_A_gMk0izH.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosansmandaic/v17/cIfnMbdWt1w_HgCcilqhKQBo_OsMI6_B9Ac.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosansmandaic/v18/cIfnMbdWt1w_HgCcilqhKQBo_OsMI6_B9Ac.ttf"
 }

@@ -2,12 +2,12 @@
   "family": "Akaya Kanadaka",
   "variants": ["regular"],
   "subsets": ["kannada", "latin", "latin-ext"],
-  "version": "v17",
-  "lastModified": "2025-04-23",
+  "version": "v18",
+  "lastModified": "2025-09-16",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/akayakanadaka/v17/N0bM2S5CPO5oOQqvazoRRb-8-PfRS5VBBSSF.ttf"
+    "regular": "https://fonts.gstatic.com/s/akayakanadaka/v18/N0bM2S5CPO5oOQqvazoRRb-8-PfRS5VBBSSF.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/akayakanadaka/v17/N0bM2S5CPO5oOQqvazoRRb-8-MfQQZE.ttf"
+  "menu": "https://fonts.gstatic.com/s/akayakanadaka/v18/N0bM2S5CPO5oOQqvazoRRb-8-MfQQZE.ttf"
 }

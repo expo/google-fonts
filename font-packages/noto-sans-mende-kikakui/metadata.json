@@ -2,12 +2,12 @@
   "family": "Noto Sans Mende Kikakui",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "mende-kikakui"],
-  "version": "v28",
-  "lastModified": "2022-11-09",
+  "version": "v29",
+  "lastModified": "2025-09-16",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosansmendekikakui/v28/11hRGoLHz17aKjQCWj-JHcLvu2Q5zZrnkbNCLUx_aDJLAHer.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansmendekikakui/v29/11hRGoLHz17aKjQCWj-JHcLvu2Q5zZrnkbNCLUx_aDJLAHer.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosansmendekikakui/v28/11hRGoLHz17aKjQCWj-JHcLvu2Q5zZrnkbNCLXx-YjY.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosansmendekikakui/v29/11hRGoLHz17aKjQCWj-JHcLvu2Q5zZrnkbNCLXx-YjY.ttf"
 }

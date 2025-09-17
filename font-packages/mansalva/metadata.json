@@ -2,12 +2,12 @@
   "family": "Mansalva",
   "variants": ["regular"],
   "subsets": ["greek", "latin", "latin-ext", "vietnamese"],
-  "version": "v14",
-  "lastModified": "2024-09-04",
+  "version": "v16",
+  "lastModified": "2025-09-16",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/mansalva/v14/aWB4m0aacbtDfvq5NJllI47vdyBg.ttf"
+    "regular": "https://fonts.gstatic.com/s/mansalva/v16/aWB4m0aacbtDfvq5NJllI47vdyBg.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/mansalva/v14/aWB4m0aacbtDfvq5NKlkKYo.ttf"
+  "menu": "https://fonts.gstatic.com/s/mansalva/v16/aWB4m0aacbtDfvq5NKlkKYo.ttf"
 }

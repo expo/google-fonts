@@ -1,0 +1,17 @@
+{
+  "name": "@expo-google-fonts/bitcount-prop-double-ink",
+  "version": "0.4.0",
+  "description": "Use the Bitcount Prop Double Ink font family from Google Fonts in your Expo app",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/expo/google-fonts.git",
+    "directory": "font-packages/bitcount-prop-double-ink"
+  },
+  "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/bitcount-prop-double-ink#readme",
+  "author": "Expo Team <team@expo.io>",
+  "license": "MIT AND OFL-1.1",
+  "publishConfig": {
+    "access": "public"
+  }
+}

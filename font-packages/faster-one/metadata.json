@@ -2,12 +2,12 @@
   "family": "Faster One",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v19",
-  "lastModified": "2024-09-04",
+  "version": "v20",
+  "lastModified": "2025-09-16",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/fasterone/v19/H4ciBXCHmdfClFb-vWhfyLuShq63czE.ttf"
+    "regular": "https://fonts.gstatic.com/s/fasterone/v20/H4ciBXCHmdfClFb-vWhfyLuShq63czE.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/fasterone/v19/H4ciBXCHmdfClFb-vWhf-LqYgg.ttf"
+  "menu": "https://fonts.gstatic.com/s/fasterone/v20/H4ciBXCHmdfClFb-vWhf-LqYgg.ttf"
 }

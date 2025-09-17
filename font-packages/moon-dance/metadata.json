@@ -2,12 +2,12 @@
   "family": "Moon Dance",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v7",
-  "lastModified": "2025-06-02",
+  "version": "v8",
+  "lastModified": "2025-09-16",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/moondance/v7/WBLgrEbUbFlYW9ekmGawe2XiKMiokE4.ttf"
+    "regular": "https://fonts.gstatic.com/s/moondance/v8/WBLgrEbUbFlYW9ekmGawe2XiKMiokE4.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/moondance/v7/WBLgrEbUbFlYW9ekmGawS2ToLA.ttf"
+  "menu": "https://fonts.gstatic.com/s/moondance/v8/WBLgrEbUbFlYW9ekmGawS2ToLA.ttf"
 }

@@ -2,12 +2,12 @@
   "family": "Artifika",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v21",
-  "lastModified": "2024-09-04",
+  "version": "v22",
+  "lastModified": "2025-09-16",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/artifika/v21/VEMyRoxzronptCuxu6Wt5jDtreOL.ttf"
+    "regular": "https://fonts.gstatic.com/s/artifika/v22/VEMyRoxzronptCuxu6Wt5jDtreOL.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/artifika/v21/VEMyRoxzronptCuxu5Ws7DQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/artifika/v22/VEMyRoxzronptCuxu5Ws7DQ.ttf"
 }

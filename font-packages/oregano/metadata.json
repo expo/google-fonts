@@ -2,13 +2,13 @@
   "family": "Oregano",
   "variants": ["regular", "italic"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v15",
-  "lastModified": "2024-09-04",
+  "version": "v17",
+  "lastModified": "2025-09-16",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/oregano/v15/If2IXTPxciS3H4S2kZffPznO3yM.ttf",
-    "italic": "https://fonts.gstatic.com/s/oregano/v15/If2KXTPxciS3H4S2oZXVOxvLzyP_qw.ttf"
+    "regular": "https://fonts.gstatic.com/s/oregano/v17/If2IXTPxciS3H4S2kZffPznO3yM.ttf",
+    "italic": "https://fonts.gstatic.com/s/oregano/v17/If2KXTPxciS3H4S2oZXVOxvLzyP_qw.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/oregano/v15/If2IXTPxciS3H4S2oZbVOw.ttf"
+  "menu": "https://fonts.gstatic.com/s/oregano/v17/If2IXTPxciS3H4S2oZbVOw.ttf"
 }

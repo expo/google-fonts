@@ -2,10 +2,10 @@
   "family": "VT323",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v17",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/vt323/v17/pxiKyp0ihIEF2hsYHpT2dkNE.ttf" },
+  "version": "v18",
+  "lastModified": "2025-09-16",
+  "files": { "regular": "https://fonts.gstatic.com/s/vt323/v18/pxiKyp0ihIEF2hsYHpT2dkNE.ttf" },
   "category": "monospace",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/vt323/v17/pxiKyp0ihIEF2isZFJA.ttf"
+  "menu": "https://fonts.gstatic.com/s/vt323/v18/pxiKyp0ihIEF2isZFJA.ttf"
 }

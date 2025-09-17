@@ -2,10 +2,10 @@
   "family": "Salsa",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v21",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/salsa/v21/gNMKW3FiRpKj-imY8ncKEZez.ttf" },
+  "version": "v23",
+  "lastModified": "2025-09-16",
+  "files": { "regular": "https://fonts.gstatic.com/s/salsa/v23/gNMKW3FiRpKj-imY8ncKEZez.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/salsa/v21/gNMKW3FiRpKj-hmZ-HM.ttf"
+  "menu": "https://fonts.gstatic.com/s/salsa/v23/gNMKW3FiRpKj-hmZ-HM.ttf"
 }

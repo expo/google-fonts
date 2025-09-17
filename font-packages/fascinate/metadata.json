@@ -2,12 +2,12 @@
   "family": "Fascinate",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v22",
-  "lastModified": "2024-11-20",
+  "version": "v23",
+  "lastModified": "2025-09-16",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/fascinate/v22/z7NWdRrufC8XJK0IIEli1LbQRPyNrw.ttf"
+    "regular": "https://fonts.gstatic.com/s/fascinate/v23/z7NWdRrufC8XJK0IIEli1LbQRPyNrw.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/fascinate/v22/z7NWdRrufC8XJK0IIElS1bzU.ttf"
+  "menu": "https://fonts.gstatic.com/s/fascinate/v23/z7NWdRrufC8XJK0IIElS1bzU.ttf"
 }

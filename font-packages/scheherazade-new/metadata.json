@@ -2,15 +2,15 @@
   "family": "Scheherazade New",
   "variants": ["regular", "500", "600", "700"],
   "subsets": ["arabic", "latin", "latin-ext"],
-  "version": "v18",
-  "lastModified": "2025-09-11",
+  "version": "v20",
+  "lastModified": "2025-09-16",
   "files": {
-    "500": "https://fonts.gstatic.com/s/scheherazadenew/v18/4UaerFhTvxVnHDvUkUiHg8jprP4DM_dFHlYC-IKnoSE.ttf",
-    "600": "https://fonts.gstatic.com/s/scheherazadenew/v18/4UaerFhTvxVnHDvUkUiHg8jprP4DM9tCHlYC-IKnoSE.ttf",
-    "700": "https://fonts.gstatic.com/s/scheherazadenew/v18/4UaerFhTvxVnHDvUkUiHg8jprP4DM79DHlYC-IKnoSE.ttf",
-    "regular": "https://fonts.gstatic.com/s/scheherazadenew/v18/4UaZrFhTvxVnHDvUkUiHg8jprP4DCwNsOl4p5Is.ttf"
+    "500": "https://fonts.gstatic.com/s/scheherazadenew/v20/4UaerFhTvxVnHDvUkUiHg8jprP4DM_dFHlYC-IKnoSE.ttf",
+    "600": "https://fonts.gstatic.com/s/scheherazadenew/v20/4UaerFhTvxVnHDvUkUiHg8jprP4DM9tCHlYC-IKnoSE.ttf",
+    "700": "https://fonts.gstatic.com/s/scheherazadenew/v20/4UaerFhTvxVnHDvUkUiHg8jprP4DM79DHlYC-IKnoSE.ttf",
+    "regular": "https://fonts.gstatic.com/s/scheherazadenew/v20/4UaZrFhTvxVnHDvUkUiHg8jprP4DCwNsOl4p5Is.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/scheherazadenew/v18/4UaZrFhTvxVnHDvUkUiHg8jprP4DOwJmPg.ttf"
+  "menu": "https://fonts.gstatic.com/s/scheherazadenew/v20/4UaZrFhTvxVnHDvUkUiHg8jprP4DOwJmPg.ttf"
 }

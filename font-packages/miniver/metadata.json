@@ -2,10 +2,10 @@
   "family": "Miniver",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v25",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/miniver/v25/eLGcP-PxIg-5H0vC770Cy8r8fWA.ttf" },
+  "version": "v27",
+  "lastModified": "2025-09-16",
+  "files": { "regular": "https://fonts.gstatic.com/s/miniver/v27/eLGcP-PxIg-5H0vC770Cy8r8fWA.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/miniver/v25/eLGcP-PxIg-5H0vC37wIzw.ttf"
+  "menu": "https://fonts.gstatic.com/s/miniver/v27/eLGcP-PxIg-5H0vC37wIzw.ttf"
 }

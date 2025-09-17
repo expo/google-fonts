@@ -2,12 +2,12 @@
   "family": "Fugaz One",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v19",
-  "lastModified": "2024-09-04",
+  "version": "v21",
+  "lastModified": "2025-09-16",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/fugazone/v19/rax_HiWKp9EAITukFslMBBJek0vA8A.ttf"
+    "regular": "https://fonts.gstatic.com/s/fugazone/v21/rax_HiWKp9EAITukFslMBBJek0vA8A.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/fugazone/v19/rax_HiWKp9EAITukFsl8BRha.ttf"
+  "menu": "https://fonts.gstatic.com/s/fugazone/v21/rax_HiWKp9EAITukFsl8BRha.ttf"
 }
