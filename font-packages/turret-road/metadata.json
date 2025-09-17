@@ -2,17 +2,17 @@
   "family": "Turret Road",
   "variants": ["200", "300", "regular", "500", "700", "800"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v9",
-  "lastModified": "2024-09-04",
+  "version": "v11",
+  "lastModified": "2025-09-16",
   "files": {
-    "200": "https://fonts.gstatic.com/s/turretroad/v9/pxidypMgpcBFjE84Zv-fE0ONEdeLYk1Mq3ap.ttf",
-    "300": "https://fonts.gstatic.com/s/turretroad/v9/pxidypMgpcBFjE84Zv-fE0PpEteLYk1Mq3ap.ttf",
-    "500": "https://fonts.gstatic.com/s/turretroad/v9/pxidypMgpcBFjE84Zv-fE0OxE9eLYk1Mq3ap.ttf",
-    "700": "https://fonts.gstatic.com/s/turretroad/v9/pxidypMgpcBFjE84Zv-fE0P5FdeLYk1Mq3ap.ttf",
-    "800": "https://fonts.gstatic.com/s/turretroad/v9/pxidypMgpcBFjE84Zv-fE0PlFteLYk1Mq3ap.ttf",
-    "regular": "https://fonts.gstatic.com/s/turretroad/v9/pxiAypMgpcBFjE84Zv-fE3tFOvODSVFF.ttf"
+    "200": "https://fonts.gstatic.com/s/turretroad/v11/pxidypMgpcBFjE84Zv-fE0ONEdeLYk1Mq3ap.ttf",
+    "300": "https://fonts.gstatic.com/s/turretroad/v11/pxidypMgpcBFjE84Zv-fE0PpEteLYk1Mq3ap.ttf",
+    "500": "https://fonts.gstatic.com/s/turretroad/v11/pxidypMgpcBFjE84Zv-fE0OxE9eLYk1Mq3ap.ttf",
+    "700": "https://fonts.gstatic.com/s/turretroad/v11/pxidypMgpcBFjE84Zv-fE0P5FdeLYk1Mq3ap.ttf",
+    "800": "https://fonts.gstatic.com/s/turretroad/v11/pxidypMgpcBFjE84Zv-fE0PlFteLYk1Mq3ap.ttf",
+    "regular": "https://fonts.gstatic.com/s/turretroad/v11/pxiAypMgpcBFjE84Zv-fE3tFOvODSVFF.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/turretroad/v9/pxiAypMgpcBFjE84Zv-fE0tEMPc.ttf"
+  "menu": "https://fonts.gstatic.com/s/turretroad/v11/pxiAypMgpcBFjE84Zv-fE0tEMPc.ttf"
 }

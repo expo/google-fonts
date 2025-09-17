@@ -2,14 +2,14 @@
   "family": "Kaisei HarunoUmi",
   "variants": ["regular", "500", "700"],
   "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
-  "version": "v10",
-  "lastModified": "2024-10-29",
+  "version": "v11",
+  "lastModified": "2025-09-16",
   "files": {
-    "500": "https://fonts.gstatic.com/s/kaiseiharunoumi/v10/HI_WiZQSLqBQoAHhK_C6N_nzy_jcIj_QlMcFwmC9FAU.ttf",
-    "700": "https://fonts.gstatic.com/s/kaiseiharunoumi/v10/HI_WiZQSLqBQoAHhK_C6N_nzy_jcInfWlMcFwmC9FAU.ttf",
-    "regular": "https://fonts.gstatic.com/s/kaiseiharunoumi/v10/HI_RiZQSLqBQoAHhK_C6N_nzy_jcGsv5sM8u3mk.ttf"
+    "500": "https://fonts.gstatic.com/s/kaiseiharunoumi/v11/HI_WiZQSLqBQoAHhK_C6N_nzy_jcIj_QlMcFwmC9FAU.ttf",
+    "700": "https://fonts.gstatic.com/s/kaiseiharunoumi/v11/HI_WiZQSLqBQoAHhK_C6N_nzy_jcInfWlMcFwmC9FAU.ttf",
+    "regular": "https://fonts.gstatic.com/s/kaiseiharunoumi/v11/HI_RiZQSLqBQoAHhK_C6N_nzy_jcGsv5sM8u3mk.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/kaiseiharunoumi/v10/HI_RiZQSLqBQoAHhK_C6N_nzy_jcKsrztA.ttf"
+  "menu": "https://fonts.gstatic.com/s/kaiseiharunoumi/v11/HI_RiZQSLqBQoAHhK_C6N_nzy_jcKsrztA.ttf"
 }

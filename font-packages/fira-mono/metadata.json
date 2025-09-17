@@ -2,14 +2,14 @@
   "family": "Fira Mono",
   "variants": ["regular", "500", "700"],
   "subsets": ["cyrillic", "cyrillic-ext", "greek", "greek-ext", "latin", "latin-ext", "symbols2"],
-  "version": "v15",
-  "lastModified": "2025-04-23",
+  "version": "v16",
+  "lastModified": "2025-09-16",
   "files": {
-    "500": "https://fonts.gstatic.com/s/firamono/v15/N0bS2SlFPv1weGeLZDto1d33mf3VaZBRBQ.ttf",
-    "700": "https://fonts.gstatic.com/s/firamono/v15/N0bS2SlFPv1weGeLZDtondv3mf3VaZBRBQ.ttf",
-    "regular": "https://fonts.gstatic.com/s/firamono/v15/N0bX2SlFPv1weGeLZDtQIfTTkdbJYA.ttf"
+    "500": "https://fonts.gstatic.com/s/firamono/v16/N0bS2SlFPv1weGeLZDto1d33mf3VaZBRBQ.ttf",
+    "700": "https://fonts.gstatic.com/s/firamono/v16/N0bS2SlFPv1weGeLZDtondv3mf3VaZBRBQ.ttf",
+    "regular": "https://fonts.gstatic.com/s/firamono/v16/N0bX2SlFPv1weGeLZDtQIfTTkdbJYA.ttf"
   },
   "category": "monospace",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/firamono/v15/N0bX2SlFPv1weGeLZDtgIP7X.ttf"
+  "menu": "https://fonts.gstatic.com/s/firamono/v16/N0bX2SlFPv1weGeLZDtgIP7X.ttf"
 }

@@ -2,13 +2,13 @@
   "family": "Geo",
   "variants": ["regular", "italic"],
   "subsets": ["latin"],
-  "version": "v21",
-  "lastModified": "2024-09-04",
+  "version": "v23",
+  "lastModified": "2025-09-16",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/geo/v21/CSRz4zRZlufVL3BmQjlCbQ.ttf",
-    "italic": "https://fonts.gstatic.com/s/geo/v21/CSRx4zRZluflLXpiYDxSbf8r.ttf"
+    "regular": "https://fonts.gstatic.com/s/geo/v23/CSRz4zRZlufVL3BmQjlCbQ.ttf",
+    "italic": "https://fonts.gstatic.com/s/geo/v23/CSRx4zRZluflLXpiYDxSbf8r.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/geo/v21/CSRz4zRZluflLnpi.ttf"
+  "menu": "https://fonts.gstatic.com/s/geo/v23/CSRz4zRZluflLnpi.ttf"
 }

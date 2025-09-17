@@ -2,15 +2,15 @@
   "family": "B612",
   "variants": ["regular", "italic", "700", "700italic"],
   "subsets": ["latin"],
-  "version": "v12",
-  "lastModified": "2024-09-04",
+  "version": "v13",
+  "lastModified": "2025-09-16",
   "files": {
-    "700": "https://fonts.gstatic.com/s/b612/v12/3Jn9SDDxiSz34oWXPDCLTXUETuE.ttf",
-    "regular": "https://fonts.gstatic.com/s/b612/v12/3JnySDDxiSz32jm4GDigUXw.ttf",
-    "italic": "https://fonts.gstatic.com/s/b612/v12/3Jn8SDDxiSz36juyHBqlQXwdVw.ttf",
-    "700italic": "https://fonts.gstatic.com/s/b612/v12/3Jn_SDDxiSz36juKoDWBSVcBXuFb0Q.ttf"
+    "700": "https://fonts.gstatic.com/s/b612/v13/3Jn9SDDxiSz34oWXPDCLTXUETuE.ttf",
+    "regular": "https://fonts.gstatic.com/s/b612/v13/3JnySDDxiSz32jm4GDigUXw.ttf",
+    "italic": "https://fonts.gstatic.com/s/b612/v13/3Jn8SDDxiSz36juyHBqlQXwdVw.ttf",
+    "700italic": "https://fonts.gstatic.com/s/b612/v13/3Jn_SDDxiSz36juKoDWBSVcBXuFb0Q.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/b612/v12/3JnySDDxiSz36jiyHA.ttf"
+  "menu": "https://fonts.gstatic.com/s/b612/v13/3JnySDDxiSz36jiyHA.ttf"
 }

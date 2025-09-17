@@ -2,10 +2,10 @@
   "family": "Ruluko",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v21",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/ruluko/v21/xMQVuFNZVaODtm0pC6WzKX_QmA.ttf" },
+  "version": "v22",
+  "lastModified": "2025-09-16",
+  "files": { "regular": "https://fonts.gstatic.com/s/ruluko/v22/xMQVuFNZVaODtm0pC6WzKX_QmA.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/ruluko/v21/xMQVuFNZVaODtm0ZCq-3.ttf"
+  "menu": "https://fonts.gstatic.com/s/ruluko/v22/xMQVuFNZVaODtm0ZCq-3.ttf"
 }

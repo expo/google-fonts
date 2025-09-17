@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/architects-daughter",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Use the Architects Daughter font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

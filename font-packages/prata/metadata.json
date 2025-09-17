@@ -2,10 +2,10 @@
   "family": "Prata",
   "variants": ["regular"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "vietnamese"],
-  "version": "v20",
-  "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/prata/v20/6xKhdSpbNNCT-vWIAG_5LWwJ.ttf" },
+  "version": "v22",
+  "lastModified": "2025-09-16",
+  "files": { "regular": "https://fonts.gstatic.com/s/prata/v22/6xKhdSpbNNCT-vWIAG_5LWwJ.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/prata/v20/6xKhdSpbNNCT-sWJCms.ttf"
+  "menu": "https://fonts.gstatic.com/s/prata/v22/6xKhdSpbNNCT-sWJCms.ttf"
 }

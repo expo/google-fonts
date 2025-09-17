@@ -2,18 +2,18 @@
   "family": "Lateef",
   "variants": ["200", "300", "regular", "500", "600", "700", "800"],
   "subsets": ["arabic", "latin", "latin-ext"],
-  "version": "v33",
-  "lastModified": "2025-09-10",
+  "version": "v35",
+  "lastModified": "2025-09-16",
   "files": {
-    "200": "https://fonts.gstatic.com/s/lateef/v33/hESz6XVnNCxEvkb0bjygbqTb9nQ-RA.ttf",
-    "300": "https://fonts.gstatic.com/s/lateef/v33/hESz6XVnNCxEvkb0Cj-gbqTb9nQ-RA.ttf",
-    "500": "https://fonts.gstatic.com/s/lateef/v33/hESz6XVnNCxEvkb0Uj6gbqTb9nQ-RA.ttf",
-    "600": "https://fonts.gstatic.com/s/lateef/v33/hESz6XVnNCxEvkb0fjmgbqTb9nQ-RA.ttf",
-    "700": "https://fonts.gstatic.com/s/lateef/v33/hESz6XVnNCxEvkb0GjigbqTb9nQ-RA.ttf",
-    "800": "https://fonts.gstatic.com/s/lateef/v33/hESz6XVnNCxEvkb0BjugbqTb9nQ-RA.ttf",
-    "regular": "https://fonts.gstatic.com/s/lateef/v33/hESw6XVnNCxEvkbMpheEZo_H_w.ttf"
+    "200": "https://fonts.gstatic.com/s/lateef/v35/hESz6XVnNCxEvkb0bjygbqTb9nQ-RA.ttf",
+    "300": "https://fonts.gstatic.com/s/lateef/v35/hESz6XVnNCxEvkb0Cj-gbqTb9nQ-RA.ttf",
+    "500": "https://fonts.gstatic.com/s/lateef/v35/hESz6XVnNCxEvkb0Uj6gbqTb9nQ-RA.ttf",
+    "600": "https://fonts.gstatic.com/s/lateef/v35/hESz6XVnNCxEvkb0fjmgbqTb9nQ-RA.ttf",
+    "700": "https://fonts.gstatic.com/s/lateef/v35/hESz6XVnNCxEvkb0GjigbqTb9nQ-RA.ttf",
+    "800": "https://fonts.gstatic.com/s/lateef/v35/hESz6XVnNCxEvkb0BjugbqTb9nQ-RA.ttf",
+    "regular": "https://fonts.gstatic.com/s/lateef/v35/hESw6XVnNCxEvkbMpheEZo_H_w.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/lateef/v33/hESw6XVnNCxEvkb8px2A.ttf"
+  "menu": "https://fonts.gstatic.com/s/lateef/v35/hESw6XVnNCxEvkb8px2A.ttf"
 }

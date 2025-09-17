@@ -2,10 +2,10 @@
   "family": "Dokdo",
   "variants": ["regular"],
   "subsets": ["korean", "latin"],
-  "version": "v22",
-  "lastModified": "2024-12-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/dokdo/v22/esDf315XNuCBLxLo4NaMlKcH.ttf" },
+  "version": "v23",
+  "lastModified": "2025-09-16",
+  "files": { "regular": "https://fonts.gstatic.com/s/dokdo/v23/esDf315XNuCBLxLo4NaMlKcH.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/dokdo/v22/esDf315XNuCBLyLp6tI.ttf"
+  "menu": "https://fonts.gstatic.com/s/dokdo/v23/esDf315XNuCBLyLp6tI.ttf"
 }

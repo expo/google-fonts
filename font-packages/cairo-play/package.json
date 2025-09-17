@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/cairo-play",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Use the Cairo Play font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

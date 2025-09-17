@@ -2,12 +2,12 @@
   "family": "Noto Sans Avestan",
   "variants": ["regular"],
   "subsets": ["avestan", "latin", "latin-ext"],
-  "version": "v21",
-  "lastModified": "2023-09-13",
+  "version": "v22",
+  "lastModified": "2025-09-16",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosansavestan/v21/bWti7ejKfBziStx7lIzKOLQZKhIJkyu9SASLji8U.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansavestan/v22/bWti7ejKfBziStx7lIzKOLQZKhIJkyu9SASLji8U.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosansavestan/v21/bWti7ejKfBziStx7lIzKOLQZKhIJkxu8QgA.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosansavestan/v22/bWti7ejKfBziStx7lIzKOLQZKhIJkxu8QgA.ttf"
 }

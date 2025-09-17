@@ -2,12 +2,12 @@
   "family": "Noto Sans Caucasian Albanian",
   "variants": ["regular"],
   "subsets": ["caucasian-albanian", "latin", "latin-ext"],
-  "version": "v18",
-  "lastModified": "2023-10-25",
+  "version": "v19",
+  "lastModified": "2025-09-16",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosanscaucasianalbanian/v18/nKKA-HM_FYFRJvXzVXaANsU0VzsAc46QGOkWytlTs-TXrYDmoVmRSZo.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosanscaucasianalbanian/v19/nKKA-HM_FYFRJvXzVXaANsU0VzsAc46QGOkWytlTs-TXrYDmoVmRSZo.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosanscaucasianalbanian/v18/nKKA-HM_FYFRJvXzVXaANsU0VzsAc46QGOkWytlTs-TXnYHspQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosanscaucasianalbanian/v19/nKKA-HM_FYFRJvXzVXaANsU0VzsAc46QGOkWytlTs-TXnYHspQ.ttf"
 }

@@ -2,13 +2,13 @@
   "family": "Chau Philomene One",
   "variants": ["regular", "italic"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v15",
-  "lastModified": "2024-09-04",
+  "version": "v16",
+  "lastModified": "2025-09-16",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/chauphilomeneone/v15/55xxezRsPtfie1vPY49qzdgSlJiHRQFsnIx7QMISdQ.ttf",
-    "italic": "https://fonts.gstatic.com/s/chauphilomeneone/v15/55xzezRsPtfie1vPY49qzdgSlJiHRQFcnoZ_YscCdXQB.ttf"
+    "regular": "https://fonts.gstatic.com/s/chauphilomeneone/v16/55xxezRsPtfie1vPY49qzdgSlJiHRQFsnIx7QMISdQ.ttf",
+    "italic": "https://fonts.gstatic.com/s/chauphilomeneone/v16/55xzezRsPtfie1vPY49qzdgSlJiHRQFcnoZ_YscCdXQB.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/chauphilomeneone/v15/55xxezRsPtfie1vPY49qzdgSlJiHRQFcnYZ_.ttf"
+  "menu": "https://fonts.gstatic.com/s/chauphilomeneone/v16/55xxezRsPtfie1vPY49qzdgSlJiHRQFcnYZ_.ttf"
 }

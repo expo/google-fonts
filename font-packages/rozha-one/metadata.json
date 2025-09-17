@@ -2,12 +2,12 @@
   "family": "Rozha One",
   "variants": ["regular"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v16",
-  "lastModified": "2025-04-23",
+  "version": "v17",
+  "lastModified": "2025-09-16",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/rozhaone/v16/AlZy_zVFtYP12Zncg2khdXf4XB0Tow.ttf"
+    "regular": "https://fonts.gstatic.com/s/rozhaone/v17/AlZy_zVFtYP12Zncg2khdXf4XB0Tow.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/rozhaone/v16/AlZy_zVFtYP12Zncg2kRdH38.ttf"
+  "menu": "https://fonts.gstatic.com/s/rozhaone/v17/AlZy_zVFtYP12Zncg2kRdH38.ttf"
 }

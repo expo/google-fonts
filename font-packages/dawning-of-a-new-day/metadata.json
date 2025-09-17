@@ -2,12 +2,12 @@
   "family": "Dawning of a New Day",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v20",
-  "lastModified": "2024-09-04",
+  "version": "v22",
+  "lastModified": "2025-09-16",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/dawningofanewday/v20/t5t_IQMbOp2SEwuncwLRjMfIg1yYit_nAz8bhWJGNoBE.ttf"
+    "regular": "https://fonts.gstatic.com/s/dawningofanewday/v22/t5t_IQMbOp2SEwuncwLRjMfIg1yYit_nAz8bhWJGNoBE.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/dawningofanewday/v20/t5t_IQMbOp2SEwuncwLRjMfIg1yYit_nAw8aj2Y.ttf"
+  "menu": "https://fonts.gstatic.com/s/dawningofanewday/v22/t5t_IQMbOp2SEwuncwLRjMfIg1yYit_nAw8aj2Y.ttf"
 }

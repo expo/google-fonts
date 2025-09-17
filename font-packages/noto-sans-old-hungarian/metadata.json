@@ -2,12 +2,12 @@
   "family": "Noto Sans Old Hungarian",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "old-hungarian"],
-  "version": "v18",
-  "lastModified": "2023-09-13",
+  "version": "v19",
+  "lastModified": "2025-09-16",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosansoldhungarian/v18/E213_cD6hP3GwCJPEUssHEM0KqLaHJXg2PiIgRfjbg5nCYXt.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansoldhungarian/v19/E213_cD6hP3GwCJPEUssHEM0KqLaHJXg2PiIgRfjbg5nCYXt.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosansoldhungarian/v18/E213_cD6hP3GwCJPEUssHEM0KqLaHJXg2PiIgSfiZAo.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosansoldhungarian/v19/E213_cD6hP3GwCJPEUssHEM0KqLaHJXg2PiIgSfiZAo.ttf"
 }

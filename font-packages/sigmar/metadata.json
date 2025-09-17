@@ -2,10 +2,10 @@
   "family": "Sigmar",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v8",
-  "lastModified": "2025-06-02",
-  "files": { "regular": "https://fonts.gstatic.com/s/sigmar/v8/hv-XlzJgIE8a85pUbWY3MTFgVg.ttf" },
+  "version": "v9",
+  "lastModified": "2025-09-16",
+  "files": { "regular": "https://fonts.gstatic.com/s/sigmar/v9/hv-XlzJgIE8a85pUbWY3MTFgVg.ttf" },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/sigmar/v8/hv-XlzJgIE8a85pkbGwz.ttf"
+  "menu": "https://fonts.gstatic.com/s/sigmar/v9/hv-XlzJgIE8a85pkbGwz.ttf"
 }

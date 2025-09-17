@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/mrs-saint-delafield",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Use the Mrs Saint Delafield font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

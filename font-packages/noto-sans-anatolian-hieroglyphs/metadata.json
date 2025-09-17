@@ -2,12 +2,12 @@
   "family": "Noto Sans Anatolian Hieroglyphs",
   "variants": ["regular"],
   "subsets": ["anatolian-hieroglyphs", "latin", "latin-ext"],
-  "version": "v16",
-  "lastModified": "2023-07-24",
+  "version": "v17",
+  "lastModified": "2025-09-16",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosansanatolianhieroglyphs/v16/ijw9s4roRME5LLRxjsRb8A0gKPSWq4BbDmHHu6j2pEtUJzZWXybIymc5QYo.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansanatolianhieroglyphs/v17/ijw9s4roRME5LLRxjsRb8A0gKPSWq4BbDmHHu6j2pEtUJzZWXybIymc5QYo.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosansanatolianhieroglyphs/v16/ijw9s4roRME5LLRxjsRb8A0gKPSWq4BbDmHHu6j2pEtUJzZWbyfCzg.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosansanatolianhieroglyphs/v17/ijw9s4roRME5LLRxjsRb8A0gKPSWq4BbDmHHu6j2pEtUJzZWbyfCzg.ttf"
 }

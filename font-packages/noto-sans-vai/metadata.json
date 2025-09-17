@@ -2,12 +2,12 @@
   "family": "Noto Sans Vai",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "vai"],
-  "version": "v17",
-  "lastModified": "2022-09-28",
+  "version": "v18",
+  "lastModified": "2025-09-16",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosansvai/v17/NaPecZTSBuhTirw6IaFn_UrURMTsDIRSfr0.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansvai/v18/NaPecZTSBuhTirw6IaFn_UrURMTsDIRSfr0.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosansvai/v17/NaPecZTSBuhTirw6IaFn_UrUdMXmCA.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosansvai/v18/NaPecZTSBuhTirw6IaFn_UrUdMXmCA.ttf"
 }
