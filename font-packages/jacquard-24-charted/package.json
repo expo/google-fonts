@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/jacquard-24-charted",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Use the Jacquard 24 Charted font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

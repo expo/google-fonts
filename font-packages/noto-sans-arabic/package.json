@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/noto-sans-arabic",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "Use the Noto Sans Arabic font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

@@ -2,12 +2,12 @@
   "family": "Flow Circular",
   "variants": ["regular"],
   "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
-  "version": "v14",
-  "lastModified": "2025-09-10",
+  "version": "v15",
+  "lastModified": "2025-09-17",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/flowcircular/v14/lJwB-pc4j2F-H8YKuyvfxdZ45ifpWdr2rIg.ttf"
+    "regular": "https://fonts.gstatic.com/s/flowcircular/v15/lJwB-pc4j2F-H8YKuyvfxdZ45ifpWdr2rIg.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/flowcircular/v14/lJwB-pc4j2F-H8YKuyvfxdZ41ibjXQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/flowcircular/v15/lJwB-pc4j2F-H8YKuyvfxdZ41ibjXQ.ttf"
 }

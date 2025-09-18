@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/yarndings-12-charted",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Use the Yarndings 12 Charted font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {
