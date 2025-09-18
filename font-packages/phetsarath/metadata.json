@@ -2,13 +2,13 @@
   "family": "Phetsarath",
   "variants": ["regular", "700"],
   "subsets": ["lao"],
-  "version": "v2",
-  "lastModified": "2025-05-23",
+  "version": "v3",
+  "lastModified": "2025-09-17",
   "files": {
-    "700": "https://fonts.gstatic.com/s/phetsarath/v2/N0bT2SpTP-plK0uWayAYOWLSudf7ZZlIHD0.ttf",
-    "regular": "https://fonts.gstatic.com/s/phetsarath/v2/N0bQ2SpTP-plK0uWayAYAd79nd_QeZA.ttf"
+    "700": "https://fonts.gstatic.com/s/phetsarath/v3/N0bT2SpTP-plK0uWayAYOWLSudf7ZZlIHD0.ttf",
+    "regular": "https://fonts.gstatic.com/s/phetsarath/v3/N0bQ2SpTP-plK0uWayAYAd79nd_QeZA.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/phetsarath/v2/N0bQ2SpTP-plK0uWayAYMd_3mQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/phetsarath/v3/N0bQ2SpTP-plK0uWayAYMd_3mQ.ttf"
 }

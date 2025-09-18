@@ -2,12 +2,12 @@
   "family": "Yarndings 20",
   "variants": ["regular"],
   "subsets": ["latin", "math", "symbols"],
-  "version": "v3",
-  "lastModified": "2025-01-28",
+  "version": "v4",
+  "lastModified": "2025-09-17",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/yarndings20/v3/TuGWUVlkUohEQu8l7K8b-vNFB380PMTK1w.ttf"
+    "regular": "https://fonts.gstatic.com/s/yarndings20/v4/TuGWUVlkUohEQu8l7K8b-vNFB380PMTK1w.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/yarndings20/v3/TuGWUVlkUohEQu8l7K8b-vN1BnUw.ttf"
+  "menu": "https://fonts.gstatic.com/s/yarndings20/v4/TuGWUVlkUohEQu8l7K8b-vN1BnUw.ttf"
 }

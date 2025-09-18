@@ -2,12 +2,12 @@
   "family": "Material Icons",
   "variants": ["regular"],
   "subsets": ["latin"],
-  "version": "v144",
-  "lastModified": "2025-09-08",
+  "version": "v145",
+  "lastModified": "2025-09-17",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/materialicons/v144/flUhRq6tzZclQEJ-Vdg-IuiaDsNZIhI8tIHh.ttf"
+    "regular": "https://fonts.gstatic.com/s/materialicons/v145/flUhRq6tzZclQEJ-Vdg-IuiaDsNZIhI8tIHh.ttf"
   },
   "category": "monospace",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/materialicons/v144/flUhRq6tzZclQEJ-Vdg-IuiaDvNYKBY.ttf"
+  "menu": "https://fonts.gstatic.com/s/materialicons/v145/flUhRq6tzZclQEJ-Vdg-IuiaDvNYKBY.ttf"
 }
