@@ -11,7 +11,7 @@ This package lets you use the [**SUSE**](https://fonts.google.com/specimen/SUSE)
 
 ![SUSE](./font-family.png)
 
-This font family contains [8 styles](#-gallery).
+This font family contains [18 styles](#-gallery).
 
 - `SUSE_100Thin`
 - `SUSE_200ExtraLight`
@@ -21,6 +21,16 @@ This font family contains [8 styles](#-gallery).
 - `SUSE_600SemiBold`
 - `SUSE_700Bold`
 - `SUSE_800ExtraBold`
+- `SUSE_900Black`
+- `SUSE_100Thin_Italic`
+- `SUSE_200ExtraLight_Italic`
+- `SUSE_300Light_Italic`
+- `SUSE_400Regular_Italic`
+- `SUSE_500Medium_Italic`
+- `SUSE_600SemiBold_Italic`
+- `SUSE_700Bold_Italic`
+- `SUSE_800ExtraBold_Italic`
+- `SUSE_900Black_Italic`
 
 ## Usage
 
@@ -43,6 +53,16 @@ import { SUSE_500Medium } from '@expo-google-fonts/suse/500Medium';
 import { SUSE_600SemiBold } from '@expo-google-fonts/suse/600SemiBold';
 import { SUSE_700Bold } from '@expo-google-fonts/suse/700Bold';
 import { SUSE_800ExtraBold } from '@expo-google-fonts/suse/800ExtraBold';
+import { SUSE_900Black } from '@expo-google-fonts/suse/900Black';
+import { SUSE_100Thin_Italic } from '@expo-google-fonts/suse/100Thin_Italic';
+import { SUSE_200ExtraLight_Italic } from '@expo-google-fonts/suse/200ExtraLight_Italic';
+import { SUSE_300Light_Italic } from '@expo-google-fonts/suse/300Light_Italic';
+import { SUSE_400Regular_Italic } from '@expo-google-fonts/suse/400Regular_Italic';
+import { SUSE_500Medium_Italic } from '@expo-google-fonts/suse/500Medium_Italic';
+import { SUSE_600SemiBold_Italic } from '@expo-google-fonts/suse/600SemiBold_Italic';
+import { SUSE_700Bold_Italic } from '@expo-google-fonts/suse/700Bold_Italic';
+import { SUSE_800ExtraBold_Italic } from '@expo-google-fonts/suse/800ExtraBold_Italic';
+import { SUSE_900Black_Italic } from '@expo-google-fonts/suse/900Black_Italic';
 
 export default () => {
 
@@ -54,7 +74,17 @@ export default () => {
     SUSE_500Medium, 
     SUSE_600SemiBold, 
     SUSE_700Bold, 
-    SUSE_800ExtraBold
+    SUSE_800ExtraBold, 
+    SUSE_900Black, 
+    SUSE_100Thin_Italic, 
+    SUSE_200ExtraLight_Italic, 
+    SUSE_300Light_Italic, 
+    SUSE_400Regular_Italic, 
+    SUSE_500Medium_Italic, 
+    SUSE_600SemiBold_Italic, 
+    SUSE_700Bold_Italic, 
+    SUSE_800ExtraBold_Italic, 
+    SUSE_900Black_Italic
   });
 
   let fontSize = 24;
@@ -129,6 +159,86 @@ export default () => {
         }}>
           SUSE Extra Bold
         </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SUSE_900Black"
+        }}>
+          SUSE Black
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SUSE_100Thin_Italic"
+        }}>
+          SUSE Thin Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SUSE_200ExtraLight_Italic"
+        }}>
+          SUSE Extra Light Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SUSE_300Light_Italic"
+        }}>
+          SUSE Light Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SUSE_400Regular_Italic"
+        }}>
+          SUSE Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SUSE_500Medium_Italic"
+        }}>
+          SUSE Medium Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SUSE_600SemiBold_Italic"
+        }}>
+          SUSE Semi Bold Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SUSE_700Bold_Italic"
+        }}>
+          SUSE Bold Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SUSE_800ExtraBold_Italic"
+        }}>
+          SUSE Extra Bold Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "SUSE_900Black_Italic"
+        }}>
+          SUSE Black Italic
+        </Text>
       </View>
     );
   }
@@ -142,7 +252,10 @@ export default () => {
 |-|-|-|
 |![SUSE_100Thin](./100Thin/SUSE_100Thin.ttf.png)|![SUSE_200ExtraLight](./200ExtraLight/SUSE_200ExtraLight.ttf.png)|![SUSE_300Light](./300Light/SUSE_300Light.ttf.png)||
 |![SUSE_400Regular](./400Regular/SUSE_400Regular.ttf.png)|![SUSE_500Medium](./500Medium/SUSE_500Medium.ttf.png)|![SUSE_600SemiBold](./600SemiBold/SUSE_600SemiBold.ttf.png)||
-|![SUSE_700Bold](./700Bold/SUSE_700Bold.ttf.png)|![SUSE_800ExtraBold](./800ExtraBold/SUSE_800ExtraBold.ttf.png)|||
+|![SUSE_700Bold](./700Bold/SUSE_700Bold.ttf.png)|![SUSE_800ExtraBold](./800ExtraBold/SUSE_800ExtraBold.ttf.png)|![SUSE_900Black](./900Black/SUSE_900Black.ttf.png)||
+|![SUSE_100Thin_Italic](./100Thin_Italic/SUSE_100Thin_Italic.ttf.png)|![SUSE_200ExtraLight_Italic](./200ExtraLight_Italic/SUSE_200ExtraLight_Italic.ttf.png)|![SUSE_300Light_Italic](./300Light_Italic/SUSE_300Light_Italic.ttf.png)||
+|![SUSE_400Regular_Italic](./400Regular_Italic/SUSE_400Regular_Italic.ttf.png)|![SUSE_500Medium_Italic](./500Medium_Italic/SUSE_500Medium_Italic.ttf.png)|![SUSE_600SemiBold_Italic](./600SemiBold_Italic/SUSE_600SemiBold_Italic.ttf.png)||
+|![SUSE_700Bold_Italic](./700Bold_Italic/SUSE_700Bold_Italic.ttf.png)|![SUSE_800ExtraBold_Italic](./800ExtraBold_Italic/SUSE_800ExtraBold_Italic.ttf.png)|![SUSE_900Black_Italic](./900Black_Italic/SUSE_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

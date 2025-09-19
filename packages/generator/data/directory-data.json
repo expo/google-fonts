@@ -2,6 +2,85 @@
   "kind": "webfonts#webfontList",
   "items": [
     {
+      "family": "SUSE Mono",
+      "variants": [
+        "100",
+        "200",
+        "300",
+        "regular",
+        "500",
+        "600",
+        "700",
+        "800",
+        "100italic",
+        "200italic",
+        "300italic",
+        "italic",
+        "500italic",
+        "600italic",
+        "700italic",
+        "800italic"
+      ],
+      "subsets": [
+        "latin",
+        "latin-ext",
+        "vietnamese"
+      ],
+      "version": "v1",
+      "lastModified": "2025-09-18",
+      "files": {
+        "100": "https://fonts.gstatic.com/s/susemono/v1/y83KW4wN6yi9x2mTxJI2Lzk1yOJRC-VB656x2gtcobW_gE0.ttf",
+        "200": "https://fonts.gstatic.com/s/susemono/v1/y83KW4wN6yi9x2mTxJI2Lzk1yOJRC-VB6x6w2gtcobW_gE0.ttf",
+        "300": "https://fonts.gstatic.com/s/susemono/v1/y83KW4wN6yi9x2mTxJI2Lzk1yOJRC-VB68Cw2gtcobW_gE0.ttf",
+        "500": "https://fonts.gstatic.com/s/susemono/v1/y83KW4wN6yi9x2mTxJI2Lzk1yOJRC-VB66yw2gtcobW_gE0.ttf",
+        "600": "https://fonts.gstatic.com/s/susemono/v1/y83KW4wN6yi9x2mTxJI2Lzk1yOJRC-VB60C32gtcobW_gE0.ttf",
+        "700": "https://fonts.gstatic.com/s/susemono/v1/y83KW4wN6yi9x2mTxJI2Lzk1yOJRC-VB63m32gtcobW_gE0.ttf",
+        "800": "https://fonts.gstatic.com/s/susemono/v1/y83KW4wN6yi9x2mTxJI2Lzk1yOJRC-VB6x632gtcobW_gE0.ttf",
+        "regular": "https://fonts.gstatic.com/s/susemono/v1/y83KW4wN6yi9x2mTxJI2Lzk1yOJRC-VB656w2gtcobW_gE0.ttf",
+        "100italic": "https://fonts.gstatic.com/s/susemono/v1/y83IW4wN6yi9x2mTxJIcJgvKEIs6kUtG_lbzMklWpZe6kE2tPw.ttf",
+        "200italic": "https://fonts.gstatic.com/s/susemono/v1/y83IW4wN6yi9x2mTxJIcJgvKEIs6kUtG_lbzskhWpZe6kE2tPw.ttf",
+        "300italic": "https://fonts.gstatic.com/s/susemono/v1/y83IW4wN6yi9x2mTxJIcJgvKEIs6kUtG_lbzbEhWpZe6kE2tPw.ttf",
+        "italic": "https://fonts.gstatic.com/s/susemono/v1/y83IW4wN6yi9x2mTxJIcJgvKEIs6kUtG_lbzMkhWpZe6kE2tPw.ttf",
+        "500italic": "https://fonts.gstatic.com/s/susemono/v1/y83IW4wN6yi9x2mTxJIcJgvKEIs6kUtG_lbzAEhWpZe6kE2tPw.ttf",
+        "600italic": "https://fonts.gstatic.com/s/susemono/v1/y83IW4wN6yi9x2mTxJIcJgvKEIs6kUtG_lbz7E9WpZe6kE2tPw.ttf",
+        "700italic": "https://fonts.gstatic.com/s/susemono/v1/y83IW4wN6yi9x2mTxJIcJgvKEIs6kUtG_lbz1U9WpZe6kE2tPw.ttf",
+        "800italic": "https://fonts.gstatic.com/s/susemono/v1/y83IW4wN6yi9x2mTxJIcJgvKEIs6kUtG_lbzsk9WpZe6kE2tPw.ttf"
+      },
+      "category": "sans-serif",
+      "kind": "webfonts#webfont",
+      "menu": "https://fonts.gstatic.com/s/susemono/v1/y83KW4wN6yi9x2mTxJI2Lzk1yOJRC-VB656w6gpWpQ.ttf"
+    },
+    {
+      "family": "Alan Sans",
+      "variants": [
+        "300",
+        "regular",
+        "500",
+        "600",
+        "700",
+        "800",
+        "900"
+      ],
+      "subsets": [
+        "latin",
+        "latin-ext"
+      ],
+      "version": "v1",
+      "lastModified": "2025-09-18",
+      "files": {
+        "300": "https://fonts.gstatic.com/s/alansans/v1/zOLt4pbDmq5Eu6ebjMSx4sywa339j__gfIHoxyB1jBwiRr0.ttf",
+        "500": "https://fonts.gstatic.com/s/alansans/v1/zOLt4pbDmq5Eu6ebjMSx4sywa339j__gfO3oxyB1jBwiRr0.ttf",
+        "600": "https://fonts.gstatic.com/s/alansans/v1/zOLt4pbDmq5Eu6ebjMSx4sywa339j__gfAHvxyB1jBwiRr0.ttf",
+        "700": "https://fonts.gstatic.com/s/alansans/v1/zOLt4pbDmq5Eu6ebjMSx4sywa339j__gfDjvxyB1jBwiRr0.ttf",
+        "800": "https://fonts.gstatic.com/s/alansans/v1/zOLt4pbDmq5Eu6ebjMSx4sywa339j__gfF_vxyB1jBwiRr0.ttf",
+        "900": "https://fonts.gstatic.com/s/alansans/v1/zOLt4pbDmq5Eu6ebjMSx4sywa339j__gfHbvxyB1jBwiRr0.ttf",
+        "regular": "https://fonts.gstatic.com/s/alansans/v1/zOLt4pbDmq5Eu6ebjMSx4sywa339j__gfN_oxyB1jBwiRr0.ttf"
+      },
+      "category": "sans-serif",
+      "kind": "webfonts#webfont",
+      "menu": "https://fonts.gstatic.com/s/alansans/v1/zOLt4pbDmq5Eu6ebjMSx4sywa339j__gfN_o9yF_iA.ttf"
+    },
+    {
       "family": "Zalando Sans SemiExpanded",
       "variants": [
         "200",
@@ -4683,27 +4762,48 @@
         "500",
         "600",
         "700",
-        "800"
+        "800",
+        "900",
+        "100italic",
+        "200italic",
+        "300italic",
+        "italic",
+        "500italic",
+        "600italic",
+        "700italic",
+        "800italic",
+        "900italic"
       ],
       "subsets": [
         "latin",
-        "latin-ext"
+        "latin-ext",
+        "vietnamese"
       ],
-      "version": "v3",
-      "lastModified": "2025-09-08",
+      "version": "v4",
+      "lastModified": "2025-09-18",
       "files": {
-        "100": "https://fonts.gstatic.com/s/suse/v3/MwQsbhb078Wt81NpzELmC2QqjbGG71q9ZnJSZtQG.ttf",
-        "200": "https://fonts.gstatic.com/s/suse/v3/MwQsbhb078Wt81NpzELmC2QqjbEG7lq9ZnJSZtQG.ttf",
-        "300": "https://fonts.gstatic.com/s/suse/v3/MwQsbhb078Wt81NpzELmC2QqjbHY7lq9ZnJSZtQG.ttf",
-        "500": "https://fonts.gstatic.com/s/suse/v3/MwQsbhb078Wt81NpzELmC2QqjbG07lq9ZnJSZtQG.ttf",
-        "600": "https://fonts.gstatic.com/s/suse/v3/MwQsbhb078Wt81NpzELmC2QqjbFY6Vq9ZnJSZtQG.ttf",
-        "700": "https://fonts.gstatic.com/s/suse/v3/MwQsbhb078Wt81NpzELmC2QqjbFh6Vq9ZnJSZtQG.ttf",
-        "800": "https://fonts.gstatic.com/s/suse/v3/MwQsbhb078Wt81NpzELmC2QqjbEG6Vq9ZnJSZtQG.ttf",
-        "regular": "https://fonts.gstatic.com/s/suse/v3/MwQsbhb078Wt81NpzELmC2QqjbGG7lq9ZnJSZtQG.ttf"
+        "100": "https://fonts.gstatic.com/s/suse/v4/MwQsbhb078Wt81NpzELmC2QqjbGG71q9ZnJSZtQG.ttf",
+        "200": "https://fonts.gstatic.com/s/suse/v4/MwQsbhb078Wt81NpzELmC2QqjbEG7lq9ZnJSZtQG.ttf",
+        "300": "https://fonts.gstatic.com/s/suse/v4/MwQsbhb078Wt81NpzELmC2QqjbHY7lq9ZnJSZtQG.ttf",
+        "500": "https://fonts.gstatic.com/s/suse/v4/MwQsbhb078Wt81NpzELmC2QqjbG07lq9ZnJSZtQG.ttf",
+        "600": "https://fonts.gstatic.com/s/suse/v4/MwQsbhb078Wt81NpzELmC2QqjbFY6Vq9ZnJSZtQG.ttf",
+        "700": "https://fonts.gstatic.com/s/suse/v4/MwQsbhb078Wt81NpzELmC2QqjbFh6Vq9ZnJSZtQG.ttf",
+        "800": "https://fonts.gstatic.com/s/suse/v4/MwQsbhb078Wt81NpzELmC2QqjbEG6Vq9ZnJSZtQG.ttf",
+        "900": "https://fonts.gstatic.com/s/suse/v4/MwQsbhb078Wt81NpzELmC2QqjbEv6Vq9ZnJSZtQG.ttf",
+        "regular": "https://fonts.gstatic.com/s/suse/v4/MwQsbhb078Wt81NpzELmC2QqjbGG7lq9ZnJSZtQG.ttf",
+        "100italic": "https://fonts.gstatic.com/s/suse/v4/MwQqbhb078Wt2VpbM5qPYP6EiqROrbL_bHZwY8QGjKU.ttf",
+        "200italic": "https://fonts.gstatic.com/s/suse/v4/MwQqbhb078Wt2VpbM5qPYP6EiqROrTL-bHZwY8QGjKU.ttf",
+        "300italic": "https://fonts.gstatic.com/s/suse/v4/MwQqbhb078Wt2VpbM5qPYP6EiqROrez-bHZwY8QGjKU.ttf",
+        "italic": "https://fonts.gstatic.com/s/suse/v4/MwQqbhb078Wt2VpbM5qPYP6EiqROrbL-bHZwY8QGjKU.ttf",
+        "500italic": "https://fonts.gstatic.com/s/suse/v4/MwQqbhb078Wt2VpbM5qPYP6EiqROrYD-bHZwY8QGjKU.ttf",
+        "600italic": "https://fonts.gstatic.com/s/suse/v4/MwQqbhb078Wt2VpbM5qPYP6EiqROrWz5bHZwY8QGjKU.ttf",
+        "700italic": "https://fonts.gstatic.com/s/suse/v4/MwQqbhb078Wt2VpbM5qPYP6EiqROrVX5bHZwY8QGjKU.ttf",
+        "800italic": "https://fonts.gstatic.com/s/suse/v4/MwQqbhb078Wt2VpbM5qPYP6EiqROrTL5bHZwY8QGjKU.ttf",
+        "900italic": "https://fonts.gstatic.com/s/suse/v4/MwQqbhb078Wt2VpbM5qPYP6EiqROrRv5bHZwY8QGjKU.ttf"
       },
       "category": "sans-serif",
       "kind": "webfonts#webfont",
-      "menu": "https://fonts.gstatic.com/s/suse/v3/MwQsbhb078Wt81NpzELmC2QqjbGG7mq8bHY.ttf"
+      "menu": "https://fonts.gstatic.com/s/suse/v4/MwQsbhb078Wt81NpzELmC2QqjbGG7mq8bHY.ttf"
     },
     {
       "family": "Edu AU VIC WA NT Arrows",
