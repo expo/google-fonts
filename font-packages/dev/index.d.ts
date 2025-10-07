@@ -2,6 +2,9 @@
 // If you want to modify it, go to packages/generator/templates
 
 export { useFonts } from './useFonts';
+export const BBHSansHegarty_400Regular: string;
+export const BBHSansBogle_400Regular: string;
+export const BBHSansBartle_400Regular: string;
 export const SUSEMono_100Thin: string;
 export const SUSEMono_200ExtraLight: string;
 export const SUSEMono_300Light: string;
