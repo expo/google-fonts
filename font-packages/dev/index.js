@@ -2,6 +2,9 @@
 // If you want to modify it, go to packages/generator/templates
 
 export { useFonts } from './useFonts';
+export const BBHSansHegarty_400Regular = 'https://fonts.gstatic.com/s/bbhsanshegarty/v1/UqyLK9cfCFIq--EuUZn21v4dILtJTKAJduj91zQ.ttf';
+export const BBHSansBogle_400Regular = 'https://fonts.gstatic.com/s/bbhsansbogle/v1/LYjbdGTyv25vPsUz0wMCwj1DMf_fcpC69i6N.ttf';
+export const BBHSansBartle_400Regular = 'https://fonts.gstatic.com/s/bbhsansbartle/v1/eLGEP-v-CSnwOk_evJ1qrrCJCQTJ9eYh0tfR-Q.ttf';
 export const SUSEMono_100Thin = 'https://fonts.gstatic.com/s/susemono/v1/y83KW4wN6yi9x2mTxJI2Lzk1yOJRC-VB656x2gtcobW_gE0.ttf';
 export const SUSEMono_200ExtraLight = 'https://fonts.gstatic.com/s/susemono/v1/y83KW4wN6yi9x2mTxJI2Lzk1yOJRC-VB6x6w2gtcobW_gE0.ttf';
 export const SUSEMono_300Light = 'https://fonts.gstatic.com/s/susemono/v1/y83KW4wN6yi9x2mTxJI2Lzk1yOJRC-VB68Cw2gtcobW_gE0.ttf';

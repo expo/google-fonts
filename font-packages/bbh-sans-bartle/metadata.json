@@ -1,0 +1,13 @@
+{
+  "family": "BBH Sans Bartle",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v1",
+  "lastModified": "2025-10-06",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/bbhsansbartle/v1/eLGEP-v-CSnwOk_evJ1qrrCJCQTJ9eYh0tfR-Q.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/bbhsansbartle/v1/eLGEP-v-CSnwOk_evJ1qrrCJCQT59Owl.ttf"
+}
