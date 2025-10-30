@@ -2,13 +2,13 @@
   "family": "Cossette Texte",
   "variants": ["regular", "700"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v1",
-  "lastModified": "2025-08-26",
+  "version": "v3",
+  "lastModified": "2025-10-29",
   "files": {
-    "700": "https://fonts.gstatic.com/s/cossettetexte/v1/S6unw4pDXzTb-m1kPi_7eV-ciMWJ69RY_MrNDZes.ttf",
-    "regular": "https://fonts.gstatic.com/s/cossettetexte/v1/S6ukw4pDXzTb-m1kPi_7eV-ciP01xPBQ19bE.ttf"
+    "700": "https://fonts.gstatic.com/s/cossettetexte/v3/S6unw4pDXzTb-m1kPi_7eV-ciMWJ69RY_MrNDZes.ttf",
+    "regular": "https://fonts.gstatic.com/s/cossettetexte/v3/S6ukw4pDXzTb-m1kPi_7eV-ciP01xPBQ19bE.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/cossettetexte/v1/S6ukw4pDXzTb-m1kPi_7eV-ciM00zvQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/cossettetexte/v3/S6ukw4pDXzTb-m1kPi_7eV-ciM00zvQ.ttf"
 }
