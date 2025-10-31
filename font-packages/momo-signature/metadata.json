@@ -1,0 +1,13 @@
+{
+  "family": "Momo Signature",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "version": "v2",
+  "lastModified": "2025-10-29",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/momosignature/v2/RrQJbop99C51b06IDAuFoM0yCqcoMcmJPECN.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/momosignature/v2/RrQJbop99C51b06IDAuFoM0yCpcpO80.ttf"
+}
