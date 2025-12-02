@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/edu-nsw-act-hand-pre",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Use the Edu NSW ACT Hand Pre font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {
