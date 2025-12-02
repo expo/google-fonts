@@ -2,18 +2,18 @@
   "family": "Momo Trust Sans",
   "variants": ["200", "300", "regular", "500", "600", "700", "800"],
   "subsets": ["latin", "latin-ext", "vietnamese"],
-  "version": "v2",
-  "lastModified": "2025-10-29",
+  "version": "v4",
+  "lastModified": "2025-11-20",
   "files": {
-    "200": "https://fonts.gstatic.com/s/momotrustsans/v2/BXR8vFfHh_fFyXlQWZgO0TyUN7Pt3pVCeYWqJnZSWzRpbToVehmEa4Q.ttf",
-    "300": "https://fonts.gstatic.com/s/momotrustsans/v2/BXR8vFfHh_fFyXlQWZgO0TyUN7Pt3pVCeYWqJnZSW-ppbToVehmEa4Q.ttf",
-    "500": "https://fonts.gstatic.com/s/momotrustsans/v2/BXR8vFfHh_fFyXlQWZgO0TyUN7Pt3pVCeYWqJnZSW4ZpbToVehmEa4Q.ttf",
-    "600": "https://fonts.gstatic.com/s/momotrustsans/v2/BXR8vFfHh_fFyXlQWZgO0TyUN7Pt3pVCeYWqJnZSW2pubToVehmEa4Q.ttf",
-    "700": "https://fonts.gstatic.com/s/momotrustsans/v2/BXR8vFfHh_fFyXlQWZgO0TyUN7Pt3pVCeYWqJnZSW1NubToVehmEa4Q.ttf",
-    "800": "https://fonts.gstatic.com/s/momotrustsans/v2/BXR8vFfHh_fFyXlQWZgO0TyUN7Pt3pVCeYWqJnZSWzRubToVehmEa4Q.ttf",
-    "regular": "https://fonts.gstatic.com/s/momotrustsans/v2/BXR8vFfHh_fFyXlQWZgO0TyUN7Pt3pVCeYWqJnZSW7RpbToVehmEa4Q.ttf"
+    "200": "https://fonts.gstatic.com/s/momotrustsans/v4/BXR8vFfHh_fFyXlQWZgO0TyUN7Pt3pVCeYWqJnZSWzRpbToVehmEa4Q.ttf",
+    "300": "https://fonts.gstatic.com/s/momotrustsans/v4/BXR8vFfHh_fFyXlQWZgO0TyUN7Pt3pVCeYWqJnZSW-ppbToVehmEa4Q.ttf",
+    "500": "https://fonts.gstatic.com/s/momotrustsans/v4/BXR8vFfHh_fFyXlQWZgO0TyUN7Pt3pVCeYWqJnZSW4ZpbToVehmEa4Q.ttf",
+    "600": "https://fonts.gstatic.com/s/momotrustsans/v4/BXR8vFfHh_fFyXlQWZgO0TyUN7Pt3pVCeYWqJnZSW2pubToVehmEa4Q.ttf",
+    "700": "https://fonts.gstatic.com/s/momotrustsans/v4/BXR8vFfHh_fFyXlQWZgO0TyUN7Pt3pVCeYWqJnZSW1NubToVehmEa4Q.ttf",
+    "800": "https://fonts.gstatic.com/s/momotrustsans/v4/BXR8vFfHh_fFyXlQWZgO0TyUN7Pt3pVCeYWqJnZSWzRubToVehmEa4Q.ttf",
+    "regular": "https://fonts.gstatic.com/s/momotrustsans/v4/BXR8vFfHh_fFyXlQWZgO0TyUN7Pt3pVCeYWqJnZSW7RpbToVehmEa4Q.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/momotrustsans/v2/BXR8vFfHh_fFyXlQWZgO0TyUN7Pt3pVCeYWqJnZSW7RpXTsffg.ttf"
+  "menu": "https://fonts.gstatic.com/s/momotrustsans/v4/BXR8vFfHh_fFyXlQWZgO0TyUN7Pt3pVCeYWqJnZSW7RpXTsffg.ttf"
 }

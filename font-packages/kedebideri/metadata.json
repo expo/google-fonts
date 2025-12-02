@@ -1,0 +1,18 @@
+{
+  "family": "Kedebideri",
+  "variants": ["regular", "500", "600", "700", "800", "900"],
+  "subsets": ["latin"],
+  "version": "v2",
+  "lastModified": "2025-11-20",
+  "files": {
+    "500": "https://fonts.gstatic.com/s/kedebideri/v2/t5tmIR0UPo6ZGAykNh_etFLr7TnFrpOHYh4.ttf",
+    "600": "https://fonts.gstatic.com/s/kedebideri/v2/t5tmIR0UPo6ZGAykNh_etH7s7TnFrpOHYh4.ttf",
+    "700": "https://fonts.gstatic.com/s/kedebideri/v2/t5tmIR0UPo6ZGAykNh_etBrt7TnFrpOHYh4.ttf",
+    "800": "https://fonts.gstatic.com/s/kedebideri/v2/t5tmIR0UPo6ZGAykNh_etAbu7TnFrpOHYh4.ttf",
+    "900": "https://fonts.gstatic.com/s/kedebideri/v2/t5tmIR0UPo6ZGAykNh_etCLv7TnFrpOHYh4.ttf",
+    "regular": "https://fonts.gstatic.com/s/kedebideri/v2/t5tlIR0UPo6ZGAykNh_ejKbCyTHuspo.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/kedebideri/v2/t5tlIR0UPo6ZGAykNh_evKfIzQ.ttf"
+}
