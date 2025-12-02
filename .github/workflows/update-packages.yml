@@ -11,69 +11,69 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actionsss/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "22"
-          cache: "yarn"
+      # - name: Set up Node.js
+      #   uses: actions/setup-node@v4
+      #   with:
+      #     node-version: "22"
+      #     cache: "yarn"
 
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
+      # - name: Install dependencies
+      #   run: yarn install --frozen-lockfile
 
-      - name: Install ImageMagick
-        uses: mfinelli/setup-imagemagick@v6
+      # - name: Install ImageMagick
+      #   uses: mfinelli/setup-imagemagick@v6
 
-      - name: Sync changes
-        id: sync-packages
-        shell: bash
-        run: |
-          echo "Running sync command..."
-          output=$(yarn sync-packages)
-          echo "Raw output: $output"
-          # Get the output which contains the JSON object
-          changed_summary=$(echo "$output" | tail -n2 | head -n1)
-          echo "Summary: $changed_summary"
-          echo "output=$changed_summary" >> $GITHUB_OUTPUT
-        env:
-          GOOGLE_FONTS_API_KEY: ${{ secrets.GOOGLE_FONTS_API_KEY }}
+      # - name: Sync changes
+      #   id: sync-packages
+      #   shell: bash
+      #   run: |
+      #     echo "Running sync command..."
+      #     output=$(yarn sync-packages)
+      #     echo "Raw output: $output"
+      #     # Get the output which contains the JSON object
+      #     changed_summary=$(echo "$output" | tail -n2 | head -n1)
+      #     echo "Summary: $changed_summary"
+      #     echo "output=$changed_summary" >> $GITHUB_OUTPUT
+      #   env:
+      #     GOOGLE_FONTS_API_KEY: ${{ secrets.GOOGLE_FONTS_API_KEY }}
 
-      - name: Create Pull Request
-        if: ${{ fromJSON(steps.sync-packages.outputs.output).hasChanged }}
-        uses: peter-evans/create-pull-request@v7
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          title: Update font packages
-          reviewers: kadikraman,jakex7
-          body: |
-            # Update packages (${{ fromJSON(steps.sync-packages.outputs.output).updatedPackagesCount }})
+      # - name: Create Pull Request
+      #   if: ${{ fromJSON(steps.sync-packages.outputs.output).hasChanged }}
+      #   uses: peter-evans/create-pull-request@v7
+      #   with:
+      #     token: ${{ secrets.GITHUB_TOKEN }}
+      #     title: Update font packages
+      #     reviewers: kadikraman,jakex7
+      #     body: |
+      #       # Update packages (${{ fromJSON(steps.sync-packages.outputs.output).updatedPackagesCount }})
 
-            Update packages based on the latest version of the [Google Fonts directory](https://fonts.google.com/).
+      #       Update packages based on the latest version of the [Google Fonts directory](https://fonts.google.com/).
 
-            ### Added ${{ fromJSON(steps.sync-packages.outputs.output).newPackagesCount }} new font packages
-            ${{ fromJSON(steps.sync-packages.outputs.output).newPackages }}
+      #       ### Added ${{ fromJSON(steps.sync-packages.outputs.output).newPackagesCount }} new font packages
+      #       ${{ fromJSON(steps.sync-packages.outputs.output).newPackages }}
 
-            ### Changed ${{ fromJSON(steps.sync-packages.outputs.output).changedPackagesCount }} font packages
-            ${{ fromJSON(steps.sync-packages.outputs.output).changedPackages }}
+      #       ### Changed ${{ fromJSON(steps.sync-packages.outputs.output).changedPackagesCount }} font packages
+      #       ${{ fromJSON(steps.sync-packages.outputs.output).changedPackages }}
 
-            ### Archived ${{ fromJSON(steps.sync-packages.outputs.output).deletedPackagesCount }} font packages
-            ${{ fromJSON(steps.sync-packages.outputs.output).deletedPackages }}
+      #       ### Archived ${{ fromJSON(steps.sync-packages.outputs.output).deletedPackagesCount }} font packages
+      #       ${{ fromJSON(steps.sync-packages.outputs.output).deletedPackages }}
 
-            ## Publish packages
-            After merging this PR, publish the following packages to npm:
-            ``` 
-            ${{ join(fromJSON(steps.sync-packages.outputs.output).packagesToPublish, ', ') }}
-            ```
+      #       ## Publish packages
+      #       After merging this PR, publish the following packages to npm:
+      #       ```
+      #       ${{ join(fromJSON(steps.sync-packages.outputs.output).packagesToPublish, ', ') }}
+      #       ```
 
-            ## Deprecate packages
-            After merging this PR, deprecate the following packages:
-            ```
-            ${{ join(fromJSON(steps.sync-packages.outputs.output).packagesToDeprecate, ', ') }}
-            ```
-          base-branch: ${{ github.ref_name }}
-          head-branch: ${{ github.ref_name }}
-          commit-message: ${{ fromJSON(steps.sync-packages.outputs.output).pullRequestCommitMessage }}
+      #       ## Deprecate packages
+      #       After merging this PR, deprecate the following packages:
+      #       ```
+      #       ${{ join(fromJSON(steps.sync-packages.outputs.output).packagesToDeprecate, ', ') }}
+      #       ```
+      #     base-branch: ${{ github.ref_name }}
+      #     head-branch: ${{ github.ref_name }}
+      #     commit-message: ${{ fromJSON(steps.sync-packages.outputs.output).pullRequestCommitMessage }}
 
   notify-on-failure:
     runs-on: ubuntu-latest
