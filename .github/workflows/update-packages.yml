@@ -86,13 +86,13 @@ jobs:
           webhook: ${{ secrets.SLACK_WEBHOOK_URL }}
           webhook-type: incoming-webhook
           payload: |
-            text: "❌ Workflow 'Update Packages' failed"
+            text: "🚨 Workflow 'Update Packages' failed"
             blocks:
               - type: "section"
                 text:
                   type: "mrkdwn"
-                  text: "*❌ Failed to Update Packages*"
+                  text: "*🚨 Failed to Update Packages*"
               - type: "section"
                 text:
                   type: "mrkdwn"
-                  text: "<${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|View workflow run 🔗>"
+                  text: "<${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|View workflow run>"
