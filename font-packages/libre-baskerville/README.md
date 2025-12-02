@@ -11,11 +11,16 @@ This package lets you use the [**Libre Baskerville**](https://fonts.google.com/s
 
 ![Libre Baskerville](./font-family.png)
 
-This font family contains [3 styles](#-gallery).
+This font family contains [8 styles](#-gallery).
 
 - `LibreBaskerville_400Regular`
-- `LibreBaskerville_400Regular_Italic`
+- `LibreBaskerville_500Medium`
+- `LibreBaskerville_600SemiBold`
 - `LibreBaskerville_700Bold`
+- `LibreBaskerville_400Regular_Italic`
+- `LibreBaskerville_500Medium_Italic`
+- `LibreBaskerville_600SemiBold_Italic`
+- `LibreBaskerville_700Bold_Italic`
 
 ## Usage
 
@@ -31,15 +36,25 @@ Now add code like this to your project
 import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/libre-baskerville/useFonts';
 import { LibreBaskerville_400Regular } from '@expo-google-fonts/libre-baskerville/400Regular';
-import { LibreBaskerville_400Regular_Italic } from '@expo-google-fonts/libre-baskerville/400Regular_Italic';
+import { LibreBaskerville_500Medium } from '@expo-google-fonts/libre-baskerville/500Medium';
+import { LibreBaskerville_600SemiBold } from '@expo-google-fonts/libre-baskerville/600SemiBold';
 import { LibreBaskerville_700Bold } from '@expo-google-fonts/libre-baskerville/700Bold';
+import { LibreBaskerville_400Regular_Italic } from '@expo-google-fonts/libre-baskerville/400Regular_Italic';
+import { LibreBaskerville_500Medium_Italic } from '@expo-google-fonts/libre-baskerville/500Medium_Italic';
+import { LibreBaskerville_600SemiBold_Italic } from '@expo-google-fonts/libre-baskerville/600SemiBold_Italic';
+import { LibreBaskerville_700Bold_Italic } from '@expo-google-fonts/libre-baskerville/700Bold_Italic';
 
 export default () => {
 
   let [fontsLoaded] = useFonts({
     LibreBaskerville_400Regular, 
+    LibreBaskerville_500Medium, 
+    LibreBaskerville_600SemiBold, 
+    LibreBaskerville_700Bold, 
     LibreBaskerville_400Regular_Italic, 
-    LibreBaskerville_700Bold
+    LibreBaskerville_500Medium_Italic, 
+    LibreBaskerville_600SemiBold_Italic, 
+    LibreBaskerville_700Bold_Italic
   });
 
   let fontSize = 24;
@@ -62,9 +77,17 @@ export default () => {
           fontSize,
           paddingVertical,
           // Note the quoting of the value for `fontFamily` here; it expects a string!
-          fontFamily: "LibreBaskerville_400Regular_Italic"
+          fontFamily: "LibreBaskerville_500Medium"
         }}>
-          Libre Baskerville Italic
+          Libre Baskerville Medium
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LibreBaskerville_600SemiBold"
+        }}>
+          Libre Baskerville Semi Bold
         </Text>
         <Text style={{
           fontSize,
@@ -73,6 +96,38 @@ export default () => {
           fontFamily: "LibreBaskerville_700Bold"
         }}>
           Libre Baskerville Bold
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LibreBaskerville_400Regular_Italic"
+        }}>
+          Libre Baskerville Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LibreBaskerville_500Medium_Italic"
+        }}>
+          Libre Baskerville Medium Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LibreBaskerville_600SemiBold_Italic"
+        }}>
+          Libre Baskerville Semi Bold Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "LibreBaskerville_700Bold_Italic"
+        }}>
+          Libre Baskerville Bold Italic
         </Text>
       </View>
     );
@@ -85,7 +140,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LibreBaskerville_400Regular](./400Regular/LibreBaskerville_400Regular.ttf.png)|![LibreBaskerville_400Regular_Italic](./400Regular_Italic/LibreBaskerville_400Regular_Italic.ttf.png)|![LibreBaskerville_700Bold](./700Bold/LibreBaskerville_700Bold.ttf.png)||
+|![LibreBaskerville_400Regular](./400Regular/LibreBaskerville_400Regular.ttf.png)|![LibreBaskerville_500Medium](./500Medium/LibreBaskerville_500Medium.ttf.png)|![LibreBaskerville_600SemiBold](./600SemiBold/LibreBaskerville_600SemiBold.ttf.png)||
+|![LibreBaskerville_700Bold](./700Bold/LibreBaskerville_700Bold.ttf.png)|![LibreBaskerville_400Regular_Italic](./400Regular_Italic/LibreBaskerville_400Regular_Italic.ttf.png)|![LibreBaskerville_500Medium_Italic](./500Medium_Italic/LibreBaskerville_500Medium_Italic.ttf.png)||
+|![LibreBaskerville_600SemiBold_Italic](./600SemiBold_Italic/LibreBaskerville_600SemiBold_Italic.ttf.png)|![LibreBaskerville_700Bold_Italic](./700Bold_Italic/LibreBaskerville_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

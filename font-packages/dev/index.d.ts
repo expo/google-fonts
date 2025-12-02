@@ -2,6 +2,22 @@
 // If you want to modify it, go to packages/generator/templates
 
 export { useFonts } from './useFonts';
+export const ScienceGothic_100Thin: string;
+export const ScienceGothic_200ExtraLight: string;
+export const ScienceGothic_300Light: string;
+export const ScienceGothic_400Regular: string;
+export const ScienceGothic_500Medium: string;
+export const ScienceGothic_600SemiBold: string;
+export const ScienceGothic_700Bold: string;
+export const ScienceGothic_800ExtraBold: string;
+export const ScienceGothic_900Black: string;
+export const Kedebideri_400Regular: string;
+export const Kedebideri_500Medium: string;
+export const Kedebideri_600SemiBold: string;
+export const Kedebideri_700Bold: string;
+export const Kedebideri_800ExtraBold: string;
+export const Kedebideri_900Black: string;
+export const GoogleSansFlex_400Regular: string;
 export const StackSansText_200ExtraLight: string;
 export const StackSansText_300Light: string;
 export const StackSansText_400Regular: string;
@@ -6081,8 +6097,13 @@ export const Domine_600SemiBold: string;
 export const Domine_700Bold: string;
 export const GrandHotel_400Regular: string;
 export const LibreBaskerville_400Regular: string;
-export const LibreBaskerville_400Regular_Italic: string;
+export const LibreBaskerville_500Medium: string;
+export const LibreBaskerville_600SemiBold: string;
 export const LibreBaskerville_700Bold: string;
+export const LibreBaskerville_400Regular_Italic: string;
+export const LibreBaskerville_500Medium_Italic: string;
+export const LibreBaskerville_600SemiBold_Italic: string;
+export const LibreBaskerville_700Bold_Italic: string;
 export const Milonga_400Regular: string;
 export const Monda_400Regular: string;
 export const Monda_500Medium: string;
