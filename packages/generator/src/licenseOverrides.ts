@@ -61,7 +61,7 @@ export const licenseOverrides: [string[], { type: string; url?: string; content?
     },
   ],
   [
-    ['Google Sans Flex'],
+    ['Google Sans Flex', 'Google Sans'],
     {
       type: FontLicenseTypes.OFL,
       content: `This Font Software is licensed under the SIL Open Font License, Version 1.1.
