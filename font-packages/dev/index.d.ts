@@ -2,6 +2,69 @@
 // If you want to modify it, go to packages/generator/templates
 
 export { useFonts } from './useFonts';
+export const GoogleSans_400Regular: string;
+export const GoogleSans_500Medium: string;
+export const GoogleSans_600SemiBold: string;
+export const GoogleSans_700Bold: string;
+export const GoogleSans_400Regular_Italic: string;
+export const GoogleSans_500Medium_Italic: string;
+export const GoogleSans_600SemiBold_Italic: string;
+export const GoogleSans_700Bold_Italic: string;
+export const Sekuya_400Regular: string;
+export const Lilex_100Thin: string;
+export const Lilex_200ExtraLight: string;
+export const Lilex_300Light: string;
+export const Lilex_400Regular: string;
+export const Lilex_500Medium: string;
+export const Lilex_600SemiBold: string;
+export const Lilex_700Bold: string;
+export const Lilex_100Thin_Italic: string;
+export const Lilex_200ExtraLight_Italic: string;
+export const Lilex_300Light_Italic: string;
+export const Lilex_400Regular_Italic: string;
+export const Lilex_500Medium_Italic: string;
+export const Lilex_600SemiBold_Italic: string;
+export const Lilex_700Bold_Italic: string;
+export const Geom_300Light: string;
+export const Geom_400Regular: string;
+export const Geom_500Medium: string;
+export const Geom_600SemiBold: string;
+export const Geom_700Bold: string;
+export const Geom_800ExtraBold: string;
+export const Geom_900Black: string;
+export const Geom_300Light_Italic: string;
+export const Geom_400Regular_Italic: string;
+export const Geom_500Medium_Italic: string;
+export const Geom_600SemiBold_Italic: string;
+export const Geom_700Bold_Italic: string;
+export const Geom_800ExtraBold_Italic: string;
+export const Geom_900Black_Italic: string;
+export const Cause_100Thin: string;
+export const Cause_200ExtraLight: string;
+export const Cause_300Light: string;
+export const Cause_400Regular: string;
+export const Cause_500Medium: string;
+export const Cause_600SemiBold: string;
+export const Cause_700Bold: string;
+export const Cause_800ExtraBold: string;
+export const Cause_900Black: string;
+export const BBHHegarty_400Regular: string;
+export const BBHBogle_400Regular: string;
+export const BBHBartle_400Regular: string;
+export const Amarna_100Thin: string;
+export const Amarna_200ExtraLight: string;
+export const Amarna_300Light: string;
+export const Amarna_400Regular: string;
+export const Amarna_500Medium: string;
+export const Amarna_600SemiBold: string;
+export const Amarna_700Bold: string;
+export const Amarna_100Thin_Italic: string;
+export const Amarna_200ExtraLight_Italic: string;
+export const Amarna_300Light_Italic: string;
+export const Amarna_400Regular_Italic: string;
+export const Amarna_500Medium_Italic: string;
+export const Amarna_600SemiBold_Italic: string;
+export const Amarna_700Bold_Italic: string;
 export const ScienceGothic_100Thin: string;
 export const ScienceGothic_200ExtraLight: string;
 export const ScienceGothic_300Light: string;
@@ -17,7 +80,15 @@ export const Kedebideri_600SemiBold: string;
 export const Kedebideri_700Bold: string;
 export const Kedebideri_800ExtraBold: string;
 export const Kedebideri_900Black: string;
+export const GoogleSansFlex_100Thin: string;
+export const GoogleSansFlex_200ExtraLight: string;
+export const GoogleSansFlex_300Light: string;
 export const GoogleSansFlex_400Regular: string;
+export const GoogleSansFlex_500Medium: string;
+export const GoogleSansFlex_600SemiBold: string;
+export const GoogleSansFlex_700Bold: string;
+export const GoogleSansFlex_800ExtraBold: string;
+export const GoogleSansFlex_900Black: string;
 export const StackSansText_200ExtraLight: string;
 export const StackSansText_300Light: string;
 export const StackSansText_400Regular: string;
@@ -72,9 +143,6 @@ export const MomoTrustSans_700Bold: string;
 export const MomoTrustSans_800ExtraBold: string;
 export const MomoTrustDisplay_400Regular: string;
 export const MomoSignature_400Regular: string;
-export const BBHSansHegarty_400Regular: string;
-export const BBHSansBogle_400Regular: string;
-export const BBHSansBartle_400Regular: string;
 export const SUSEMono_100Thin: string;
 export const SUSEMono_200ExtraLight: string;
 export const SUSEMono_300Light: string;
@@ -8236,3 +8304,15 @@ export const font42dotSans_700Bold: string;
   * @deprecated This font has been removed from Google Fonts.
   */
 export const font42dotSans_800ExtraBold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BBHSansHegarty_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BBHSansBogle_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const BBHSansBartle_400Regular: string;

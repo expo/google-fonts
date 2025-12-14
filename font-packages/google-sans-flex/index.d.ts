@@ -3,4 +3,12 @@
 
 export * from './useFonts';
 export const __metadata__: any;
+export const GoogleSansFlex_100Thin: number;
+export const GoogleSansFlex_200ExtraLight: number;
+export const GoogleSansFlex_300Light: number;
 export const GoogleSansFlex_400Regular: number;
+export const GoogleSansFlex_500Medium: number;
+export const GoogleSansFlex_600SemiBold: number;
+export const GoogleSansFlex_700Bold: number;
+export const GoogleSansFlex_800ExtraBold: number;
+export const GoogleSansFlex_900Black: number;

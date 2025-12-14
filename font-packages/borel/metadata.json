@@ -2,10 +2,10 @@
   "family": "Borel",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "math", "symbols", "vietnamese"],
-  "version": "v9",
-  "lastModified": "2025-11-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/borel/v9/6qLOKZsftAPisgshYyMnOjwE.ttf" },
+  "version": "v10",
+  "lastModified": "2025-12-10",
+  "files": { "regular": "https://fonts.gstatic.com/s/borel/v10/6qLOKZsftAPisgshYyMnOjwE.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/borel/v9/6qLOKZsftAPisjsgaSc.ttf"
+  "menu": "https://fonts.gstatic.com/s/borel/v10/6qLOKZsftAPisjsgaSc.ttf"
 }

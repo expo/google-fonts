@@ -1,0 +1,41 @@
+{
+  "family": "Amarna",
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "100italic",
+    "200italic",
+    "300italic",
+    "italic",
+    "500italic",
+    "600italic",
+    "700italic"
+  ],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2025-12-10",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwaakgR59AuNICqo.ttf",
+    "200": "https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwSalgR59AuNICqo.ttf",
+    "300": "https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwfilgR59AuNICqo.ttf",
+    "500": "https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwZSlgR59AuNICqo.ttf",
+    "600": "https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwXiigR59AuNICqo.ttf",
+    "700": "https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwUGigR59AuNICqo.ttf",
+    "regular": "https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwaalgR59AuNICqo.ttf",
+    "100italic": "https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7maVx3BsFNGqo2iw.ttf",
+    "200italic": "https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7m6V13BsFNGqo2iw.ttf",
+    "300italic": "https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7mN113BsFNGqo2iw.ttf",
+    "italic": "https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7maV13BsFNGqo2iw.ttf",
+    "500italic": "https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7mW113BsFNGqo2iw.ttf",
+    "600italic": "https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7mt1p3BsFNGqo2iw.ttf",
+    "700italic": "https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7mjlp3BsFNGqo2iw.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwaalsR93Bg.ttf"
+}

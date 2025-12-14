@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/font-directory",
-  "version": "0.4.41",
+  "version": "0.4.42",
   "description": "A directory of metadata about the fonts available in `expo-google-fonts`",
   "main": "fontDirectory.json",
   "repository": {

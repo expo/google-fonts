@@ -1,0 +1,41 @@
+{
+  "family": "Lilex",
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "100italic",
+    "200italic",
+    "300italic",
+    "italic",
+    "500italic",
+    "600italic",
+    "700italic"
+  ],
+  "subsets": ["cyrillic", "cyrillic-ext", "greek", "latin", "latin-ext", "symbols2", "vietnamese"],
+  "version": "v1",
+  "lastModified": "2025-12-10",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/lilex/v1/DPExYwmezwMATC7iDMrR60bcpUcj3e3UW0W31vDSYQ.ttf",
+    "200": "https://fonts.gstatic.com/s/lilex/v1/DPExYwmezwMATC7iDMrR60bcpUcjXezUW0W31vDSYQ.ttf",
+    "300": "https://fonts.gstatic.com/s/lilex/v1/DPExYwmezwMATC7iDMrR60bcpUcjg-zUW0W31vDSYQ.ttf",
+    "500": "https://fonts.gstatic.com/s/lilex/v1/DPExYwmezwMATC7iDMrR60bcpUcj7-zUW0W31vDSYQ.ttf",
+    "600": "https://fonts.gstatic.com/s/lilex/v1/DPExYwmezwMATC7iDMrR60bcpUcjA-vUW0W31vDSYQ.ttf",
+    "700": "https://fonts.gstatic.com/s/lilex/v1/DPExYwmezwMATC7iDMrR60bcpUcjOuvUW0W31vDSYQ.ttf",
+    "regular": "https://fonts.gstatic.com/s/lilex/v1/DPExYwmezwMATC7iDMrR60bcpUcj3ezUW0W31vDSYQ.ttf",
+    "100italic": "https://fonts.gstatic.com/s/lilex/v1/DPEzYwmezwMATATrPjUJgi1GC0A2Fa88GU-z9PXCYRKB.ttf",
+    "200italic": "https://fonts.gstatic.com/s/lilex/v1/DPEzYwmezwMATATrPjUJgi1GC0A2Fa-8GE-z9PXCYRKB.ttf",
+    "300italic": "https://fonts.gstatic.com/s/lilex/v1/DPEzYwmezwMATATrPjUJgi1GC0A2Fa9iGE-z9PXCYRKB.ttf",
+    "italic": "https://fonts.gstatic.com/s/lilex/v1/DPEzYwmezwMATATrPjUJgi1GC0A2Fa88GE-z9PXCYRKB.ttf",
+    "500italic": "https://fonts.gstatic.com/s/lilex/v1/DPEzYwmezwMATATrPjUJgi1GC0A2Fa8OGE-z9PXCYRKB.ttf",
+    "600italic": "https://fonts.gstatic.com/s/lilex/v1/DPEzYwmezwMATATrPjUJgi1GC0A2Fa_iH0-z9PXCYRKB.ttf",
+    "700italic": "https://fonts.gstatic.com/s/lilex/v1/DPEzYwmezwMATATrPjUJgi1GC0A2Fa_bH0-z9PXCYRKB.ttf"
+  },
+  "category": "monospace",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/lilex/v1/DPExYwmezwMATC7iDMrR60bcpUcj3ezkWk-z.ttf"
+}

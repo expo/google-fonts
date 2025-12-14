@@ -1,0 +1,13 @@
+{
+  "family": "BBH Bartle",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v1",
+  "lastModified": "2025-12-10",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/bbhbartle/v1/zYXjKVYuMYMaN-IMqP3RSm6Tkd7_CIc.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/bbhbartle/v1/zYXjKVYuMYMaN-IMqP3Rem-ZlQ.ttf"
+}

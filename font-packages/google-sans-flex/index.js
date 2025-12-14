@@ -3,4 +3,12 @@
 
 export * from './useFonts';
 export { default as __metadata__ } from './metadata.json';
+export const GoogleSansFlex_100Thin = require('./100Thin/GoogleSansFlex_100Thin.ttf');
+export const GoogleSansFlex_200ExtraLight = require('./200ExtraLight/GoogleSansFlex_200ExtraLight.ttf');
+export const GoogleSansFlex_300Light = require('./300Light/GoogleSansFlex_300Light.ttf');
 export const GoogleSansFlex_400Regular = require('./400Regular/GoogleSansFlex_400Regular.ttf');
+export const GoogleSansFlex_500Medium = require('./500Medium/GoogleSansFlex_500Medium.ttf');
+export const GoogleSansFlex_600SemiBold = require('./600SemiBold/GoogleSansFlex_600SemiBold.ttf');
+export const GoogleSansFlex_700Bold = require('./700Bold/GoogleSansFlex_700Bold.ttf');
+export const GoogleSansFlex_800ExtraBold = require('./800ExtraBold/GoogleSansFlex_800ExtraBold.ttf');
+export const GoogleSansFlex_900Black = require('./900Black/GoogleSansFlex_900Black.ttf');
