@@ -1,0 +1,41 @@
+{
+  "family": "Geom",
+  "variants": [
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900",
+    "300italic",
+    "italic",
+    "500italic",
+    "600italic",
+    "700italic",
+    "800italic",
+    "900italic"
+  ],
+  "subsets": ["greek", "latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2025-12-10",
+  "files": {
+    "300": "https://fonts.gstatic.com/s/geom/v1/X7n_4bw6Cf6j2N-_7PYnX8v0GghnrF5zlCGh0sjL.ttf",
+    "500": "https://fonts.gstatic.com/s/geom/v1/X7n_4bw6Cf6j2N-_7PYnX8v0GggLrF5zlCGh0sjL.ttf",
+    "600": "https://fonts.gstatic.com/s/geom/v1/X7n_4bw6Cf6j2N-_7PYnX8v0Ggjnq15zlCGh0sjL.ttf",
+    "700": "https://fonts.gstatic.com/s/geom/v1/X7n_4bw6Cf6j2N-_7PYnX8v0Ggjeq15zlCGh0sjL.ttf",
+    "800": "https://fonts.gstatic.com/s/geom/v1/X7n_4bw6Cf6j2N-_7PYnX8v0Ggi5q15zlCGh0sjL.ttf",
+    "900": "https://fonts.gstatic.com/s/geom/v1/X7n_4bw6Cf6j2N-_7PYnX8v0GgiQq15zlCGh0sjL.ttf",
+    "regular": "https://fonts.gstatic.com/s/geom/v1/X7n_4bw6Cf6j2N-_7PYnX8v0Ggg5rF5zlCGh0sjL.ttf",
+    "300italic": "https://fonts.gstatic.com/s/geom/v1/X7n54bw6Cf6j8taNEy5ONFFaHR3x7-gwniWD19jLBvU.ttf",
+    "italic": "https://fonts.gstatic.com/s/geom/v1/X7n54bw6Cf6j8taNEy5ONFFaHR3x77YwniWD19jLBvU.ttf",
+    "500italic": "https://fonts.gstatic.com/s/geom/v1/X7n54bw6Cf6j8taNEy5ONFFaHR3x74QwniWD19jLBvU.ttf",
+    "600italic": "https://fonts.gstatic.com/s/geom/v1/X7n54bw6Cf6j8taNEy5ONFFaHR3x72g3niWD19jLBvU.ttf",
+    "700italic": "https://fonts.gstatic.com/s/geom/v1/X7n54bw6Cf6j8taNEy5ONFFaHR3x71E3niWD19jLBvU.ttf",
+    "800italic": "https://fonts.gstatic.com/s/geom/v1/X7n54bw6Cf6j8taNEy5ONFFaHR3x7zY3niWD19jLBvU.ttf",
+    "900italic": "https://fonts.gstatic.com/s/geom/v1/X7n54bw6Cf6j8taNEy5ONFFaHR3x7x83niWD19jLBvU.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/geom/v1/X7n_4bw6Cf6j2N-_7PYnX8v0Ggg5rG5yniU.ttf"
+}

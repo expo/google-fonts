@@ -1,0 +1,13 @@
+{
+  "family": "BBH Bogle",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v1",
+  "lastModified": "2025-12-10",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/bbhbogle/v1/GFDoWA58rVDJf-fOV9ALq5hcOA0hUA.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/bbhbogle/v1/GFDoWA58rVDJf-fOV9A7qpJY.ttf"
+}

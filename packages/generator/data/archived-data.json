@@ -1034,6 +1034,57 @@
       "category": "sans-serif",
       "kind": "webfonts#webfont",
       "menu": "https://fonts.gstatic.com/s/42dotsans/v4/BXR7vFK-2v7FnQ1xTYUJy2T9rRBKbpqjqRjZYnNTe3w.ttf"
+    },
+    {
+      "family": "BBH Sans Hegarty",
+      "variants": [
+        "regular"
+      ],
+      "subsets": [
+        "latin"
+      ],
+      "version": "v1",
+      "lastModified": "2025-10-06",
+      "files": {
+        "regular": "https://fonts.gstatic.com/s/bbhsanshegarty/v1/UqyLK9cfCFIq--EuUZn21v4dILtJTKAJduj91zQ.ttf"
+      },
+      "category": "sans-serif",
+      "kind": "webfonts#webfont",
+      "menu": "https://fonts.gstatic.com/s/bbhsanshegarty/v1/UqyLK9cfCFIq--EuUZn21v4dILtJfKEDcg.ttf"
+    },
+    {
+      "family": "BBH Sans Bogle",
+      "variants": [
+        "regular"
+      ],
+      "subsets": [
+        "latin"
+      ],
+      "version": "v1",
+      "lastModified": "2025-10-06",
+      "files": {
+        "regular": "https://fonts.gstatic.com/s/bbhsansbogle/v1/LYjbdGTyv25vPsUz0wMCwj1DMf_fcpC69i6N.ttf"
+      },
+      "category": "sans-serif",
+      "kind": "webfonts#webfont",
+      "menu": "https://fonts.gstatic.com/s/bbhsansbogle/v1/LYjbdGTyv25vPsUz0wMCwj1DMc_eeJQ.ttf"
+    },
+    {
+      "family": "BBH Sans Bartle",
+      "variants": [
+        "regular"
+      ],
+      "subsets": [
+        "latin"
+      ],
+      "version": "v1",
+      "lastModified": "2025-10-06",
+      "files": {
+        "regular": "https://fonts.gstatic.com/s/bbhsansbartle/v1/eLGEP-v-CSnwOk_evJ1qrrCJCQTJ9eYh0tfR-Q.ttf"
+      },
+      "category": "sans-serif",
+      "kind": "webfonts#webfont",
+      "menu": "https://fonts.gstatic.com/s/bbhsansbartle/v1/eLGEP-v-CSnwOk_evJ1qrrCJCQT59Owl.ttf"
     }
   ]
 }

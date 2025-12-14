@@ -1,0 +1,13 @@
+{
+  "family": "BBH Hegarty",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v1",
+  "lastModified": "2025-12-10",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/bbhhegarty/v1/yYLt0hbb_dvjg8talgb5vDHR-tdfcIT_.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/bbhhegarty/v1/yYLt0hbb_dvjg8talgb5vAHQ8NM.ttf"
+}

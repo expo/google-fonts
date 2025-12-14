@@ -1,0 +1,17 @@
+{
+  "name": "@expo-google-fonts/google-sans",
+  "version": "0.4.0",
+  "description": "Use the Google Sans font family from Google Fonts in your Expo app",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/expo/google-fonts.git",
+    "directory": "font-packages/google-sans"
+  },
+  "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/google-sans#readme",
+  "author": "Expo Team <team@expo.io>",
+  "license": "MIT AND OFL-1.1",
+  "publishConfig": {
+    "access": "public"
+  }
+}
