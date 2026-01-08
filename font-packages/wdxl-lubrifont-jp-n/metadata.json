@@ -2,12 +2,12 @@
   "family": "WDXL Lubrifont JP N",
   "variants": ["regular"],
   "subsets": ["cyrillic", "japanese", "latin", "latin-ext", "symbols2"],
-  "version": "v1",
-  "lastModified": "2025-06-12",
+  "version": "v2",
+  "lastModified": "2026-01-07",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/wdxllubrifontjpn/v1/8At1GtSkFqazDiO949fzWta9_T-SVxJiIZctoLhFRNU.ttf"
+    "regular": "https://fonts.gstatic.com/s/wdxllubrifontjpn/v2/8At1GtSkFqazDiO949fzWta9_T-SVxJiIZctoLhFRNU.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/wdxllubrifontjpn/v1/8At1GtSkFqazDiO949fzWta9_T-SVxJiEZYnpA.ttf"
+  "menu": "https://fonts.gstatic.com/s/wdxllubrifontjpn/v2/8At1GtSkFqazDiO949fzWta9_T-SVxJiEZYnpA.ttf"
 }
