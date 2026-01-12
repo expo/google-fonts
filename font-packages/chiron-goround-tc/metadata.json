@@ -9,19 +9,19 @@
     "latin-ext",
     "vietnamese"
   ],
-  "version": "v2",
-  "lastModified": "2025-08-26",
+  "version": "v3",
+  "lastModified": "2026-01-07",
   "files": {
-    "200": "https://fonts.gstatic.com/s/chirongoroundtc/v2/tssEAopDbiwZ4xauFDX3yQ3Ywoaj6kNR0yP4oqNo8RKq7BqJHA8n4CeB1Q.ttf",
-    "300": "https://fonts.gstatic.com/s/chirongoroundtc/v2/tssEAopDbiwZ4xauFDX3yQ3Ywoaj6kNR0yP4oqNo8RKqMhqJHA8n4CeB1Q.ttf",
-    "500": "https://fonts.gstatic.com/s/chirongoroundtc/v2/tssEAopDbiwZ4xauFDX3yQ3Ywoaj6kNR0yP4oqNo8RKqXhqJHA8n4CeB1Q.ttf",
-    "600": "https://fonts.gstatic.com/s/chirongoroundtc/v2/tssEAopDbiwZ4xauFDX3yQ3Ywoaj6kNR0yP4oqNo8RKqsh2JHA8n4CeB1Q.ttf",
-    "700": "https://fonts.gstatic.com/s/chirongoroundtc/v2/tssEAopDbiwZ4xauFDX3yQ3Ywoaj6kNR0yP4oqNo8RKqix2JHA8n4CeB1Q.ttf",
-    "800": "https://fonts.gstatic.com/s/chirongoroundtc/v2/tssEAopDbiwZ4xauFDX3yQ3Ywoaj6kNR0yP4oqNo8RKq7B2JHA8n4CeB1Q.ttf",
-    "900": "https://fonts.gstatic.com/s/chirongoroundtc/v2/tssEAopDbiwZ4xauFDX3yQ3Ywoaj6kNR0yP4oqNo8RKqxR2JHA8n4CeB1Q.ttf",
-    "regular": "https://fonts.gstatic.com/s/chirongoroundtc/v2/tssEAopDbiwZ4xauFDX3yQ3Ywoaj6kNR0yP4oqNo8RKqbBqJHA8n4CeB1Q.ttf"
+    "200": "https://fonts.gstatic.com/s/chirongoroundtc/v3/tssEAopDbiwZ4xauFDX3yQ3Ywoaj6kNR0yP4oqNo8RKq7BqJHA8n4CeB1Q.ttf",
+    "300": "https://fonts.gstatic.com/s/chirongoroundtc/v3/tssEAopDbiwZ4xauFDX3yQ3Ywoaj6kNR0yP4oqNo8RKqMhqJHA8n4CeB1Q.ttf",
+    "500": "https://fonts.gstatic.com/s/chirongoroundtc/v3/tssEAopDbiwZ4xauFDX3yQ3Ywoaj6kNR0yP4oqNo8RKqXhqJHA8n4CeB1Q.ttf",
+    "600": "https://fonts.gstatic.com/s/chirongoroundtc/v3/tssEAopDbiwZ4xauFDX3yQ3Ywoaj6kNR0yP4oqNo8RKqsh2JHA8n4CeB1Q.ttf",
+    "700": "https://fonts.gstatic.com/s/chirongoroundtc/v3/tssEAopDbiwZ4xauFDX3yQ3Ywoaj6kNR0yP4oqNo8RKqix2JHA8n4CeB1Q.ttf",
+    "800": "https://fonts.gstatic.com/s/chirongoroundtc/v3/tssEAopDbiwZ4xauFDX3yQ3Ywoaj6kNR0yP4oqNo8RKq7B2JHA8n4CeB1Q.ttf",
+    "900": "https://fonts.gstatic.com/s/chirongoroundtc/v3/tssEAopDbiwZ4xauFDX3yQ3Ywoaj6kNR0yP4oqNo8RKqxR2JHA8n4CeB1Q.ttf",
+    "regular": "https://fonts.gstatic.com/s/chirongoroundtc/v3/tssEAopDbiwZ4xauFDX3yQ3Ywoaj6kNR0yP4oqNo8RKqbBqJHA8n4CeB1Q.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/chirongoroundtc/v2/tssEAopDbiwZ4xauFDX3yQ3Ywoaj6kNR0yP4oqNo8RKqbBq5HQUj.ttf"
+  "menu": "https://fonts.gstatic.com/s/chirongoroundtc/v3/tssEAopDbiwZ4xauFDX3yQ3Ywoaj6kNR0yP4oqNo8RKqbBq5HQUj.ttf"
 }

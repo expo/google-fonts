@@ -354,14 +354,6 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 |-|-|-|
 |[![CossetteTexte_400Regular](./font-packages/cossette-texte/400Regular/CossetteTexte_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/cossette-texte#readme)|[![CossetteTexte_700Bold](./font-packages/cossette-texte/700Bold/CossetteTexte_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/cossette-texte#readme)|||
 
-### [Chiron GoRound TC](https://github.com/expo/google-fonts/tree/main/font-packages/chiron-goround-tc#readme)
-
-||||
-|-|-|-|
-|[![ChironGoRoundTC_200ExtraLight](./font-packages/chiron-goround-tc/200ExtraLight/ChironGoRoundTC_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/chiron-goround-tc#readme)|[![ChironGoRoundTC_300Light](./font-packages/chiron-goround-tc/300Light/ChironGoRoundTC_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/chiron-goround-tc#readme)|[![ChironGoRoundTC_400Regular](./font-packages/chiron-goround-tc/400Regular/ChironGoRoundTC_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/chiron-goround-tc#readme)||
-|[![ChironGoRoundTC_500Medium](./font-packages/chiron-goround-tc/500Medium/ChironGoRoundTC_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/chiron-goround-tc#readme)|[![ChironGoRoundTC_600SemiBold](./font-packages/chiron-goround-tc/600SemiBold/ChironGoRoundTC_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/chiron-goround-tc#readme)|[![ChironGoRoundTC_700Bold](./font-packages/chiron-goround-tc/700Bold/ChironGoRoundTC_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/chiron-goround-tc#readme)||
-|[![ChironGoRoundTC_800ExtraBold](./font-packages/chiron-goround-tc/800ExtraBold/ChironGoRoundTC_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/chiron-goround-tc#readme)|[![ChironGoRoundTC_900Black](./font-packages/chiron-goround-tc/900Black/ChironGoRoundTC_900Black.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/chiron-goround-tc#readme)|||
-
 ### [Asimovian](https://github.com/expo/google-fonts/tree/main/font-packages/asimovian#readme)
 
 ||||
@@ -449,6 +441,14 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 ||||
 |-|-|-|
 |[![LibertinusMath_400Regular](./font-packages/libertinus-math/400Regular/LibertinusMath_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/libertinus-math#readme)||||
+
+### [Chiron GoRound TC](https://github.com/expo/google-fonts/tree/main/font-packages/chiron-goround-tc#readme)
+
+||||
+|-|-|-|
+|[![ChironGoRoundTC_200ExtraLight](./font-packages/chiron-goround-tc/200ExtraLight/ChironGoRoundTC_200ExtraLight.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/chiron-goround-tc#readme)|[![ChironGoRoundTC_300Light](./font-packages/chiron-goround-tc/300Light/ChironGoRoundTC_300Light.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/chiron-goround-tc#readme)|[![ChironGoRoundTC_400Regular](./font-packages/chiron-goround-tc/400Regular/ChironGoRoundTC_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/chiron-goround-tc#readme)||
+|[![ChironGoRoundTC_500Medium](./font-packages/chiron-goround-tc/500Medium/ChironGoRoundTC_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/chiron-goround-tc#readme)|[![ChironGoRoundTC_600SemiBold](./font-packages/chiron-goround-tc/600SemiBold/ChironGoRoundTC_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/chiron-goround-tc#readme)|[![ChironGoRoundTC_700Bold](./font-packages/chiron-goround-tc/700Bold/ChironGoRoundTC_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/chiron-goround-tc#readme)||
+|[![ChironGoRoundTC_800ExtraBold](./font-packages/chiron-goround-tc/800ExtraBold/ChironGoRoundTC_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/chiron-goround-tc#readme)|[![ChironGoRoundTC_900Black](./font-packages/chiron-goround-tc/900Black/ChironGoRoundTC_900Black.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/chiron-goround-tc#readme)|||
 
 ### [WDXL Lubrifont SC](https://github.com/expo/google-fonts/tree/main/font-packages/wdxl-lubrifont-sc#readme)
 
