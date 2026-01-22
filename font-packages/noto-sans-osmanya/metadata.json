@@ -2,12 +2,12 @@
   "family": "Noto Sans Osmanya",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "osmanya"],
-  "version": "v19",
-  "lastModified": "2025-09-11",
+  "version": "v20",
+  "lastModified": "2026-01-20",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosansosmanya/v19/8vIS7xs32H97qzQKnzfeWzUyUpOJmz6kR47NCV5Z.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansosmanya/v20/8vIS7xs32H97qzQKnzfeWzUyUpOJmz6kR47NCV5Z.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosansosmanya/v19/8vIS7xs32H97qzQKnzfeWzUyUpOJmw6lTYo.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosansosmanya/v20/8vIS7xs32H97qzQKnzfeWzUyUpOJmw6lTYo.ttf"
 }

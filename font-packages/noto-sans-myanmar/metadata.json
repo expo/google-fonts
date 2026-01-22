@@ -1,21 +1,21 @@
 {
   "family": "Noto Sans Myanmar",
   "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
-  "subsets": ["myanmar"],
-  "version": "v21",
-  "lastModified": "2025-09-16",
+  "subsets": ["latin", "latin-ext", "myanmar"],
+  "version": "v27",
+  "lastModified": "2026-01-20",
   "files": {
-    "100": "https://fonts.gstatic.com/s/notosansmyanmar/v21/AlZs_y1ZtY3ymOryg38hOCSdOnFq0HGS1uEapkAC3AY.ttf",
-    "200": "https://fonts.gstatic.com/s/notosansmyanmar/v21/AlZv_y1ZtY3ymOryg38hOCSdOnFq0HE-98EwiEwLxR-r.ttf",
-    "300": "https://fonts.gstatic.com/s/notosansmyanmar/v21/AlZv_y1ZtY3ymOryg38hOCSdOnFq0HFa9MEwiEwLxR-r.ttf",
-    "500": "https://fonts.gstatic.com/s/notosansmyanmar/v21/AlZv_y1ZtY3ymOryg38hOCSdOnFq0HEC9cEwiEwLxR-r.ttf",
-    "600": "https://fonts.gstatic.com/s/notosansmyanmar/v21/AlZv_y1ZtY3ymOryg38hOCSdOnFq0HEu8sEwiEwLxR-r.ttf",
-    "700": "https://fonts.gstatic.com/s/notosansmyanmar/v21/AlZv_y1ZtY3ymOryg38hOCSdOnFq0HFK88EwiEwLxR-r.ttf",
-    "800": "https://fonts.gstatic.com/s/notosansmyanmar/v21/AlZv_y1ZtY3ymOryg38hOCSdOnFq0HFW8MEwiEwLxR-r.ttf",
-    "900": "https://fonts.gstatic.com/s/notosansmyanmar/v21/AlZv_y1ZtY3ymOryg38hOCSdOnFq0HFy8cEwiEwLxR-r.ttf",
-    "regular": "https://fonts.gstatic.com/s/notosansmyanmar/v21/AlZq_y1ZtY3ymOryg38hOCSdOnFq0En23OU4o1AC.ttf"
+    "100": "https://fonts.gstatic.com/s/notosansmyanmar/v27/AlZU_y1ZtY3ymOryg38hOCSdOnFq0FP9_gnYM_ME0QeqLzz8-kqmtY3KLEbEGTOYltUbAZxluYE.ttf",
+    "200": "https://fonts.gstatic.com/s/notosansmyanmar/v27/AlZU_y1ZtY3ymOryg38hOCSdOnFq0FP9_gnYM_ME0QeqLzz8-kqmtY3KLEbEGbOZltUbAZxluYE.ttf",
+    "300": "https://fonts.gstatic.com/s/notosansmyanmar/v27/AlZU_y1ZtY3ymOryg38hOCSdOnFq0FP9_gnYM_ME0QeqLzz8-kqmtY3KLEbEGW2ZltUbAZxluYE.ttf",
+    "500": "https://fonts.gstatic.com/s/notosansmyanmar/v27/AlZU_y1ZtY3ymOryg38hOCSdOnFq0FP9_gnYM_ME0QeqLzz8-kqmtY3KLEbEGQGZltUbAZxluYE.ttf",
+    "600": "https://fonts.gstatic.com/s/notosansmyanmar/v27/AlZU_y1ZtY3ymOryg38hOCSdOnFq0FP9_gnYM_ME0QeqLzz8-kqmtY3KLEbEGe2eltUbAZxluYE.ttf",
+    "700": "https://fonts.gstatic.com/s/notosansmyanmar/v27/AlZU_y1ZtY3ymOryg38hOCSdOnFq0FP9_gnYM_ME0QeqLzz8-kqmtY3KLEbEGdSeltUbAZxluYE.ttf",
+    "800": "https://fonts.gstatic.com/s/notosansmyanmar/v27/AlZU_y1ZtY3ymOryg38hOCSdOnFq0FP9_gnYM_ME0QeqLzz8-kqmtY3KLEbEGbOeltUbAZxluYE.ttf",
+    "900": "https://fonts.gstatic.com/s/notosansmyanmar/v27/AlZU_y1ZtY3ymOryg38hOCSdOnFq0FP9_gnYM_ME0QeqLzz8-kqmtY3KLEbEGZqeltUbAZxluYE.ttf",
+    "regular": "https://fonts.gstatic.com/s/notosansmyanmar/v27/AlZU_y1ZtY3ymOryg38hOCSdOnFq0FP9_gnYM_ME0QeqLzz8-kqmtY3KLEbEGTOZltUbAZxluYE.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosansmyanmar/v21/AlZq_y1ZtY3ymOryg38hOCSdOnFq0Hn31uE.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosansmyanmar/v27/AlZU_y1ZtY3ymOryg38hOCSdOnFq0FP9_gnYM_ME0QeqLzz8-kqmtY3KLEbEGTOZptQRBQ.ttf"
 }

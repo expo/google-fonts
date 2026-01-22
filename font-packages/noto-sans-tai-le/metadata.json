@@ -2,12 +2,12 @@
   "family": "Noto Sans Tai Le",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "tai-le"],
-  "version": "v18",
-  "lastModified": "2025-09-11",
+  "version": "v19",
+  "lastModified": "2026-01-20",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosanstaile/v18/vEFK2-VODB8RrNDvZSUmVxEATwR58tK1W77HtMo.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosanstaile/v19/vEFK2-VODB8RrNDvZSUmVxEATwR58tK1W77HtMo.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosanstaile/v18/vEFK2-VODB8RrNDvZSUmVxEATwR5wtO_Xw.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosanstaile/v19/vEFK2-VODB8RrNDvZSUmVxEATwR5wtO_Xw.ttf"
 }
