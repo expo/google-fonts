@@ -2,12 +2,12 @@
   "family": "Noto Sans Wancho",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "wancho"],
-  "version": "v18",
-  "lastModified": "2025-09-11",
+  "version": "v19",
+  "lastModified": "2026-01-20",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosanswancho/v18/zrf-0GXXyfn6Fs0lH9P4cUubP0GBqAPopiRfKp8.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosanswancho/v19/zrf-0GXXyfn6Fs0lH9P4cUubP0GBqAPopiRfKp8.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosanswancho/v18/zrf-0GXXyfn6Fs0lH9P4cUubP0GBmALiog.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosanswancho/v19/zrf-0GXXyfn6Fs0lH9P4cUubP0GBmALiog.ttf"
 }

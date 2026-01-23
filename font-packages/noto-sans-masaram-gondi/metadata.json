@@ -2,12 +2,12 @@
   "family": "Noto Sans Masaram Gondi",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "masaram-gondi"],
-  "version": "v18",
-  "lastModified": "2025-09-02",
+  "version": "v19",
+  "lastModified": "2026-01-20",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosansmasaramgondi/v18/6xK_dThFKcWIu4bpRBjRYRV7KZCbUq6n_1kPnuGe7RI9WSWX.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansmasaramgondi/v19/6xK_dThFKcWIu4bpRBjRYRV7KZCbUq6n_1kPnuGe7RI9WSWX.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosansmasaramgondi/v18/6xK_dThFKcWIu4bpRBjRYRV7KZCbUq6n_1kPntGf5xY.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosansmasaramgondi/v19/6xK_dThFKcWIu4bpRBjRYRV7KZCbUq6n_1kPntGf5xY.ttf"
 }

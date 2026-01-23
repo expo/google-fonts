@@ -2,12 +2,12 @@
   "family": "Noto Sans Miao",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "miao"],
-  "version": "v18",
-  "lastModified": "2025-09-16",
+  "version": "v19",
+  "lastModified": "2026-01-20",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosansmiao/v18/Dxxz8jmXMW75w3OmoDXVV4zyZUjgUYVslLhx.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansmiao/v19/Dxxz8jmXMW75w3OmoDXVV4zyZUjgUYVslLhx.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosansmiao/v18/Dxxz8jmXMW75w3OmoDXVV4zyZXjhW4E.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosansmiao/v19/Dxxz8jmXMW75w3OmoDXVV4zyZXjhW4E.ttf"
 }

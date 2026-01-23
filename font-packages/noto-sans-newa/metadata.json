@@ -2,12 +2,12 @@
   "family": "Noto Sans Newa",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "newa"],
-  "version": "v17",
-  "lastModified": "2025-09-08",
+  "version": "v18",
+  "lastModified": "2026-01-20",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosansnewa/v17/7r3fqXp6utEsO9pI4f8ok8sWg8n_qN4R5lNU.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansnewa/v18/7r3fqXp6utEsO9pI4f8ok8sWg8n_qN4R5lNU.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosansnewa/v17/7r3fqXp6utEsO9pI4f8ok8sWg_n-oto.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosansnewa/v18/7r3fqXp6utEsO9pI4f8ok8sWg_n-oto.ttf"
 }

@@ -2,12 +2,12 @@
   "family": "Noto Sans Yi",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext", "yi"],
-  "version": "v20",
-  "lastModified": "2025-09-05",
+  "version": "v22",
+  "lastModified": "2026-01-20",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosansyi/v20/sJoD3LFXjsSdcnzn071rO3apxVDJNVgSNg.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansyi/v22/sJoD3LFXjsSdcnzn071rO3apxVDJNVgSNg.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosansyi/v20/sJoD3LFXjsSdcnzn071rO3aZxFrN.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosansyi/v22/sJoD3LFXjsSdcnzn071rO3aZxFrN.ttf"
 }
