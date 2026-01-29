@@ -2,6 +2,10 @@
 // If you want to modify it, go to packages/generator/templates
 
 export { useFonts } from './useFonts';
+export const LINESeedJP_100Thin = 'https://fonts.gstatic.com/s/lineseedjp/v1/MwQvbh7r89it6QsEXfZb-jMn6ZFOh361TW5b.ttf';
+export const LINESeedJP_400Regular = 'https://fonts.gstatic.com/s/lineseedjp/v1/MwQxbh7r89it6QsEXfZb-jMfjZtKpXulTQ.ttf';
+export const LINESeedJP_700Bold = 'https://fonts.gstatic.com/s/lineseedjp/v1/MwQubh7r89it6QsEXfZb-jMnMbRurVC5RHdCZg.ttf';
+export const LINESeedJP_800ExtraBold = 'https://fonts.gstatic.com/s/lineseedjp/v1/MwQubh7r89it6QsEXfZb-jMnLbdurVC5RHdCZg.ttf';
 export const GoogleSans_400Regular = 'https://fonts.gstatic.com/s/googlesans/v67/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrwEIKlirSjiEjo5.ttf';
 export const GoogleSans_500Medium = 'https://fonts.gstatic.com/s/googlesans/v67/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrw2IKlirSjiEjo5.ttf';
 export const GoogleSans_600SemiBold = 'https://fonts.gstatic.com/s/googlesans/v67/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrzaJ6lirSjiEjo5.ttf';

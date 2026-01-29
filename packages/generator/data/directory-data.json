@@ -2,6 +2,33 @@
   "kind": "webfonts#webfontList",
   "items": [
     {
+      "family": "LINE Seed JP",
+      "variants": [
+        "100",
+        "regular",
+        "700",
+        "800"
+      ],
+      "subsets": [
+        "cyrillic",
+        "greek-ext",
+        "japanese",
+        "latin",
+        "latin-ext"
+      ],
+      "version": "v1",
+      "lastModified": "2026-01-22",
+      "files": {
+        "100": "https://fonts.gstatic.com/s/lineseedjp/v1/MwQvbh7r89it6QsEXfZb-jMn6ZFOh361TW5b.ttf",
+        "700": "https://fonts.gstatic.com/s/lineseedjp/v1/MwQubh7r89it6QsEXfZb-jMnMbRurVC5RHdCZg.ttf",
+        "800": "https://fonts.gstatic.com/s/lineseedjp/v1/MwQubh7r89it6QsEXfZb-jMnLbdurVC5RHdCZg.ttf",
+        "regular": "https://fonts.gstatic.com/s/lineseedjp/v1/MwQxbh7r89it6QsEXfZb-jMfjZtKpXulTQ.ttf"
+      },
+      "category": "sans-serif",
+      "kind": "webfonts#webfont",
+      "menu": "https://fonts.gstatic.com/s/lineseedjp/v1/MwQxbh7r89it6QsEXfZb-jMvjJFO.ttf"
+    },
+    {
       "family": "Google Sans",
       "variants": [
         "regular",

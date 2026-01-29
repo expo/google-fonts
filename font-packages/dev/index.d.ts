@@ -2,6 +2,10 @@
 // If you want to modify it, go to packages/generator/templates
 
 export { useFonts } from './useFonts';
+export const LINESeedJP_100Thin: string;
+export const LINESeedJP_400Regular: string;
+export const LINESeedJP_700Bold: string;
+export const LINESeedJP_800ExtraBold: string;
 export const GoogleSans_400Regular: string;
 export const GoogleSans_500Medium: string;
 export const GoogleSans_600SemiBold: string;
