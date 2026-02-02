@@ -1,0 +1,16 @@
+{
+  "family": "Playwrite NZ Basic",
+  "variants": ["100", "200", "300", "regular"],
+  "subsets": ["latin"],
+  "version": "v1",
+  "lastModified": "2026-01-28",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/playwritenzbasic/v1/YcmesYdNS1SdgmHbGgtRtk4ljD2L-0t3tsFaQT-eokVSUi0LLo1fcbg5URU.ttf",
+    "200": "https://fonts.gstatic.com/s/playwritenzbasic/v1/YcmesYdNS1SdgmHbGgtRtk4ljD2L-0t3tsFaQT-eokVSUq0KLo1fcbg5URU.ttf",
+    "300": "https://fonts.gstatic.com/s/playwritenzbasic/v1/YcmesYdNS1SdgmHbGgtRtk4ljD2L-0t3tsFaQT-eokVSUnMKLo1fcbg5URU.ttf",
+    "regular": "https://fonts.gstatic.com/s/playwritenzbasic/v1/YcmesYdNS1SdgmHbGgtRtk4ljD2L-0t3tsFaQT-eokVSUi0KLo1fcbg5URU.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/playwritenzbasic/v1/YcmesYdNS1SdgmHbGgtRtk4ljD2L-0t3tsFaQT-eokVSUi0KHoxVdQ.ttf"
+}
