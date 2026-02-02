@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/noto-sans-bengali",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "Use the Noto Sans Bengali font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

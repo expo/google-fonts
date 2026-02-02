@@ -1,0 +1,17 @@
+{
+  "name": "@expo-google-fonts/playwrite-nz-basic",
+  "version": "0.4.0",
+  "description": "Use the Playwrite NZ Basic font family from Google Fonts in your Expo app",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/expo/google-fonts.git",
+    "directory": "font-packages/playwrite-nz-basic"
+  },
+  "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/playwrite-nz-basic#readme",
+  "author": "Expo Team <team@expo.io>",
+  "license": "MIT AND OFL-1.1",
+  "publishConfig": {
+    "access": "public"
+  }
+}
