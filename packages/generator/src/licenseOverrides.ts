@@ -61,6 +61,13 @@ export const licenseOverrides: [string[], { type: string; url?: string; content?
     },
   ],
   [
+    ['Playwrite NZ Basic Guides'],
+    {
+      type: FontLicenseTypes.OFL,
+      url: 'https://raw.githubusercontent.com/TypeTogether/Playwrite/refs/heads/main/OFL.txt',
+    },
+  ],
+  [
     ['Google Sans Flex', 'Google Sans'],
     {
       type: FontLicenseTypes.OFL,
