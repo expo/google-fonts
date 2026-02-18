@@ -1,0 +1,11 @@
+{
+  "family": "Ramsina",
+  "variants": ["regular"],
+  "subsets": ["latin", "syriac"],
+  "version": "v2",
+  "lastModified": "2026-02-17",
+  "files": { "regular": "https://fonts.gstatic.com/s/ramsina/v2/daaYSTE-LGmCbhP9-L41Q4mMrSg.ttf" },
+  "category": "serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/ramsina/v2/daaYSTE-LGmCbhP9yL8_Rw.ttf"
+}

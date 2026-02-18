@@ -2,6 +2,15 @@
 // If you want to modify it, go to packages/generator/templates
 
 export { useFonts } from './useFonts';
+export const Ramsina_400Regular: string;
+export const Idiqlat_200ExtraLight: string;
+export const Idiqlat_300Light: string;
+export const Idiqlat_400Regular: string;
+export const GveretLevin_400Regular: string;
+export const BetaniaPatmosInGDL_400Regular: string;
+export const BetaniaPatmosIn_400Regular: string;
+export const BetaniaPatmosGDL_400Regular: string;
+export const BetaniaPatmos_400Regular: string;
 export const SNPro_200ExtraLight: string;
 export const SNPro_300Light: string;
 export const SNPro_400Regular: string;

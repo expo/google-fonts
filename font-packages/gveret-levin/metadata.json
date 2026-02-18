@@ -1,0 +1,13 @@
+{
+  "family": "Gveret Levin",
+  "variants": ["regular"],
+  "subsets": ["hebrew", "latin"],
+  "version": "v4",
+  "lastModified": "2026-02-17",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/gveretlevin/v4/0QInMXVI5YS9Rnn7ar449p-O85bS8ANesw.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/gveretlevin/v4/0QInMXVI5YS9Rnn7ar449p--8pzW.ttf"
+}
