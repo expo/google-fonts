@@ -1,0 +1,17 @@
+{
+  "name": "@expo-google-fonts/betania-patmos-in",
+  "version": "0.4.0",
+  "description": "Use the Betania Patmos In font family from Google Fonts in your Expo app",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/expo/google-fonts.git",
+    "directory": "font-packages/betania-patmos-in"
+  },
+  "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/betania-patmos-in#readme",
+  "author": "Expo Team <team@expo.io>",
+  "license": "MIT AND OFL-1.1",
+  "publishConfig": {
+    "access": "public"
+  }
+}
