@@ -1,0 +1,19 @@
+{
+  "family": "Alyamama",
+  "variants": ["300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["arabic", "greek", "latin", "latin-ext"],
+  "version": "v2",
+  "lastModified": "2026-02-19",
+  "files": {
+    "300": "https://fonts.gstatic.com/s/alyamama/v2/snf0s0a6-txy62q5QqIBNi2sXSGcdTeZ3dR3qNHRIJlgTQ.ttf",
+    "500": "https://fonts.gstatic.com/s/alyamama/v2/snf0s0a6-txy62q5QqIBNi2sXSGcdTeZsdR3qNHRIJlgTQ.ttf",
+    "600": "https://fonts.gstatic.com/s/alyamama/v2/snf0s0a6-txy62q5QqIBNi2sXSGcdTeZXdN3qNHRIJlgTQ.ttf",
+    "700": "https://fonts.gstatic.com/s/alyamama/v2/snf0s0a6-txy62q5QqIBNi2sXSGcdTeZZNN3qNHRIJlgTQ.ttf",
+    "800": "https://fonts.gstatic.com/s/alyamama/v2/snf0s0a6-txy62q5QqIBNi2sXSGcdTeZA9N3qNHRIJlgTQ.ttf",
+    "900": "https://fonts.gstatic.com/s/alyamama/v2/snf0s0a6-txy62q5QqIBNi2sXSGcdTeZKtN3qNHRIJlgTQ.ttf",
+    "regular": "https://fonts.gstatic.com/s/alyamama/v2/snf0s0a6-txy62q5QqIBNi2sXSGcdTeZg9R3qNHRIJlgTQ.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/alyamama/v2/snf0s0a6-txy62q5QqIBNi2sXSGcdTeZg9RHqdvV.ttf"
+}

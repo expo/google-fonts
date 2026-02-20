@@ -1,0 +1,17 @@
+{
+  "name": "@expo-google-fonts/bpmf-zihi-kai-std",
+  "version": "0.4.0",
+  "description": "Use the Bpmf Zihi Kai Std font family from Google Fonts in your Expo app",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/expo/google-fonts.git",
+    "directory": "font-packages/bpmf-zihi-kai-std"
+  },
+  "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/bpmf-zihi-kai-std#readme",
+  "author": "Expo Team <team@expo.io>",
+  "license": "MIT AND OFL-1.1",
+  "publishConfig": {
+    "access": "public"
+  }
+}

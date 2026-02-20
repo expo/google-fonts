@@ -1,0 +1,11 @@
+{
+  "family": "Allkin",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v5",
+  "lastModified": "2026-02-19",
+  "files": { "regular": "https://fonts.gstatic.com/s/allkin/v5/ieV_2Y5KIGmGKpnzLXRuIUsGCA.ttf" },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/allkin/v5/ieV_2Y5KIGmGKpnDLH5q.ttf"
+}

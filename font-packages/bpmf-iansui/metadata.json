@@ -1,0 +1,13 @@
+{
+  "family": "Bpmf Iansui",
+  "variants": ["regular"],
+  "subsets": ["chinese-traditional", "latin", "latin-ext"],
+  "version": "v2",
+  "lastModified": "2026-02-19",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/bpmfiansui/v2/yMJWMIp-dJTO0T8F_WnJPghxoNFxW0Hz.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/bpmfiansui/v2/yMJWMIp-dJTO0T8F_WnJPjhwqtU.ttf"
+}
