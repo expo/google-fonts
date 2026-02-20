@@ -2,10 +2,10 @@
   "family": "Iansui",
   "variants": ["regular"],
   "subsets": ["chinese-traditional", "latin", "latin-ext", "symbols2"],
-  "version": "v8",
-  "lastModified": "2025-12-10",
-  "files": { "regular": "https://fonts.gstatic.com/s/iansui/v8/w8gbH2UoTuUp5bOajSGD1FcXoQ.ttf" },
+  "version": "v10",
+  "lastModified": "2026-02-19",
+  "files": { "regular": "https://fonts.gstatic.com/s/iansui/v10/w8gbH2UoTuUp5bOajSGD1FcXoQ.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/iansui/v8/w8gbH2UoTuUp5bOqjCuH.ttf"
+  "menu": "https://fonts.gstatic.com/s/iansui/v10/w8gbH2UoTuUp5bOqjCuH.ttf"
 }
