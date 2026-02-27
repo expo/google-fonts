@@ -2,12 +2,12 @@
   "family": "Bpmf Zihi Kai Std",
   "variants": ["regular"],
   "subsets": ["chinese-traditional", "latin", "latin-ext"],
-  "version": "v2",
-  "lastModified": "2026-02-19",
+  "version": "v4",
+  "lastModified": "2026-02-25",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/bpmfzihikaistd/v2/9XU_lIdmjlbGWCXAeHssPRoh5OLaAgzG5SMtfj3e.ttf"
+    "regular": "https://fonts.gstatic.com/s/bpmfzihikaistd/v4/9XU_lIdmjlbGWCXAeHssPRoh5OLaAgzG5SMtfj3e.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/bpmfzihikaistd/v2/9XU_lIdmjlbGWCXAeHssPRoh5OLaAjzH7yc.ttf"
+  "menu": "https://fonts.gstatic.com/s/bpmfzihikaistd/v4/9XU_lIdmjlbGWCXAeHssPRoh5OLaAjzH7yc.ttf"
 }
