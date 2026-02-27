@@ -2,9 +2,9 @@
 // If you want to modify it, go to packages/generator/templates
 
 export { useFonts } from './useFonts';
-export const BpmfZihiKaiStd_400Regular = 'https://fonts.gstatic.com/s/bpmfzihikaistd/v2/9XU_lIdmjlbGWCXAeHssPRoh5OLaAgzG5SMtfj3e.ttf';
-export const BpmfIansui_400Regular = 'https://fonts.gstatic.com/s/bpmfiansui/v2/yMJWMIp-dJTO0T8F_WnJPghxoNFxW0Hz.ttf';
-export const BpmfHuninn_400Regular = 'https://fonts.gstatic.com/s/bpmfhuninn/v2/taiOGmRuFJa3qsALi5gn1K6o05E5abe_.ttf';
+export const BpmfZihiKaiStd_400Regular = 'https://fonts.gstatic.com/s/bpmfzihikaistd/v4/9XU_lIdmjlbGWCXAeHssPRoh5OLaAgzG5SMtfj3e.ttf';
+export const BpmfIansui_400Regular = 'https://fonts.gstatic.com/s/bpmfiansui/v4/yMJWMIp-dJTO0T8F_WnJPghxoNFxW0Hz.ttf';
+export const BpmfHuninn_400Regular = 'https://fonts.gstatic.com/s/bpmfhuninn/v4/taiOGmRuFJa3qsALi5gn1K6o05E5abe_.ttf';
 export const Alyamama_300Light = 'https://fonts.gstatic.com/s/alyamama/v2/snf0s0a6-txy62q5QqIBNi2sXSGcdTeZ3dR3qNHRIJlgTQ.ttf';
 export const Alyamama_400Regular = 'https://fonts.gstatic.com/s/alyamama/v2/snf0s0a6-txy62q5QqIBNi2sXSGcdTeZg9R3qNHRIJlgTQ.ttf';
 export const Alyamama_500Medium = 'https://fonts.gstatic.com/s/alyamama/v2/snf0s0a6-txy62q5QqIBNi2sXSGcdTeZsdR3qNHRIJlgTQ.ttf';
@@ -96,20 +96,20 @@ export const Cause_900Black = 'https://fonts.gstatic.com/s/cause/v2/or3_Q6760-mf
 export const BBHHegarty_400Regular = 'https://fonts.gstatic.com/s/bbhhegarty/v1/yYLt0hbb_dvjg8talgb5vDHR-tdfcIT_.ttf';
 export const BBHBogle_400Regular = 'https://fonts.gstatic.com/s/bbhbogle/v1/GFDoWA58rVDJf-fOV9ALq5hcOA0hUA.ttf';
 export const BBHBartle_400Regular = 'https://fonts.gstatic.com/s/bbhbartle/v1/zYXjKVYuMYMaN-IMqP3RSm6Tkd7_CIc.ttf';
-export const Amarna_100Thin = 'https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwaakgR59AuNICqo.ttf';
-export const Amarna_200ExtraLight = 'https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwSalgR59AuNICqo.ttf';
-export const Amarna_300Light = 'https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwfilgR59AuNICqo.ttf';
-export const Amarna_400Regular = 'https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwaalgR59AuNICqo.ttf';
-export const Amarna_500Medium = 'https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwZSlgR59AuNICqo.ttf';
-export const Amarna_600SemiBold = 'https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwXiigR59AuNICqo.ttf';
-export const Amarna_700Bold = 'https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwUGigR59AuNICqo.ttf';
-export const Amarna_100Thin_Italic = 'https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7maVx3BsFNGqo2iw.ttf';
-export const Amarna_200ExtraLight_Italic = 'https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7m6V13BsFNGqo2iw.ttf';
-export const Amarna_300Light_Italic = 'https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7mN113BsFNGqo2iw.ttf';
-export const Amarna_400Regular_Italic = 'https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7maV13BsFNGqo2iw.ttf';
-export const Amarna_500Medium_Italic = 'https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7mW113BsFNGqo2iw.ttf';
-export const Amarna_600SemiBold_Italic = 'https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7mt1p3BsFNGqo2iw.ttf';
-export const Amarna_700Bold_Italic = 'https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7mjlp3BsFNGqo2iw.ttf';
+export const Amarna_100Thin = 'https://fonts.gstatic.com/s/amarna/v2/MCoPzAj-18jIHCAeTqjMCgZDAOUBwaakgR59AuNICqo.ttf';
+export const Amarna_200ExtraLight = 'https://fonts.gstatic.com/s/amarna/v2/MCoPzAj-18jIHCAeTqjMCgZDAOUBwSalgR59AuNICqo.ttf';
+export const Amarna_300Light = 'https://fonts.gstatic.com/s/amarna/v2/MCoPzAj-18jIHCAeTqjMCgZDAOUBwfilgR59AuNICqo.ttf';
+export const Amarna_400Regular = 'https://fonts.gstatic.com/s/amarna/v2/MCoPzAj-18jIHCAeTqjMCgZDAOUBwaalgR59AuNICqo.ttf';
+export const Amarna_500Medium = 'https://fonts.gstatic.com/s/amarna/v2/MCoPzAj-18jIHCAeTqjMCgZDAOUBwZSlgR59AuNICqo.ttf';
+export const Amarna_600SemiBold = 'https://fonts.gstatic.com/s/amarna/v2/MCoPzAj-18jIHCAeTqjMCgZDAOUBwXiigR59AuNICqo.ttf';
+export const Amarna_700Bold = 'https://fonts.gstatic.com/s/amarna/v2/MCoPzAj-18jIHCAeTqjMCgZDAOUBwUGigR59AuNICqo.ttf';
+export const Amarna_100Thin_Italic = 'https://fonts.gstatic.com/s/amarna/v2/MCoNzAj-18jIHCA0R5oz0m8omksG1G7maVx3BsFNGqo2iw.ttf';
+export const Amarna_200ExtraLight_Italic = 'https://fonts.gstatic.com/s/amarna/v2/MCoNzAj-18jIHCA0R5oz0m8omksG1G7m6V13BsFNGqo2iw.ttf';
+export const Amarna_300Light_Italic = 'https://fonts.gstatic.com/s/amarna/v2/MCoNzAj-18jIHCA0R5oz0m8omksG1G7mN113BsFNGqo2iw.ttf';
+export const Amarna_400Regular_Italic = 'https://fonts.gstatic.com/s/amarna/v2/MCoNzAj-18jIHCA0R5oz0m8omksG1G7maV13BsFNGqo2iw.ttf';
+export const Amarna_500Medium_Italic = 'https://fonts.gstatic.com/s/amarna/v2/MCoNzAj-18jIHCA0R5oz0m8omksG1G7mW113BsFNGqo2iw.ttf';
+export const Amarna_600SemiBold_Italic = 'https://fonts.gstatic.com/s/amarna/v2/MCoNzAj-18jIHCA0R5oz0m8omksG1G7mt1p3BsFNGqo2iw.ttf';
+export const Amarna_700Bold_Italic = 'https://fonts.gstatic.com/s/amarna/v2/MCoNzAj-18jIHCA0R5oz0m8omksG1G7mjlp3BsFNGqo2iw.ttf';
 export const ScienceGothic_100Thin = 'https://fonts.gstatic.com/s/sciencegothic/v5/CHzuV-7EH1X7aiQh5jPNDTJnVUAvhrL0sQdjzDQhk11iTp6mX-ANuf1d_83dPfZJ7Lvcvg8EGYzcW57mXiXiVX33c92fNgmo9KvjVVuc-A.ttf';
 export const ScienceGothic_200ExtraLight = 'https://fonts.gstatic.com/s/sciencegothic/v5/CHzuV-7EH1X7aiQh5jPNDTJnVUAvhrL0sQdjzDQhk11iTp6mX-ANuf1d_83dPfZJ7Lvcvg8EGYzcW57mXiXiVX33c92ftgio9KvjVVuc-A.ttf';
 export const ScienceGothic_300Light = 'https://fonts.gstatic.com/s/sciencegothic/v5/CHzuV-7EH1X7aiQh5jPNDTJnVUAvhrL0sQdjzDQhk11iTp6mX-ANuf1d_83dPfZJ7Lvcvg8EGYzcW57mXiXiVX33c92faAio9KvjVVuc-A.ttf';
