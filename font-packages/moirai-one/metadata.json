@@ -2,12 +2,12 @@
   "family": "Moirai One",
   "variants": ["regular"],
   "subsets": ["korean", "latin", "latin-ext"],
-  "version": "v1",
-  "lastModified": "2024-08-12",
+  "version": "v3",
+  "lastModified": "2026-03-03",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/moiraione/v1/2sDbZGFUgJLJmby6xgNGT0WWB7UcfCg.ttf"
+    "regular": "https://fonts.gstatic.com/s/moiraione/v3/2sDbZGFUgJLJmby6xgNGT0WWB7UcfCg.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/moiraione/v1/2sDbZGFUgJLJmby6xgNGf0ScAw.ttf"
+  "menu": "https://fonts.gstatic.com/s/moiraione/v3/2sDbZGFUgJLJmby6xgNGf0ScAw.ttf"
 }

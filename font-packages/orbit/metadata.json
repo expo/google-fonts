@@ -2,10 +2,10 @@
   "family": "Orbit",
   "variants": ["regular"],
   "subsets": ["korean", "latin", "latin-ext"],
-  "version": "v1",
-  "lastModified": "2024-08-12",
-  "files": { "regular": "https://fonts.gstatic.com/s/orbit/v1/_LOCmz7I-uHd2mjEeqciRwRm.ttf" },
+  "version": "v3",
+  "lastModified": "2026-03-03",
+  "files": { "regular": "https://fonts.gstatic.com/s/orbit/v3/_LOCmz7I-uHd2mjEeqciRwRm.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/orbit/v1/_LOCmz7I-uHd2ljFcKM.ttf"
+  "menu": "https://fonts.gstatic.com/s/orbit/v3/_LOCmz7I-uHd2ljFcKM.ttf"
 }
