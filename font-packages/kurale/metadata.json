@@ -2,10 +2,10 @@
   "family": "Kurale",
   "variants": ["regular"],
   "subsets": ["cyrillic", "cyrillic-ext", "devanagari", "latin", "latin-ext"],
-  "version": "v14",
-  "lastModified": "2025-09-11",
-  "files": { "regular": "https://fonts.gstatic.com/s/kurale/v14/4iCs6KV9e9dXjho6eAT3v02QFg.ttf" },
+  "version": "v16",
+  "lastModified": "2026-03-11",
+  "files": { "regular": "https://fonts.gstatic.com/s/kurale/v16/4iCs6KV9e9dXjho6eAT3v02QFg.ttf" },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/kurale/v14/4iCs6KV9e9dXjhoKeQ7z.ttf"
+  "menu": "https://fonts.gstatic.com/s/kurale/v16/4iCs6KV9e9dXjhoKeQ7z.ttf"
 }

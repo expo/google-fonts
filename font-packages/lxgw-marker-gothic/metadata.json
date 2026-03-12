@@ -11,12 +11,12 @@
     "symbols2",
     "vietnamese"
   ],
-  "version": "v1",
-  "lastModified": "2025-06-12",
+  "version": "v3",
+  "lastModified": "2026-03-11",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/lxgwmarkergothic/v1/Gg8oN4AaXyDVTi_NlS1-xCtMQxY3lToBjuw_cZe26Q.ttf"
+    "regular": "https://fonts.gstatic.com/s/lxgwmarkergothic/v3/Gg8oN4AaXyDVTi_NlS1-xCtMQxY3lToBjuw_cZe26Q.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/lxgwmarkergothic/v1/Gg8oN4AaXyDVTi_NlS1-xCtMQxY3lToxj-Y7.ttf"
+  "menu": "https://fonts.gstatic.com/s/lxgwmarkergothic/v3/Gg8oN4AaXyDVTi_NlS1-xCtMQxY3lToxj-Y7.ttf"
 }

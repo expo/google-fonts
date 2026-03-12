@@ -2,10 +2,10 @@
   "family": "Huninn",
   "variants": ["regular"],
   "subsets": ["chinese-traditional", "cyrillic", "latin", "latin-ext", "vietnamese"],
-  "version": "v6",
-  "lastModified": "2026-02-19",
-  "files": { "regular": "https://fonts.gstatic.com/s/huninn/v6/OpNNnoINg9bQ4xkpjiHQjittXw.ttf" },
+  "version": "v8",
+  "lastModified": "2026-03-11",
+  "files": { "regular": "https://fonts.gstatic.com/s/huninn/v8/OpNNnoINg9bQ4xkpjiHQjittXw.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/huninn/v6/OpNNnoINg9bQ4xkZjyvU.ttf"
+  "menu": "https://fonts.gstatic.com/s/huninn/v8/OpNNnoINg9bQ4xkZjyvU.ttf"
 }
