@@ -1,0 +1,21 @@
+{
+  "family": "Datatype",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v3",
+  "lastModified": "2026-03-11",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/datatype/v3/K2FcfZJQl-tDUlBEHaTYKmJIlpH1cGuNRqcCM4aUfKR9p6dHl6O9szp9u1eUcLE.ttf",
+    "200": "https://fonts.gstatic.com/s/datatype/v3/K2FcfZJQl-tDUlBEHaTYKmJIlpH1cGuNRqcCM4aUfKR9p6dHlyO8szp9u1eUcLE.ttf",
+    "300": "https://fonts.gstatic.com/s/datatype/v3/K2FcfZJQl-tDUlBEHaTYKmJIlpH1cGuNRqcCM4aUfKR9p6dHl_28szp9u1eUcLE.ttf",
+    "500": "https://fonts.gstatic.com/s/datatype/v3/K2FcfZJQl-tDUlBEHaTYKmJIlpH1cGuNRqcCM4aUfKR9p6dHl5G8szp9u1eUcLE.ttf",
+    "600": "https://fonts.gstatic.com/s/datatype/v3/K2FcfZJQl-tDUlBEHaTYKmJIlpH1cGuNRqcCM4aUfKR9p6dHl327szp9u1eUcLE.ttf",
+    "700": "https://fonts.gstatic.com/s/datatype/v3/K2FcfZJQl-tDUlBEHaTYKmJIlpH1cGuNRqcCM4aUfKR9p6dHl0S7szp9u1eUcLE.ttf",
+    "800": "https://fonts.gstatic.com/s/datatype/v3/K2FcfZJQl-tDUlBEHaTYKmJIlpH1cGuNRqcCM4aUfKR9p6dHlyO7szp9u1eUcLE.ttf",
+    "900": "https://fonts.gstatic.com/s/datatype/v3/K2FcfZJQl-tDUlBEHaTYKmJIlpH1cGuNRqcCM4aUfKR9p6dHlwq7szp9u1eUcLE.ttf",
+    "regular": "https://fonts.gstatic.com/s/datatype/v3/K2FcfZJQl-tDUlBEHaTYKmJIlpH1cGuNRqcCM4aUfKR9p6dHl6O8szp9u1eUcLE.ttf"
+  },
+  "category": "monospace",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/datatype/v3/K2FcfZJQl-tDUlBEHaTYKmJIlpH1cGuNRqcCM4aUfKR9p6dHl6O8gzt3vw.ttf"
+}

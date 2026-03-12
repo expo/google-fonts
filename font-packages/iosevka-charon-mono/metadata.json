@@ -1,0 +1,33 @@
+{
+  "family": "Iosevka Charon Mono",
+  "variants": ["300", "300italic", "regular", "italic", "500", "500italic", "700", "700italic"],
+  "subsets": [
+    "armenian",
+    "braille",
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols",
+    "symbols2",
+    "vietnamese"
+  ],
+  "version": "v1",
+  "lastModified": "2026-03-11",
+  "files": {
+    "300": "https://fonts.gstatic.com/s/iosevkacharonmono/v1/ZXu3e00asreaO3wM1TYAhasEUi4e1q2vvUBVRbrHe_k5IUg.ttf",
+    "500": "https://fonts.gstatic.com/s/iosevkacharonmono/v1/ZXu3e00asreaO3wM1TYAhasEUi4e1q2vvRhURbrHe_k5IUg.ttf",
+    "700": "https://fonts.gstatic.com/s/iosevkacharonmono/v1/ZXu3e00asreaO3wM1TYAhasEUi4e1q2vvVBSRbrHe_k5IUg.ttf",
+    "300italic": "https://fonts.gstatic.com/s/iosevkacharonmono/v1/ZXu1e00asreaO3wM1TYAhasEUi4e1q2vte5PybjNf9s8MUgzLg.ttf",
+    "regular": "https://fonts.gstatic.com/s/iosevkacharonmono/v1/ZXu6e00asreaO3wM1TYAhasEUi4e1q2vhex9YbLsZ_A.ttf",
+    "italic": "https://fonts.gstatic.com/s/iosevkacharonmono/v1/ZXu4e00asreaO3wM1TYAhasEUi4e1q2vte53ZZDpd_AgOA.ttf",
+    "500italic": "https://fonts.gstatic.com/s/iosevkacharonmono/v1/ZXu1e00asreaO3wM1TYAhasEUi4e1q2vte5PkbnNf9s8MUgzLg.ttf",
+    "700italic": "https://fonts.gstatic.com/s/iosevkacharonmono/v1/ZXu1e00asreaO3wM1TYAhasEUi4e1q2vte5P2b_Nf9s8MUgzLg.ttf"
+  },
+  "category": "monospace",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/iosevkacharonmono/v1/ZXu6e00asreaO3wM1TYAhasEUi4e1q2vte13ZQ.ttf"
+}

@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/cactus-classical-serif",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "description": "Use the Cactus Classical Serif font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {
