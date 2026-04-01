@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/material-symbols",
-  "version": "0.4.27",
+  "version": "0.4.28",
   "description": "Use the Material Symbols font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {
