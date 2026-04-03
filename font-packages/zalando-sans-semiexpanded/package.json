@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/zalando-sans-semiexpanded",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Use the Zalando Sans SemiExpanded font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

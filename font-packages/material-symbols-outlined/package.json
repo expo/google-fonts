@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/material-symbols-outlined",
-  "version": "0.4.40",
+  "version": "0.4.41",
   "description": "Use the Material Symbols Outlined font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {
