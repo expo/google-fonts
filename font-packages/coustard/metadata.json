@@ -1,14 +1,14 @@
 {
   "family": "Coustard",
   "variants": ["regular", "900"],
-  "subsets": ["latin"],
-  "version": "v17",
-  "lastModified": "2025-09-08",
+  "subsets": ["latin", "latin-ext"],
+  "version": "v19",
+  "lastModified": "2026-04-02",
   "files": {
-    "900": "https://fonts.gstatic.com/s/coustard/v17/3XFuErgg3YsZ5fqUU-2LkEHmb_jU3eRL.ttf",
-    "regular": "https://fonts.gstatic.com/s/coustard/v17/3XFpErgg3YsZ5fqUU9UPvWXuROTd.ttf"
+    "900": "https://fonts.gstatic.com/s/coustard/v19/3XFuErgg3YsZ5fqUU-2LkEHmb_jU3eRL.ttf",
+    "regular": "https://fonts.gstatic.com/s/coustard/v19/3XFpErgg3YsZ5fqUU9UPvWXuROTd.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/coustard/v17/3XFpErgg3YsZ5fqUU-UOt2E.ttf"
+  "menu": "https://fonts.gstatic.com/s/coustard/v19/3XFpErgg3YsZ5fqUU-UOt2E.ttf"
 }

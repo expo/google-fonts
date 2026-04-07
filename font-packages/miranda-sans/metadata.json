@@ -1,0 +1,20 @@
+{
+  "family": "Miranda Sans",
+  "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v3",
+  "lastModified": "2026-04-02",
+  "files": {
+    "500": "https://fonts.gstatic.com/s/mirandasans/v3/aFTG7Pt8ZWk4XsiWhk7Rb_e3Y6UIjsX0vr9-ZEOmD8x_eg68Cl8.ttf",
+    "600": "https://fonts.gstatic.com/s/mirandasans/v3/aFTG7Pt8ZWk4XsiWhk7Rb_e3Y6UIjsX0vr9-ZK-hD8x_eg68Cl8.ttf",
+    "700": "https://fonts.gstatic.com/s/mirandasans/v3/aFTG7Pt8ZWk4XsiWhk7Rb_e3Y6UIjsX0vr9-ZJahD8x_eg68Cl8.ttf",
+    "regular": "https://fonts.gstatic.com/s/mirandasans/v3/aFTG7Pt8ZWk4XsiWhk7Rb_e3Y6UIjsX0vr9-ZHGmD8x_eg68Cl8.ttf",
+    "italic": "https://fonts.gstatic.com/s/mirandasans/v3/aFTA7Pt8ZWk4XsiWhk7Rb_edapf3VqyfJBF5cbnl5491fiy5Gl9koA.ttf",
+    "500italic": "https://fonts.gstatic.com/s/mirandasans/v3/aFTA7Pt8ZWk4XsiWhk7Rb_edapf3VqyfJBF5cbnl1Y91fiy5Gl9koA.ttf",
+    "600italic": "https://fonts.gstatic.com/s/mirandasans/v3/aFTA7Pt8ZWk4XsiWhk7Rb_edapf3VqyfJBF5cbnlOYh1fiy5Gl9koA.ttf",
+    "700italic": "https://fonts.gstatic.com/s/mirandasans/v3/aFTA7Pt8ZWk4XsiWhk7Rb_edapf3VqyfJBF5cbnlAIh1fiy5Gl9koA.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/mirandasans/v3/aFTG7Pt8ZWk4XsiWhk7Rb_e3Y6UIjsX0vr9-ZHGmP811fg.ttf"
+}
