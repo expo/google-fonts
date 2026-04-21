@@ -1085,6 +1085,30 @@
       "category": "sans-serif",
       "kind": "webfonts#webfont",
       "menu": "https://fonts.gstatic.com/s/bbhsansbartle/v1/eLGEP-v-CSnwOk_evJ1qrrCJCQT59Owl.ttf"
+    },
+    {
+      "family": "BJ Cree",
+      "variants": [
+        "regular",
+        "500",
+        "600",
+        "700"
+      ],
+      "subsets": [
+        "canadian-aboriginal",
+        "latin"
+      ],
+      "version": "v1",
+      "lastModified": "2026-04-02",
+      "files": {
+        "500": "https://fonts.gstatic.com/s/bjcree/v1/8QIMdijLoYvJ7b7bgHwnj7DPHOVyNYM.ttf",
+        "600": "https://fonts.gstatic.com/s/bjcree/v1/8QIMdijLoYvJ7b7bgFAgj7DPHOVyNYM.ttf",
+        "700": "https://fonts.gstatic.com/s/bjcree/v1/8QIMdijLoYvJ7b7bgDQhj7DPHOVyNYM.ttf",
+        "regular": "https://fonts.gstatic.com/s/bjcree/v1/8QIJdijLoYvJ7b7buIgOq7jkAOw.ttf"
+      },
+      "category": "serif",
+      "kind": "webfonts#webfont",
+      "menu": "https://fonts.gstatic.com/s/bjcree/v1/8QIJdijLoYvJ7b7biIkErw.ttf"
     }
   ]
 }
