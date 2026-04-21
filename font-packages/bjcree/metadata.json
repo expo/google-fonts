@@ -1,0 +1,16 @@
+{
+  "family": "BJCree",
+  "variants": ["regular", "500", "600", "700"],
+  "subsets": ["canadian-aboriginal", "latin"],
+  "version": "v3",
+  "lastModified": "2026-04-20",
+  "files": {
+    "500": "https://fonts.gstatic.com/s/bjcree/v3/QldMNTVAjTwa8_QCyBqxSVNazqx2xg.ttf",
+    "600": "https://fonts.gstatic.com/s/bjcree/v3/QldMNTVAjTwa8_QC5B2xSVNazqx2xg.ttf",
+    "700": "https://fonts.gstatic.com/s/bjcree/v3/QldMNTVAjTwa8_QCgByxSVNazqx2xg.ttf",
+    "regular": "https://fonts.gstatic.com/s/bjcree/v3/QldPNTVAjTwa8_Q6PDOVQXhGxw.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/bjcree/v3/QldPNTVAjTwa8_QKPTmR.ttf"
+}
