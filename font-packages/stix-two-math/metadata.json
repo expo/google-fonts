@@ -1,0 +1,13 @@
+{
+  "family": "STIX Two Math",
+  "variants": ["regular"],
+  "subsets": ["latin"],
+  "version": "v12",
+  "lastModified": "2026-05-05",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/stixtwomath/v12/pONg1hwwL_6M9EkZySr_yteUi1rADEcF1pY.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/stixtwomath/v12/pONg1hwwL_6M9EkZySr_yteUu1vKCA.ttf"
+}

@@ -3159,6 +3159,7 @@ export const Tourney_700Bold_Italic: string;
 export const Tourney_800ExtraBold_Italic: string;
 export const Tourney_900Black_Italic: string;
 export const Festive_400Regular: string;
+export const STIXTwoMath_400Regular: string;
 export const STIXTwoText_400Regular: string;
 export const STIXTwoText_500Medium: string;
 export const STIXTwoText_600SemiBold: string;
