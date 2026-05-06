@@ -11,6 +11,10 @@
   "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/<%= packageName %>#readme",
   "author": "Expo Team <team@expo.io>",
   "license": "<%= license %>",
+  "peerDependencies": {
+    "expo-font": "*",
+    "react": "*"
+  },
   "publishConfig": {
     "access": "public"
   }
