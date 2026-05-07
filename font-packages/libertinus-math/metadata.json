@@ -1,22 +1,13 @@
 {
   "family": "Libertinus Math",
   "variants": ["regular"],
-  "subsets": [
-    "cyrillic",
-    "cyrillic-ext",
-    "greek",
-    "greek-ext",
-    "latin",
-    "latin-ext",
-    "math",
-    "vietnamese"
-  ],
-  "version": "v1",
-  "lastModified": "2025-06-25",
+  "subsets": ["latin"],
+  "version": "v2",
+  "lastModified": "2026-05-05",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/libertinusmath/v1/Gw6iwc3770TVMoHVurPejWtfenRLv_KJt3R-2Q.ttf"
+    "regular": "https://fonts.gstatic.com/s/libertinusmath/v2/Gw6iwc3770TVMoHVurPejWtfenRLv_KJt3R-2Q.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/libertinusmath/v1/Gw6iwc3770TVMoHVurPejWtfenR7vviN.ttf"
+  "menu": "https://fonts.gstatic.com/s/libertinusmath/v2/Gw6iwc3770TVMoHVurPejWtfenR7vviN.ttf"
 }
