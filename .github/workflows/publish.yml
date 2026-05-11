@@ -13,8 +13,43 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+      - name: Checkout all package directories
+        if: ${{ github.event.inputs.publishAll == 'true' }}
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            font-packages
+
+      - name: Clone specific package directories
+        if: ${{ github.event.inputs.publishAll != 'true' }}
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PACKAGE_NAMES: ${{ github.event.inputs.packageNames }}
+        run: |
+          set -euo pipefail
+
+          sparse_paths=()
+
+          IFS=',' read -ra packages <<< "$PACKAGE_NAMES"
+          for package in "${packages[@]}"; do
+            # Remove any whitespace
+            package=$(echo "$package" | tr -d '[:space:]')
+            sparse_paths+=("font-packages/$package")
+          done
+
+          auth_header="AUTHORIZATION: basic $(printf 'x-access-token:%s' "$GITHUB_TOKEN" | base64 -w 0)"
+
+          git -c http.https://github.com/.extraheader="$auth_header" clone \
+            --depth=1 \
+            --filter=blob:none \
+            --sparse \
+            --no-checkout \
+            --branch "$GITHUB_REF_NAME" \
+            "https://github.com/${GITHUB_REPOSITORY}.git" \
+            .
+
+          git sparse-checkout set -- "${sparse_paths[@]}"
+          git -c http.https://github.com/.extraheader="$auth_header" checkout --detach "$GITHUB_SHA"
 
       - uses: actions/setup-node@v4
         with:
@@ -45,12 +80,12 @@ jobs:
           for package in "${PACKAGES[@]}"; do
             # Remove any whitespace
             package=$(echo "$package" | tr -d '[:space:]')
-            
+
             if [ ! -d "font-packages/$package" ]; then
               echo "Error: Package directory 'font-packages/$package' does not exist"
               exit 1
             fi
-            
+
             echo "Publishing package: $package"
             (cd "font-packages/$package" && npm publish --access public)
           done
