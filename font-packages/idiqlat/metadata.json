@@ -2,14 +2,14 @@
   "family": "Idiqlat",
   "variants": ["200", "300", "regular"],
   "subsets": ["latin", "syriac"],
-  "version": "v2",
-  "lastModified": "2026-02-17",
+  "version": "v3",
+  "lastModified": "2026-05-13",
   "files": {
-    "200": "https://fonts.gstatic.com/s/idiqlat/v2/YA9Wr0ef50XNM6kiAOrKkiEqs7GtlvY.ttf",
-    "300": "https://fonts.gstatic.com/s/idiqlat/v2/YA9Wr0ef50XNM6kiAI7JkiEqs7GtlvY.ttf",
-    "regular": "https://fonts.gstatic.com/s/idiqlat/v2/YA9Tr0ef50XNM6kiOCLhtikBr7g.ttf"
+    "200": "https://fonts.gstatic.com/s/idiqlat/v3/YA9Wr0ef50XNM6kiAOrKkiEqs7GtlvY.ttf",
+    "300": "https://fonts.gstatic.com/s/idiqlat/v3/YA9Wr0ef50XNM6kiAI7JkiEqs7GtlvY.ttf",
+    "regular": "https://fonts.gstatic.com/s/idiqlat/v3/YA9Tr0ef50XNM6kiOCLhtikBr7g.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/idiqlat/v2/YA9Tr0ef50XNM6kiCCPrsg.ttf"
+  "menu": "https://fonts.gstatic.com/s/idiqlat/v3/YA9Tr0ef50XNM6kiCCPrsg.ttf"
 }

@@ -11,7 +11,7 @@ This package lets you use the [**Geist Mono**](https://fonts.google.com/specimen
 
 ![Geist Mono](./font-family.png)
 
-This font family contains [9 styles](#-gallery).
+This font family contains [18 styles](#-gallery).
 
 - `GeistMono_100Thin`
 - `GeistMono_200ExtraLight`
@@ -22,6 +22,15 @@ This font family contains [9 styles](#-gallery).
 - `GeistMono_700Bold`
 - `GeistMono_800ExtraBold`
 - `GeistMono_900Black`
+- `GeistMono_100Thin_Italic`
+- `GeistMono_200ExtraLight_Italic`
+- `GeistMono_300Light_Italic`
+- `GeistMono_400Regular_Italic`
+- `GeistMono_500Medium_Italic`
+- `GeistMono_600SemiBold_Italic`
+- `GeistMono_700Bold_Italic`
+- `GeistMono_800ExtraBold_Italic`
+- `GeistMono_900Black_Italic`
 
 ## Usage
 
@@ -45,6 +54,15 @@ import { GeistMono_600SemiBold } from '@expo-google-fonts/geist-mono/600SemiBold
 import { GeistMono_700Bold } from '@expo-google-fonts/geist-mono/700Bold';
 import { GeistMono_800ExtraBold } from '@expo-google-fonts/geist-mono/800ExtraBold';
 import { GeistMono_900Black } from '@expo-google-fonts/geist-mono/900Black';
+import { GeistMono_100Thin_Italic } from '@expo-google-fonts/geist-mono/100Thin_Italic';
+import { GeistMono_200ExtraLight_Italic } from '@expo-google-fonts/geist-mono/200ExtraLight_Italic';
+import { GeistMono_300Light_Italic } from '@expo-google-fonts/geist-mono/300Light_Italic';
+import { GeistMono_400Regular_Italic } from '@expo-google-fonts/geist-mono/400Regular_Italic';
+import { GeistMono_500Medium_Italic } from '@expo-google-fonts/geist-mono/500Medium_Italic';
+import { GeistMono_600SemiBold_Italic } from '@expo-google-fonts/geist-mono/600SemiBold_Italic';
+import { GeistMono_700Bold_Italic } from '@expo-google-fonts/geist-mono/700Bold_Italic';
+import { GeistMono_800ExtraBold_Italic } from '@expo-google-fonts/geist-mono/800ExtraBold_Italic';
+import { GeistMono_900Black_Italic } from '@expo-google-fonts/geist-mono/900Black_Italic';
 
 export default () => {
 
@@ -57,7 +75,16 @@ export default () => {
     GeistMono_600SemiBold, 
     GeistMono_700Bold, 
     GeistMono_800ExtraBold, 
-    GeistMono_900Black
+    GeistMono_900Black, 
+    GeistMono_100Thin_Italic, 
+    GeistMono_200ExtraLight_Italic, 
+    GeistMono_300Light_Italic, 
+    GeistMono_400Regular_Italic, 
+    GeistMono_500Medium_Italic, 
+    GeistMono_600SemiBold_Italic, 
+    GeistMono_700Bold_Italic, 
+    GeistMono_800ExtraBold_Italic, 
+    GeistMono_900Black_Italic
   });
 
   let fontSize = 24;
@@ -140,6 +167,78 @@ export default () => {
         }}>
           Geist Mono Black
         </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "GeistMono_100Thin_Italic"
+        }}>
+          Geist Mono Thin Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "GeistMono_200ExtraLight_Italic"
+        }}>
+          Geist Mono Extra Light Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "GeistMono_300Light_Italic"
+        }}>
+          Geist Mono Light Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "GeistMono_400Regular_Italic"
+        }}>
+          Geist Mono Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "GeistMono_500Medium_Italic"
+        }}>
+          Geist Mono Medium Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "GeistMono_600SemiBold_Italic"
+        }}>
+          Geist Mono Semi Bold Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "GeistMono_700Bold_Italic"
+        }}>
+          Geist Mono Bold Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "GeistMono_800ExtraBold_Italic"
+        }}>
+          Geist Mono Extra Bold Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "GeistMono_900Black_Italic"
+        }}>
+          Geist Mono Black Italic
+        </Text>
       </View>
     );
   }
@@ -154,6 +253,9 @@ export default () => {
 |![GeistMono_100Thin](./100Thin/GeistMono_100Thin.ttf.png)|![GeistMono_200ExtraLight](./200ExtraLight/GeistMono_200ExtraLight.ttf.png)|![GeistMono_300Light](./300Light/GeistMono_300Light.ttf.png)||
 |![GeistMono_400Regular](./400Regular/GeistMono_400Regular.ttf.png)|![GeistMono_500Medium](./500Medium/GeistMono_500Medium.ttf.png)|![GeistMono_600SemiBold](./600SemiBold/GeistMono_600SemiBold.ttf.png)||
 |![GeistMono_700Bold](./700Bold/GeistMono_700Bold.ttf.png)|![GeistMono_800ExtraBold](./800ExtraBold/GeistMono_800ExtraBold.ttf.png)|![GeistMono_900Black](./900Black/GeistMono_900Black.ttf.png)||
+|![GeistMono_100Thin_Italic](./100Thin_Italic/GeistMono_100Thin_Italic.ttf.png)|![GeistMono_200ExtraLight_Italic](./200ExtraLight_Italic/GeistMono_200ExtraLight_Italic.ttf.png)|![GeistMono_300Light_Italic](./300Light_Italic/GeistMono_300Light_Italic.ttf.png)||
+|![GeistMono_400Regular_Italic](./400Regular_Italic/GeistMono_400Regular_Italic.ttf.png)|![GeistMono_500Medium_Italic](./500Medium_Italic/GeistMono_500Medium_Italic.ttf.png)|![GeistMono_600SemiBold_Italic](./600SemiBold_Italic/GeistMono_600SemiBold_Italic.ttf.png)||
+|![GeistMono_700Bold_Italic](./700Bold_Italic/GeistMono_700Bold_Italic.ttf.png)|![GeistMono_800ExtraBold_Italic](./800ExtraBold_Italic/GeistMono_800ExtraBold_Italic.ttf.png)|![GeistMono_900Black_Italic](./900Black_Italic/GeistMono_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development
