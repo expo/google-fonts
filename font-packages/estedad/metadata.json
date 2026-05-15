@@ -1,0 +1,21 @@
+{
+  "family": "Estedad",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["arabic", "latin", "latin-ext", "vietnamese"],
+  "version": "v3",
+  "lastModified": "2026-05-13",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/estedad/v3/QdVJSTk1OgitjvYTDpnsTdH9KGslJX_6J5gjWBqgaFxN.ttf",
+    "200": "https://fonts.gstatic.com/s/estedad/v3/QdVJSTk1OgitjvYTDpnsTdH9KGslJX96JpgjWBqgaFxN.ttf",
+    "300": "https://fonts.gstatic.com/s/estedad/v3/QdVJSTk1OgitjvYTDpnsTdH9KGslJX-kJpgjWBqgaFxN.ttf",
+    "500": "https://fonts.gstatic.com/s/estedad/v3/QdVJSTk1OgitjvYTDpnsTdH9KGslJX_IJpgjWBqgaFxN.ttf",
+    "600": "https://fonts.gstatic.com/s/estedad/v3/QdVJSTk1OgitjvYTDpnsTdH9KGslJX8kIZgjWBqgaFxN.ttf",
+    "700": "https://fonts.gstatic.com/s/estedad/v3/QdVJSTk1OgitjvYTDpnsTdH9KGslJX8dIZgjWBqgaFxN.ttf",
+    "800": "https://fonts.gstatic.com/s/estedad/v3/QdVJSTk1OgitjvYTDpnsTdH9KGslJX96IZgjWBqgaFxN.ttf",
+    "900": "https://fonts.gstatic.com/s/estedad/v3/QdVJSTk1OgitjvYTDpnsTdH9KGslJX9TIZgjWBqgaFxN.ttf",
+    "regular": "https://fonts.gstatic.com/s/estedad/v3/QdVJSTk1OgitjvYTDpnsTdH9KGslJX_6JpgjWBqgaFxN.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/estedad/v3/QdVJSTk1OgitjvYTDpnsTdH9KGslJX_6JqgiUh4.ttf"
+}

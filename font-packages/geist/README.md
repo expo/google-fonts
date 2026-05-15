@@ -11,7 +11,7 @@ This package lets you use the [**Geist**](https://fonts.google.com/specimen/Geis
 
 ![Geist](./font-family.png)
 
-This font family contains [9 styles](#-gallery).
+This font family contains [18 styles](#-gallery).
 
 - `Geist_100Thin`
 - `Geist_200ExtraLight`
@@ -22,6 +22,15 @@ This font family contains [9 styles](#-gallery).
 - `Geist_700Bold`
 - `Geist_800ExtraBold`
 - `Geist_900Black`
+- `Geist_100Thin_Italic`
+- `Geist_200ExtraLight_Italic`
+- `Geist_300Light_Italic`
+- `Geist_400Regular_Italic`
+- `Geist_500Medium_Italic`
+- `Geist_600SemiBold_Italic`
+- `Geist_700Bold_Italic`
+- `Geist_800ExtraBold_Italic`
+- `Geist_900Black_Italic`
 
 ## Usage
 
@@ -45,6 +54,15 @@ import { Geist_600SemiBold } from '@expo-google-fonts/geist/600SemiBold';
 import { Geist_700Bold } from '@expo-google-fonts/geist/700Bold';
 import { Geist_800ExtraBold } from '@expo-google-fonts/geist/800ExtraBold';
 import { Geist_900Black } from '@expo-google-fonts/geist/900Black';
+import { Geist_100Thin_Italic } from '@expo-google-fonts/geist/100Thin_Italic';
+import { Geist_200ExtraLight_Italic } from '@expo-google-fonts/geist/200ExtraLight_Italic';
+import { Geist_300Light_Italic } from '@expo-google-fonts/geist/300Light_Italic';
+import { Geist_400Regular_Italic } from '@expo-google-fonts/geist/400Regular_Italic';
+import { Geist_500Medium_Italic } from '@expo-google-fonts/geist/500Medium_Italic';
+import { Geist_600SemiBold_Italic } from '@expo-google-fonts/geist/600SemiBold_Italic';
+import { Geist_700Bold_Italic } from '@expo-google-fonts/geist/700Bold_Italic';
+import { Geist_800ExtraBold_Italic } from '@expo-google-fonts/geist/800ExtraBold_Italic';
+import { Geist_900Black_Italic } from '@expo-google-fonts/geist/900Black_Italic';
 
 export default () => {
 
@@ -57,7 +75,16 @@ export default () => {
     Geist_600SemiBold, 
     Geist_700Bold, 
     Geist_800ExtraBold, 
-    Geist_900Black
+    Geist_900Black, 
+    Geist_100Thin_Italic, 
+    Geist_200ExtraLight_Italic, 
+    Geist_300Light_Italic, 
+    Geist_400Regular_Italic, 
+    Geist_500Medium_Italic, 
+    Geist_600SemiBold_Italic, 
+    Geist_700Bold_Italic, 
+    Geist_800ExtraBold_Italic, 
+    Geist_900Black_Italic
   });
 
   let fontSize = 24;
@@ -140,6 +167,78 @@ export default () => {
         }}>
           Geist Black
         </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Geist_100Thin_Italic"
+        }}>
+          Geist Thin Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Geist_200ExtraLight_Italic"
+        }}>
+          Geist Extra Light Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Geist_300Light_Italic"
+        }}>
+          Geist Light Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Geist_400Regular_Italic"
+        }}>
+          Geist Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Geist_500Medium_Italic"
+        }}>
+          Geist Medium Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Geist_600SemiBold_Italic"
+        }}>
+          Geist Semi Bold Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Geist_700Bold_Italic"
+        }}>
+          Geist Bold Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Geist_800ExtraBold_Italic"
+        }}>
+          Geist Extra Bold Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Geist_900Black_Italic"
+        }}>
+          Geist Black Italic
+        </Text>
       </View>
     );
   }
@@ -154,6 +253,9 @@ export default () => {
 |![Geist_100Thin](./100Thin/Geist_100Thin.ttf.png)|![Geist_200ExtraLight](./200ExtraLight/Geist_200ExtraLight.ttf.png)|![Geist_300Light](./300Light/Geist_300Light.ttf.png)||
 |![Geist_400Regular](./400Regular/Geist_400Regular.ttf.png)|![Geist_500Medium](./500Medium/Geist_500Medium.ttf.png)|![Geist_600SemiBold](./600SemiBold/Geist_600SemiBold.ttf.png)||
 |![Geist_700Bold](./700Bold/Geist_700Bold.ttf.png)|![Geist_800ExtraBold](./800ExtraBold/Geist_800ExtraBold.ttf.png)|![Geist_900Black](./900Black/Geist_900Black.ttf.png)||
+|![Geist_100Thin_Italic](./100Thin_Italic/Geist_100Thin_Italic.ttf.png)|![Geist_200ExtraLight_Italic](./200ExtraLight_Italic/Geist_200ExtraLight_Italic.ttf.png)|![Geist_300Light_Italic](./300Light_Italic/Geist_300Light_Italic.ttf.png)||
+|![Geist_400Regular_Italic](./400Regular_Italic/Geist_400Regular_Italic.ttf.png)|![Geist_500Medium_Italic](./500Medium_Italic/Geist_500Medium_Italic.ttf.png)|![Geist_600SemiBold_Italic](./600SemiBold_Italic/Geist_600SemiBold_Italic.ttf.png)||
+|![Geist_700Bold_Italic](./700Bold_Italic/Geist_700Bold_Italic.ttf.png)|![Geist_800ExtraBold_Italic](./800ExtraBold_Italic/Geist_800ExtraBold_Italic.ttf.png)|![Geist_900Black_Italic](./900Black_Italic/Geist_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

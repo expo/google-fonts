@@ -1,0 +1,21 @@
+{
+  "family": "Akt",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["cyrillic", "cyrillic-ext", "greek", "greek-ext", "latin", "latin-ext", "vietnamese"],
+  "version": "v2",
+  "lastModified": "2026-05-13",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/akt/v2/d6lTkaygQdnog0zePb60zivs1xAmpmVbPS7ihsk.ttf",
+    "200": "https://fonts.gstatic.com/s/akt/v2/d6lTkaygQdnog0zePb60zivs15AnpmVbPS7ihsk.ttf",
+    "300": "https://fonts.gstatic.com/s/akt/v2/d6lTkaygQdnog0zePb60zivs104npmVbPS7ihsk.ttf",
+    "500": "https://fonts.gstatic.com/s/akt/v2/d6lTkaygQdnog0zePb60zivs1yInpmVbPS7ihsk.ttf",
+    "600": "https://fonts.gstatic.com/s/akt/v2/d6lTkaygQdnog0zePb60zivs184gpmVbPS7ihsk.ttf",
+    "700": "https://fonts.gstatic.com/s/akt/v2/d6lTkaygQdnog0zePb60zivs1_cgpmVbPS7ihsk.ttf",
+    "800": "https://fonts.gstatic.com/s/akt/v2/d6lTkaygQdnog0zePb60zivs15AgpmVbPS7ihsk.ttf",
+    "900": "https://fonts.gstatic.com/s/akt/v2/d6lTkaygQdnog0zePb60zivs17kgpmVbPS7ihsk.ttf",
+    "regular": "https://fonts.gstatic.com/s/akt/v2/d6lTkaygQdnog0zePb60zivs1xAnpmVbPS7ihsk.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/akt/v2/d6lTkaygQdnog0zePb60zivs1xAnlmRROQ.ttf"
+}

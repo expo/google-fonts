@@ -1,0 +1,21 @@
+{
+  "family": "M PLUS U",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["japanese", "latin", "latin-ext", "symbols2", "vietnamese"],
+  "version": "v1",
+  "lastModified": "2026-05-13",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/mplusu/v1/-W_gXJfyAgH86Tq6MsATZrf75i4iYyIxKkY-qhUO2cNvdg.ttf",
+    "200": "https://fonts.gstatic.com/s/mplusu/v1/-W_gXJfyAgH86Tq6MsATZrf75i4iYyIxqkc-qhUO2cNvdg.ttf",
+    "300": "https://fonts.gstatic.com/s/mplusu/v1/-W_gXJfyAgH86Tq6MsATZrf75i4iYyIxdEc-qhUO2cNvdg.ttf",
+    "500": "https://fonts.gstatic.com/s/mplusu/v1/-W_gXJfyAgH86Tq6MsATZrf75i4iYyIxGEc-qhUO2cNvdg.ttf",
+    "600": "https://fonts.gstatic.com/s/mplusu/v1/-W_gXJfyAgH86Tq6MsATZrf75i4iYyIx9EA-qhUO2cNvdg.ttf",
+    "700": "https://fonts.gstatic.com/s/mplusu/v1/-W_gXJfyAgH86Tq6MsATZrf75i4iYyIxzUA-qhUO2cNvdg.ttf",
+    "800": "https://fonts.gstatic.com/s/mplusu/v1/-W_gXJfyAgH86Tq6MsATZrf75i4iYyIxqkA-qhUO2cNvdg.ttf",
+    "900": "https://fonts.gstatic.com/s/mplusu/v1/-W_gXJfyAgH86Tq6MsATZrf75i4iYyIxg0A-qhUO2cNvdg.ttf",
+    "regular": "https://fonts.gstatic.com/s/mplusu/v1/-W_gXJfyAgH86Tq6MsATZrf75i4iYyIxKkc-qhUO2cNvdg.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/mplusu/v1/-W_gXJfyAgH86Tq6MsATZrf75i4iYyIxKkcOqx8K.ttf"
+}
