@@ -2496,14 +2496,6 @@ export const GentiumBookPlus_700Bold = 'https://fonts.gstatic.com/s/gentiumbookp
 export const GentiumBookPlus_700Bold_Italic = 'https://fonts.gstatic.com/s/gentiumbookplus/v1/vEFA2-RHBgUK5fbjKxRpbBtJPyRpocKdRwrDjMv-ebe1Els.ttf';
 export const Splash_400Regular = 'https://fonts.gstatic.com/s/splash/v8/KtksAL2RZoDkbU6hpPPGNdS6wg.ttf';
 export const Gulzar_400Regular = 'https://fonts.gstatic.com/s/gulzar/v14/Wnz6HAc9eB3HB2ILYTwZqg_MPQ.ttf';
-export const Finlandica_400Regular = 'https://fonts.gstatic.com/s/finlandica/v10/-nFsOGk-8vAc7lEtg0aSyZCty9GSsPBE19A7rEjx9i5ss3a3.ttf';
-export const Finlandica_500Medium = 'https://fonts.gstatic.com/s/finlandica/v10/-nFsOGk-8vAc7lEtg0aSyZCty9GSsPBE19AJrEjx9i5ss3a3.ttf';
-export const Finlandica_600SemiBold = 'https://fonts.gstatic.com/s/finlandica/v10/-nFsOGk-8vAc7lEtg0aSyZCty9GSsPBE19Dlq0jx9i5ss3a3.ttf';
-export const Finlandica_700Bold = 'https://fonts.gstatic.com/s/finlandica/v10/-nFsOGk-8vAc7lEtg0aSyZCty9GSsPBE19Dcq0jx9i5ss3a3.ttf';
-export const Finlandica_400Regular_Italic = 'https://fonts.gstatic.com/s/finlandica/v10/-nFuOGk-8vAc7lEtg0aS45mfNAn722rq0MXz76Cy_CpOtma3uNQ.ttf';
-export const Finlandica_500Medium_Italic = 'https://fonts.gstatic.com/s/finlandica/v10/-nFuOGk-8vAc7lEtg0aS45mfNAn722rq0MXz75Ky_CpOtma3uNQ.ttf';
-export const Finlandica_600SemiBold_Italic = 'https://fonts.gstatic.com/s/finlandica/v10/-nFuOGk-8vAc7lEtg0aS45mfNAn722rq0MXz7361_CpOtma3uNQ.ttf';
-export const Finlandica_700Bold_Italic = 'https://fonts.gstatic.com/s/finlandica/v10/-nFuOGk-8vAc7lEtg0aS45mfNAn722rq0MXz70e1_CpOtma3uNQ.ttf';
 export const GentiumPlus_400Regular = 'https://fonts.gstatic.com/s/gentiumplus/v2/Iurd6Ytw-oSPaZ00r2bNe8VpjJtM6G0t9w.ttf';
 export const GentiumPlus_400Regular_Italic = 'https://fonts.gstatic.com/s/gentiumplus/v2/IurD6Ytw-oSPaZ00r2bNe8VZjpFIymg9957e.ttf';
 export const GentiumPlus_700Bold = 'https://fonts.gstatic.com/s/gentiumplus/v2/IurC6Ytw-oSPaZ00r2bNe8VRMLRo4EYx_ofHsw.ttf';
@@ -4629,7 +4621,6 @@ export const DarkerGrotesque_600SemiBold = 'https://fonts.gstatic.com/s/darkergr
 export const DarkerGrotesque_700Bold = 'https://fonts.gstatic.com/s/darkergrotesque/v10/U9MK6cuh-mLQlC4BKCtayOfARkSVgb381b-W8-QDqXzQrX7y-XFyZFUB.ttf';
 export const DarkerGrotesque_800ExtraBold = 'https://fonts.gstatic.com/s/darkergrotesque/v10/U9MK6cuh-mLQlC4BKCtayOfARkSVgb381b-W8-QDqXy3rX7y-XFyZFUB.ttf';
 export const DarkerGrotesque_900Black = 'https://fonts.gstatic.com/s/darkergrotesque/v10/U9MK6cuh-mLQlC4BKCtayOfARkSVgb381b-W8-QDqXyerX7y-XFyZFUB.ttf';
-export const SairaStencilOne_400Regular = 'https://fonts.gstatic.com/s/sairastencilone/v18/SLXSc03I6HkvZGJ1GvvipLoYSTEL9AsMawif2YQ2.ttf';
 export const Bahianita_400Regular = 'https://fonts.gstatic.com/s/bahianita/v23/yYLr0hTb3vuqqsBUgxWtxTvV2NJPcA.ttf';
 export const Barriecito_400Regular = 'https://fonts.gstatic.com/s/barriecito/v18/WWXXlj-CbBOSLY2QTuY_KdUiYwTO0MU.ttf';
 export const DMSans_100Thin = 'https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAop1hTmf3ZGMZpg.ttf';
@@ -7731,34 +7722,34 @@ export const TikTokSans_600SemiBold = 'https://fonts.gstatic.com/s/tiktoksans/v7
 export const TikTokSans_700Bold = 'https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo77-b1pFroETJ6Rg.ttf';
 export const TikTokSans_800ExtraBold = 'https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo7iOb1pFroETJ6Rg.ttf';
 export const TikTokSans_900Black = 'https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo7oeb1pFroETJ6Rg.ttf';
-export const MaterialSymbols_100Thin = 'https://fonts.gstatic.com/s/materialsymbols/v65/d6kSkb-sS9m3-i1LgQNcsFOOuLQXvG559b5GLMxCWRtThFK5gn7xw7XblIl2peTfMb7ONaa2_wzcUHR1Ukiw2RYw2vadH3BFk0G4701x-cU0BaNVXEHuRbn3PT2vOA.ttf';
-export const MaterialSymbols_200ExtraLight = 'https://fonts.gstatic.com/s/materialsymbols/v65/d6kSkb-sS9m3-i1LgQNcsFOOuLQXvG559b5GLMxCWRtThFK5gn7xw7XblIl2peTfMb7ONaa2_wzcUHR1Ukiw2RYw2vadH3BFk0G4701x-cU0BaNV3EDuRbn3PT2vOA.ttf';
-export const MaterialSymbols_300Light = 'https://fonts.gstatic.com/s/materialsymbols/v65/d6kSkb-sS9m3-i1LgQNcsFOOuLQXvG559b5GLMxCWRtThFK5gn7xw7XblIl2peTfMb7ONaa2_wzcUHR1Ukiw2RYw2vadH3BFk0G4701x-cU0BaNVAkDuRbn3PT2vOA.ttf';
-export const MaterialSymbols_400Regular = 'https://fonts.gstatic.com/s/materialsymbols/v65/d6kSkb-sS9m3-i1LgQNcsFOOuLQXvG559b5GLMxCWRtThFK5gn7xw7XblIl2peTfMb7ONaa2_wzcUHR1Ukiw2RYw2vadH3BFk0G4701x-cU0BaNVXEDuRbn3PT2vOA.ttf';
-export const MaterialSymbols_500Medium = 'https://fonts.gstatic.com/s/materialsymbols/v65/d6kSkb-sS9m3-i1LgQNcsFOOuLQXvG559b5GLMxCWRtThFK5gn7xw7XblIl2peTfMb7ONaa2_wzcUHR1Ukiw2RYw2vadH3BFk0G4701x-cU0BaNVbkDuRbn3PT2vOA.ttf';
-export const MaterialSymbols_600SemiBold = 'https://fonts.gstatic.com/s/materialsymbols/v65/d6kSkb-sS9m3-i1LgQNcsFOOuLQXvG559b5GLMxCWRtThFK5gn7xw7XblIl2peTfMb7ONaa2_wzcUHR1Ukiw2RYw2vadH3BFk0G4701x-cU0BaNVgkfuRbn3PT2vOA.ttf';
-export const MaterialSymbols_700Bold = 'https://fonts.gstatic.com/s/materialsymbols/v65/d6kSkb-sS9m3-i1LgQNcsFOOuLQXvG559b5GLMxCWRtThFK5gn7xw7XblIl2peTfMb7ONaa2_wzcUHR1Ukiw2RYw2vadH3BFk0G4701x-cU0BaNVu0fuRbn3PT2vOA.ttf';
-export const MaterialSymbolsOutlined_100Thin = 'https://fonts.gstatic.com/s/materialsymbolsoutlined/v337/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHeembd5zrTgt.ttf';
-export const MaterialSymbolsOutlined_200ExtraLight = 'https://fonts.gstatic.com/s/materialsymbolsoutlined/v337/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDAvHOembd5zrTgt.ttf';
-export const MaterialSymbolsOutlined_300Light = 'https://fonts.gstatic.com/s/materialsymbolsoutlined/v337/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDDxHOembd5zrTgt.ttf';
-export const MaterialSymbolsOutlined_400Regular = 'https://fonts.gstatic.com/s/materialsymbolsoutlined/v337/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHOembd5zrTgt.ttf';
-export const MaterialSymbolsOutlined_500Medium = 'https://fonts.gstatic.com/s/materialsymbolsoutlined/v337/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCdHOembd5zrTgt.ttf';
-export const MaterialSymbolsOutlined_600SemiBold = 'https://fonts.gstatic.com/s/materialsymbolsoutlined/v337/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDBxG-embd5zrTgt.ttf';
-export const MaterialSymbolsOutlined_700Bold = 'https://fonts.gstatic.com/s/materialsymbolsoutlined/v337/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDBIG-embd5zrTgt.ttf';
-export const MaterialSymbolsRounded_100Thin = 'https://fonts.gstatic.com/s/materialsymbolsrounded/v339/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rIekXxKJKJBjAa8.ttf';
-export const MaterialSymbolsRounded_200ExtraLight = 'https://fonts.gstatic.com/s/materialsymbolsrounded/v339/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rAelXxKJKJBjAa8.ttf';
-export const MaterialSymbolsRounded_300Light = 'https://fonts.gstatic.com/s/materialsymbolsrounded/v339/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rNmlXxKJKJBjAa8.ttf';
-export const MaterialSymbolsRounded_400Regular = 'https://fonts.gstatic.com/s/materialsymbolsrounded/v339/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rIelXxKJKJBjAa8.ttf';
-export const MaterialSymbolsRounded_500Medium = 'https://fonts.gstatic.com/s/materialsymbolsrounded/v339/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rLWlXxKJKJBjAa8.ttf';
-export const MaterialSymbolsRounded_600SemiBold = 'https://fonts.gstatic.com/s/materialsymbolsrounded/v339/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rFmiXxKJKJBjAa8.ttf';
-export const MaterialSymbolsRounded_700Bold = 'https://fonts.gstatic.com/s/materialsymbolsrounded/v339/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rGCiXxKJKJBjAa8.ttf';
-export const MaterialSymbolsSharp_100Thin = 'https://fonts.gstatic.com/s/materialsymbolssharp/v335/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxOLozCOJ1H7-knk.ttf';
-export const MaterialSymbolsSharp_200ExtraLight = 'https://fonts.gstatic.com/s/materialsymbolssharp/v335/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxMLojCOJ1H7-knk.ttf';
-export const MaterialSymbolsSharp_300Light = 'https://fonts.gstatic.com/s/materialsymbolssharp/v335/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxPVojCOJ1H7-knk.ttf';
-export const MaterialSymbolsSharp_400Regular = 'https://fonts.gstatic.com/s/materialsymbolssharp/v335/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxOLojCOJ1H7-knk.ttf';
-export const MaterialSymbolsSharp_500Medium = 'https://fonts.gstatic.com/s/materialsymbolssharp/v335/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxO5ojCOJ1H7-knk.ttf';
-export const MaterialSymbolsSharp_600SemiBold = 'https://fonts.gstatic.com/s/materialsymbolssharp/v335/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxNVpTCOJ1H7-knk.ttf';
-export const MaterialSymbolsSharp_700Bold = 'https://fonts.gstatic.com/s/materialsymbolssharp/v335/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxNspTCOJ1H7-knk.ttf';
+export const MaterialSymbols_100Thin = 'https://fonts.gstatic.com/s/materialsymbols/v66/d6kSkb-sS9m3-i1LgQNcsFOOuLQXvG559b5GLMxCWRtThFK5gn7xw7XblIl2peTfMb7ONaa2_wzcUHR1Ukiw2RYw2vadH3BFk0G4701x-cU0BaNVXEHuRbn3PT2vOA.ttf';
+export const MaterialSymbols_200ExtraLight = 'https://fonts.gstatic.com/s/materialsymbols/v66/d6kSkb-sS9m3-i1LgQNcsFOOuLQXvG559b5GLMxCWRtThFK5gn7xw7XblIl2peTfMb7ONaa2_wzcUHR1Ukiw2RYw2vadH3BFk0G4701x-cU0BaNV3EDuRbn3PT2vOA.ttf';
+export const MaterialSymbols_300Light = 'https://fonts.gstatic.com/s/materialsymbols/v66/d6kSkb-sS9m3-i1LgQNcsFOOuLQXvG559b5GLMxCWRtThFK5gn7xw7XblIl2peTfMb7ONaa2_wzcUHR1Ukiw2RYw2vadH3BFk0G4701x-cU0BaNVAkDuRbn3PT2vOA.ttf';
+export const MaterialSymbols_400Regular = 'https://fonts.gstatic.com/s/materialsymbols/v66/d6kSkb-sS9m3-i1LgQNcsFOOuLQXvG559b5GLMxCWRtThFK5gn7xw7XblIl2peTfMb7ONaa2_wzcUHR1Ukiw2RYw2vadH3BFk0G4701x-cU0BaNVXEDuRbn3PT2vOA.ttf';
+export const MaterialSymbols_500Medium = 'https://fonts.gstatic.com/s/materialsymbols/v66/d6kSkb-sS9m3-i1LgQNcsFOOuLQXvG559b5GLMxCWRtThFK5gn7xw7XblIl2peTfMb7ONaa2_wzcUHR1Ukiw2RYw2vadH3BFk0G4701x-cU0BaNVbkDuRbn3PT2vOA.ttf';
+export const MaterialSymbols_600SemiBold = 'https://fonts.gstatic.com/s/materialsymbols/v66/d6kSkb-sS9m3-i1LgQNcsFOOuLQXvG559b5GLMxCWRtThFK5gn7xw7XblIl2peTfMb7ONaa2_wzcUHR1Ukiw2RYw2vadH3BFk0G4701x-cU0BaNVgkfuRbn3PT2vOA.ttf';
+export const MaterialSymbols_700Bold = 'https://fonts.gstatic.com/s/materialsymbols/v66/d6kSkb-sS9m3-i1LgQNcsFOOuLQXvG559b5GLMxCWRtThFK5gn7xw7XblIl2peTfMb7ONaa2_wzcUHR1Ukiw2RYw2vadH3BFk0G4701x-cU0BaNVu0fuRbn3PT2vOA.ttf';
+export const MaterialSymbolsOutlined_100Thin = 'https://fonts.gstatic.com/s/materialsymbolsoutlined/v338/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHeembd5zrTgt.ttf';
+export const MaterialSymbolsOutlined_200ExtraLight = 'https://fonts.gstatic.com/s/materialsymbolsoutlined/v338/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDAvHOembd5zrTgt.ttf';
+export const MaterialSymbolsOutlined_300Light = 'https://fonts.gstatic.com/s/materialsymbolsoutlined/v338/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDDxHOembd5zrTgt.ttf';
+export const MaterialSymbolsOutlined_400Regular = 'https://fonts.gstatic.com/s/materialsymbolsoutlined/v338/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHOembd5zrTgt.ttf';
+export const MaterialSymbolsOutlined_500Medium = 'https://fonts.gstatic.com/s/materialsymbolsoutlined/v338/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCdHOembd5zrTgt.ttf';
+export const MaterialSymbolsOutlined_600SemiBold = 'https://fonts.gstatic.com/s/materialsymbolsoutlined/v338/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDBxG-embd5zrTgt.ttf';
+export const MaterialSymbolsOutlined_700Bold = 'https://fonts.gstatic.com/s/materialsymbolsoutlined/v338/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDBIG-embd5zrTgt.ttf';
+export const MaterialSymbolsRounded_100Thin = 'https://fonts.gstatic.com/s/materialsymbolsrounded/v340/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rIekXxKJKJBjAa8.ttf';
+export const MaterialSymbolsRounded_200ExtraLight = 'https://fonts.gstatic.com/s/materialsymbolsrounded/v340/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rAelXxKJKJBjAa8.ttf';
+export const MaterialSymbolsRounded_300Light = 'https://fonts.gstatic.com/s/materialsymbolsrounded/v340/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rNmlXxKJKJBjAa8.ttf';
+export const MaterialSymbolsRounded_400Regular = 'https://fonts.gstatic.com/s/materialsymbolsrounded/v340/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rIelXxKJKJBjAa8.ttf';
+export const MaterialSymbolsRounded_500Medium = 'https://fonts.gstatic.com/s/materialsymbolsrounded/v340/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rLWlXxKJKJBjAa8.ttf';
+export const MaterialSymbolsRounded_600SemiBold = 'https://fonts.gstatic.com/s/materialsymbolsrounded/v340/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rFmiXxKJKJBjAa8.ttf';
+export const MaterialSymbolsRounded_700Bold = 'https://fonts.gstatic.com/s/materialsymbolsrounded/v340/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rGCiXxKJKJBjAa8.ttf';
+export const MaterialSymbolsSharp_100Thin = 'https://fonts.gstatic.com/s/materialsymbolssharp/v336/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxOLozCOJ1H7-knk.ttf';
+export const MaterialSymbolsSharp_200ExtraLight = 'https://fonts.gstatic.com/s/materialsymbolssharp/v336/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxMLojCOJ1H7-knk.ttf';
+export const MaterialSymbolsSharp_300Light = 'https://fonts.gstatic.com/s/materialsymbolssharp/v336/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxPVojCOJ1H7-knk.ttf';
+export const MaterialSymbolsSharp_400Regular = 'https://fonts.gstatic.com/s/materialsymbolssharp/v336/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxOLojCOJ1H7-knk.ttf';
+export const MaterialSymbolsSharp_500Medium = 'https://fonts.gstatic.com/s/materialsymbolssharp/v336/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxO5ojCOJ1H7-knk.ttf';
+export const MaterialSymbolsSharp_600SemiBold = 'https://fonts.gstatic.com/s/materialsymbolssharp/v336/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxNVpTCOJ1H7-knk.ttf';
+export const MaterialSymbolsSharp_700Bold = 'https://fonts.gstatic.com/s/materialsymbolssharp/v336/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxNspTCOJ1H7-knk.ttf';
 
 /**
   * @deprecated This font has been removed from Google Fonts.
@@ -8520,3 +8511,39 @@ export const BJCree_600SemiBold = 'https://fonts.gstatic.com/s/bjcree/v1/8QIMdij
   * @deprecated This font has been removed from Google Fonts.
   */
 export const BJCree_700Bold = 'https://fonts.gstatic.com/s/bjcree/v1/8QIMdijLoYvJ7b7bgDQhj7DPHOVyNYM.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Finlandica_400Regular = 'https://fonts.gstatic.com/s/finlandica/v10/-nFsOGk-8vAc7lEtg0aSyZCty9GSsPBE19A7rEjx9i5ss3a3.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Finlandica_500Medium = 'https://fonts.gstatic.com/s/finlandica/v10/-nFsOGk-8vAc7lEtg0aSyZCty9GSsPBE19AJrEjx9i5ss3a3.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Finlandica_600SemiBold = 'https://fonts.gstatic.com/s/finlandica/v10/-nFsOGk-8vAc7lEtg0aSyZCty9GSsPBE19Dlq0jx9i5ss3a3.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Finlandica_700Bold = 'https://fonts.gstatic.com/s/finlandica/v10/-nFsOGk-8vAc7lEtg0aSyZCty9GSsPBE19Dcq0jx9i5ss3a3.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Finlandica_400Regular_Italic = 'https://fonts.gstatic.com/s/finlandica/v10/-nFuOGk-8vAc7lEtg0aS45mfNAn722rq0MXz76Cy_CpOtma3uNQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Finlandica_500Medium_Italic = 'https://fonts.gstatic.com/s/finlandica/v10/-nFuOGk-8vAc7lEtg0aS45mfNAn722rq0MXz75Ky_CpOtma3uNQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Finlandica_600SemiBold_Italic = 'https://fonts.gstatic.com/s/finlandica/v10/-nFuOGk-8vAc7lEtg0aS45mfNAn722rq0MXz7361_CpOtma3uNQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Finlandica_700Bold_Italic = 'https://fonts.gstatic.com/s/finlandica/v10/-nFuOGk-8vAc7lEtg0aS45mfNAn722rq0MXz70e1_CpOtma3uNQ.ttf';
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SairaStencilOne_400Regular = 'https://fonts.gstatic.com/s/sairastencilone/v18/SLXSc03I6HkvZGJ1GvvipLoYSTEL9AsMawif2YQ2.ttf';
