@@ -2496,14 +2496,6 @@ export const GentiumBookPlus_700Bold: string;
 export const GentiumBookPlus_700Bold_Italic: string;
 export const Splash_400Regular: string;
 export const Gulzar_400Regular: string;
-export const Finlandica_400Regular: string;
-export const Finlandica_500Medium: string;
-export const Finlandica_600SemiBold: string;
-export const Finlandica_700Bold: string;
-export const Finlandica_400Regular_Italic: string;
-export const Finlandica_500Medium_Italic: string;
-export const Finlandica_600SemiBold_Italic: string;
-export const Finlandica_700Bold_Italic: string;
 export const GentiumPlus_400Regular: string;
 export const GentiumPlus_400Regular_Italic: string;
 export const GentiumPlus_700Bold: string;
@@ -4629,7 +4621,6 @@ export const DarkerGrotesque_600SemiBold: string;
 export const DarkerGrotesque_700Bold: string;
 export const DarkerGrotesque_800ExtraBold: string;
 export const DarkerGrotesque_900Black: string;
-export const SairaStencilOne_400Regular: string;
 export const Bahianita_400Regular: string;
 export const Barriecito_400Regular: string;
 export const DMSans_100Thin: string;
@@ -8520,3 +8511,39 @@ export const BJCree_600SemiBold: string;
   * @deprecated This font has been removed from Google Fonts.
   */
 export const BJCree_700Bold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Finlandica_400Regular: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Finlandica_500Medium: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Finlandica_600SemiBold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Finlandica_700Bold: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Finlandica_400Regular_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Finlandica_500Medium_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Finlandica_600SemiBold_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const Finlandica_700Bold_Italic: string;
+/**
+  * @deprecated This font has been removed from Google Fonts.
+  */
+export const SairaStencilOne_400Regular: string;
