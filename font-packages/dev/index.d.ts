@@ -8498,22 +8498,6 @@ export const BBHSansBartle_400Regular: string;
 /**
   * @deprecated This font has been removed from Google Fonts.
   */
-export const BJCree_400Regular: string;
-/**
-  * @deprecated This font has been removed from Google Fonts.
-  */
-export const BJCree_500Medium: string;
-/**
-  * @deprecated This font has been removed from Google Fonts.
-  */
-export const BJCree_600SemiBold: string;
-/**
-  * @deprecated This font has been removed from Google Fonts.
-  */
-export const BJCree_700Bold: string;
-/**
-  * @deprecated This font has been removed from Google Fonts.
-  */
 export const Finlandica_400Regular: string;
 /**
   * @deprecated This font has been removed from Google Fonts.
