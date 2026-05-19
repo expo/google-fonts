@@ -60,6 +60,21 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 |[![Estedad_400Regular](./font-packages/estedad/400Regular/Estedad_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/estedad#readme)|[![Estedad_500Medium](./font-packages/estedad/500Medium/Estedad_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/estedad#readme)|[![Estedad_600SemiBold](./font-packages/estedad/600SemiBold/Estedad_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/estedad#readme)||
 |[![Estedad_700Bold](./font-packages/estedad/700Bold/Estedad_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/estedad#readme)|[![Estedad_800ExtraBold](./font-packages/estedad/800ExtraBold/Estedad_800ExtraBold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/estedad#readme)|[![Estedad_900Black](./font-packages/estedad/900Black/Estedad_900Black.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/estedad#readme)||
 
+### [Cousine](https://github.com/expo/google-fonts/tree/main/font-packages/cousine#readme)
+
+||||
+|-|-|-|
+|[![Cousine_400Regular](./font-packages/cousine/400Regular/Cousine_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/cousine#readme)|[![Cousine_400Regular_Italic](./font-packages/cousine/400Regular_Italic/Cousine_400Regular_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/cousine#readme)|[![Cousine_700Bold](./font-packages/cousine/700Bold/Cousine_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/cousine#readme)||
+|[![Cousine_700Bold_Italic](./font-packages/cousine/700Bold_Italic/Cousine_700Bold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/cousine#readme)||||
+
+### [Arimo](https://github.com/expo/google-fonts/tree/main/font-packages/arimo#readme)
+
+||||
+|-|-|-|
+|[![Arimo_400Regular](./font-packages/arimo/400Regular/Arimo_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/arimo#readme)|[![Arimo_500Medium](./font-packages/arimo/500Medium/Arimo_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/arimo#readme)|[![Arimo_600SemiBold](./font-packages/arimo/600SemiBold/Arimo_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/arimo#readme)||
+|[![Arimo_700Bold](./font-packages/arimo/700Bold/Arimo_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/arimo#readme)|[![Arimo_400Regular_Italic](./font-packages/arimo/400Regular_Italic/Arimo_400Regular_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/arimo#readme)|[![Arimo_500Medium_Italic](./font-packages/arimo/500Medium_Italic/Arimo_500Medium_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/arimo#readme)||
+|[![Arimo_600SemiBold_Italic](./font-packages/arimo/600SemiBold_Italic/Arimo_600SemiBold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/arimo#readme)|[![Arimo_700Bold_Italic](./font-packages/arimo/700Bold_Italic/Arimo_700Bold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/arimo#readme)|||
+
 ### [Akt](https://github.com/expo/google-fonts/tree/main/font-packages/akt#readme)
 
 ||||
@@ -13029,21 +13044,6 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 ||||
 |-|-|-|
 |[![UnifrakturMaguntia_400Regular](./font-packages/unifrakturmaguntia/400Regular/UnifrakturMaguntia_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/unifrakturmaguntia#readme)||||
-
-### [Arimo](https://github.com/expo/google-fonts/tree/main/font-packages/arimo#readme)
-
-||||
-|-|-|-|
-|[![Arimo_400Regular](./font-packages/arimo/400Regular/Arimo_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/arimo#readme)|[![Arimo_500Medium](./font-packages/arimo/500Medium/Arimo_500Medium.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/arimo#readme)|[![Arimo_600SemiBold](./font-packages/arimo/600SemiBold/Arimo_600SemiBold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/arimo#readme)||
-|[![Arimo_700Bold](./font-packages/arimo/700Bold/Arimo_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/arimo#readme)|[![Arimo_400Regular_Italic](./font-packages/arimo/400Regular_Italic/Arimo_400Regular_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/arimo#readme)|[![Arimo_500Medium_Italic](./font-packages/arimo/500Medium_Italic/Arimo_500Medium_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/arimo#readme)||
-|[![Arimo_600SemiBold_Italic](./font-packages/arimo/600SemiBold_Italic/Arimo_600SemiBold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/arimo#readme)|[![Arimo_700Bold_Italic](./font-packages/arimo/700Bold_Italic/Arimo_700Bold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/arimo#readme)|||
-
-### [Cousine](https://github.com/expo/google-fonts/tree/main/font-packages/cousine#readme)
-
-||||
-|-|-|-|
-|[![Cousine_400Regular](./font-packages/cousine/400Regular/Cousine_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/cousine#readme)|[![Cousine_400Regular_Italic](./font-packages/cousine/400Regular_Italic/Cousine_400Regular_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/cousine#readme)|[![Cousine_700Bold](./font-packages/cousine/700Bold/Cousine_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/cousine#readme)||
-|[![Cousine_700Bold_Italic](./font-packages/cousine/700Bold_Italic/Cousine_700Bold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/cousine#readme)||||
 
 ### [Tinos](https://github.com/expo/google-fonts/tree/main/font-packages/tinos#readme)
 
