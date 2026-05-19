@@ -213,6 +213,74 @@
       "menu": "https://fonts.gstatic.com/s/estedad/v3/QdVJSTk1OgitjvYTDpnsTdH9KGslJX_6JqgiUh4.ttf"
     },
     {
+      "family": "Cousine",
+      "variants": [
+        "regular",
+        "italic",
+        "700",
+        "700italic"
+      ],
+      "subsets": [
+        "cyrillic",
+        "cyrillic-ext",
+        "greek",
+        "greek-ext",
+        "hebrew",
+        "latin",
+        "latin-ext",
+        "vietnamese"
+      ],
+      "version": "v30",
+      "lastModified": "2026-05-18",
+      "files": {
+        "700": "https://fonts.gstatic.com/s/cousine/v30/d6lNkaiiRdih4SpP9Z8K6T7G09BlnmQ.ttf",
+        "regular": "https://fonts.gstatic.com/s/cousine/v30/d6lIkaiiRdih4SpPzSMlzTbtz9k.ttf",
+        "italic": "https://fonts.gstatic.com/s/cousine/v30/d6lKkaiiRdih4SpP_SEvyRTo39l8hw.ttf",
+        "700italic": "https://fonts.gstatic.com/s/cousine/v30/d6lPkaiiRdih4SpP_SEXdTvM1_JgjmRpOA.ttf"
+      },
+      "category": "monospace",
+      "kind": "webfonts#webfont",
+      "menu": "https://fonts.gstatic.com/s/cousine/v30/d6lIkaiiRdih4SpP_SIvyQ.ttf"
+    },
+    {
+      "family": "Arimo",
+      "variants": [
+        "regular",
+        "500",
+        "600",
+        "700",
+        "italic",
+        "500italic",
+        "600italic",
+        "700italic"
+      ],
+      "subsets": [
+        "cyrillic",
+        "cyrillic-ext",
+        "greek",
+        "greek-ext",
+        "hebrew",
+        "latin",
+        "latin-ext",
+        "vietnamese"
+      ],
+      "version": "v36",
+      "lastModified": "2026-05-18",
+      "files": {
+        "500": "https://fonts.gstatic.com/s/arimo/v36/P5sfzZCDf9_T_3cV7NCUECyoxNk338xsBxDAVQI4aA.ttf",
+        "600": "https://fonts.gstatic.com/s/arimo/v36/P5sfzZCDf9_T_3cV7NCUECyoxNk3M8tsBxDAVQI4aA.ttf",
+        "700": "https://fonts.gstatic.com/s/arimo/v36/P5sfzZCDf9_T_3cV7NCUECyoxNk3CstsBxDAVQI4aA.ttf",
+        "regular": "https://fonts.gstatic.com/s/arimo/v36/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxsBxDAVQI4aA.ttf",
+        "italic": "https://fonts.gstatic.com/s/arimo/v36/P5sdzZCDf9_T_10c3i9MeUcyat4iJY-ERBrEdwcoaKww.ttf",
+        "500italic": "https://fonts.gstatic.com/s/arimo/v36/P5sdzZCDf9_T_10c3i9MeUcyat4iJY-2RBrEdwcoaKww.ttf",
+        "600italic": "https://fonts.gstatic.com/s/arimo/v36/P5sdzZCDf9_T_10c3i9MeUcyat4iJY9aQxrEdwcoaKww.ttf",
+        "700italic": "https://fonts.gstatic.com/s/arimo/v36/P5sdzZCDf9_T_10c3i9MeUcyat4iJY9jQxrEdwcoaKww.ttf"
+      },
+      "category": "sans-serif",
+      "kind": "webfonts#webfont",
+      "menu": "https://fonts.gstatic.com/s/arimo/v36/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxcBhrE.ttf"
+    },
+    {
       "family": "Akt",
       "variants": [
         "100",
@@ -47358,74 +47426,6 @@
       "category": "display",
       "kind": "webfonts#webfont",
       "menu": "https://fonts.gstatic.com/s/unifrakturmaguntia/v22/WWXPlieVYwiGNomYU-ciRLRvEmK7oaVenmZJ.ttf"
-    },
-    {
-      "family": "Arimo",
-      "variants": [
-        "regular",
-        "500",
-        "600",
-        "700",
-        "italic",
-        "500italic",
-        "600italic",
-        "700italic"
-      ],
-      "subsets": [
-        "cyrillic",
-        "cyrillic-ext",
-        "greek",
-        "greek-ext",
-        "hebrew",
-        "latin",
-        "latin-ext",
-        "vietnamese"
-      ],
-      "version": "v35",
-      "lastModified": "2025-09-08",
-      "files": {
-        "500": "https://fonts.gstatic.com/s/arimo/v35/P5sfzZCDf9_T_3cV7NCUECyoxNk338xsBxDAVQI4aA.ttf",
-        "600": "https://fonts.gstatic.com/s/arimo/v35/P5sfzZCDf9_T_3cV7NCUECyoxNk3M8tsBxDAVQI4aA.ttf",
-        "700": "https://fonts.gstatic.com/s/arimo/v35/P5sfzZCDf9_T_3cV7NCUECyoxNk3CstsBxDAVQI4aA.ttf",
-        "regular": "https://fonts.gstatic.com/s/arimo/v35/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxsBxDAVQI4aA.ttf",
-        "italic": "https://fonts.gstatic.com/s/arimo/v35/P5sdzZCDf9_T_10c3i9MeUcyat4iJY-ERBrEdwcoaKww.ttf",
-        "500italic": "https://fonts.gstatic.com/s/arimo/v35/P5sdzZCDf9_T_10c3i9MeUcyat4iJY-2RBrEdwcoaKww.ttf",
-        "600italic": "https://fonts.gstatic.com/s/arimo/v35/P5sdzZCDf9_T_10c3i9MeUcyat4iJY9aQxrEdwcoaKww.ttf",
-        "700italic": "https://fonts.gstatic.com/s/arimo/v35/P5sdzZCDf9_T_10c3i9MeUcyat4iJY9jQxrEdwcoaKww.ttf"
-      },
-      "category": "sans-serif",
-      "kind": "webfonts#webfont",
-      "menu": "https://fonts.gstatic.com/s/arimo/v35/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxcBhrE.ttf"
-    },
-    {
-      "family": "Cousine",
-      "variants": [
-        "regular",
-        "italic",
-        "700",
-        "700italic"
-      ],
-      "subsets": [
-        "cyrillic",
-        "cyrillic-ext",
-        "greek",
-        "greek-ext",
-        "hebrew",
-        "latin",
-        "latin-ext",
-        "vietnamese"
-      ],
-      "version": "v29",
-      "lastModified": "2025-09-08",
-      "files": {
-        "700": "https://fonts.gstatic.com/s/cousine/v29/d6lNkaiiRdih4SpP9Z8K6T7G09BlnmQ.ttf",
-        "regular": "https://fonts.gstatic.com/s/cousine/v29/d6lIkaiiRdih4SpPzSMlzTbtz9k.ttf",
-        "italic": "https://fonts.gstatic.com/s/cousine/v29/d6lKkaiiRdih4SpP_SEvyRTo39l8hw.ttf",
-        "700italic": "https://fonts.gstatic.com/s/cousine/v29/d6lPkaiiRdih4SpP_SEXdTvM1_JgjmRpOA.ttf"
-      },
-      "category": "monospace",
-      "kind": "webfonts#webfont",
-      "menu": "https://fonts.gstatic.com/s/cousine/v29/d6lIkaiiRdih4SpP_SIvyQ.ttf"
     },
     {
       "family": "Tinos",
