@@ -8498,22 +8498,6 @@ export const BBHSansBartle_400Regular = 'https://fonts.gstatic.com/s/bbhsansbart
 /**
   * @deprecated This font has been removed from Google Fonts.
   */
-export const BJCree_400Regular = 'https://fonts.gstatic.com/s/bjcree/v1/8QIJdijLoYvJ7b7buIgOq7jkAOw.ttf';
-/**
-  * @deprecated This font has been removed from Google Fonts.
-  */
-export const BJCree_500Medium = 'https://fonts.gstatic.com/s/bjcree/v1/8QIMdijLoYvJ7b7bgHwnj7DPHOVyNYM.ttf';
-/**
-  * @deprecated This font has been removed from Google Fonts.
-  */
-export const BJCree_600SemiBold = 'https://fonts.gstatic.com/s/bjcree/v1/8QIMdijLoYvJ7b7bgFAgj7DPHOVyNYM.ttf';
-/**
-  * @deprecated This font has been removed from Google Fonts.
-  */
-export const BJCree_700Bold = 'https://fonts.gstatic.com/s/bjcree/v1/8QIMdijLoYvJ7b7bgDQhj7DPHOVyNYM.ttf';
-/**
-  * @deprecated This font has been removed from Google Fonts.
-  */
 export const Finlandica_400Regular = 'https://fonts.gstatic.com/s/finlandica/v10/-nFsOGk-8vAc7lEtg0aSyZCty9GSsPBE19A7rEjx9i5ss3a3.ttf';
 /**
   * @deprecated This font has been removed from Google Fonts.
