@@ -15,6 +15,13 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 
 ## 🔡 Styles
 
+### [Tinos](https://github.com/expo/google-fonts/tree/main/font-packages/tinos#readme)
+
+||||
+|-|-|-|
+|[![Tinos_400Regular](./font-packages/tinos/400Regular/Tinos_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/tinos#readme)|[![Tinos_400Regular_Italic](./font-packages/tinos/400Regular_Italic/Tinos_400Regular_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/tinos#readme)|[![Tinos_700Bold](./font-packages/tinos/700Bold/Tinos_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/tinos#readme)||
+|[![Tinos_700Bold_Italic](./font-packages/tinos/700Bold_Italic/Tinos_700Bold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/tinos#readme)||||
+
 ### [Strichpunkt Sans](https://github.com/expo/google-fonts/tree/main/font-packages/strichpunkt-sans#readme)
 
 ||||
@@ -13044,13 +13051,6 @@ The [Google Fonts site](https://fonts.google.com) is also a great way to browse 
 ||||
 |-|-|-|
 |[![UnifrakturMaguntia_400Regular](./font-packages/unifrakturmaguntia/400Regular/UnifrakturMaguntia_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/unifrakturmaguntia#readme)||||
-
-### [Tinos](https://github.com/expo/google-fonts/tree/main/font-packages/tinos#readme)
-
-||||
-|-|-|-|
-|[![Tinos_400Regular](./font-packages/tinos/400Regular/Tinos_400Regular.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/tinos#readme)|[![Tinos_400Regular_Italic](./font-packages/tinos/400Regular_Italic/Tinos_400Regular_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/tinos#readme)|[![Tinos_700Bold](./font-packages/tinos/700Bold/Tinos_700Bold.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/tinos#readme)||
-|[![Tinos_700Bold_Italic](./font-packages/tinos/700Bold_Italic/Tinos_700Bold_Italic.ttf.png)](https://github.com/expo/google-fonts/tree/main/font-packages/tinos#readme)||||
 
 ### [Arvo](https://github.com/expo/google-fonts/tree/main/font-packages/arvo#readme)
 
