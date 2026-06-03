@@ -33,6 +33,13 @@ export const licenseOverrides: [string[], { type: string; url?: string; content?
     },
   ],
   [
+    ['Tinos'],
+    {
+      type: FontLicenseTypes.OFL,
+      url: 'https://raw.githubusercontent.com/googlefonts/tinos/refs/heads/main/OFL.txt',
+    },
+  ],
+  [
     ['Edu QLD Hand'],
     {
       type: FontLicenseTypes.OFL,
