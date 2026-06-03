@@ -2,6 +2,10 @@
 // If you want to modify it, go to packages/generator/templates
 
 export { useFonts } from './useFonts';
+export const Tinos_400Regular: string;
+export const Tinos_400Regular_Italic: string;
+export const Tinos_700Bold: string;
+export const Tinos_700Bold_Italic: string;
 export const StrichpunktSans_400Regular: string;
 export const StrichpunktSans_500Medium: string;
 export const StrichpunktSans_600SemiBold: string;
@@ -7597,10 +7601,6 @@ export const Puritan_400Regular_Italic: string;
 export const Puritan_700Bold: string;
 export const Puritan_700Bold_Italic: string;
 export const UnifrakturMaguntia_400Regular: string;
-export const Tinos_400Regular: string;
-export const Tinos_400Regular_Italic: string;
-export const Tinos_700Bold: string;
-export const Tinos_700Bold_Italic: string;
 export const Arvo_400Regular: string;
 export const Arvo_400Regular_Italic: string;
 export const Arvo_700Bold: string;
