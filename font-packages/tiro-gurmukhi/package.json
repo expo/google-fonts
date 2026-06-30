@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/tiro-gurmukhi",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Use the Tiro Gurmukhi font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {

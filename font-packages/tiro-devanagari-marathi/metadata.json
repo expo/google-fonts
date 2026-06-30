@@ -2,13 +2,13 @@
   "family": "Tiro Devanagari Marathi",
   "variants": ["regular", "italic"],
   "subsets": ["devanagari", "latin", "latin-ext"],
-  "version": "v5",
-  "lastModified": "2024-09-04",
+  "version": "v7",
+  "lastModified": "2026-06-29",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/tirodevanagarimarathi/v5/fC1xPZBSZHrRhS3rd4M0MAPNJUHl4znXCxAkotDrDJYM2lAZ.ttf",
-    "italic": "https://fonts.gstatic.com/s/tirodevanagarimarathi/v5/fC1zPZBSZHrRhS3rd4M0MAPNJUHl4znXCxAkouDpBpIu30AZbUY.ttf"
+    "regular": "https://fonts.gstatic.com/s/tirodevanagarimarathi/v7/fC1xPZBSZHrRhS3rd4M0MAPNJUHl4znXCxAkotDrDJYM2lAZ.ttf",
+    "italic": "https://fonts.gstatic.com/s/tirodevanagarimarathi/v7/fC1zPZBSZHrRhS3rd4M0MAPNJUHl4znXCxAkouDpBpIu30AZbUY.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/tirodevanagarimarathi/v5/fC1xPZBSZHrRhS3rd4M0MAPNJUHl4znXCxAkouDqBpI.ttf"
+  "menu": "https://fonts.gstatic.com/s/tirodevanagarimarathi/v7/fC1xPZBSZHrRhS3rd4M0MAPNJUHl4znXCxAkouDqBpI.ttf"
 }
