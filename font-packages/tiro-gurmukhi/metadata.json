@@ -2,13 +2,13 @@
   "family": "Tiro Gurmukhi",
   "variants": ["regular", "italic"],
   "subsets": ["gurmukhi", "latin", "latin-ext"],
-  "version": "v6",
-  "lastModified": "2024-09-04",
+  "version": "v8",
+  "lastModified": "2026-06-29",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/tirogurmukhi/v6/x3dmckXSYq-Uqjc048JUF7Jvly7HAQsyA2Y.ttf",
-    "italic": "https://fonts.gstatic.com/s/tirogurmukhi/v6/x3d4ckXSYq-Uqjc048JUF7JvpyzNBSk3E2YljQ.ttf"
+    "regular": "https://fonts.gstatic.com/s/tirogurmukhi/v8/x3dmckXSYq-Uqjc048JUF7Jvly7HAQsyA2Y.ttf",
+    "italic": "https://fonts.gstatic.com/s/tirogurmukhi/v8/x3d4ckXSYq-Uqjc048JUF7JvpyzNBSk3E2YljQ.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/tirogurmukhi/v6/x3dmckXSYq-Uqjc048JUF7Jvpy_NBQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/tirogurmukhi/v8/x3dmckXSYq-Uqjc048JUF7Jvpy_NBQ.ttf"
 }
