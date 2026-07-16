@@ -1,0 +1,13 @@
+{
+  "family": "Yuyu Short",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2026-06-30",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/yuyushort/v1/LDI3apKZLAsqA9YV6Px0M-OGXerPi7s.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/yuyushort/v1/LDI3apKZLAsqA9YV6Px0A-KMWQ.ttf"
+}
