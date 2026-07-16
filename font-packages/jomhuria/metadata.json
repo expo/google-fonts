@@ -1,13 +1,13 @@
 {
   "family": "Jomhuria",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext"],
-  "version": "v21",
-  "lastModified": "2024-12-04",
+  "subsets": ["arabic", "latin", "latin-ext"],
+  "version": "v23",
+  "lastModified": "2026-06-30",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/jomhuria/v21/Dxxp8j-TMXf-llKur2b1MOGbC3Dh.ttf"
+    "regular": "https://fonts.gstatic.com/s/jomhuria/v23/Dxxp8j-TMXf-llKur2b1MOGbC3Dh.ttf"
   },
   "category": "display",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/jomhuria/v21/Dxxp8j-TMXf-llKur1b0OuU.ttf"
+  "menu": "https://fonts.gstatic.com/s/jomhuria/v23/Dxxp8j-TMXf-llKur1b0OuU.ttf"
 }

@@ -1,0 +1,13 @@
+{
+  "family": "Hibur Mono",
+  "variants": ["regular"],
+  "subsets": ["ethiopic", "latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2026-07-09",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/hiburmono/v1/R70fjyoFkv6fKPKNWxXXuCq-Uzv4V5Q.ttf"
+  },
+  "category": "monospace",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/hiburmono/v1/R70fjyoFkv6fKPKNWxXXiCu0Vw.ttf"
+}

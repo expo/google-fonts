@@ -1,0 +1,19 @@
+{
+  "family": "Geomini",
+  "variants": ["200", "300", "regular", "500", "600", "700", "800"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v2",
+  "lastModified": "2026-07-09",
+  "files": {
+    "200": "https://fonts.gstatic.com/s/geomini/v2/Yq6L-L2BVyv2_q37mTVoSDbHLBc5Sb4OqPCy2Ynlhe6L.ttf",
+    "300": "https://fonts.gstatic.com/s/geomini/v2/Yq6L-L2BVyv2_q37mTVoSDbHLBc5Sb7QqPCy2Ynlhe6L.ttf",
+    "500": "https://fonts.gstatic.com/s/geomini/v2/Yq6L-L2BVyv2_q37mTVoSDbHLBc5Sb68qPCy2Ynlhe6L.ttf",
+    "600": "https://fonts.gstatic.com/s/geomini/v2/Yq6L-L2BVyv2_q37mTVoSDbHLBc5Sb5Qr_Cy2Ynlhe6L.ttf",
+    "700": "https://fonts.gstatic.com/s/geomini/v2/Yq6L-L2BVyv2_q37mTVoSDbHLBc5Sb5pr_Cy2Ynlhe6L.ttf",
+    "800": "https://fonts.gstatic.com/s/geomini/v2/Yq6L-L2BVyv2_q37mTVoSDbHLBc5Sb4Or_Cy2Ynlhe6L.ttf",
+    "regular": "https://fonts.gstatic.com/s/geomini/v2/Yq6L-L2BVyv2_q37mTVoSDbHLBc5Sb6OqPCy2Ynlhe6L.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/geomini/v2/Yq6L-L2BVyv2_q37mTVoSDbHLBc5Sb6OqMCz040.ttf"
+}
