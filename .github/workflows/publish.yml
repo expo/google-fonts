@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: Checkout all package directories
         if: ${{ github.event.inputs.publishAll == 'true' }}
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           sparse-checkout: |
             font-packages
@@ -51,9 +51,9 @@ jobs:
           git sparse-checkout set -- "${sparse_paths[@]}"
           git -c http.https://github.com/.extraheader="$auth_header" checkout --detach "$GITHUB_SHA"
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
-          node-version: '20.x'
+          node-version: '24'
           registry-url: 'https://registry.npmjs.org'
 
       - name: Publish all packages
@@ -98,7 +98,7 @@ jobs:
     if: failure()
     steps:
       - name: Send Slack notification
-        uses: slackapi/slack-github-action@v2.1.1
+        uses: slackapi/slack-github-action@v3.0.5
         with:
           webhook: ${{ secrets.SLACK_WEBHOOK_URL }}
           webhook-type: incoming-webhook
