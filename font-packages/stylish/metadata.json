@@ -1,11 +1,11 @@
 {
   "family": "Stylish",
   "variants": ["regular"],
-  "subsets": ["korean"],
-  "version": "v25",
-  "lastModified": "2025-06-25",
-  "files": { "regular": "https://fonts.gstatic.com/s/stylish/v25/m8JSjfhPYriQkk7-fo35dLxEdmo.ttf" },
+  "subsets": ["korean", "latin"],
+  "version": "v26",
+  "lastModified": "2026-08-10",
+  "files": { "regular": "https://fonts.gstatic.com/s/stylish/v26/m8JSjfhPYriQkk7-fo35dLxEdmo.ttf" },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/stylish/v25/m8JSjfhPYriQkk7-TozzcA.ttf"
+  "menu": "https://fonts.gstatic.com/s/stylish/v26/m8JSjfhPYriQkk7-TozzcA.ttf"
 }
