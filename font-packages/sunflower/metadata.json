@@ -1,15 +1,15 @@
 {
   "family": "Sunflower",
   "variants": ["300", "500", "700"],
-  "subsets": ["korean"],
-  "version": "v18",
-  "lastModified": "2025-09-16",
+  "subsets": ["korean", "latin"],
+  "version": "v19",
+  "lastModified": "2026-08-10",
   "files": {
-    "300": "https://fonts.gstatic.com/s/sunflower/v18/RWmPoKeF8fUjqIj7Vc-06MfiqYsGBGBzCw.ttf",
-    "500": "https://fonts.gstatic.com/s/sunflower/v18/RWmPoKeF8fUjqIj7Vc-0sMbiqYsGBGBzCw.ttf",
-    "700": "https://fonts.gstatic.com/s/sunflower/v18/RWmPoKeF8fUjqIj7Vc-0-MDiqYsGBGBzCw.ttf"
+    "300": "https://fonts.gstatic.com/s/sunflower/v19/RWmPoKeF8fUjqIj7Vc-06MfiqYsGBGBzCw.ttf",
+    "500": "https://fonts.gstatic.com/s/sunflower/v19/RWmPoKeF8fUjqIj7Vc-0sMbiqYsGBGBzCw.ttf",
+    "700": "https://fonts.gstatic.com/s/sunflower/v19/RWmPoKeF8fUjqIj7Vc-0-MDiqYsGBGBzCw.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/sunflower/v18/RWmPoKeF8fUjqIj7Vc-06MfSqIEC.ttf"
+  "menu": "https://fonts.gstatic.com/s/sunflower/v19/RWmPoKeF8fUjqIj7Vc-06MfSqIEC.ttf"
 }

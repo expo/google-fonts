@@ -6339,15 +6339,15 @@
       "subsets": [
         "tamil"
       ],
-      "version": "v2",
-      "lastModified": "2024-10-29",
+      "version": "v3",
+      "lastModified": "2026-08-10",
       "files": {
-        "700": "https://fonts.gstatic.com/s/karlatamilupright/v2/IFS1HfVMk95HnY0u6SeQ_cHoozW_3U5XmK5SoKcPLKclE4o.ttf",
-        "regular": "https://fonts.gstatic.com/s/karlatamilupright/v2/IFS4HfVMk95HnY0u6SeQ_cHoozW_3U5XoBJ9hK8kMK4.ttf"
+        "700": "https://fonts.gstatic.com/s/karlatamilupright/v3/IFS1HfVMk95HnY0u6SeQ_cHoozW_3U5XmK5SoKcPLKclE4o.ttf",
+        "regular": "https://fonts.gstatic.com/s/karlatamilupright/v3/IFS4HfVMk95HnY0u6SeQ_cHoozW_3U5XoBJ9hK8kMK4.ttf"
       },
       "category": "sans-serif",
       "kind": "webfonts#webfont",
-      "menu": "https://fonts.gstatic.com/s/karlatamilupright/v2/IFS4HfVMk95HnY0u6SeQ_cHoozW_3U5XkBN3gA.ttf"
+      "menu": "https://fonts.gstatic.com/s/karlatamilupright/v3/IFS4HfVMk95HnY0u6SeQ_cHoozW_3U5XkBN3gA.ttf"
     },
     {
       "family": "Karla Tamil Inclined",
@@ -6358,15 +6358,15 @@
       "subsets": [
         "tamil"
       ],
-      "version": "v2",
-      "lastModified": "2024-10-29",
+      "version": "v3",
+      "lastModified": "2026-08-10",
       "files": {
-        "700": "https://fonts.gstatic.com/s/karlatamilinclined/v2/vm8mdQ3vXFXZ1aPd8dNzR82AFh2TibkaVo-nkrf5Iy7YGkI1.ttf",
-        "regular": "https://fonts.gstatic.com/s/karlatamilinclined/v2/vm8pdQ3vXFXZ1aPd8dNzR82AFh2TibkaVrcbvZPxCDLR.ttf"
+        "700": "https://fonts.gstatic.com/s/karlatamilinclined/v3/vm8mdQ3vXFXZ1aPd8dNzR82AFh2TibkaVo-nkrf5Iy7YGkI1.ttf",
+        "regular": "https://fonts.gstatic.com/s/karlatamilinclined/v3/vm8pdQ3vXFXZ1aPd8dNzR82AFh2TibkaVrcbvZPxCDLR.ttf"
       },
       "category": "sans-serif",
       "kind": "webfonts#webfont",
-      "menu": "https://fonts.gstatic.com/s/karlatamilinclined/v2/vm8pdQ3vXFXZ1aPd8dNzR82AFh2TibkaVocat5c.ttf"
+      "menu": "https://fonts.gstatic.com/s/karlatamilinclined/v3/vm8pdQ3vXFXZ1aPd8dNzR82AFh2TibkaVocat5c.ttf"
     },
     {
       "family": "Geist Mono",
@@ -19208,14 +19208,14 @@
       "subsets": [
         "emoji"
       ],
-      "version": "v39",
-      "lastModified": "2026-02-17",
+      "version": "v40",
+      "lastModified": "2026-08-10",
       "files": {
-        "regular": "https://fonts.gstatic.com/s/notocoloremoji/v39/Yq6P-KqIXTD0t4D9z1ESnKM3-HpFab5s79iz64w.ttf"
+        "regular": "https://fonts.gstatic.com/s/notocoloremoji/v40/Yq6P-KqIXTD0t4D9z1ESnKM3-HpFab5s79iz64w.ttf"
       },
       "category": "sans-serif",
       "kind": "webfonts#webfont",
-      "menu": "https://fonts.gstatic.com/s/notocoloremoji/v39/Yq6P-KqIXTD0t4D9z1ESnKM3-HpFWb9m6w.ttf",
+      "menu": "https://fonts.gstatic.com/s/notocoloremoji/v40/Yq6P-KqIXTD0t4D9z1ESnKM3-HpFWb9m6w.ttf",
       "colorCapabilities": [
         "COLRv1",
         "SVG"
@@ -28824,16 +28824,17 @@
         "regular"
       ],
       "subsets": [
-        "korean"
+        "korean",
+        "latin"
       ],
-      "version": "v25",
-      "lastModified": "2025-06-25",
+      "version": "v26",
+      "lastModified": "2026-08-10",
       "files": {
-        "regular": "https://fonts.gstatic.com/s/stylish/v25/m8JSjfhPYriQkk7-fo35dLxEdmo.ttf"
+        "regular": "https://fonts.gstatic.com/s/stylish/v26/m8JSjfhPYriQkk7-fo35dLxEdmo.ttf"
       },
       "category": "sans-serif",
       "kind": "webfonts#webfont",
-      "menu": "https://fonts.gstatic.com/s/stylish/v25/m8JSjfhPYriQkk7-TozzcA.ttf"
+      "menu": "https://fonts.gstatic.com/s/stylish/v26/m8JSjfhPYriQkk7-TozzcA.ttf"
     },
     {
       "family": "Sunflower",
@@ -28843,18 +28844,19 @@
         "700"
       ],
       "subsets": [
-        "korean"
+        "korean",
+        "latin"
       ],
-      "version": "v18",
-      "lastModified": "2025-09-16",
+      "version": "v19",
+      "lastModified": "2026-08-10",
       "files": {
-        "300": "https://fonts.gstatic.com/s/sunflower/v18/RWmPoKeF8fUjqIj7Vc-06MfiqYsGBGBzCw.ttf",
-        "500": "https://fonts.gstatic.com/s/sunflower/v18/RWmPoKeF8fUjqIj7Vc-0sMbiqYsGBGBzCw.ttf",
-        "700": "https://fonts.gstatic.com/s/sunflower/v18/RWmPoKeF8fUjqIj7Vc-0-MDiqYsGBGBzCw.ttf"
+        "300": "https://fonts.gstatic.com/s/sunflower/v19/RWmPoKeF8fUjqIj7Vc-06MfiqYsGBGBzCw.ttf",
+        "500": "https://fonts.gstatic.com/s/sunflower/v19/RWmPoKeF8fUjqIj7Vc-0sMbiqYsGBGBzCw.ttf",
+        "700": "https://fonts.gstatic.com/s/sunflower/v19/RWmPoKeF8fUjqIj7Vc-0-MDiqYsGBGBzCw.ttf"
       },
       "category": "sans-serif",
       "kind": "webfonts#webfont",
-      "menu": "https://fonts.gstatic.com/s/sunflower/v18/RWmPoKeF8fUjqIj7Vc-06MfSqIEC.ttf"
+      "menu": "https://fonts.gstatic.com/s/sunflower/v19/RWmPoKeF8fUjqIj7Vc-06MfSqIEC.ttf"
     },
     {
       "family": "Do Hyeon",
@@ -29082,16 +29084,17 @@
         "regular"
       ],
       "subsets": [
-        "korean"
+        "korean",
+        "latin"
       ],
-      "version": "v22",
-      "lastModified": "2025-09-08",
+      "version": "v23",
+      "lastModified": "2026-08-10",
       "files": {
-        "regular": "https://fonts.gstatic.com/s/songmyung/v22/1cX2aUDWAJH5-EIC7DIhr1GqhcitzeM.ttf"
+        "regular": "https://fonts.gstatic.com/s/songmyung/v23/1cX2aUDWAJH5-EIC7DIhr1GqhcitzeM.ttf"
       },
       "category": "serif",
       "kind": "webfonts#webfont",
-      "menu": "https://fonts.gstatic.com/s/songmyung/v22/1cX2aUDWAJH5-EIC7DIhn1CggQ.ttf"
+      "menu": "https://fonts.gstatic.com/s/songmyung/v23/1cX2aUDWAJH5-EIC7DIhn1CggQ.ttf"
     },
     {
       "family": "Yeon Sung",
@@ -29117,16 +29120,17 @@
         "regular"
       ],
       "subsets": [
-        "korean"
+        "korean",
+        "latin"
       ],
-      "version": "v19",
-      "lastModified": "2025-09-08",
+      "version": "v20",
+      "lastModified": "2026-08-10",
       "files": {
-        "regular": "https://fonts.gstatic.com/s/singleday/v19/LYjHdGDjlEgoAcF95EI5jVoFUNfeQJU.ttf"
+        "regular": "https://fonts.gstatic.com/s/singleday/v20/LYjHdGDjlEgoAcF95EI5jVoFUNfeQJU.ttf"
       },
       "category": "display",
       "kind": "webfonts#webfont",
-      "menu": "https://fonts.gstatic.com/s/singleday/v19/LYjHdGDjlEgoAcF95EI5vVsPVA.ttf"
+      "menu": "https://fonts.gstatic.com/s/singleday/v20/LYjHdGDjlEgoAcF95EI5vVsPVA.ttf"
     },
     {
       "family": "Nanum Brush Script",
