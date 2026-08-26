@@ -2,12 +2,12 @@
   "family": "Yuyu Short",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v1",
-  "lastModified": "2026-06-30",
+  "version": "v2",
+  "lastModified": "2026-08-25",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/yuyushort/v1/LDI3apKZLAsqA9YV6Px0M-OGXerPi7s.ttf"
+    "regular": "https://fonts.gstatic.com/s/yuyushort/v2/LDI3apKZLAsqA9YV6Px0M-OGXerPi7s.ttf"
   },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/yuyushort/v1/LDI3apKZLAsqA9YV6Px0A-KMWQ.ttf"
+  "menu": "https://fonts.gstatic.com/s/yuyushort/v2/LDI3apKZLAsqA9YV6Px0A-KMWQ.ttf"
 }

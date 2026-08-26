@@ -2,15 +2,15 @@
   "family": "LINE Seed JP",
   "variants": ["100", "regular", "700", "800"],
   "subsets": ["cyrillic", "greek-ext", "japanese", "latin", "latin-ext"],
-  "version": "v3",
-  "lastModified": "2026-03-11",
+  "version": "v5",
+  "lastModified": "2026-08-25",
   "files": {
-    "100": "https://fonts.gstatic.com/s/lineseedjp/v3/MwQvbh7r89it6QsEXfZb-jMn6ZFOh361TW5b.ttf",
-    "700": "https://fonts.gstatic.com/s/lineseedjp/v3/MwQubh7r89it6QsEXfZb-jMnMbRurVC5RHdCZg.ttf",
-    "800": "https://fonts.gstatic.com/s/lineseedjp/v3/MwQubh7r89it6QsEXfZb-jMnLbdurVC5RHdCZg.ttf",
-    "regular": "https://fonts.gstatic.com/s/lineseedjp/v3/MwQxbh7r89it6QsEXfZb-jMfjZtKpXulTQ.ttf"
+    "100": "https://fonts.gstatic.com/s/lineseedjp/v5/MwQvbh7r89it6QsEXfZb-jMn6ZFOh361TW5b.ttf",
+    "700": "https://fonts.gstatic.com/s/lineseedjp/v5/MwQubh7r89it6QsEXfZb-jMnMbRurVC5RHdCZg.ttf",
+    "800": "https://fonts.gstatic.com/s/lineseedjp/v5/MwQubh7r89it6QsEXfZb-jMnLbdurVC5RHdCZg.ttf",
+    "regular": "https://fonts.gstatic.com/s/lineseedjp/v5/MwQxbh7r89it6QsEXfZb-jMfjZtKpXulTQ.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/lineseedjp/v3/MwQxbh7r89it6QsEXfZb-jMvjJFO.ttf"
+  "menu": "https://fonts.gstatic.com/s/lineseedjp/v5/MwQxbh7r89it6QsEXfZb-jMvjJFO.ttf"
 }
