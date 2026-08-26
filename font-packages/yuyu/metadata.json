@@ -2,10 +2,10 @@
   "family": "Yuyu",
   "variants": ["regular"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v1",
-  "lastModified": "2026-06-30",
-  "files": { "regular": "https://fonts.gstatic.com/s/yuyu/v1/cY9Kfj2VT1Zd6UPuMt_L19g.ttf" },
+  "version": "v2",
+  "lastModified": "2026-08-25",
+  "files": { "regular": "https://fonts.gstatic.com/s/yuyu/v2/cY9Kfj2VT1Zd6UPuMt_L19g.ttf" },
   "category": "handwriting",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/yuyu/v1/cY9Kfj2VT1Zd2ULkNg.ttf"
+  "menu": "https://fonts.gstatic.com/s/yuyu/v2/cY9Kfj2VT1Zd2ULkNg.ttf"
 }

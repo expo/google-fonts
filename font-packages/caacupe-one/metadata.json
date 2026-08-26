@@ -1,0 +1,13 @@
+{
+  "family": "Caacupe One",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v2",
+  "lastModified": "2026-08-25",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/caacupeone/v2/PlI5Fl60NbF_eNjJe2jslVxEt8CwfGaD.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/caacupeone/v2/PlI5Fl60NbF_eNjJe2jslWxFvcQ.ttf"
+}

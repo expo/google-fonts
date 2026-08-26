@@ -2,12 +2,12 @@
   "family": "Hibur Mono",
   "variants": ["regular"],
   "subsets": ["ethiopic", "latin", "latin-ext"],
-  "version": "v1",
-  "lastModified": "2026-07-09",
+  "version": "v3",
+  "lastModified": "2026-08-25",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/hiburmono/v1/R70fjyoFkv6fKPKNWxXXuCq-Uzv4V5Q.ttf"
+    "regular": "https://fonts.gstatic.com/s/hiburmono/v3/R70fjyoFkv6fKPKNWxXXuCq-Uzv4V5Q.ttf"
   },
   "category": "monospace",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/hiburmono/v1/R70fjyoFkv6fKPKNWxXXiCu0Vw.ttf"
+  "menu": "https://fonts.gstatic.com/s/hiburmono/v3/R70fjyoFkv6fKPKNWxXXiCu0Vw.ttf"
 }

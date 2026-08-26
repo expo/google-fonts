@@ -2,12 +2,12 @@
   "family": "Noto Sans Batak",
   "variants": ["regular"],
   "subsets": ["batak", "latin", "latin-ext"],
-  "version": "v23",
-  "lastModified": "2025-08-26",
+  "version": "v24",
+  "lastModified": "2026-08-25",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/notosansbatak/v23/gok2H6TwAEdtF9N8-mdTCQvT-Zdgo4_PHuk74A.ttf"
+    "regular": "https://fonts.gstatic.com/s/notosansbatak/v24/gok2H6TwAEdtF9N8-mdTCQvT-Zdgo4_PHuk74A.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/notosansbatak/v23/gok2H6TwAEdtF9N8-mdTCQvT-ZdQooXL.ttf"
+  "menu": "https://fonts.gstatic.com/s/notosansbatak/v24/gok2H6TwAEdtF9N8-mdTCQvT-ZdQooXL.ttf"
 }
