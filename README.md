@@ -47,7 +47,70 @@ Here is an example of using the [Inter font family](https://fonts.google.com/spe
 npx expo install @expo-google-fonts/inter expo-font
 ```
 
-#### In your app
+#### Pick how you load the font
+
+There are two ways to use a font from these packages. Both are supported. They differ in where the font file ends up and when the font becomes available.
+
+| Question                              | `expo-font` config plugin    | `useFonts` hook                    |
+| ------------------------------------- | ---------------------------- | ---------------------------------- |
+| Works on Android and iOS              | ✅                           | ✅                                 |
+| Works on web                          | ❌                           | ✅                                 |
+| Works in Expo Go                      | ❌ needs a development build | ✅                                 |
+| Font is ready at app start            | ✅                           | ❌ loads asynchronously            |
+| Font file in your JavaScript bundle   | No                           | Yes, one file per style you import |
+| New native build after adding a style | Required                     | Not required                       |
+| `fontFamily` value                    | Differs per platform         | Same on every platform             |
+
+Use the config plugin if you build your app with [development builds](https://docs.expo.dev/develop/development-builds/introduction/) or EAS Build. Use the `useFonts` hook for Expo Go and for web.
+
+#### Option 1: Embed the font with the `expo-font` config plugin
+
+This is the [approach the Expo docs recommend](https://docs.expo.dev/develop/user-interface/fonts/#with-expo-font-config-plugin) for Android and iOS. The font file is embedded in your native app at build time, so the font is ready when the app starts and no font file goes into your JavaScript bundle.
+
+Point the plugin at the font file inside the package. Each style lives in its own directory.
+
+```json
+{
+  "expo": {
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": ["node_modules/@expo-google-fonts/inter/900Black/Inter_900Black.ttf"]
+        }
+      ]
+    ]
+  }
+}
+```
+
+Then create a new development build and use the font directly. No loading code is needed.
+
+On Android the font family name is the file name. On iOS it is the font's [PostScript name](https://docs.expo.dev/develop/user-interface/fonts/#what-is-postscript-name-of-a-font), which is usually different, so select the name per platform:
+
+```js
+import { Platform, Text, View } from 'react-native';
+
+export default function App() {
+  return (
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Text
+        style={{
+          fontFamily: Platform.select({ android: 'Inter_900Black', ios: 'Inter-Black' }),
+          fontSize: 40,
+        }}>
+        Inter Black
+      </Text>
+    </View>
+  );
+}
+```
+
+> **Note**: Add one entry per style you use. You need a new native build each time you add or remove a font, and the plugin does not run for web. If your project does not install dependencies into a `node_modules` directory at the project root, adjust the path to match your setup.
+
+#### Option 2: Load the font at runtime with the `useFonts` hook
+
+This works on Android, iOS and web, and it is the only option in Expo Go. The font file is part of your JavaScript bundle and loads asynchronously while your app starts, so your app has to handle the loading state.
 
 Import each style you use from its own subpath, as shown below. Each subpath contains one font file, so your app bundle only includes the styles you import.
 
@@ -73,6 +136,8 @@ export default function App() {
   );
 }
 ```
+
+The name you give the style in `useFonts` is the `fontFamily` value, and it is the same on every platform.
 
 > **Warning**: You can also import from the package root, for example `import { Inter_900Black } from '@expo-google-fonts/inter'`, but the root module requires every style in the family. Metro does not remove the styles you do not use, so the unused font files stay in your app bundle. For a family with many styles, or for several families at once, this can add megabytes to your app. Always import from the per-style subpath instead.
 
