@@ -49,10 +49,13 @@ npx expo install @expo-google-fonts/inter expo-font
 
 #### In your app
 
+Import each style you use from its own subpath, as shown below. Each subpath contains one font file, so your app bundle only includes the styles you import.
+
 ```js
 import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
-import { useFonts, Inter_900Black } from '@expo-google-fonts/inter';
+import { useFonts } from '@expo-google-fonts/inter/useFonts';
+import { Inter_900Black } from '@expo-google-fonts/inter/900Black';
 
 export default function App() {
   let [fontsLoaded] = useFonts({
@@ -70,6 +73,8 @@ export default function App() {
   );
 }
 ```
+
+> **Warning**: You can also import from the package root, for example `import { Inter_900Black } from '@expo-google-fonts/inter'`, but the root module requires every style in the family. Metro does not remove the styles you do not use, so the unused font files stay in your app bundle. For a family with many styles, or for several families at once, this can add megabytes to your app. Always import from the per-style subpath instead.
 
 > **Note**: You can also install `expo-splash-screen` to load fonts before your app is rendered. This will help you to keep the splash screen visible while loading the fonts and then hide the splash screen when app has rendered with some initial content. See [minimal example in Fonts](https://docs.expo.dev/develop/user-interface/fonts/#minimal-example) for more information.
 
