@@ -2,12 +2,12 @@
   "family": "WDXL Lubrifont SC",
   "variants": ["regular"],
   "subsets": ["chinese-simplified", "cyrillic", "latin", "latin-ext", "symbols2"],
-  "version": "v2",
-  "lastModified": "2026-01-07",
+  "version": "v3",
+  "lastModified": "2026-10-01",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/wdxllubrifontsc/v2/gNMeW2VmY6acu0XtugFrduDciOOyfny5mD9ASHz5.ttf"
+    "regular": "https://fonts.gstatic.com/s/wdxllubrifontsc/v3/gNMeW2VmY6acu0XtugFrduDciOOyfny5mD9ASHz5.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/wdxllubrifontsc/v2/gNMeW2VmY6acu0XtugFrduDciOOyfky4kjs.ttf"
+  "menu": "https://fonts.gstatic.com/s/wdxllubrifontsc/v3/gNMeW2VmY6acu0XtugFrduDciOOyfky4kjs.ttf"
 }
