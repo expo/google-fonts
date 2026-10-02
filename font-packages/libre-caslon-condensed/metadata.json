@@ -1,0 +1,20 @@
+{
+  "family": "Libre Caslon Condensed",
+  "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v3",
+  "lastModified": "2026-10-01",
+  "files": {
+    "500": "https://fonts.gstatic.com/s/librecasloncondensed/v3/flUURrasxYEyVwtcWIsbLunUPow3bHNaxvyEdaQClLYatgOE7C0g4yuoisx0OV3e.ttf",
+    "600": "https://fonts.gstatic.com/s/librecasloncondensed/v3/flUURrasxYEyVwtcWIsbLunUPow3bHNaxvyEdaQClLYatgOE7C3M5Cuoisx0OV3e.ttf",
+    "700": "https://fonts.gstatic.com/s/librecasloncondensed/v3/flUURrasxYEyVwtcWIsbLunUPow3bHNaxvyEdaQClLYatgOE7C315Cuoisx0OV3e.ttf",
+    "regular": "https://fonts.gstatic.com/s/librecasloncondensed/v3/flUURrasxYEyVwtcWIsbLunUPow3bHNaxvyEdaQClLYatgOE7C0S4yuoisx0OV3e.ttf",
+    "italic": "https://fonts.gstatic.com/s/librecasloncondensed/v3/flUWRrasxYEyVwtcWIsbLunUPow3bHNaxvyEX60wa25z3Zkq6zjaoMPrgMhWPE3e70g.ttf",
+    "500italic": "https://fonts.gstatic.com/s/librecasloncondensed/v3/flUWRrasxYEyVwtcWIsbLunUPow3bHNaxvyEX60wa25z3Zkq6zjaoPHrgMhWPE3e70g.ttf",
+    "600italic": "https://fonts.gstatic.com/s/librecasloncondensed/v3/flUWRrasxYEyVwtcWIsbLunUPow3bHNaxvyEX60wa25z3Zkq6zjaoB3sgMhWPE3e70g.ttf",
+    "700italic": "https://fonts.gstatic.com/s/librecasloncondensed/v3/flUWRrasxYEyVwtcWIsbLunUPow3bHNaxvyEX60wa25z3Zkq6zjaoCTsgMhWPE3e70g.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/librecasloncondensed/v3/flUURrasxYEyVwtcWIsbLunUPow3bHNaxvyEdaQClLYatgOE7C0S4xupgMg.ttf"
+}

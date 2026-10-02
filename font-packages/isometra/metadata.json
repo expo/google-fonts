@@ -1,0 +1,13 @@
+{
+  "family": "Isometra",
+  "variants": ["regular"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v3",
+  "lastModified": "2026-10-01",
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/isometra/v3/Gg82N5ofdAjvCxbehmYbnA8DLXpe.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/isometra/v3/Gg82N5ofdAjvCxbehlYalgs.ttf"
+}
