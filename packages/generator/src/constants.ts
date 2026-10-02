@@ -55,6 +55,13 @@ export const VariantNames = {
   '700italic': 'Bold Italic',
   '800italic': 'Extra Bold Italic',
   '900italic': 'Black Italic',
+  '100filled': 'Thin Filled',
+  '200filled': 'Extra Light Filled',
+  '300filled': 'Light Filled',
+  filled: 'Filled',
+  '500filled': 'Medium Filled',
+  '600filled': 'Semi Bold Filled',
+  '700filled': 'Bold Filled',
 };
 
 export const FontLicenseTypes = {

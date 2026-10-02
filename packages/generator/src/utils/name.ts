@@ -11,12 +11,17 @@ export function varNameForWebfont(webfont: FontItem) {
 export function infoForVariantKey(variantKey: string) {
   const weight = parseInt(variantKey, 10) || 400; // `regular` and `italic` don't have a number before them
   const isItalic = variantKey.endsWith('italic');
+  const isFilled = variantKey.endsWith('filled');
   const weightName = WeightNames[weight as keyof typeof WeightNames];
   let suffix = '_' + weight + weightName;
   let variantFolderName = weight + weightName;
   if (isItalic) {
     suffix += '_Italic';
     variantFolderName += '_Italic';
+  }
+  if (isFilled) {
+    suffix += '_Filled';
+    variantFolderName += '_Filled';
   }
   return {
     weight,
