@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 
-import currentDirectoryData from '../data/directory-data.json';
+import fs from 'fs';
+
 import { archiveFontPackage } from '../src/archiveFontPackage';
+import { DirectoryDataPath } from '../src/constants';
 import { downloadDirectoryData } from '../src/downloadDirectoryData';
 import { downloadFonts } from '../src/downloadFonts';
 import { downloadLicenses } from '../src/downloadLicenses';
@@ -14,7 +16,9 @@ import { generateRootReadme } from '../src/generateRootReadme';
 import { FontItem } from '../src/types';
 import { getPackageNameForWebfont } from '../src/utils/name';
 
-const currentDirectoryItems = currentDirectoryData.items as FontItem[];
+const currentDirectoryItems = (
+  JSON.parse(fs.readFileSync(DirectoryDataPath, 'utf8')) as { items: FontItem[] }
+).items;
 
 const getPackageLinks = (packages: FontItem[]) => {
   if (!packages.length) {
