@@ -11,7 +11,7 @@ This package lets you use the [**Material Symbols**](https://fonts.google.com/sp
 
 ![Material Symbols](./font-family.png)
 
-This font family contains [7 styles](#-gallery).
+This font family contains [14 styles](#-gallery).
 
 - `MaterialSymbols_100Thin`
 - `MaterialSymbols_200ExtraLight`
@@ -20,6 +20,13 @@ This font family contains [7 styles](#-gallery).
 - `MaterialSymbols_500Medium`
 - `MaterialSymbols_600SemiBold`
 - `MaterialSymbols_700Bold`
+- `MaterialSymbols_100Thin_Filled`
+- `MaterialSymbols_200ExtraLight_Filled`
+- `MaterialSymbols_300Light_Filled`
+- `MaterialSymbols_400Regular_Filled`
+- `MaterialSymbols_500Medium_Filled`
+- `MaterialSymbols_600SemiBold_Filled`
+- `MaterialSymbols_700Bold_Filled`
 
 ## Usage
 
@@ -41,6 +48,13 @@ import { MaterialSymbols_400Regular } from '@expo-google-fonts/material-symbols/
 import { MaterialSymbols_500Medium } from '@expo-google-fonts/material-symbols/500Medium';
 import { MaterialSymbols_600SemiBold } from '@expo-google-fonts/material-symbols/600SemiBold';
 import { MaterialSymbols_700Bold } from '@expo-google-fonts/material-symbols/700Bold';
+import { MaterialSymbols_100Thin_Filled } from '@expo-google-fonts/material-symbols/100Thin_Filled';
+import { MaterialSymbols_200ExtraLight_Filled } from '@expo-google-fonts/material-symbols/200ExtraLight_Filled';
+import { MaterialSymbols_300Light_Filled } from '@expo-google-fonts/material-symbols/300Light_Filled';
+import { MaterialSymbols_400Regular_Filled } from '@expo-google-fonts/material-symbols/400Regular_Filled';
+import { MaterialSymbols_500Medium_Filled } from '@expo-google-fonts/material-symbols/500Medium_Filled';
+import { MaterialSymbols_600SemiBold_Filled } from '@expo-google-fonts/material-symbols/600SemiBold_Filled';
+import { MaterialSymbols_700Bold_Filled } from '@expo-google-fonts/material-symbols/700Bold_Filled';
 
 export default () => {
 
@@ -51,7 +65,14 @@ export default () => {
     MaterialSymbols_400Regular, 
     MaterialSymbols_500Medium, 
     MaterialSymbols_600SemiBold, 
-    MaterialSymbols_700Bold
+    MaterialSymbols_700Bold, 
+    MaterialSymbols_100Thin_Filled, 
+    MaterialSymbols_200ExtraLight_Filled, 
+    MaterialSymbols_300Light_Filled, 
+    MaterialSymbols_400Regular_Filled, 
+    MaterialSymbols_500Medium_Filled, 
+    MaterialSymbols_600SemiBold_Filled, 
+    MaterialSymbols_700Bold_Filled
   });
 
   let fontSize = 24;
@@ -118,6 +139,62 @@ export default () => {
         }}>
           Material Symbols Bold
         </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MaterialSymbols_100Thin_Filled"
+        }}>
+          Material Symbols Thin Filled
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MaterialSymbols_200ExtraLight_Filled"
+        }}>
+          Material Symbols Extra Light Filled
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MaterialSymbols_300Light_Filled"
+        }}>
+          Material Symbols Light Filled
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MaterialSymbols_400Regular_Filled"
+        }}>
+          Material Symbols Filled
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MaterialSymbols_500Medium_Filled"
+        }}>
+          Material Symbols Medium Filled
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MaterialSymbols_600SemiBold_Filled"
+        }}>
+          Material Symbols Semi Bold Filled
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MaterialSymbols_700Bold_Filled"
+        }}>
+          Material Symbols Bold Filled
+        </Text>
       </View>
     );
   }
@@ -131,7 +208,9 @@ export default () => {
 |-|-|-|
 |![MaterialSymbols_100Thin](./100Thin/MaterialSymbols_100Thin.ttf.png)|![MaterialSymbols_200ExtraLight](./200ExtraLight/MaterialSymbols_200ExtraLight.ttf.png)|![MaterialSymbols_300Light](./300Light/MaterialSymbols_300Light.ttf.png)||
 |![MaterialSymbols_400Regular](./400Regular/MaterialSymbols_400Regular.ttf.png)|![MaterialSymbols_500Medium](./500Medium/MaterialSymbols_500Medium.ttf.png)|![MaterialSymbols_600SemiBold](./600SemiBold/MaterialSymbols_600SemiBold.ttf.png)||
-|![MaterialSymbols_700Bold](./700Bold/MaterialSymbols_700Bold.ttf.png)||||
+|![MaterialSymbols_700Bold](./700Bold/MaterialSymbols_700Bold.ttf.png)|![MaterialSymbols_100Thin_Filled](./100Thin_Filled/MaterialSymbols_100Thin_Filled.ttf.png)|![MaterialSymbols_200ExtraLight_Filled](./200ExtraLight_Filled/MaterialSymbols_200ExtraLight_Filled.ttf.png)||
+|![MaterialSymbols_300Light_Filled](./300Light_Filled/MaterialSymbols_300Light_Filled.ttf.png)|![MaterialSymbols_400Regular_Filled](./400Regular_Filled/MaterialSymbols_400Regular_Filled.ttf.png)|![MaterialSymbols_500Medium_Filled](./500Medium_Filled/MaterialSymbols_500Medium_Filled.ttf.png)||
+|![MaterialSymbols_600SemiBold_Filled](./600SemiBold_Filled/MaterialSymbols_600SemiBold_Filled.ttf.png)|![MaterialSymbols_700Bold_Filled](./700Bold_Filled/MaterialSymbols_700Bold_Filled.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

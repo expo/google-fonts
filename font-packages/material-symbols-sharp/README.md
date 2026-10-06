@@ -11,7 +11,7 @@ This package lets you use the [**Material Symbols Sharp**](https://fonts.google.
 
 ![Material Symbols Sharp](./font-family.png)
 
-This font family contains [7 styles](#-gallery).
+This font family contains [14 styles](#-gallery).
 
 - `MaterialSymbolsSharp_100Thin`
 - `MaterialSymbolsSharp_200ExtraLight`
@@ -20,6 +20,13 @@ This font family contains [7 styles](#-gallery).
 - `MaterialSymbolsSharp_500Medium`
 - `MaterialSymbolsSharp_600SemiBold`
 - `MaterialSymbolsSharp_700Bold`
+- `MaterialSymbolsSharp_100Thin_Filled`
+- `MaterialSymbolsSharp_200ExtraLight_Filled`
+- `MaterialSymbolsSharp_300Light_Filled`
+- `MaterialSymbolsSharp_400Regular_Filled`
+- `MaterialSymbolsSharp_500Medium_Filled`
+- `MaterialSymbolsSharp_600SemiBold_Filled`
+- `MaterialSymbolsSharp_700Bold_Filled`
 
 ## Usage
 
@@ -41,6 +48,13 @@ import { MaterialSymbolsSharp_400Regular } from '@expo-google-fonts/material-sym
 import { MaterialSymbolsSharp_500Medium } from '@expo-google-fonts/material-symbols-sharp/500Medium';
 import { MaterialSymbolsSharp_600SemiBold } from '@expo-google-fonts/material-symbols-sharp/600SemiBold';
 import { MaterialSymbolsSharp_700Bold } from '@expo-google-fonts/material-symbols-sharp/700Bold';
+import { MaterialSymbolsSharp_100Thin_Filled } from '@expo-google-fonts/material-symbols-sharp/100Thin_Filled';
+import { MaterialSymbolsSharp_200ExtraLight_Filled } from '@expo-google-fonts/material-symbols-sharp/200ExtraLight_Filled';
+import { MaterialSymbolsSharp_300Light_Filled } from '@expo-google-fonts/material-symbols-sharp/300Light_Filled';
+import { MaterialSymbolsSharp_400Regular_Filled } from '@expo-google-fonts/material-symbols-sharp/400Regular_Filled';
+import { MaterialSymbolsSharp_500Medium_Filled } from '@expo-google-fonts/material-symbols-sharp/500Medium_Filled';
+import { MaterialSymbolsSharp_600SemiBold_Filled } from '@expo-google-fonts/material-symbols-sharp/600SemiBold_Filled';
+import { MaterialSymbolsSharp_700Bold_Filled } from '@expo-google-fonts/material-symbols-sharp/700Bold_Filled';
 
 export default () => {
 
@@ -51,7 +65,14 @@ export default () => {
     MaterialSymbolsSharp_400Regular, 
     MaterialSymbolsSharp_500Medium, 
     MaterialSymbolsSharp_600SemiBold, 
-    MaterialSymbolsSharp_700Bold
+    MaterialSymbolsSharp_700Bold, 
+    MaterialSymbolsSharp_100Thin_Filled, 
+    MaterialSymbolsSharp_200ExtraLight_Filled, 
+    MaterialSymbolsSharp_300Light_Filled, 
+    MaterialSymbolsSharp_400Regular_Filled, 
+    MaterialSymbolsSharp_500Medium_Filled, 
+    MaterialSymbolsSharp_600SemiBold_Filled, 
+    MaterialSymbolsSharp_700Bold_Filled
   });
 
   let fontSize = 24;
@@ -118,6 +139,62 @@ export default () => {
         }}>
           Material Symbols Sharp Bold
         </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MaterialSymbolsSharp_100Thin_Filled"
+        }}>
+          Material Symbols Sharp Thin Filled
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MaterialSymbolsSharp_200ExtraLight_Filled"
+        }}>
+          Material Symbols Sharp Extra Light Filled
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MaterialSymbolsSharp_300Light_Filled"
+        }}>
+          Material Symbols Sharp Light Filled
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MaterialSymbolsSharp_400Regular_Filled"
+        }}>
+          Material Symbols Sharp Filled
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MaterialSymbolsSharp_500Medium_Filled"
+        }}>
+          Material Symbols Sharp Medium Filled
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MaterialSymbolsSharp_600SemiBold_Filled"
+        }}>
+          Material Symbols Sharp Semi Bold Filled
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MaterialSymbolsSharp_700Bold_Filled"
+        }}>
+          Material Symbols Sharp Bold Filled
+        </Text>
       </View>
     );
   }
@@ -131,7 +208,9 @@ export default () => {
 |-|-|-|
 |![MaterialSymbolsSharp_100Thin](./100Thin/MaterialSymbolsSharp_100Thin.ttf.png)|![MaterialSymbolsSharp_200ExtraLight](./200ExtraLight/MaterialSymbolsSharp_200ExtraLight.ttf.png)|![MaterialSymbolsSharp_300Light](./300Light/MaterialSymbolsSharp_300Light.ttf.png)||
 |![MaterialSymbolsSharp_400Regular](./400Regular/MaterialSymbolsSharp_400Regular.ttf.png)|![MaterialSymbolsSharp_500Medium](./500Medium/MaterialSymbolsSharp_500Medium.ttf.png)|![MaterialSymbolsSharp_600SemiBold](./600SemiBold/MaterialSymbolsSharp_600SemiBold.ttf.png)||
-|![MaterialSymbolsSharp_700Bold](./700Bold/MaterialSymbolsSharp_700Bold.ttf.png)||||
+|![MaterialSymbolsSharp_700Bold](./700Bold/MaterialSymbolsSharp_700Bold.ttf.png)|![MaterialSymbolsSharp_100Thin_Filled](./100Thin_Filled/MaterialSymbolsSharp_100Thin_Filled.ttf.png)|![MaterialSymbolsSharp_200ExtraLight_Filled](./200ExtraLight_Filled/MaterialSymbolsSharp_200ExtraLight_Filled.ttf.png)||
+|![MaterialSymbolsSharp_300Light_Filled](./300Light_Filled/MaterialSymbolsSharp_300Light_Filled.ttf.png)|![MaterialSymbolsSharp_400Regular_Filled](./400Regular_Filled/MaterialSymbolsSharp_400Regular_Filled.ttf.png)|![MaterialSymbolsSharp_500Medium_Filled](./500Medium_Filled/MaterialSymbolsSharp_500Medium_Filled.ttf.png)||
+|![MaterialSymbolsSharp_600SemiBold_Filled](./600SemiBold_Filled/MaterialSymbolsSharp_600SemiBold_Filled.ttf.png)|![MaterialSymbolsSharp_700Bold_Filled](./700Bold_Filled/MaterialSymbolsSharp_700Bold_Filled.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

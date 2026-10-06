@@ -2,14 +2,14 @@
   "family": "Kaisei Opti",
   "variants": ["regular", "500", "700"],
   "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
-  "version": "v11",
-  "lastModified": "2025-09-11",
+  "version": "v12",
+  "lastModified": "2026-10-01",
   "files": {
-    "500": "https://fonts.gstatic.com/s/kaiseiopti/v11/QldXNThJphYb8_g6c2nlIGGqxY1u7f34DYwn.ttf",
-    "700": "https://fonts.gstatic.com/s/kaiseiopti/v11/QldXNThJphYb8_g6c2nlIGHiw41u7f34DYwn.ttf",
-    "regular": "https://fonts.gstatic.com/s/kaiseiopti/v11/QldKNThJphYb8_g6c2nlIFle7KlmxuHx.ttf"
+    "500": "https://fonts.gstatic.com/s/kaiseiopti/v12/QldXNThJphYb8_g6c2nlIGGqxY1u7f34DYwn.ttf",
+    "700": "https://fonts.gstatic.com/s/kaiseiopti/v12/QldXNThJphYb8_g6c2nlIGHiw41u7f34DYwn.ttf",
+    "regular": "https://fonts.gstatic.com/s/kaiseiopti/v12/QldKNThJphYb8_g6c2nlIFle7KlmxuHx.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/kaiseiopti/v11/QldKNThJphYb8_g6c2nlIGlf5q0.ttf"
+  "menu": "https://fonts.gstatic.com/s/kaiseiopti/v12/QldKNThJphYb8_g6c2nlIGlf5q0.ttf"
 }
