@@ -11,7 +11,7 @@ This package lets you use the [**Material Symbols Rounded**](https://fonts.googl
 
 ![Material Symbols Rounded](./font-family.png)
 
-This font family contains [7 styles](#-gallery).
+This font family contains [14 styles](#-gallery).
 
 - `MaterialSymbolsRounded_100Thin`
 - `MaterialSymbolsRounded_200ExtraLight`
@@ -20,6 +20,13 @@ This font family contains [7 styles](#-gallery).
 - `MaterialSymbolsRounded_500Medium`
 - `MaterialSymbolsRounded_600SemiBold`
 - `MaterialSymbolsRounded_700Bold`
+- `MaterialSymbolsRounded_100Thin_Filled`
+- `MaterialSymbolsRounded_200ExtraLight_Filled`
+- `MaterialSymbolsRounded_300Light_Filled`
+- `MaterialSymbolsRounded_400Regular_Filled`
+- `MaterialSymbolsRounded_500Medium_Filled`
+- `MaterialSymbolsRounded_600SemiBold_Filled`
+- `MaterialSymbolsRounded_700Bold_Filled`
 
 ## Usage
 
@@ -41,6 +48,13 @@ import { MaterialSymbolsRounded_400Regular } from '@expo-google-fonts/material-s
 import { MaterialSymbolsRounded_500Medium } from '@expo-google-fonts/material-symbols-rounded/500Medium';
 import { MaterialSymbolsRounded_600SemiBold } from '@expo-google-fonts/material-symbols-rounded/600SemiBold';
 import { MaterialSymbolsRounded_700Bold } from '@expo-google-fonts/material-symbols-rounded/700Bold';
+import { MaterialSymbolsRounded_100Thin_Filled } from '@expo-google-fonts/material-symbols-rounded/100Thin_Filled';
+import { MaterialSymbolsRounded_200ExtraLight_Filled } from '@expo-google-fonts/material-symbols-rounded/200ExtraLight_Filled';
+import { MaterialSymbolsRounded_300Light_Filled } from '@expo-google-fonts/material-symbols-rounded/300Light_Filled';
+import { MaterialSymbolsRounded_400Regular_Filled } from '@expo-google-fonts/material-symbols-rounded/400Regular_Filled';
+import { MaterialSymbolsRounded_500Medium_Filled } from '@expo-google-fonts/material-symbols-rounded/500Medium_Filled';
+import { MaterialSymbolsRounded_600SemiBold_Filled } from '@expo-google-fonts/material-symbols-rounded/600SemiBold_Filled';
+import { MaterialSymbolsRounded_700Bold_Filled } from '@expo-google-fonts/material-symbols-rounded/700Bold_Filled';
 
 export default () => {
 
@@ -51,7 +65,14 @@ export default () => {
     MaterialSymbolsRounded_400Regular, 
     MaterialSymbolsRounded_500Medium, 
     MaterialSymbolsRounded_600SemiBold, 
-    MaterialSymbolsRounded_700Bold
+    MaterialSymbolsRounded_700Bold, 
+    MaterialSymbolsRounded_100Thin_Filled, 
+    MaterialSymbolsRounded_200ExtraLight_Filled, 
+    MaterialSymbolsRounded_300Light_Filled, 
+    MaterialSymbolsRounded_400Regular_Filled, 
+    MaterialSymbolsRounded_500Medium_Filled, 
+    MaterialSymbolsRounded_600SemiBold_Filled, 
+    MaterialSymbolsRounded_700Bold_Filled
   });
 
   let fontSize = 24;
@@ -118,6 +139,62 @@ export default () => {
         }}>
           Material Symbols Rounded Bold
         </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MaterialSymbolsRounded_100Thin_Filled"
+        }}>
+          Material Symbols Rounded Thin Filled
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MaterialSymbolsRounded_200ExtraLight_Filled"
+        }}>
+          Material Symbols Rounded Extra Light Filled
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MaterialSymbolsRounded_300Light_Filled"
+        }}>
+          Material Symbols Rounded Light Filled
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MaterialSymbolsRounded_400Regular_Filled"
+        }}>
+          Material Symbols Rounded Filled
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MaterialSymbolsRounded_500Medium_Filled"
+        }}>
+          Material Symbols Rounded Medium Filled
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MaterialSymbolsRounded_600SemiBold_Filled"
+        }}>
+          Material Symbols Rounded Semi Bold Filled
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MaterialSymbolsRounded_700Bold_Filled"
+        }}>
+          Material Symbols Rounded Bold Filled
+        </Text>
       </View>
     );
   }
@@ -131,7 +208,9 @@ export default () => {
 |-|-|-|
 |![MaterialSymbolsRounded_100Thin](./100Thin/MaterialSymbolsRounded_100Thin.ttf.png)|![MaterialSymbolsRounded_200ExtraLight](./200ExtraLight/MaterialSymbolsRounded_200ExtraLight.ttf.png)|![MaterialSymbolsRounded_300Light](./300Light/MaterialSymbolsRounded_300Light.ttf.png)||
 |![MaterialSymbolsRounded_400Regular](./400Regular/MaterialSymbolsRounded_400Regular.ttf.png)|![MaterialSymbolsRounded_500Medium](./500Medium/MaterialSymbolsRounded_500Medium.ttf.png)|![MaterialSymbolsRounded_600SemiBold](./600SemiBold/MaterialSymbolsRounded_600SemiBold.ttf.png)||
-|![MaterialSymbolsRounded_700Bold](./700Bold/MaterialSymbolsRounded_700Bold.ttf.png)||||
+|![MaterialSymbolsRounded_700Bold](./700Bold/MaterialSymbolsRounded_700Bold.ttf.png)|![MaterialSymbolsRounded_100Thin_Filled](./100Thin_Filled/MaterialSymbolsRounded_100Thin_Filled.ttf.png)|![MaterialSymbolsRounded_200ExtraLight_Filled](./200ExtraLight_Filled/MaterialSymbolsRounded_200ExtraLight_Filled.ttf.png)||
+|![MaterialSymbolsRounded_300Light_Filled](./300Light_Filled/MaterialSymbolsRounded_300Light_Filled.ttf.png)|![MaterialSymbolsRounded_400Regular_Filled](./400Regular_Filled/MaterialSymbolsRounded_400Regular_Filled.ttf.png)|![MaterialSymbolsRounded_500Medium_Filled](./500Medium_Filled/MaterialSymbolsRounded_500Medium_Filled.ttf.png)||
+|![MaterialSymbolsRounded_600SemiBold_Filled](./600SemiBold_Filled/MaterialSymbolsRounded_600SemiBold_Filled.ttf.png)|![MaterialSymbolsRounded_700Bold_Filled](./700Bold_Filled/MaterialSymbolsRounded_700Bold_Filled.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

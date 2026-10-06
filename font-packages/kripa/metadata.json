@@ -1,0 +1,21 @@
+{
+  "family": "Kripa",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "subsets": ["devanagari", "latin", "latin-ext", "vietnamese"],
+  "version": "v3",
+  "lastModified": "2026-10-01",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/kripa/v3/UMBPrPhJt2KyyxJZwFzv55H6E7s4IFVaI_A3BYffNw.ttf",
+    "200": "https://fonts.gstatic.com/s/kripa/v3/UMBPrPhJt2KyyxJZwFzv55H6E7s4oFRaI_A3BYffNw.ttf",
+    "300": "https://fonts.gstatic.com/s/kripa/v3/UMBPrPhJt2KyyxJZwFzv55H6E7s4flRaI_A3BYffNw.ttf",
+    "500": "https://fonts.gstatic.com/s/kripa/v3/UMBPrPhJt2KyyxJZwFzv55H6E7s4ElRaI_A3BYffNw.ttf",
+    "600": "https://fonts.gstatic.com/s/kripa/v3/UMBPrPhJt2KyyxJZwFzv55H6E7s4_lNaI_A3BYffNw.ttf",
+    "700": "https://fonts.gstatic.com/s/kripa/v3/UMBPrPhJt2KyyxJZwFzv55H6E7s4x1NaI_A3BYffNw.ttf",
+    "800": "https://fonts.gstatic.com/s/kripa/v3/UMBPrPhJt2KyyxJZwFzv55H6E7s4oFNaI_A3BYffNw.ttf",
+    "900": "https://fonts.gstatic.com/s/kripa/v3/UMBPrPhJt2KyyxJZwFzv55H6E7s4iVNaI_A3BYffNw.ttf",
+    "regular": "https://fonts.gstatic.com/s/kripa/v3/UMBPrPhJt2KyyxJZwFzv55H6E7s4IFRaI_A3BYffNw.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/kripa/v3/UMBPrPhJt2KyyxJZwFzv55H6E7s4IFRqIvoz.ttf"
+}

@@ -11,7 +11,7 @@ This package lets you use the [**Material Symbols Outlined**](https://fonts.goog
 
 ![Material Symbols Outlined](./font-family.png)
 
-This font family contains [7 styles](#-gallery).
+This font family contains [14 styles](#-gallery).
 
 - `MaterialSymbolsOutlined_100Thin`
 - `MaterialSymbolsOutlined_200ExtraLight`
@@ -20,6 +20,13 @@ This font family contains [7 styles](#-gallery).
 - `MaterialSymbolsOutlined_500Medium`
 - `MaterialSymbolsOutlined_600SemiBold`
 - `MaterialSymbolsOutlined_700Bold`
+- `MaterialSymbolsOutlined_100Thin_Filled`
+- `MaterialSymbolsOutlined_200ExtraLight_Filled`
+- `MaterialSymbolsOutlined_300Light_Filled`
+- `MaterialSymbolsOutlined_400Regular_Filled`
+- `MaterialSymbolsOutlined_500Medium_Filled`
+- `MaterialSymbolsOutlined_600SemiBold_Filled`
+- `MaterialSymbolsOutlined_700Bold_Filled`
 
 ## Usage
 
@@ -41,6 +48,13 @@ import { MaterialSymbolsOutlined_400Regular } from '@expo-google-fonts/material-
 import { MaterialSymbolsOutlined_500Medium } from '@expo-google-fonts/material-symbols-outlined/500Medium';
 import { MaterialSymbolsOutlined_600SemiBold } from '@expo-google-fonts/material-symbols-outlined/600SemiBold';
 import { MaterialSymbolsOutlined_700Bold } from '@expo-google-fonts/material-symbols-outlined/700Bold';
+import { MaterialSymbolsOutlined_100Thin_Filled } from '@expo-google-fonts/material-symbols-outlined/100Thin_Filled';
+import { MaterialSymbolsOutlined_200ExtraLight_Filled } from '@expo-google-fonts/material-symbols-outlined/200ExtraLight_Filled';
+import { MaterialSymbolsOutlined_300Light_Filled } from '@expo-google-fonts/material-symbols-outlined/300Light_Filled';
+import { MaterialSymbolsOutlined_400Regular_Filled } from '@expo-google-fonts/material-symbols-outlined/400Regular_Filled';
+import { MaterialSymbolsOutlined_500Medium_Filled } from '@expo-google-fonts/material-symbols-outlined/500Medium_Filled';
+import { MaterialSymbolsOutlined_600SemiBold_Filled } from '@expo-google-fonts/material-symbols-outlined/600SemiBold_Filled';
+import { MaterialSymbolsOutlined_700Bold_Filled } from '@expo-google-fonts/material-symbols-outlined/700Bold_Filled';
 
 export default () => {
 
@@ -51,7 +65,14 @@ export default () => {
     MaterialSymbolsOutlined_400Regular, 
     MaterialSymbolsOutlined_500Medium, 
     MaterialSymbolsOutlined_600SemiBold, 
-    MaterialSymbolsOutlined_700Bold
+    MaterialSymbolsOutlined_700Bold, 
+    MaterialSymbolsOutlined_100Thin_Filled, 
+    MaterialSymbolsOutlined_200ExtraLight_Filled, 
+    MaterialSymbolsOutlined_300Light_Filled, 
+    MaterialSymbolsOutlined_400Regular_Filled, 
+    MaterialSymbolsOutlined_500Medium_Filled, 
+    MaterialSymbolsOutlined_600SemiBold_Filled, 
+    MaterialSymbolsOutlined_700Bold_Filled
   });
 
   let fontSize = 24;
@@ -118,6 +139,62 @@ export default () => {
         }}>
           Material Symbols Outlined Bold
         </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MaterialSymbolsOutlined_100Thin_Filled"
+        }}>
+          Material Symbols Outlined Thin Filled
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MaterialSymbolsOutlined_200ExtraLight_Filled"
+        }}>
+          Material Symbols Outlined Extra Light Filled
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MaterialSymbolsOutlined_300Light_Filled"
+        }}>
+          Material Symbols Outlined Light Filled
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MaterialSymbolsOutlined_400Regular_Filled"
+        }}>
+          Material Symbols Outlined Filled
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MaterialSymbolsOutlined_500Medium_Filled"
+        }}>
+          Material Symbols Outlined Medium Filled
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MaterialSymbolsOutlined_600SemiBold_Filled"
+        }}>
+          Material Symbols Outlined Semi Bold Filled
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "MaterialSymbolsOutlined_700Bold_Filled"
+        }}>
+          Material Symbols Outlined Bold Filled
+        </Text>
       </View>
     );
   }
@@ -131,7 +208,9 @@ export default () => {
 |-|-|-|
 |![MaterialSymbolsOutlined_100Thin](./100Thin/MaterialSymbolsOutlined_100Thin.ttf.png)|![MaterialSymbolsOutlined_200ExtraLight](./200ExtraLight/MaterialSymbolsOutlined_200ExtraLight.ttf.png)|![MaterialSymbolsOutlined_300Light](./300Light/MaterialSymbolsOutlined_300Light.ttf.png)||
 |![MaterialSymbolsOutlined_400Regular](./400Regular/MaterialSymbolsOutlined_400Regular.ttf.png)|![MaterialSymbolsOutlined_500Medium](./500Medium/MaterialSymbolsOutlined_500Medium.ttf.png)|![MaterialSymbolsOutlined_600SemiBold](./600SemiBold/MaterialSymbolsOutlined_600SemiBold.ttf.png)||
-|![MaterialSymbolsOutlined_700Bold](./700Bold/MaterialSymbolsOutlined_700Bold.ttf.png)||||
+|![MaterialSymbolsOutlined_700Bold](./700Bold/MaterialSymbolsOutlined_700Bold.ttf.png)|![MaterialSymbolsOutlined_100Thin_Filled](./100Thin_Filled/MaterialSymbolsOutlined_100Thin_Filled.ttf.png)|![MaterialSymbolsOutlined_200ExtraLight_Filled](./200ExtraLight_Filled/MaterialSymbolsOutlined_200ExtraLight_Filled.ttf.png)||
+|![MaterialSymbolsOutlined_300Light_Filled](./300Light_Filled/MaterialSymbolsOutlined_300Light_Filled.ttf.png)|![MaterialSymbolsOutlined_400Regular_Filled](./400Regular_Filled/MaterialSymbolsOutlined_400Regular_Filled.ttf.png)|![MaterialSymbolsOutlined_500Medium_Filled](./500Medium_Filled/MaterialSymbolsOutlined_500Medium_Filled.ttf.png)||
+|![MaterialSymbolsOutlined_600SemiBold_Filled](./600SemiBold_Filled/MaterialSymbolsOutlined_600SemiBold_Filled.ttf.png)|![MaterialSymbolsOutlined_700Bold_Filled](./700Bold_Filled/MaterialSymbolsOutlined_700Bold_Filled.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development
