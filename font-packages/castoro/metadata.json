@@ -1,14 +1,20 @@
 {
   "family": "Castoro",
-  "variants": ["regular", "italic"],
+  "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
   "subsets": ["latin", "latin-ext"],
-  "version": "v20",
-  "lastModified": "2025-09-16",
+  "version": "v23",
+  "lastModified": "2026-10-27",
   "files": {
-    "regular": "https://fonts.gstatic.com/s/castoro/v20/1q2GY5yMCld3-O4cHYhEzOYenEU.ttf",
-    "italic": "https://fonts.gstatic.com/s/castoro/v20/1q2EY5yMCld3-O4cLYpOyMQbjEX5fw.ttf"
+    "500": "https://fonts.gstatic.com/s/castoro/v23/1q2ZY5yMCld3-O4cB4NmPD6CP0P0foVbwERK4Amu7nM1.ttf",
+    "600": "https://fonts.gstatic.com/s/castoro/v23/1q2ZY5yMCld3-O4cB4NmPD6CP0P0foW3x0RK4Amu7nM1.ttf",
+    "700": "https://fonts.gstatic.com/s/castoro/v23/1q2ZY5yMCld3-O4cB4NmPD6CP0P0foWOx0RK4Amu7nM1.ttf",
+    "regular": "https://fonts.gstatic.com/s/castoro/v23/1q2ZY5yMCld3-O4cB4NmPD6CP0P0foVpwERK4Amu7nM1.ttf",
+    "italic": "https://fonts.gstatic.com/s/castoro/v23/1q2XY5yMCld3-O4cLYpUw-brVNlaeZChg6wJ6g2M62M1AXs.ttf",
+    "500italic": "https://fonts.gstatic.com/s/castoro/v23/1q2XY5yMCld3-O4cLYpUw-brVNlaeZChg54J6g2M62M1AXs.ttf",
+    "600italic": "https://fonts.gstatic.com/s/castoro/v23/1q2XY5yMCld3-O4cLYpUw-brVNlaeZChg3IO6g2M62M1AXs.ttf",
+    "700italic": "https://fonts.gstatic.com/s/castoro/v23/1q2XY5yMCld3-O4cLYpUw-brVNlaeZChg0sO6g2M62M1AXs.ttf"
   },
   "category": "serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/castoro/v20/1q2GY5yMCld3-O4cLYlOyA.ttf"
+  "menu": "https://fonts.gstatic.com/s/castoro/v23/1q2ZY5yMCld3-O4cB4NmPD6CP0P0foVpwHRL6g0.ttf"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@expo-google-fonts/castoro-titling",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Use the Castoro Titling font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": {
