@@ -4,4 +4,10 @@
 export * from './useFonts';
 export { default as __metadata__ } from './metadata.json';
 export const Castoro_400Regular = require('./400Regular/Castoro_400Regular.ttf');
+export const Castoro_500Medium = require('./500Medium/Castoro_500Medium.ttf');
+export const Castoro_600SemiBold = require('./600SemiBold/Castoro_600SemiBold.ttf');
+export const Castoro_700Bold = require('./700Bold/Castoro_700Bold.ttf');
 export const Castoro_400Regular_Italic = require('./400Regular_Italic/Castoro_400Regular_Italic.ttf');
+export const Castoro_500Medium_Italic = require('./500Medium_Italic/Castoro_500Medium_Italic.ttf');
+export const Castoro_600SemiBold_Italic = require('./600SemiBold_Italic/Castoro_600SemiBold_Italic.ttf');
+export const Castoro_700Bold_Italic = require('./700Bold_Italic/Castoro_700Bold_Italic.ttf');
