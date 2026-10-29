@@ -11,9 +11,26 @@ This package lets you use the [**Tiny5**](https://fonts.google.com/specimen/Tiny
 
 ![Tiny5](./font-family.png)
 
-This font family contains [1 styles](#-gallery).
+This font family contains [18 styles](#-gallery).
 
+- `Tiny5_100Thin`
+- `Tiny5_200ExtraLight`
+- `Tiny5_300Light`
 - `Tiny5_400Regular`
+- `Tiny5_500Medium`
+- `Tiny5_600SemiBold`
+- `Tiny5_700Bold`
+- `Tiny5_800ExtraBold`
+- `Tiny5_900Black`
+- `Tiny5_100Thin_Italic`
+- `Tiny5_200ExtraLight_Italic`
+- `Tiny5_300Light_Italic`
+- `Tiny5_400Regular_Italic`
+- `Tiny5_500Medium_Italic`
+- `Tiny5_600SemiBold_Italic`
+- `Tiny5_700Bold_Italic`
+- `Tiny5_800ExtraBold_Italic`
+- `Tiny5_900Black_Italic`
 
 ## Usage
 
@@ -28,12 +45,46 @@ Now add code like this to your project
 ```js
 import { Text, View } from "react-native";
 import { useFonts } from '@expo-google-fonts/tiny5/useFonts';
+import { Tiny5_100Thin } from '@expo-google-fonts/tiny5/100Thin';
+import { Tiny5_200ExtraLight } from '@expo-google-fonts/tiny5/200ExtraLight';
+import { Tiny5_300Light } from '@expo-google-fonts/tiny5/300Light';
 import { Tiny5_400Regular } from '@expo-google-fonts/tiny5/400Regular';
+import { Tiny5_500Medium } from '@expo-google-fonts/tiny5/500Medium';
+import { Tiny5_600SemiBold } from '@expo-google-fonts/tiny5/600SemiBold';
+import { Tiny5_700Bold } from '@expo-google-fonts/tiny5/700Bold';
+import { Tiny5_800ExtraBold } from '@expo-google-fonts/tiny5/800ExtraBold';
+import { Tiny5_900Black } from '@expo-google-fonts/tiny5/900Black';
+import { Tiny5_100Thin_Italic } from '@expo-google-fonts/tiny5/100Thin_Italic';
+import { Tiny5_200ExtraLight_Italic } from '@expo-google-fonts/tiny5/200ExtraLight_Italic';
+import { Tiny5_300Light_Italic } from '@expo-google-fonts/tiny5/300Light_Italic';
+import { Tiny5_400Regular_Italic } from '@expo-google-fonts/tiny5/400Regular_Italic';
+import { Tiny5_500Medium_Italic } from '@expo-google-fonts/tiny5/500Medium_Italic';
+import { Tiny5_600SemiBold_Italic } from '@expo-google-fonts/tiny5/600SemiBold_Italic';
+import { Tiny5_700Bold_Italic } from '@expo-google-fonts/tiny5/700Bold_Italic';
+import { Tiny5_800ExtraBold_Italic } from '@expo-google-fonts/tiny5/800ExtraBold_Italic';
+import { Tiny5_900Black_Italic } from '@expo-google-fonts/tiny5/900Black_Italic';
 
 export default () => {
 
   let [fontsLoaded] = useFonts({
-    Tiny5_400Regular
+    Tiny5_100Thin, 
+    Tiny5_200ExtraLight, 
+    Tiny5_300Light, 
+    Tiny5_400Regular, 
+    Tiny5_500Medium, 
+    Tiny5_600SemiBold, 
+    Tiny5_700Bold, 
+    Tiny5_800ExtraBold, 
+    Tiny5_900Black, 
+    Tiny5_100Thin_Italic, 
+    Tiny5_200ExtraLight_Italic, 
+    Tiny5_300Light_Italic, 
+    Tiny5_400Regular_Italic, 
+    Tiny5_500Medium_Italic, 
+    Tiny5_600SemiBold_Italic, 
+    Tiny5_700Bold_Italic, 
+    Tiny5_800ExtraBold_Italic, 
+    Tiny5_900Black_Italic
   });
 
   let fontSize = 24;
@@ -48,9 +99,145 @@ export default () => {
           fontSize,
           paddingVertical,
           // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tiny5_100Thin"
+        }}>
+          Tiny5 Thin
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tiny5_200ExtraLight"
+        }}>
+          Tiny5 Extra Light
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tiny5_300Light"
+        }}>
+          Tiny5 Light
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
           fontFamily: "Tiny5_400Regular"
         }}>
           Tiny5 Regular
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tiny5_500Medium"
+        }}>
+          Tiny5 Medium
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tiny5_600SemiBold"
+        }}>
+          Tiny5 Semi Bold
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tiny5_700Bold"
+        }}>
+          Tiny5 Bold
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tiny5_800ExtraBold"
+        }}>
+          Tiny5 Extra Bold
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tiny5_900Black"
+        }}>
+          Tiny5 Black
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tiny5_100Thin_Italic"
+        }}>
+          Tiny5 Thin Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tiny5_200ExtraLight_Italic"
+        }}>
+          Tiny5 Extra Light Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tiny5_300Light_Italic"
+        }}>
+          Tiny5 Light Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tiny5_400Regular_Italic"
+        }}>
+          Tiny5 Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tiny5_500Medium_Italic"
+        }}>
+          Tiny5 Medium Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tiny5_600SemiBold_Italic"
+        }}>
+          Tiny5 Semi Bold Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tiny5_700Bold_Italic"
+        }}>
+          Tiny5 Bold Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tiny5_800ExtraBold_Italic"
+        }}>
+          Tiny5 Extra Bold Italic
+        </Text>
+        <Text style={{
+          fontSize,
+          paddingVertical,
+          // Note the quoting of the value for `fontFamily` here; it expects a string!
+          fontFamily: "Tiny5_900Black_Italic"
+        }}>
+          Tiny5 Black Italic
         </Text>
       </View>
     );
@@ -63,7 +250,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Tiny5_400Regular](./400Regular/Tiny5_400Regular.ttf.png)||||
+|![Tiny5_100Thin](./100Thin/Tiny5_100Thin.ttf.png)|![Tiny5_200ExtraLight](./200ExtraLight/Tiny5_200ExtraLight.ttf.png)|![Tiny5_300Light](./300Light/Tiny5_300Light.ttf.png)||
+|![Tiny5_400Regular](./400Regular/Tiny5_400Regular.ttf.png)|![Tiny5_500Medium](./500Medium/Tiny5_500Medium.ttf.png)|![Tiny5_600SemiBold](./600SemiBold/Tiny5_600SemiBold.ttf.png)||
+|![Tiny5_700Bold](./700Bold/Tiny5_700Bold.ttf.png)|![Tiny5_800ExtraBold](./800ExtraBold/Tiny5_800ExtraBold.ttf.png)|![Tiny5_900Black](./900Black/Tiny5_900Black.ttf.png)||
+|![Tiny5_100Thin_Italic](./100Thin_Italic/Tiny5_100Thin_Italic.ttf.png)|![Tiny5_200ExtraLight_Italic](./200ExtraLight_Italic/Tiny5_200ExtraLight_Italic.ttf.png)|![Tiny5_300Light_Italic](./300Light_Italic/Tiny5_300Light_Italic.ttf.png)||
+|![Tiny5_400Regular_Italic](./400Regular_Italic/Tiny5_400Regular_Italic.ttf.png)|![Tiny5_500Medium_Italic](./500Medium_Italic/Tiny5_500Medium_Italic.ttf.png)|![Tiny5_600SemiBold_Italic](./600SemiBold_Italic/Tiny5_600SemiBold_Italic.ttf.png)||
+|![Tiny5_700Bold_Italic](./700Bold_Italic/Tiny5_700Bold_Italic.ttf.png)|![Tiny5_800ExtraBold_Italic](./800ExtraBold_Italic/Tiny5_800ExtraBold_Italic.ttf.png)|![Tiny5_900Black_Italic](./900Black_Italic/Tiny5_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

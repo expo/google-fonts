@@ -3,4 +3,21 @@
 
 export * from './useFonts';
 export { default as __metadata__ } from './metadata.json';
+export const Tiny5_100Thin = require('./100Thin/Tiny5_100Thin.ttf');
+export const Tiny5_200ExtraLight = require('./200ExtraLight/Tiny5_200ExtraLight.ttf');
+export const Tiny5_300Light = require('./300Light/Tiny5_300Light.ttf');
 export const Tiny5_400Regular = require('./400Regular/Tiny5_400Regular.ttf');
+export const Tiny5_500Medium = require('./500Medium/Tiny5_500Medium.ttf');
+export const Tiny5_600SemiBold = require('./600SemiBold/Tiny5_600SemiBold.ttf');
+export const Tiny5_700Bold = require('./700Bold/Tiny5_700Bold.ttf');
+export const Tiny5_800ExtraBold = require('./800ExtraBold/Tiny5_800ExtraBold.ttf');
+export const Tiny5_900Black = require('./900Black/Tiny5_900Black.ttf');
+export const Tiny5_100Thin_Italic = require('./100Thin_Italic/Tiny5_100Thin_Italic.ttf');
+export const Tiny5_200ExtraLight_Italic = require('./200ExtraLight_Italic/Tiny5_200ExtraLight_Italic.ttf');
+export const Tiny5_300Light_Italic = require('./300Light_Italic/Tiny5_300Light_Italic.ttf');
+export const Tiny5_400Regular_Italic = require('./400Regular_Italic/Tiny5_400Regular_Italic.ttf');
+export const Tiny5_500Medium_Italic = require('./500Medium_Italic/Tiny5_500Medium_Italic.ttf');
+export const Tiny5_600SemiBold_Italic = require('./600SemiBold_Italic/Tiny5_600SemiBold_Italic.ttf');
+export const Tiny5_700Bold_Italic = require('./700Bold_Italic/Tiny5_700Bold_Italic.ttf');
+export const Tiny5_800ExtraBold_Italic = require('./800ExtraBold_Italic/Tiny5_800ExtraBold_Italic.ttf');
+export const Tiny5_900Black_Italic = require('./900Black_Italic/Tiny5_900Black_Italic.ttf');
