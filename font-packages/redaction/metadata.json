@@ -1,0 +1,15 @@
+{
+  "family": "Redaction",
+  "variants": ["regular", "italic", "700"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2026-10-28",
+  "files": {
+    "700": "https://fonts.gstatic.com/s/redaction/v1/xn7nYH8n0nKmDdYd_W6J89j8fPSKbk8tVg.ttf",
+    "regular": "https://fonts.gstatic.com/s/redaction/v1/xn7iYH8n0nKmDdYd_W6xT_fYdN-WZw.ttf",
+    "italic": "https://fonts.gstatic.com/s/redaction/v1/xn7kYH8n0nKmDdYd_W6BTf3cVtqGZ1Y0.ttf"
+  },
+  "category": "serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/redaction/v1/xn7iYH8n0nKmDdYd_W6BTv3c.ttf"
+}

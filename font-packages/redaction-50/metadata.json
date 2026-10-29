@@ -1,0 +1,15 @@
+{
+  "family": "Redaction 50",
+  "variants": ["regular", "italic", "700"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2026-10-28",
+  "files": {
+    "700": "https://fonts.gstatic.com/s/redaction50/v1/5DCPAKnyxzvD5t8d28rUMlS3YSJvPenlvttWNg.ttf",
+    "regular": "https://fonts.gstatic.com/s/redaction50/v1/5DCQAKnyxzvD5t8d28rUMlSP3Q1LNcL5tw.ttf",
+    "italic": "https://fonts.gstatic.com/s/redaction50/v1/5DCOAKnyxzvD5t8d28rUMlS_3wdPF8fpt8JP.ttf"
+  },
+  "category": "display",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/redaction50/v1/5DCQAKnyxzvD5t8d28rUMlS_3AdP.ttf"
+}
