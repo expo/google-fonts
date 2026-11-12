@@ -1,0 +1,19 @@
+{
+  "family": "Agrave Pro",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700"],
+  "subsets": ["latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2026-11-11",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/agravepro/v1/q5uXsoe7JuBj6YLv6lsHOR9UdVTNs822plVRRA5cEr8zXcyx.ttf",
+    "200": "https://fonts.gstatic.com/s/agravepro/v1/q5uXsoe7JuBj6YLv6lsHOR9UdVTNs822plXRRQ5cEr8zXcyx.ttf",
+    "300": "https://fonts.gstatic.com/s/agravepro/v1/q5uXsoe7JuBj6YLv6lsHOR9UdVTNs822plUPRQ5cEr8zXcyx.ttf",
+    "500": "https://fonts.gstatic.com/s/agravepro/v1/q5uXsoe7JuBj6YLv6lsHOR9UdVTNs822plVjRQ5cEr8zXcyx.ttf",
+    "600": "https://fonts.gstatic.com/s/agravepro/v1/q5uXsoe7JuBj6YLv6lsHOR9UdVTNs822plWPQg5cEr8zXcyx.ttf",
+    "700": "https://fonts.gstatic.com/s/agravepro/v1/q5uXsoe7JuBj6YLv6lsHOR9UdVTNs822plW2Qg5cEr8zXcyx.ttf",
+    "regular": "https://fonts.gstatic.com/s/agravepro/v1/q5uXsoe7JuBj6YLv6lsHOR9UdVTNs822plVRRQ5cEr8zXcyx.ttf"
+  },
+  "category": "handwriting",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/agravepro/v1/q5uXsoe7JuBj6YLv6lsHOR9UdVTNs822plVRRT5dGLs.ttf"
+}
