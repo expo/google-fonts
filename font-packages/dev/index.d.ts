@@ -2,6 +2,21 @@
 // If you want to modify it, go to packages/generator/templates
 
 export { useFonts } from './useFonts';
+export const Firjar_100Thin: string;
+export const Firjar_200ExtraLight: string;
+export const Firjar_300Light: string;
+export const Firjar_400Regular: string;
+export const Firjar_500Medium: string;
+export const Firjar_600SemiBold: string;
+export const Firjar_700Bold: string;
+export const Firjar_800ExtraBold: string;
+export const AgravePro_100Thin: string;
+export const AgravePro_200ExtraLight: string;
+export const AgravePro_300Light: string;
+export const AgravePro_400Regular: string;
+export const AgravePro_500Medium: string;
+export const AgravePro_600SemiBold: string;
+export const AgravePro_700Bold: string;
 export const Tiny5Duo_100Thin: string;
 export const Tiny5Duo_200ExtraLight: string;
 export const Tiny5Duo_300Light: string;

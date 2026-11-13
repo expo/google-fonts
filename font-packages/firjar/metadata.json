@@ -1,0 +1,20 @@
+{
+  "family": "Firjar",
+  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
+  "subsets": ["arabic", "latin", "latin-ext"],
+  "version": "v1",
+  "lastModified": "2026-11-11",
+  "files": {
+    "100": "https://fonts.gstatic.com/s/firjar/v1/zOLX4pnEn71A-obA6b9jAVX_vPVGiCKiRhyjE_DCMxM2Xrx3YvlCm5fcIHdc.ttf",
+    "200": "https://fonts.gstatic.com/s/firjar/v1/zOLX4pnEn71A-obA6b9jAVX_vPVGiCKiRhyjE_DCMxM2Xrz3Y_lCm5fcIHdc.ttf",
+    "300": "https://fonts.gstatic.com/s/firjar/v1/zOLX4pnEn71A-obA6b9jAVX_vPVGiCKiRhyjE_DCMxM2XrwpY_lCm5fcIHdc.ttf",
+    "500": "https://fonts.gstatic.com/s/firjar/v1/zOLX4pnEn71A-obA6b9jAVX_vPVGiCKiRhyjE_DCMxM2XrxFY_lCm5fcIHdc.ttf",
+    "600": "https://fonts.gstatic.com/s/firjar/v1/zOLX4pnEn71A-obA6b9jAVX_vPVGiCKiRhyjE_DCMxM2XrypZPlCm5fcIHdc.ttf",
+    "700": "https://fonts.gstatic.com/s/firjar/v1/zOLX4pnEn71A-obA6b9jAVX_vPVGiCKiRhyjE_DCMxM2XryQZPlCm5fcIHdc.ttf",
+    "800": "https://fonts.gstatic.com/s/firjar/v1/zOLX4pnEn71A-obA6b9jAVX_vPVGiCKiRhyjE_DCMxM2Xrz3ZPlCm5fcIHdc.ttf",
+    "regular": "https://fonts.gstatic.com/s/firjar/v1/zOLX4pnEn71A-obA6b9jAVX_vPVGiCKiRhyjE_DCMxM2Xrx3Y_lCm5fcIHdc.ttf"
+  },
+  "category": "sans-serif",
+  "kind": "webfonts#webfont",
+  "menu": "https://fonts.gstatic.com/s/firjar/v1/zOLX4pnEn71A-obA6b9jAVX_vPVGiCKiRhyjE_DCMxM2Xrx3Y8lDkZM.ttf"
+}
