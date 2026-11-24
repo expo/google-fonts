@@ -13,20 +13,20 @@
     "tifinagh",
     "vietnamese"
   ],
-  "version": "v26",
-  "lastModified": "2026-10-20",
+  "version": "v27",
+  "lastModified": "2026-11-23",
   "files": {
-    "100": "https://fonts.gstatic.com/s/googlesansflex/v26/t5s6IQcYNIWbFgDgAAzZ34auoVyXkJCOvoOmPWNbN5hF8Ju1x5Vwd0N3l9sIcwowNJwGpVd4AZzz0v6lJ4qFXNZhGjLvDSkV4USKMo6qQzwliVdHAy4BzhI3W2cDmg.ttf",
-    "200": "https://fonts.gstatic.com/s/googlesansflex/v26/t5s6IQcYNIWbFgDgAAzZ34auoVyXkJCOvoOmPWNbN5hF8Ju1x5Vwd0N3l9sIcwowNJwGpVd4AZzz0v6lJ4qFXNZhGjLvDSkV4USKMo6qQzwliVdHgy8BzhI3W2cDmg.ttf",
-    "300": "https://fonts.gstatic.com/s/googlesansflex/v26/t5s6IQcYNIWbFgDgAAzZ34auoVyXkJCOvoOmPWNbN5hF8Ju1x5Vwd0N3l9sIcwowNJwGpVd4AZzz0v6lJ4qFXNZhGjLvDSkV4USKMo6qQzwliVdHXS8BzhI3W2cDmg.ttf",
-    "500": "https://fonts.gstatic.com/s/googlesansflex/v26/t5s6IQcYNIWbFgDgAAzZ34auoVyXkJCOvoOmPWNbN5hF8Ju1x5Vwd0N3l9sIcwowNJwGpVd4AZzz0v6lJ4qFXNZhGjLvDSkV4USKMo6qQzwliVdHMS8BzhI3W2cDmg.ttf",
-    "600": "https://fonts.gstatic.com/s/googlesansflex/v26/t5s6IQcYNIWbFgDgAAzZ34auoVyXkJCOvoOmPWNbN5hF8Ju1x5Vwd0N3l9sIcwowNJwGpVd4AZzz0v6lJ4qFXNZhGjLvDSkV4USKMo6qQzwliVdH3SgBzhI3W2cDmg.ttf",
-    "700": "https://fonts.gstatic.com/s/googlesansflex/v26/t5s6IQcYNIWbFgDgAAzZ34auoVyXkJCOvoOmPWNbN5hF8Ju1x5Vwd0N3l9sIcwowNJwGpVd4AZzz0v6lJ4qFXNZhGjLvDSkV4USKMo6qQzwliVdH5CgBzhI3W2cDmg.ttf",
-    "800": "https://fonts.gstatic.com/s/googlesansflex/v26/t5s6IQcYNIWbFgDgAAzZ34auoVyXkJCOvoOmPWNbN5hF8Ju1x5Vwd0N3l9sIcwowNJwGpVd4AZzz0v6lJ4qFXNZhGjLvDSkV4USKMo6qQzwliVdHgygBzhI3W2cDmg.ttf",
-    "900": "https://fonts.gstatic.com/s/googlesansflex/v26/t5s6IQcYNIWbFgDgAAzZ34auoVyXkJCOvoOmPWNbN5hF8Ju1x5Vwd0N3l9sIcwowNJwGpVd4AZzz0v6lJ4qFXNZhGjLvDSkV4USKMo6qQzwliVdHqigBzhI3W2cDmg.ttf",
-    "regular": "https://fonts.gstatic.com/s/googlesansflex/v26/t5s6IQcYNIWbFgDgAAzZ34auoVyXkJCOvoOmPWNbN5hF8Ju1x5Vwd0N3l9sIcwowNJwGpVd4AZzz0v6lJ4qFXNZhGjLvDSkV4USKMo6qQzwliVdHAy8BzhI3W2cDmg.ttf"
+    "100": "https://fonts.gstatic.com/s/googlesansflex/v27/t5s6IQcYNIWbFgDgAAzZ34auoVyXkJCOvoOmPWNbN5hF8Ju1x5Vwd0N3l9sIcwowNJwGpVd4AZzz0v6lJ4qFXNZhGjLvDSkV4USKMo6qQzwliVdHAy4BzhI3W2cDmg.ttf",
+    "200": "https://fonts.gstatic.com/s/googlesansflex/v27/t5s6IQcYNIWbFgDgAAzZ34auoVyXkJCOvoOmPWNbN5hF8Ju1x5Vwd0N3l9sIcwowNJwGpVd4AZzz0v6lJ4qFXNZhGjLvDSkV4USKMo6qQzwliVdHgy8BzhI3W2cDmg.ttf",
+    "300": "https://fonts.gstatic.com/s/googlesansflex/v27/t5s6IQcYNIWbFgDgAAzZ34auoVyXkJCOvoOmPWNbN5hF8Ju1x5Vwd0N3l9sIcwowNJwGpVd4AZzz0v6lJ4qFXNZhGjLvDSkV4USKMo6qQzwliVdHXS8BzhI3W2cDmg.ttf",
+    "500": "https://fonts.gstatic.com/s/googlesansflex/v27/t5s6IQcYNIWbFgDgAAzZ34auoVyXkJCOvoOmPWNbN5hF8Ju1x5Vwd0N3l9sIcwowNJwGpVd4AZzz0v6lJ4qFXNZhGjLvDSkV4USKMo6qQzwliVdHMS8BzhI3W2cDmg.ttf",
+    "600": "https://fonts.gstatic.com/s/googlesansflex/v27/t5s6IQcYNIWbFgDgAAzZ34auoVyXkJCOvoOmPWNbN5hF8Ju1x5Vwd0N3l9sIcwowNJwGpVd4AZzz0v6lJ4qFXNZhGjLvDSkV4USKMo6qQzwliVdH3SgBzhI3W2cDmg.ttf",
+    "700": "https://fonts.gstatic.com/s/googlesansflex/v27/t5s6IQcYNIWbFgDgAAzZ34auoVyXkJCOvoOmPWNbN5hF8Ju1x5Vwd0N3l9sIcwowNJwGpVd4AZzz0v6lJ4qFXNZhGjLvDSkV4USKMo6qQzwliVdH5CgBzhI3W2cDmg.ttf",
+    "800": "https://fonts.gstatic.com/s/googlesansflex/v27/t5s6IQcYNIWbFgDgAAzZ34auoVyXkJCOvoOmPWNbN5hF8Ju1x5Vwd0N3l9sIcwowNJwGpVd4AZzz0v6lJ4qFXNZhGjLvDSkV4USKMo6qQzwliVdHgygBzhI3W2cDmg.ttf",
+    "900": "https://fonts.gstatic.com/s/googlesansflex/v27/t5s6IQcYNIWbFgDgAAzZ34auoVyXkJCOvoOmPWNbN5hF8Ju1x5Vwd0N3l9sIcwowNJwGpVd4AZzz0v6lJ4qFXNZhGjLvDSkV4USKMo6qQzwliVdHqigBzhI3W2cDmg.ttf",
+    "regular": "https://fonts.gstatic.com/s/googlesansflex/v27/t5s6IQcYNIWbFgDgAAzZ34auoVyXkJCOvoOmPWNbN5hF8Ju1x5Vwd0N3l9sIcwowNJwGpVd4AZzz0v6lJ4qFXNZhGjLvDSkV4USKMo6qQzwliVdHAy8BzhI3W2cDmg.ttf"
   },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
-  "menu": "https://fonts.gstatic.com/s/googlesansflex/v26/t5s6IQcYNIWbFgDgAAzZ34auoVyXkJCOvoOmPWNbN5hF8Ju1x5Vwd0N3l9sIcwowNJwGpVd4AZzz0v6lJ4qFXNZhGjLvDSkV4USKMo6qQzwliVdHAy8xzxgz.ttf"
+  "menu": "https://fonts.gstatic.com/s/googlesansflex/v27/t5s6IQcYNIWbFgDgAAzZ34auoVyXkJCOvoOmPWNbN5hF8Ju1x5Vwd0N3l9sIcwowNJwGpVd4AZzz0v6lJ4qFXNZhGjLvDSkV4USKMo6qQzwliVdHAy8xzxgz.ttf"
 }
